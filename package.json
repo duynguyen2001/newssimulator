@@ -14,7 +14,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.5.1",
-    "axios-mock-server": "^0.19.1",
+    "axios-mock-adapter": "^1.22.0",
     "dagre": "^0.8.5",
     "eventemitter3": "^5.0.0",
     "file-saver": "^2.0.5",

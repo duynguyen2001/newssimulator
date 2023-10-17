@@ -30,6 +30,8 @@ import {
 import useStoreTA1 from "../../TA1/storeTA1";
 import { UniqueString } from "../../utils/TypeScriptUtils";
 import "./Menu.css";
+import mock from "../../../mockserver/server";
+import axios from "axios";
 function Menu() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [option, setOption] = useState(null);
@@ -129,6 +131,10 @@ const DownloadJSONPanel = () => {
 
 function AddJSONPanel() {
     const [jsonData, setJsonData] = useContext(DataContext);
+    const [attributes, setAttributes] = useState({
+        attribute_1: "value_1",
+        attribute_2: "value_2",
+    });
 
     const [setChosenNodes, setChosenEntities, setClickedNode] = useStoreTA1(
         (state) => [
@@ -138,53 +144,94 @@ function AddJSONPanel() {
         ]
     );
 
-    const handleJSONUpload = (event) => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
         setChosenNodes([]);
         setChosenEntities([]);
         setClickedNode(null);
-        UniqueString.reset();
-        if (event.target.files.length === 0) {
-            return;
-        } else if (event.target.files.length === 1) {
-            const fileReader = new FileReader();
-            fileReader.readAsText(event.target.files[0], "UTF-8");
-            fileReader.onload = (e) => {
-                let parsedJson = JSON.parse(e.target.result);
-                setJsonData(parsedJson);
-            };
-        } else {
-            console.log("Multiple files uploaded");
-            const files = event.currentTarget.files;
-            const jsonList = [];
 
-            Object.keys(files).forEach((i) => {
-                const file = files[i];
-                const reader = new FileReader();
+        // send request to server
+        const formData = JSON.stringify(attributes);
+        console.log("attributes", attributes);
+        axios
+            .post("/api/generate", formData, {
+                headers: {
+                    "Content-Type": "multipart/form-data",
+                },
+            })
+            .then((res) => {
+                console.log(res);
+                setJsonData(res.data.data);
+            });
+    };
 
-                reader.onload = (e) => {
-                    try {
-                        const jsonData = JSON.parse(e.target.result);
-                        jsonList.push(jsonData);
-                    } catch (error) {
-                        console.error(
-                            "Error parsing JSON from file:",
-                            file.name
-                        );
-                    }
-                };
+    // form handling
 
-                reader.readAsText(file, "UTF-8");
+    const handleKeyChange = (oldKey, newKey) => {
+        if (oldKey !== newKey) {
+            setAttributes((prev) => {
+                const newAttributes = { ...prev, [newKey]: prev[oldKey] };
+                delete newAttributes[oldKey];
+                return newAttributes;
             });
         }
     };
 
+    const handleValueChange = (key, value) => {
+        setAttributes((prev) => ({ ...prev, [key]: value }));
+    };
+
+    const handleAddAttribute = () => {
+        const newKey = `attribute_${Object.keys(attributes).length + 1}`;
+        setAttributes((prev) => ({ ...prev, [newKey]: "" }));
+    };
+
+    const handleRemoveAttribute = (keyToRemove) => {
+        const updatedAttributes = { ...attributes };
+        delete updatedAttributes[keyToRemove];
+        setAttributes(updatedAttributes);
+    };
     return (
         <div>
             <>
-                <h2>Upload TA1 Schema</h2>
-                <h3>Upload TA1 Schema File</h3>
-                {jsonData.ceID && <h4>Current File: {jsonData.ceID}</h4>}
-                <input type="file" accept=".json" onChange={handleJSONUpload} />
+                <h2>Form Attributes</h2>
+
+                <form onSubmit={handleSubmit}>
+                    {Object.entries(attributes).map(([key, value]) => (
+                        <div key={key}>
+                            <label>
+                                Key:
+                                <input
+                                    type="text"
+                                    value={key}
+                                    onChange={(e) =>
+                                        handleKeyChange(key, e.target.value)
+                                    }
+                                />
+                            </label>
+                            <label>
+                                Value:
+                                <input
+                                    type="text"
+                                    value={value}
+                                    onChange={(e) =>
+                                        handleValueChange(key, e.target.value)
+                                    }
+                                />
+                            </label>
+                            <button
+                                type="button"
+                                onClick={() => handleRemoveAttribute(key)}
+                            >
+                                Remove
+                            </button>
+                        </div>
+                    ))}
+                    <button type="button" onClick={handleAddAttribute}>
+                        Add Attribute
+                    </button>
+                    <button type="submit">Submit</button>
+                </form>
             </>
         </div>
     );
@@ -195,27 +242,34 @@ const TA1DownloadPanel = () => {
         state.mapNodes,
         state.mapEntities,
     ]);
+    const [text, setText] = useState("");
     const jsonConverter = new JsonConvert();
     const newData = { ...jsonData };
     console.log("mapEntity", mapEntities);
-    newData.events.forEach((event) => {
-        event.entities = event.entities.map((entity) =>
-            jsonConverter.serialize(mapEntities.get(entity["@id"]), TA1Entity)
-        );
-    });
+    // newData.events.forEach((event) => {
+    //     event.entities = event.entities.map((entity) =>
+    //         jsonConverter.serialize(mapEntities.get(entity["@id"]), TA1Entity)
+    //     );
+    // });
     console.log("newData", newData);
     const downloadJSON = () => {
         const dataStr =
             "data:text/json;charset=utf-8," +
             encodeURIComponent(JSON.stringify(newData));
-        const dlAnchorElem = document.createElement("a");
-        dlAnchorElem.setAttribute("href", dataStr);
-        dlAnchorElem.setAttribute("download", "schema.json");
-        dlAnchorElem.click();
+            axios.post("/api/generateText", JSON.stringify(newData), {
+                headers: {
+                    "Content-Type": "multipart/form-data",
+                },
+            }).then((res) => {
+                console.log(res);
+                setText(res.data.data);
+            });
     };
     return (
         <div>
-            <button onClick={downloadJSON}>Download TA1 Schema</button>
+            <button onClick={downloadJSON}>Get Generated Text</button>
+            {text && (<h2>News Article</h2>)}
+            <p>{text}</p>
         </div>
     );
 };
