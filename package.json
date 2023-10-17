@@ -1,8 +1,8 @@
 {
-  "name": "kairos-visualization",
+  "name": "newssimulator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://duynguyen2001.github.io/RESIN-EDITOR",
+  "homepage": "https://duynguyen2001.github.io/newssimulator",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
