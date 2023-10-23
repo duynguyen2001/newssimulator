@@ -1,85 +1,117 @@
 import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 
-import { mockData, mockgenerateArticles, mockPosts } from "./mockData.js";
+import { mockData, mockGeneratedArticles, mockPosts } from "./mockData.js";
 
 const mock = new MockAdapter(axios);
 
-mock.onPost("/api/generate").reply(async (config) => {
+mock.onPost("/api/specializingSchema").reply(async (config) => {
     // Log the received content
-    try{
-        const data = mockData[Math.floor(Math.random() * mockData.length)]
-        const specializedSchemaResponse = require(data.specializedSchemaURL);
+    console.log(config.data);
+    try {
+        if (config.data === undefined) {
+            return [
+                400,
+                {
+                    message: "Failed",
+                },
+            ];
+        }
+        const data = config.data.includes(
+            "The infectivity of the disease is low."
+        )
+            ? mockData[0]
+            : mockData[1];
+
+        const specializedSchemaResponse = await fetch(
+            data.specializedSchemaURL
+        );
         const specializedSchema = await specializedSchemaResponse.text();
-        console.log("specializedSchema", specializedSchema)
-        const instantiatedEntitiesResponse = await fetch(data.instantiatedEntitiesURL);
+        const instantiatedEntitiesResponse = await fetch(
+            data.instantiatedEntitiesURL
+        );
         const instantiatedEntities = await instantiatedEntitiesResponse.text();
-        console.log("instantiatedEntities", instantiatedEntities)
 
         const sendingData = {
             name: data.name,
             constraints: data.constraints,
             specializedSchema: specializedSchema,
-            instantiatedEntitiesURL: instantiatedEntities,
-        }
-        console.log("Server received:", config.data);
-        return [200, {
-            message: "Success",
-            data: sendingData
-        }]
-    } catch {
-        console.log("Server received:", config.data);
-        return [400, {
-            message: "Failed",
-        }]
+            instantiatedEntities: instantiatedEntities,
+        };
+        return [
+            200,
+            {
+                message: "Success",
+                data: sendingData,
+            },
+        ];
+    } catch (err) {
+        console.log("Server received:", err);
+        return [
+            400,
+            {
+                message: "Failed",
+            },
+        ];
     }
-    
-   
 });
 
-mock.onPost("/api/generateText").reply(async (config) => {
+mock.onPost("/api/generateArticles").reply(async (config) => {
     // Log the received content
-    try{
+    try {
         console.log("Server received:", config.data);
         const setIndexes = new Set();
         const listArticles = [];
         for (let i = 0; i < 3; i++) {
-            let dataIndex = Math.floor(Math.random() * mockgenerateArticles.length)
-            while (setIndexes.has(dataIndex)) {
-                dataIndex = Math.floor(Math.random() * mockgenerateArticles.length)
-            }
-        const data = mockgenerateArticles[dataIndex]
-        const response = await fetch(data.dataURL);
-        const text = await response.text();
-        listArticles.push(text);
-    }
+            let dataIndex = 0
+            do {
+                dataIndex = Math.floor(
+                    Math.random() * mockGeneratedArticles.length
+                );
+            } while((setIndexes.has(dataIndex)));
+            
+            setIndexes.add(dataIndex);
+            const data = mockGeneratedArticles[dataIndex];
+            const response = await fetch(data.dataURL);
+            const text = await response.text();
+            listArticles.push(text);
+        }
+        console.log(setIndexes)
+        console.log("listArticles", listArticles);
         const sendingData = {
             name: "Articles",
             data: listArticles,
-        }
-    
-        return [200, {
-            message: "Success",
-            data: sendingData
-        }]
+        };
+
+        return [
+            200,
+            {
+                message: "Success",
+                data: sendingData,
+            },
+        ];
     } catch {
         console.log("Server received:", config.data);
-        return [400, {
-            message: "Failed",
-        }]
+        return [
+            400,
+            {
+                message: "Failed",
+            },
+        ];
     }
-    
-   
 });
 
 mock.onPost("/api/generatePosts").reply((config) => {
     // Log the received content
     console.log("Server received:", config.data);
-    return [200, {
-        message: "Success",
-        data: mockPosts[Math.floor(Math.random() * mockPosts.length)]
-    }]
-   
+    const data = mockPosts[0];
+    return [
+        200,
+        {
+            message: "Success",
+            data: data,
+        },
+    ];
 });
 
 export default mock;

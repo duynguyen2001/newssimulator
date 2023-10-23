@@ -154,7 +154,7 @@ function AddJSONPanel() {
         const formData = JSON.stringify(attributes);
         console.log("attributes", attributes);
         axios
-            .post("/api/generate", formData, {
+            .post("/api/specializingSchema", formData, {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
@@ -239,13 +239,13 @@ const TA1DownloadPanel = () => {
         const dataStr =
             "data:text/json;charset=utf-8," +
             encodeURIComponent(JSON.stringify(newData));
-            axios.post("/api/generateText", JSON.stringify(newData), {
+            axios.post("/api/generateArticles", JSON.stringify(newData), {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
             }).then((res) => {
                 console.log(res);
-                setText(res.data.data);
+                // setText(res.data.data);
             });
     };
     return (
