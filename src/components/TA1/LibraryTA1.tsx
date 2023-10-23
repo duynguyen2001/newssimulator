@@ -287,6 +287,11 @@ export class TA1Entity {
     @JsonProperty("wd_description", ForceStringArray, true)
     wd_description?: string[];
 
+    @JsonProperty("thought", String, true)
+    thought?: string;
+
+    @JsonProperty("new_entity", [String], true)
+    new_entity?: string[];
 
     constructor(
         id: string,

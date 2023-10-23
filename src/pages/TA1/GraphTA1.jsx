@@ -77,9 +77,6 @@ export const GraphTA1 = () => {
     //     console.log("deltaX, deltaY", deltaX, deltaY);
     //     setCenter(getViewPort().x + deltaX, getViewPort().y + deltaY);
     // }, [deltaX, deltaY]);
-    useEffect(() => {
-        console.log("clickedNode", clickedNode);
-    }, [clickedNode]);
     // denote the color of the node in the minimap
     const nodeColor = (node) => node.data.color;
 

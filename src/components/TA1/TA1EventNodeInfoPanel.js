@@ -57,7 +57,7 @@ export function TA1EventNodeInfoPanel({ data, onClose }) {
                     field="description"
                 />
             )}
-        
+
             {data.wdNode && data.wdNode !== null && data.wdNode !== "null" && (
                 <details open>
                     <summary
@@ -88,7 +88,75 @@ export function TA1EventNodeInfoPanel({ data, onClose }) {
                     ))}
                 </details>
             )}
+            {data.happenResult && (
+                <details open>
+                    <summary
+                        style={{
+                            fontWeight: "bold",
+                            cursor: "pointer",
+                        }}
+                    >
+                        Happening Information
+                    </summary>
 
+                    <EditableText
+                        values={data.happenResult}
+                        variant="h3"
+                        onSave={handleOnSave}
+                        field="happenResult"
+                    />
+                    <EditableText
+                        values={data.happenExplanation}
+                        variant="p"
+                        onSave={handleOnSave}
+                        field="happenExplanation"
+                    />
+                </details>
+            )}
+            {data.reviseResult && (
+                <details open>
+                    <summary
+                        style={{
+                            fontWeight: "bold",
+                            cursor: "pointer",
+                        }}
+                    >
+                        Revision Information
+                    </summary>
+
+                    <EditableText
+                        values={data.reviseResult}
+                        variant="h3"
+                        onSave={handleOnSave}
+                        field="reviseResult"
+                    />
+                    <EditableText
+                        values={data.reviseReflection}
+                        variant="p"
+                        onSave={handleOnSave}
+                        field="reviseReflection"
+                    />
+                </details>
+            )}
+            {data.reviseExtraAssumption && (
+                <details open>
+                    <summary
+                        style={{
+                            fontWeight: "bold",
+                            cursor: "pointer",
+                        }}
+                    >
+                        New Assumptions
+                    </summary>
+
+                    <EditableText
+                        values={data.reviseExtraAssumption}
+                        variant="p"
+                        onSave={handleOnSave}
+                        field="reviseExtraAssumption"
+                    />
+                </details>
+            )}
             {data.participants && data.participants.length > 0 && (
                 <details open>
                     <summary

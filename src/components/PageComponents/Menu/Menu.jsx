@@ -7,9 +7,12 @@ import {
     faQuestionCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import axios from "axios";
+import mock from "../../../mockserver/server";
 import { JsonConvert } from "json2typescript";
 import { useContext, useEffect, useState } from "react";
 import { ConnectionLineType, ReactFlowProvider } from "reactflow";
+import { v4 as uuidv4 } from "uuid";
 import { Modal } from "../../CustomizedComponents/Modal/Modal";
 import {
     EntityGraphPanelTA1,
@@ -31,9 +34,8 @@ import {
 import useStoreTA1 from "../../TA1/storeTA1";
 import { UniqueString } from "../../utils/TypeScriptUtils";
 import "./Menu.css";
-import mock from "../../../mockserver/server";
-import axios from "axios";
-import { set } from "idb-keyval";
+console.log(mock);
+
 function Menu() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [option, setOption] = useState("Add JSON");
@@ -130,7 +132,14 @@ const MenuOptionPanel = ({ option, setOption }) => {
 const DownloadJSONPanel = () => {
     return <TA1DownloadPanel />;
 };
-const ToggleInput = ({ id, object, selected, onChange, onSelected }) => {
+const ToggleInput = ({
+    id,
+    object,
+    selected,
+    onChange,
+    onSelected,
+    onDelete,
+}) => {
     const [isSelected, setIsSelected] = useState(selected);
     const [text, setText] = useState(object.assumption || "Assumption");
 
@@ -148,24 +157,36 @@ const ToggleInput = ({ id, object, selected, onChange, onSelected }) => {
         padding: "10px",
         border: "1px solid #ddd",
         borderRadius: "5px",
+        width: "100%",
         cursor: "pointer",
         backgroundColor: isSelected ? "#c0e7f9" : "#fff",
         color: isSelected ? "#05668d" : "#333",
     };
 
     return (
-        <div>
-            <input
-                type="text"
-                value={text}
-                style={style}
-                onChange={handleInputChange}
-            />
+        <div
+            style={{
+                width: "100%",
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "space-between",
+            }}
+        >
             <input
                 type="checkbox"
                 checked={isSelected}
                 onChange={toggleSelection}
             />
+            <input
+                type="textarea"
+                value={text}
+                style={style}
+                onChange={handleInputChange}
+            />
+
+            <button className="button" onClick={() => onDelete(id)}>
+                <i className="fa fa-trash"></i>
+            </button>
         </div>
     );
 };
@@ -197,7 +218,8 @@ function AddJSONPanel() {
         const formData = assumptions
             .filter((item) => item.selected)
             .map((item) => item.assumption)
-            .join("\n");
+            .join("  \n  ");
+        console.log(formData);
         axios
             .post("/api/specializingSchema", formData, {
                 headers: {
@@ -207,7 +229,7 @@ function AddJSONPanel() {
             .then((res) => {
                 console.log(res);
                 const jsonConverter = new JsonConvert();
-                
+
                 // resolve entities
                 const lines = res.data.data.instantiatedEntities
                     .split("\n")
@@ -215,14 +237,21 @@ function AddJSONPanel() {
                 const newEntities = new Map();
                 lines.forEach((line) => {
                     const newEntity = JSON.parse(line);
-                    newEntities.set(newEntity["@id"], jsonConverter.deserialize(newEntity, TA1Entity));
+                    newEntities.set(
+                        newEntity["@id"],
+                        jsonConverter.deserialize(newEntity, TA1Entity)
+                    );
                 });
                 console.log("newEntities", newEntities);
                 setEntities(newEntities);
-                
+
                 const schema = JSON.parse(res.data.data.specializedSchema);
+                const newAssumptionSet = new Set();
                 const listEvents = jsonConverter.deserializeArray(
                     Object.entries(schema.event).map(([key, object]) => {
+                        if (object.revise_extra_assumption) {
+                            newAssumptionSet.add(object.revise_extra_assumption.split(":")[1]);
+                        }
                         return {
                             ...object,
                             children_gate: "or",
@@ -232,10 +261,17 @@ function AddJSONPanel() {
                     }),
                     TA1Event
                 );
-                console.log("listEvents", listEvents);
-                setEvents(listEvents);
 
-                
+                console.log("listEvents", listEvents);
+                console.log("newAssumptionSet", newAssumptionSet);
+                setAssumptions(
+                    [...assumptions, ...Array.from(newAssumptionSet).map((item) => ({
+                        id: uuidv4(),
+                        assumption: item,
+                        selected: true,
+                    }))]
+                );
+                setEvents(listEvents);
             });
     };
 
@@ -262,11 +298,16 @@ function AddJSONPanel() {
 
     const handleAddAssumptions = () => {
         const newAssumption = {
-            id: UniqueString(),
+            id: uuidv4(),
             assumption: "Assumption",
             selected: true,
         };
         setAssumptions([...assumptions, newAssumption]);
+    };
+
+    const handleDeleteAssumption = (id) => {
+        const listAssumptions = assumptions.filter((item) => item.id !== id);
+        setAssumptions(listAssumptions);
     };
 
     const handleJSONUpload = (event) => {
@@ -284,6 +325,9 @@ function AddJSONPanel() {
             setJsonData(parsedJson);
         };
     };
+    useEffect(() => {
+        console.log("assumptions", assumptions);
+    }, [assumptions]);
 
     return (
         <div>
@@ -298,21 +342,131 @@ function AddJSONPanel() {
                     onChange={handleJSONUpload}
                 />
                 <h3>Assumptions</h3>
+                <button
+                    type="button"
+                    className="button"
+                    style={{
+                        width: "50%",
+                    }}
+                    onClick={() => {
+                        setAssumptions((prev) => [
+                            {
+                                id: 1,
+                                assumption:
+                                    "The mode of transmission of the disease is airborne.",
+                                selected: true,
+                            },
+                            {
+                                id: 2,
+                                assumption:
+                                    "The infectivity of the disease is low.",
+                                selected: true,
+                            },
+                            {
+                                id: 3,
+                                assumption: "The fatality rate is low.",
+                                selected: true,
+                            },
+                            {
+                                id: 4,
+                                assumption: "The incubation period is long.",
+                                selected: true,
+                            },
+                            {
+                                id: 5,
+                                assumption: "The pathogen is not novel.",
+                                selected: true,
+                            },
+                        ]);
+                    }}
+                >
+                    Example 1
+                </button>
+                <button
+                    type="button"
+                    className="button"
+                    style={{
+                        width: "50%",
+                    }}
+                    onClick={() => {
+                        setAssumptions((prev) => [
+                            {
+                                id: 1,
+                                assumption:
+                                    "The mode of transmission of the disease is airborne.",
+                                selected: true,
+                            },
+                            {
+                                id: 2,
+                                assumption:
+                                    "The infectivity of the disease is high.",
+                                selected: true,
+                            },
+                            {
+                                id: 3,
+                                assumption: "The fatality rate is low.",
+                                selected: true,
+                            },
+                            {
+                                id: 4,
+                                assumption: "The incubation period is long.",
+                                selected: true,
+                            },
+                            {
+                                id: 5,
+                                assumption: "The pathogen is not novel.",
+                                selected: true,
+                            },
+                        ]);
+                    }}
+                >
+                    Example 2
+                </button>
+
                 <form onSubmit={handleSubmit}>
-                    {Object.entries(assumptions).map((key, object) => (
-                        <div key={key}>
-                            <ToggleInput
-                                key={key}
-                                object={object}
-                                onChange={handleAssumptionChange}
-                                onSelected={handleSelectedChange}
-                            />
-                        </div>
-                    ))}
-                    <button type="button" onClick={handleAddAssumptions}>
-                        Add Attribute
+                    {assumptions &&
+                        assumptions.map((object) => {
+                            return (
+                                <ToggleInput
+                                    key={uuidv4()}
+                                    id={object.id}
+                                    object={object}
+                                    selected={object.selected}
+                                    onChange={handleAssumptionChange}
+                                    onSelected={handleSelectedChange}
+                                    onDelete={handleDeleteAssumption}
+                                />
+                            );
+                        })}
+                    <button
+                        type="button"
+                        className="button"
+                        style={{
+                            width: "100%",
+                        }}
+                        onClick={handleAddAssumptions}
+                    >
+                        <i className="fa fa-plus"></i>
                     </button>
-                    <button type="submit">Submit</button>
+                    <div
+                        style={{
+                            display: "flex",
+                            flexDirection: "row",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            width: "100%",
+                        }}
+                    >
+                        <button
+                            style={{
+                                width: "50%",
+                            }}
+                            className="button"
+                            type="submit"
+                        >
+                            Submit
+                        </button>
+                    </div>
                 </form>
             </>
         </div>

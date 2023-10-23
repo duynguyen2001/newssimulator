@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {TA1Entity} from './LibraryTA1';
 import useStoreTA1 from './storeTA1';
 import {Modal} from '../CustomizedComponents/Modal/Modal.js';
 import EditableText from '../CustomizedComponents/EditableText/EditableText.jsx';
@@ -73,8 +72,37 @@ export const TA1EntityInfoPanel = ({data, onClose}) => {
                             />
                         </div>
                     ))}
+
+
                 </details>
             )}
+
+            {data.new_entity && data.new_entity !== null  && (
+                <details open>
+                    <summary
+                        style={{
+                            fontWeight: "bold",
+                            cursor: "pointer",
+                        }}
+                    >
+                        New Entities
+                    </summary>
+                    {data.new_entity.map((entity, index) => (
+                        <div key={entity}>
+                            <EditableText
+                                values={entity}
+                                variant="p"
+                                index={index}
+                                onSave={handleOnSave}
+                                field="newEntity"
+                            />
+                        </div>
+
+                    ))}
+                    </details>
+
+            )}
+
         </div>
     );
 }
