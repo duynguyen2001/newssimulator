@@ -34,7 +34,7 @@ import {
 import useStoreTA1 from "../../TA1/storeTA1";
 import { UniqueString } from "../../utils/TypeScriptUtils";
 import "./Menu.css";
-console.log(mock);
+// console.log(mock);
 
 function Menu() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
