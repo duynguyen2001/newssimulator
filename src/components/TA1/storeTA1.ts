@@ -511,7 +511,7 @@ const useStoreTA1 = create<RFState>((set, get) => ({
             });
 
             get().getEntitiesRelatedEventMap();
-            get().getMapEntities(eventNodes);
+            // get().getMapEntities(eventNodes);
             get().setChosenNodes(firstNode ? [firstNode.id || ""] : []);
         }
     },
@@ -704,7 +704,9 @@ const useStoreTA1 = create<RFState>((set, get) => ({
     onNodeClick: (event, node) => {
         set({ contextMenu: null, showAddPanel: null });
         if (node.data.isEntity) {
-            // get().entitiesRelatedEventMap.get(node.id).forEach((eventId) => {
+            set({
+                clickedNode:node,
+            })
             return;
         }
         const mapNodes = get().mapNodes;

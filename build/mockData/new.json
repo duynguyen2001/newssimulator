@@ -1,0 +1,15 @@
+{
+    "@id": "resin:Entities/10000/",
+    "name": "initial person infected",
+    "wd_label": "victim",
+    "wd_node": "wd:Q1851760",
+    "wd_description": "person who suffers as a result of a crime or other event",
+    "thought": "Airborne transmission means the disease spreads through tiny particles in the air, such as from coughing or sneezing. Low infectivity suggests that not many people who come into contact with the pathogen will get infected. A low fatality rate means that even if people do get infected, they are not likely to die from the disease. A long incubation period means that there will be a significant delay between when a person is infected and when they start showing symptoms. This can make it harder to trace the source of the infection and control the spread. The pathogen is not novel, which means it has been encountered before and there may be some level of immunity in the population or existing treatments. The initial person infected in this scenario is characterized as someone affected by a crime or other event. This implies the first infection wasn't random but a result of a significant event, possibly with criminal intent.",
+    "new_entity": [
+        "Biological Attack Victim: A person who was targeted in a biological attack, where the pathogen was released into the air.",
+        "Accidental Exposure: A person who was accidentally exposed to the pathogen, such as a lab worker or someone who came into contact with a contaminated object.",
+        "Event Participant: An individual attending a specific event (like a concert, conference, or protest) where the disease was introduced, either accidentally or with malicious intent.",
+        "Intentional Exposure: A person, potentially an activist, journalist, or someone with adversaries, deliberately exposed to the pathogen as retaliation or to send a message.",
+        "Unintentional Victim: A person who was not the intended target but was in the wrong place at the wrong time and got infected."
+    ]
+}

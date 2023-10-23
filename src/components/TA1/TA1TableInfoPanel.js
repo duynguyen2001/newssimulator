@@ -88,11 +88,22 @@ export function TA1TableInfoPanel({
         return callback(totalOptions);
     };
     const getDisplayParticipantArray = (data, parentId, showAllEntities) => {
-        console.log("dataoverhere", data);
-        console.log("parentId", parentId);
         return data.map((participant) => {
             // console.log("entitiesMap", mapEntities);
-            const entityObject = mapEntities.get(participant.entity);
+            let entityObject = mapEntities.get(participant.entity);
+            if (entityObject === undefined) {
+                const JsonConverter = new JsonConvert();
+                const newEntity = {
+                    "@id": participant.entity,
+                    name: participant.entity,
+                    wd_node: [],
+                    wd_label: [],
+                    wd_description: [],
+                };
+                mapEntities.set(participant.entity, JsonConverter.deserializeObject(newEntity, TA1Entity));
+                entityObject = mapEntities.get(participant.entity);
+            }
+
             return {
                 id: participant.id,
                 entities: (

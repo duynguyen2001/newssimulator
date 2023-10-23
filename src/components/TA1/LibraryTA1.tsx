@@ -486,6 +486,24 @@ export class TA1Event {
     @JsonProperty("optional", Boolean, true)
     optional?: boolean;
 
+    @JsonProperty("template", String, true)
+    template?: string;
+
+    @JsonProperty("happen_result", String, true)
+    happenResult?: string;
+
+    @JsonProperty("happen_explanation", String, true)
+    happenExplanation?: string;
+
+    @JsonProperty("revise_result", String, true)
+    reviseResult?: string;
+
+    @JsonProperty("revise_reflection", String, true)
+    reviseReflection?: string;
+
+    @JsonProperty("revise_extra_assumption", String, true)
+    reviseExtraAssumption?: string;
+
     get renderStrategy(): TA1NodeRenderingStrategy {
         return new TA1EventStrategy(this);
     }

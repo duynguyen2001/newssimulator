@@ -1,4 +1,6 @@
 import dagre from "dagre";
+import { JsonConvert } from "json2typescript";
+import { TA1Entity } from "../../components/TA1/LibraryTA1";
 const nodeWidth = 200;
 const nodeHeight = 200;
 
@@ -143,7 +145,7 @@ const getLayoutedElementsNested = (
                             {
                                 id: `gate-${node}`,
                                 data: {
-                                    gate: currentNode.childrenGate,
+                                    gate: currentNode.childrenGate || "or",
                                     name: currentNode.name,
                                     isGate: true,
                                     referredNode: currentNode.id,
@@ -173,7 +175,19 @@ const getLayoutedElementsNested = (
                 const participantsEntities = [];
                 const entityNodes = currentNode.participants?.map(
                     (participant) => {
-                        const entity = mapEntities.get(participant.entity);
+                        let entity = mapEntities.get(participant.entity);
+                        if (entity === undefined) {
+                            const jsonConverter = new JsonConvert();
+                            const newEntity = {
+                                "@id": participant.entity,
+                                name: participant.entity,
+                                wd_node: [],
+                                wd_label: [],
+                                wd_description: [],
+                            };
+                            mapEntities.set(participant.entity, jsonConverter.deserializeObject(newEntity, TA1Entity));
+                            entity = mapEntities.get(participant.entity);
+                        }
                         participantsEntities.push(participant.entity);
                         return {
                             id: `${entity.id}-${node}`,

@@ -19,6 +19,7 @@ import { ToggleButtonTA1 } from "../../CustomizedComponents/ToggleButton/ToggleB
 import {
     DataContext,
     EntitiesContext,
+    EventsContext,
 } from "../../DataReadingComponents/DataReader";
 import {
     TA1Entity,
@@ -32,9 +33,10 @@ import { UniqueString } from "../../utils/TypeScriptUtils";
 import "./Menu.css";
 import mock from "../../../mockserver/server";
 import axios from "axios";
+import { set } from "idb-keyval";
 function Menu() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [option, setOption] = useState(null);
+    const [option, setOption] = useState("Add JSON");
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -128,13 +130,54 @@ const MenuOptionPanel = ({ option, setOption }) => {
 const DownloadJSONPanel = () => {
     return <TA1DownloadPanel />;
 };
+const ToggleInput = ({ id, object, selected, onChange, onSelected }) => {
+    const [isSelected, setIsSelected] = useState(selected);
+    const [text, setText] = useState(object.assumption || "Assumption");
+
+    const handleInputChange = (e) => {
+        setText(e.target.value);
+        onChange(id, e.target.value);
+    };
+
+    const toggleSelection = () => {
+        setIsSelected(!isSelected);
+        onSelected(id, !isSelected);
+    };
+
+    const style = {
+        padding: "10px",
+        border: "1px solid #ddd",
+        borderRadius: "5px",
+        cursor: "pointer",
+        backgroundColor: isSelected ? "#c0e7f9" : "#fff",
+        color: isSelected ? "#05668d" : "#333",
+    };
+
+    return (
+        <div>
+            <input
+                type="text"
+                value={text}
+                style={style}
+                onChange={handleInputChange}
+            />
+            <input
+                type="checkbox"
+                checked={isSelected}
+                onChange={toggleSelection}
+            />
+        </div>
+    );
+};
 
 function AddJSONPanel() {
     const [jsonData, setJsonData] = useContext(DataContext);
-    const [attributes, setAttributes] = useState({
-        attribute_1: "value_1",
-        attribute_2: "value_2",
-    });
+    const [Entities, setEntities] = useContext(EntitiesContext);
+    const [Events, setEvents] = useContext(EventsContext);
+    const [assumptions, setAssumptions] = useState([
+        { id: 1, assumption: "Assumption 1", selected: true },
+        { id: 2, assumption: "Assumption 2", selected: false },
+    ]);
 
     const [setChosenNodes, setChosenEntities, setClickedNode] = useStoreTA1(
         (state) => [
@@ -151,8 +194,10 @@ function AddJSONPanel() {
         setClickedNode(null);
 
         // send request to server
-        const formData = JSON.stringify(attributes);
-        console.log("attributes", attributes);
+        const formData = assumptions
+            .filter((item) => item.selected)
+            .map((item) => item.assumption)
+            .join("\n");
         axios
             .post("/api/specializingSchema", formData, {
                 headers: {
@@ -161,56 +206,110 @@ function AddJSONPanel() {
             })
             .then((res) => {
                 console.log(res);
-                // setJsonData(res.data.data.data);
+                const jsonConverter = new JsonConvert();
+                
+                // resolve entities
+                const lines = res.data.data.instantiatedEntities
+                    .split("\n")
+                    .filter(Boolean);
+                const newEntities = new Map();
+                lines.forEach((line) => {
+                    const newEntity = JSON.parse(line);
+                    newEntities.set(newEntity["@id"], jsonConverter.deserialize(newEntity, TA1Entity));
+                });
+                console.log("newEntities", newEntities);
+                setEntities(newEntities);
+                
+                const schema = JSON.parse(res.data.data.specializedSchema);
+                const listEvents = jsonConverter.deserializeArray(
+                    Object.entries(schema.event).map(([key, object]) => {
+                        return {
+                            ...object,
+                            children_gate: "or",
+                            outlinks: object.out_links,
+                            "@id": key,
+                        };
+                    }),
+                    TA1Event
+                );
+                console.log("listEvents", listEvents);
+                setEvents(listEvents);
+
+                
             });
     };
 
     // form handling
+    const handleAssumptionChange = (key, newAssumption) => {
+        const listAssumptions = assumptions.map((item) => {
+            if (item.id === key) {
+                item.assumption = newAssumption;
+            }
+            return item;
+        });
+        setAssumptions(listAssumptions);
+    };
 
-    const handleKeyChange = (oldKey, newKey) => {
-        if (oldKey !== newKey) {
-            setAttributes((prev) => {
-                const newAttributes = { ...prev, [newKey]: prev[oldKey] };
-                delete newAttributes[oldKey];
-                return newAttributes;
-            });
+    const handleSelectedChange = (id, isSelected) => {
+        const listAssumptions = assumptions.map((item) => {
+            if (item.id === id) {
+                item.selected = isSelected;
+            }
+            return item;
+        });
+        setAssumptions(listAssumptions);
+    };
+
+    const handleAddAssumptions = () => {
+        const newAssumption = {
+            id: UniqueString(),
+            assumption: "Assumption",
+            selected: true,
+        };
+        setAssumptions([...assumptions, newAssumption]);
+    };
+
+    const handleJSONUpload = (event) => {
+        setChosenNodes([]);
+        setChosenEntities([]);
+        setClickedNode(null);
+        UniqueString.reset();
+        if (event.target.files.length === 0) {
+            return;
         }
+        const fileReader = new FileReader();
+        fileReader.readAsText(event.target.files[0], "UTF-8");
+        fileReader.onload = (e) => {
+            let parsedJson = JSON.parse(e.target.result);
+            setJsonData(parsedJson);
+        };
     };
 
-    const handleValueChange = (key, value) => {
-        setAttributes((prev) => ({ ...prev, [key]: value }));
-    };
-
-    const handleAddAttribute = () => {
-        const newKey = `attribute_${Object.keys(attributes).length + 1}`;
-        setAttributes((prev) => ({ ...prev, [newKey]: "" }));
-    };
-
-    const handleRemoveAttribute = (keyToRemove) => {
-        const updatedAttributes = { ...attributes };
-        delete updatedAttributes[keyToRemove];
-        setAttributes(updatedAttributes);
-    };
     return (
         <div>
             <>
-                <h2></h2>
-                <h2>Assumptions</h2>
-
+                <h2>Specializing Schema</h2>
+                <h3>Default Schema Upload</h3>
+                {jsonData.id && <h4>Current File: {jsonData.id}</h4>}
+                <input
+                    type="file"
+                    accept=".json"
+                    multiple
+                    onChange={handleJSONUpload}
+                />
+                <h3>Assumptions</h3>
                 <form onSubmit={handleSubmit}>
-                    {Object.entries(attributes).map(([key, value]) => (
+                    {Object.entries(assumptions).map((key, object) => (
                         <div key={key}>
-                            
-                                <input
-                                    type="text"
-                                    value={value}
-                                    onChange={(e) =>
-                                        handleValueChange(key, e.target.value)
-                                    }
-                                />
+                            <ToggleInput
+                                key={key}
+                                object={object}
+                                onChange={handleAssumptionChange}
+                                onSelected={handleSelectedChange}
+                            />
                         </div>
                     ))}
-                    <button type="button" onClick={handleAddAttribute}>
+                    <button type="button" onClick={handleAddAssumptions}>
                         Add Attribute
                     </button>
                     <button type="submit">Submit</button>
@@ -239,11 +338,13 @@ const TA1DownloadPanel = () => {
         const dataStr =
             "data:text/json;charset=utf-8," +
             encodeURIComponent(JSON.stringify(newData));
-            axios.post("/api/generateArticles", JSON.stringify(newData), {
+        axios
+            .post("/api/generateArticles", JSON.stringify(newData), {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
-            }).then((res) => {
+            })
+            .then((res) => {
                 console.log(res);
                 // setText(res.data.data);
             });
@@ -252,7 +353,7 @@ const TA1DownloadPanel = () => {
         <div>
             <h2>Situation Report</h2>
             <button onClick={downloadJSON}>Generate</button>
-            {text && (<h2>News Article</h2>)}
+            {text && <h2>News Article</h2>}
             <p>{text}</p>
         </div>
     );

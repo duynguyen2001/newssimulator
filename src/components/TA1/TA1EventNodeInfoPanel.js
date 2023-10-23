@@ -2,7 +2,6 @@ import { JsonConvert } from "json2typescript";
 import React, { useState } from "react";
 import EditableText from "../CustomizedComponents/EditableText/EditableText.jsx";
 import { Modal } from "../CustomizedComponents/Modal/Modal.js";
-import ProvenancePopup from "../PageComponents/ProvenancePopUp/ProvenancePopup.jsx";
 import { UniqueString } from "../utils/TypeScriptUtils.ts";
 import { TA1Entity, TA1Participant } from "./LibraryTA1.tsx";
 import { TA1EditEventPanel } from "./TA1EditEventPanel.js";
@@ -11,7 +10,6 @@ import useStoreTA1 from "./storeTA1.ts";
 
 export function TA1EventNodeInfoPanel({ data, onClose }) {
     const [isEnlarged, setIsEnlarged] = useState(false);
-    const [showProvenance, setShowProvenance] = useState(false);
     const editMapNode = useStoreTA1((state) => state.editMapNode);
     const [showEditPanel, setShowEditPanel] = useState(false);
     const [timeFrame, setTimeFrame] = useState(Date.now());
@@ -25,11 +23,7 @@ export function TA1EventNodeInfoPanel({ data, onClose }) {
     const toggleEnlarged = () => {
         setIsEnlarged(!isEnlarged);
     };
-    const toggleProvenance = () => {
-        setShowProvenance(!showProvenance);
-    };
 
-    const provenanceExisted = data.provenance && data.provenance.length > 0;
     const handleOnSave = (value, field, index = -1) => {
         editMapNode(data.id, field, value, index);
     };
@@ -63,20 +57,7 @@ export function TA1EventNodeInfoPanel({ data, onClose }) {
                     field="description"
                 />
             )}
-            {provenanceExisted && (
-                <a onClick={toggleProvenance}>
-                    <u>
-                        <h3>Show Source</h3>
-                    </u>
-                </a>
-            )}
-            {showProvenance && provenanceExisted && (
-                <ProvenancePopup
-                    ids={data.provenance}
-                    onClose={toggleProvenance}
-                    parentId={data.id}
-                />
-            )}
+        
             {data.wdNode && data.wdNode !== null && data.wdNode !== "null" && (
                 <details open>
                     <summary

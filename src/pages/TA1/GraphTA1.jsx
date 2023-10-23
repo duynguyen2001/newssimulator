@@ -14,15 +14,17 @@ import { InfoPanel } from "../../components/PageComponents/Panel/Panel";
 import { TA1Event } from "../../components/TA1/LibraryTA1";
 import { TA1EditEventPanel } from "../../components/TA1/TA1EditEventPanel";
 import useStore from "../../components/TA1/storeTA1";
-import { EventsContext, nodeTypes } from "../../components/DataReadingComponents/DataReader";
+import { EntitiesContext, EventsContext, nodeTypes } from "../../components/DataReadingComponents/DataReader";
 import "./graph.css";
 export const GraphTA1 = () => {
     const [eventNodes] = useContext(EventsContext);
+    const [Entities] = useContext(EntitiesContext)
     const {
         nodes,
         edges,
         mapNodes,
         clickedNode,
+        mapEntities,
         contextMenu,
         confidenceInterval,
         showAddPanel,
@@ -38,6 +40,7 @@ export const GraphTA1 = () => {
         setPaneContextMenu,
         onNodesChange,
         onEdgesChange,
+        setMapEntities,
         updateGraphByTA1Events,
         onNodeClick,
         onConnect,
@@ -64,6 +67,7 @@ export const GraphTA1 = () => {
             !(eventNodes[0] instanceof TA1Event)
         )
             return;
+        setMapEntities(Entities);
         updateGraphByTA1Events(eventNodes);
     }, [eventNodes]);
 
@@ -73,7 +77,9 @@ export const GraphTA1 = () => {
     //     console.log("deltaX, deltaY", deltaX, deltaY);
     //     setCenter(getViewPort().x + deltaX, getViewPort().y + deltaY);
     // }, [deltaX, deltaY]);
-
+    useEffect(() => {
+        console.log("clickedNode", clickedNode);
+    }, [clickedNode]);
     // denote the color of the node in the minimap
     const nodeColor = (node) => node.data.color;
 
@@ -136,6 +142,8 @@ export const GraphTA1 = () => {
                     <>
                         <InfoPanel
                             data={
+                                clickedNode.data.isEntity?
+                                mapEntities.get(clickedNode.id.split("-")[0]):
                                 clickedNode.data.isGate
                                     ? mapNodes.get(
                                           clickedNode.data.referredNode
