@@ -19,6 +19,7 @@
     "eventemitter3": "^5.0.0",
     "file-saver": "^2.0.5",
     "font-awesome": "^4.7.0",
+    "fs": "^0.0.1-security",
     "gh-pages": "^5.0.0",
     "idb": "^7.1.1",
     "idb-keyval": "^6.2.1",

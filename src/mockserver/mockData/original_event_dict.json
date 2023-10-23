@@ -1,0 +1,725 @@
+{
+    "resin:Events/20006/Infections": {
+        "name": "Infections",
+        "description": "People ared infected by the pathogen in the disease outbreak.",
+        "children": [],
+        "out_links": [
+            "resin:Events/20007/Illness"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30007/kairos:Primitives_Events_Life.Infect.Unspecified:1_victim",
+                "roleName": "A1-gol_thing_becoming_infected",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30008/kairos:Primitives_Events_Life.Infect.Unspecified:1_infectingagent",
+                "roleName": "A2-ppt_infectant",
+                "entity": "resin:Entities/10005/"
+            },
+            {
+                "@id": "resin:Participants/30009/kairos:Primitives_Events_Life.Infect.Unspecified:1_cause",
+                "roleName": "A0_pag_agent_causer_of_infection",
+                "entity": "resin:Entities/10006/"
+            }
+        ],
+        "template": "<A0_pag_agent_causer_of_infection> infected <A1_gol_destination_thing_becoming_infected> with <A2_ppt_theme_infectant> at <AM_loc>"
+    },
+    "resin:Events/20007/Illness": {
+        "name": "Illness",
+        "description": "Abnormal condition that negatively affects the structure or function of all or part of an organism due to the virus in the disease outbreak",
+        "children": [
+            "resin:Events/20008/Symptom",
+            "resin:Events/20125/Confirmation"
+        ],
+        "out_links": [
+            "resin:Events/20034/Medical_Response"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30010/kairos:Primitives_Events_Life.Illness.Unspecified:1_victim",
+                "roleName": "A1-ppt_X_sick/ill_one",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30011/kairos:Primitives_Events_Life.Illness.Unspecified:2_cause",
+                "roleName": "A2_cau__cause_or_disease",
+                "entity": "resin:Entities/10006/"
+            }
+        ]
+    },
+    "resin:Events/20008/Symptom": {
+        "name": "Symptoms",
+        "description": "The infected person experiences symptoms of the disease.",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30012/",
+                "roleName": "A1_ppt_sick/ill_one",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30013/",
+                "roleName": "A2_cau_cause_or_disease",
+                "entity": "resin:Entities/10006/"
+            },
+            {
+                "@id": "resin:Participants/30014/",
+                "roleName": "AM_loc",
+                "entity": "resin:Entities/10010/"
+            }
+        ],
+        "template": "<A1_ppt_sick/ill_one> symptommed with <A2_cau_cause_or_disease> at <AM_loc>"
+    },
+    "resin:Events/20009/Contact_Health_Provider": {
+        "name": "Contact Health Provider",
+        "description": "The sick contact their health provider for advice. ",
+        "children": [],
+        "out_links": [
+            "resin:Events/20011/Diagnosis"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30015/",
+                "roleName": "A0_pag_agent_first_communicator",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30016/",
+                "roleName": "A2_com_co_agent_other_communicators",
+                "entity": "resin:Entities/10021/"
+            }
+        ],
+        "template": "<A0_pag_agent_first_communicator> communicated <A1_ppt_topic_utterance> with <A2_com_co_agent_other_communicators> at <AM_loc>"
+    },
+    "resin:Events/20010/Transport_Patient": {
+        "name": "Transport Patient",
+        "description": "The patient goes to the hospital or was transported to the hospital.",
+        "children": [],
+        "out_links": [
+            "resin:Events/20011/Diagnosis"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30017/",
+                "roleName": "A1_ppt_theme_thing_transported",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30018/",
+                "roleName": "A3_gol_destination_destination",
+                "entity": "resin:Entities/10021/"
+            }
+        ],
+        "template": "<A0_pag_agent_transporter> transported <A1_ppt_theme_thing_transported> from <A2_dir_source_initial_location> to <A3_gol_destination_destination> at <AM_loc> <AM_mnr__manner>"
+    },
+    "resin:Events/20011/Diagnosis": {
+        "name": "Diagnosis",
+        "description": "Medical diagnosis on infection of the virus in the disease outbreak",
+        "children": [],
+        "out_links": [
+            "resin:Events/20140/Hospitalization",
+            "resin:Events/20012/Disinfect",
+            "resin:Events/20015/Quarantine"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+                "roleName": "A0-pag_agent_doctor",
+                "entity": "resin:Entities/10021/"
+            },
+            {
+                "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+                "roleName": "A1-ppt_theme_patient",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30021/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_place",
+                "roleName": "AM-LOC",
+                "entity": "resin:Entities/10010/"
+            },
+            {
+                "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+                "roleName": "A2_prd_attribute_illness",
+                "entity": "resin:Entities/10006/"
+            }
+        ],
+        "template": "<A0_pag_agent_doctor> diagnosed <A1_ppt_theme_patient> with <A2_prd_attribute_illness> at <AM_loc>"
+    },
+    "resin:Events/20012/Disinfect": {
+        "name": "Disinfect",
+        "description": "Disinfect contaminated areas",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30023/Steps_kairos:Primitives_Events_Disinfect_Cleaner",
+                "roleName": "A0_pag_agent_cleaner",
+                "entity": "resin:Entities/10021/"
+            },
+            {
+                "@id": "resin:Participants/30024/Steps_kairos:Primitives_Events_Disinfect_place",
+                "roleName": "AM-LOC",
+                "entity": "resin:Entities/10010/"
+            }
+        ],
+        "template": "<A0_pag_agent_cleaner> cleaned <A1_ppt_theme_thing_cleaned> <AM_mnr__manner> at <AM_loc>"
+    },
+    "resin:Events/20013/Treatment": {
+        "name": "Treatment",
+        "description": "Attempted remediation of a health problem due to infection of the virus in the disease outbreak",
+        "children": [],
+        "out_links": [
+            "resin:Events/20015/Quarantine",
+            "resin:Events/20014/Travel"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30025/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_treater",
+                "roleName": "A0-pag_X_doctor",
+                "entity": "resin:Entities/10021/"
+            },
+            {
+                "@id": "resin:Participants/30026/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_patient",
+                "roleName": "A1_dir_source_patient",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30027/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_place",
+                "roleName": "AM-LOC",
+                "entity": "resin:Entities/10010/"
+            },
+            {
+                "@id": "resin:Participants/30028/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_illness",
+                "roleName": "A2_ppt__illness_or_injury",
+                "entity": "resin:Entities/10006/"
+            }
+        ],
+        "template": "<A0_pag__doctor> treated <A1_ppt__patient> with <A2_ppt__illness_or_injury> with <A3_mnr__instrument> at <AM_loc>"
+    },
+    "resin:Events/20014/Travel": {
+        "name": "Travel",
+        "description": "Patient goes home from the hospital.",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30029/",
+                "roleName": "A1_ppt_theme_thing_transported",
+                "entity": "resin:Entities/10000/"
+            },
+            {
+                "@id": "resin:Participants/30030/",
+                "roleName": "A2_dir_source_initial_location",
+                "entity": "resin:Entities/10021/"
+            }
+        ],
+        "template": "<A0_pag_agent_transporter> transported <A1_ppt_theme_thing_transported> from <A2_dir_source_initial_location> to <A3_gol_destination_destination> at <AM_loc> <AM_mnr__manner>"
+    },
+    "resin:Events/20015/Quarantine": {
+        "name": "Quarantine",
+        "description": "Restriction on the movement of people, animals and goods which is intended to prevent the spread of the disease",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+                "roleName": "A0-pag_agent_transporter",
+                "entity": "resin:Entities/10012/"
+            },
+            {
+                "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+                "roleName": "A1-ppt_theme_thing_transported",
+                "entity": "resin:Entities/10000/"
+            }
+        ],
+        "template": "<A0_pag_quarantiner> quarantined <A1_ppt_thing> to <A2_gol_quarrantined_from_whom> at <AM_loc>"
+    },
+    "resin:Events/20032/Outbreak": {
+        "name": "Outbreak",
+        "description": "Emergence of the pathogen and spread of the disease.",
+        "children": [
+            "resin:Events/20033/Exposure",
+            "resin:Events/20007/Illness",
+            "resin:Events/20034/Medical_Response"
+        ],
+        "out_links": [],
+        "participants": [],
+        "template": "<A1_ppt_theme_disease> broke_out  among <A2_gol_location_victims> at <AM_loc>"
+    },
+    "resin:Events/20033/Exposure": {
+        "name": "Exposure",
+        "description": "People are exposed to the infectious agent, revealing its source or how it propagates. ",
+        "children": [
+            "resin:Events/20084/Mutation",
+            "resin:Events/20085/Social_Gathering",
+            "resin:Events/20114/Mode_of_Transmission",
+            "resin:Events/20006/Infections",
+            "resin:Events/20130/Selling"
+        ],
+        "out_links": [
+            "resin:Events/20007/Illness"
+        ],
+        "participants": [],
+        "template": "<A0_pag_exposer> exposed <A1_ppt_exposed_entity> to <A2_gol_exposed_to> at <AM_loc>"
+    },
+    "resin:Events/20034/Medical_Response": {
+        "name": "Medical Response",
+        "description": "Treatment of patients and medical procedures to help contain the disease.",
+        "children": [
+            "resin:Events/20009/Contact_Health_Provider",
+            "resin:Events/20010/Transport_Patient",
+            "resin:Events/20013/Treatment",
+            "resin:Events/20140/Hospitalization",
+            "resin:Events/20014/Travel",
+            "resin:Events/20012/Disinfect",
+            "resin:Events/20015/Quarantine",
+            "resin:Events/20072/Testing",
+            "resin:Events/20011/Diagnosis",
+            "resin:Events/20086/Construction"
+        ],
+        "out_links": [],
+        "participants": [],
+        "template": "<A0_pag_Agent> prevented <A1_ppt_Theme> PREPOSITION <A2_ppt_secondary_predication_or_action> with <A3_mnr_instrument> at <AM_loc>"
+    },
+    "resin:Events/20072/Testing": {
+        "name": "Testing",
+        "description": "A viral test checks specimens from your nose or your mouth to find out if you are currently infected with the virus",
+        "children": [],
+        "out_links": [
+            "resin:Events/20011/Diagnosis"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30122/Steps_kairos:Primitives_Events_Testing_Assessor",
+                "roleName": "A0-pag_agent_estimator",
+                "entity": "resin:Entities/10021/"
+            },
+            {
+                "@id": "resin:Participants/30123/Steps_kairos:Primitives_Events_Testing_Thing_Assessed_for",
+                "roleName": "A1-ppt_theme_thing_estimated",
+                "entity": "resin:Entities/10006/"
+            }
+        ],
+        "template": "<A0_pag_examiner> tested <A1_loc_examined> PREPOSITION <A2_ppt_in_search_of> PREPOSITION <A3_prd_test_result> at <AM_loc>"
+    },
+    "resin:Events/20082/Cross-species_Transmission": {
+        "name": "Cross-species Transmission",
+        "description": "The pathogen transmits from animal to person.",
+        "children": [
+            "resin:Events/20083/Bite"
+        ],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30142/",
+                "roleName": "A0_pag_causer_of_infection",
+                "entity": "resin:Entities/10023/"
+            },
+            {
+                "@id": "resin:Participants/30143/",
+                "roleName": "A1_gol_thing_becoming_infected",
+                "entity": "resin:Entities/10001/"
+            },
+            {
+                "@id": "resin:Participants/30144/",
+                "roleName": "A2_ppt_infectant",
+                "entity": "resin:Entities/10006/"
+            }
+        ],
+        "template": "<A0_pag_causer_of_infection> infected <A1_gol_thing_becoming_infected> PREPOSITION <A2_ppt_infectant> at <AM_loc>"
+    },
+    "resin:Events/20083/Bite": {
+        "name": "Bite",
+        "description": "The vector (usually an animal) carrying the disease bites the infected person.",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30145/",
+                "roleName": "A0_pag_biter",
+                "entity": "resin:Entities/10023/"
+            },
+            {
+                "@id": "resin:Participants/30146/",
+                "roleName": "A1_ppt_entity_bitten",
+                "entity": "resin:Entities/10001/"
+            }
+        ],
+        "template": "<A0_pag_biter> bited <A1_ppt_entity_bitten> at <AM_loc>"
+    },
+    "resin:Events/20084/Mutation": {
+        "name": "Mutation",
+        "description": "The virus may undergo an alteration in the nucleotide sequence of the genome during the disease outbreak",
+        "children": [],
+        "out_links": [
+            "resin:Events/20085/Social_Gathering"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30147/Mutate:Agent",
+                "roleName": "A1_ppt_patient_entity_undergoing_mutation",
+                "entity": "resin:Entities/10006/"
+            },
+            {
+                "@id": "resin:Participants/30148/Mutate:Result",
+                "roleName": "A2_prd_result_end_state",
+                "entity": "resin:Entities/10007/"
+            }
+        ],
+        "template": "<A1_ppt_patient_entity_undergoing_mutation> mutated into <A2_prd_result_end_state> at <AM_loc>"
+    },
+    "resin:Events/20085/Social_Gathering": {
+        "name": "Social Gathering",
+        "description": "A group of people gather together.",
+        "children": [],
+        "out_links": [
+            "resin:Events/20114/Mode_of_Transmission"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30149/",
+                "roleName": "A0_pag_celebrator",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30150/",
+                "roleName": "AM_loc",
+                "entity": "resin:Entities/10010/"
+            }
+        ],
+        "template": "<A0_pag_celebrator> celebrated <A1_ppt_party> at <AM_loc>"
+    },
+    "resin:Events/20086/Construction": {
+        "name": "Construction",
+        "description": "Field hospitals may be constructed to accommodate patients during the outbreak",
+        "children": [],
+        "out_links": [
+            "resin:Events/20013/Treatment"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30151/Steps_kairos:Primitives_Events_Construction_Builder",
+                "roleName": "A0_pag_builder",
+                "entity": "resin:Entities/10012/"
+            }
+        ],
+        "template": "<A0_pag_builder> constructed <A1_ppt_construction> PREPOSITION <A2_vsp_material> <A4_prd_end_state_of_arg1> at <AM_loc>"
+    },
+    "resin:Events/20107/Consume": {
+        "name": "Consume",
+        "description": "Consumption of a substance by an organism",
+        "children": [
+            "resin:Events/20109/Drink",
+            "resin:Events/20110/Contact_Through_Skin",
+            "resin:Events/20108/Eat"
+        ],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30183/kairos:Primitives_Events_Consume_Eater",
+                "roleName": "A0-pag_agent_eater",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30184/kairos:Primitives_Events_Consume_Entity_Ingested",
+                "roleName": "A1-ppt_patient_entity_ingested",
+                "entity": "resin:Entities/10003/"
+            }
+        ],
+        "template": "<A0_pag_agent_eater> ingested <A1_ppt_patient_entity_ingested> at <AM_loc>"
+    },
+    "resin:Events/20108/Eat": {
+        "name": "Eat",
+        "description": "Ingestion of food to provide for all organisms their nutritional or medicinal needs",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30185/kairos:Primitives_Events_Eat_Consume",
+                "roleName": "A0-pag_consumer",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30186/kairos:Primitives_Events_Eat_Food",
+                "roleName": "A1-ppt_meal",
+                "entity": "resin:Entities/10003/"
+            }
+        ],
+        "template": "<A0_pag_consumer> ate <A1_ppt_meal> at <AM_loc>"
+    },
+    "resin:Events/20109/Drink": {
+        "name": "Drink",
+        "description": "Ingesting water or other liquids into the body through the mouth",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30187/kairos:Primitives_Events_Drink_Drinker",
+                "roleName": "A0-pag_drinker",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30188/kairos:Primitives_Events_Drink_Liquid",
+                "roleName": "A1-ppt_liquid",
+                "entity": "resin:Entities/10027/"
+            }
+        ],
+        "template": "<A0_pag_drinker> drank <A1_ppt_liquid> from <A2_dir_source_of_liquid> at <AM_loc>"
+    },
+    "resin:Events/20110/Contact_Through_Skin": {
+        "name": "Contact Through Skin",
+        "description": "Route through which substances may be received",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30189/kairos:Primitives_Events_Contact_Through_Skin_Absorber",
+                "roleName": "A0-pag_absorber",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30190/kairos:Primitives_Events_Contact_Through_Skin_Absorbed",
+                "roleName": "A1-ppt_absorbed",
+                "entity": "resin:Entities/10006/"
+            }
+        ]
+    },
+    "resin:Events/20111/Contaminate_Substance": {
+        "name": "Contaminate Substance",
+        "description": "Presence of an unwanted constituent, harmful substance or impurity in a material, physical body, or environment",
+        "children": [],
+        "out_links": [
+            "resin:Events/20112/Transport_Contaminated_Substance"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30191/kairos:Primitives_Events_Contamination_Causer",
+                "roleName": "A0-pag_agent_causer_of_contamination",
+                "entity": "resin:Entities/10006/"
+            },
+            {
+                "@id": "resin:Participants/30192/kairos:Primitives_Events_Contamination_Destination",
+                "roleName": "A1-gol_destination_thing_becoming_contaminated",
+                "entity": "resin:Entities/10005/"
+            }
+        ],
+        "template": "<A0_pag_agent_causer_of_contamination> contaminated <A1_gol_destination_thing_becoming_contaminated> PREPOSITION <A2_ppt_theme_contaminant> at <AM_loc>"
+    },
+    "resin:Events/20112/Transport_Contaminated_Substance": {
+        "name": "Transport Contaminated Substance",
+        "description": "The contaminated substance (food, drink or other object) is moved from one place to another.",
+        "children": [],
+        "out_links": [
+            "resin:Events/20113/Purchase_Contaminated_Object"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30193/",
+                "roleName": "A1_ppt_theme_thing_transported",
+                "entity": "resin:Entities/10005/"
+            },
+            {
+                "@id": "resin:Participants/30194/",
+                "roleName": "A3_gol_destination_destination",
+                "entity": "resin:Entities/10010/"
+            }
+        ],
+        "template": "<A0_pag_agent_transporter> transported <A1_ppt_theme_thing_transported> from <A2_dir_source_initial_location> to <A3_gol_destination_destination> at <AM_loc> <AM_mnr__manner>"
+    },
+    "resin:Events/20113/Purchase_Contaminated_Object": {
+        "name": "Purchase Contaminated Object",
+        "description": "Purchase contaminated food or drink.",
+        "children": [],
+        "out_links": [
+            "resin:Events/20107/Consume"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30195/kairos:Primitives_Events_Purchase_Buyer",
+                "roleName": "A0_pag_agent_agent",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30196/kairos:Primitives_Events_Purchase_Seller",
+                "roleName": "A2_com_co_agent_other_exchanger",
+                "entity": "resin:Entities/10004/"
+            },
+            {
+                "@id": "resin:Participants/30197/kairos:Primitives_Events_Purchase_Artifact",
+                "roleName": "A1_ppt_theme_thing_being_traded",
+                "entity": "resin:Entities/10005/"
+            }
+        ],
+        "template": "<A0_pag_agent_agent> exchanged <A1_ppt_theme_thing_being_traded> with <A2_com_co_agent_other_exchanger> <A3_ppt_co_theme_other_item_in_exchange_price_or_premium> for <A4_gol__benefactive> at <AM_loc>"
+    },
+    "resin:Events/20114/Mode_of_Transmission": {
+        "name": "Mode of Transmission",
+        "description": "The mode of transmission of the disease.",
+        "children": [
+            "resin:Events/20117/Airborne_Transmission",
+            "resin:Events/20115/Direct_Transmission",
+            "resin:Events/20116/Vehicleborne_Transmission",
+            "resin:Events/20082/Cross-species_Transmission"
+        ],
+        "out_links": [
+            "resin:Events/20006/Infections"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30198/",
+                "roleName": "A0_pag_causer_of_infection",
+                "entity": "resin:Entities/10006/"
+            },
+            {
+                "@id": "resin:Participants/30199/",
+                "roleName": "A1_gol_thing_becoming_infected",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30200/",
+                "roleName": "AM_loc",
+                "entity": "resin:Entities/10010/"
+            }
+        ],
+        "template": "<A0_pag_causer_of_infection> infected <A1_gol_thing_becoming_infected> PREPOSITION <A2_ppt_infectant> at <AM_loc>"
+    },
+    "resin:Events/20115/Direct_Transmission": {
+        "name": "Direct Transmission",
+        "description": "Disease transmission from a reservoir to the infected person through direct contact or droplet spread.",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30201/",
+                "roleName": "A0_pag_causer_of_infection",
+                "entity": "resin:Entities/10006/"
+            },
+            {
+                "@id": "resin:Participants/30202/",
+                "roleName": "A1_gol_thing_becoming_infected",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30203/",
+                "roleName": "AM_loc",
+                "entity": "resin:Entities/10010/"
+            }
+        ],
+        "template": "<A0_pag_causer_of_infection> infected <A1_gol_thing_becoming_infected> PREPOSITION <A2_ppt_infectant> at <AM_loc>"
+    },
+    "resin:Events/20116/Vehicleborne_Transmission": {
+        "name": "Vehicleborne Transmission",
+        "description": "Disease transmission through inanimate objects such as food, water, blood, clothes, utensils.",
+        "children": [
+            "resin:Events/20111/Contaminate_Substance",
+            "resin:Events/20112/Transport_Contaminated_Substance",
+            "resin:Events/20113/Purchase_Contaminated_Object",
+            "resin:Events/20107/Consume"
+        ],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30204/",
+                "roleName": "A0_pag_causer_of_infection",
+                "entity": "resin:Entities/10006/"
+            },
+            {
+                "@id": "resin:Participants/30205/",
+                "roleName": "A1_gol_thing_becoming_infected",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30206/",
+                "roleName": "AM_loc",
+                "entity": "resin:Entities/10010/"
+            }
+        ],
+        "template": "<A0_pag_sender> transmitted <A1_ppt_sent> to <A2_gol_sent-to> at <AM_loc>"
+    },
+    "resin:Events/20117/Airborne_Transmission": {
+        "name": "Airborne Transmission",
+        "description": "the pathogen transmits through air.",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30207/kairos:Primitives_Events_Contamination_Causer",
+                "roleName": "A0-pag_agent_causer_of_contamination",
+                "entity": "resin:Entities/10002/"
+            },
+            {
+                "@id": "resin:Participants/30208/kairos:Primitives_Events_Contamination_Destination",
+                "roleName": "A1-gol_destination_thing_becoming_contaminated",
+                "entity": "resin:Entities/10000/"
+            }
+        ],
+        "template": "<A0_pag_sender> transmitted <A1_ppt_sent> to <A2_gol_sent-to> at <AM_loc>"
+    },
+    "resin:Events/20125/Confirmation": {
+        "name": "Confirmation",
+        "description": "Illness is confirmed.",
+        "children": [],
+        "out_links": [],
+        "participants": [
+            {
+                "@id": "resin:Participants/30216/confirmer",
+                "roleName": "A0_pag_confirmer",
+                "entity": "resin:Entities/10021/"
+            },
+            {
+                "@id": "resin:Participants/30217/thing_confirmed",
+                "roleName": "A1_ppt_thing_confirmed",
+                "entity": "resin:Entities/10006/"
+            }
+        ],
+        "template": "<A0_pag_causer> alidated <A1_ppt_entity_validated> at <AM_loc>"
+    },
+    "resin:Events/20130/Selling": {
+        "name": "Selling",
+        "description": "Contaminated product is sold.",
+        "children": [],
+        "out_links": [
+            "resin:Events/20085/Social_Gathering"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30228/seller",
+                "roleName": "A0_pag_Seller",
+                "entity": "resin:Entities/10019/"
+            },
+            {
+                "@id": "resin:Participants/30229/thing_sold",
+                "roleName": "A1_ppt_Thing_Sold",
+                "entity": "resin:Entities/10003/"
+            },
+            {
+                "@id": "resin:Participants/30230/buyer",
+                "roleName": "A2_gol_Buyer",
+                "entity": "resin:Entities/10002/"
+            }
+        ]
+    },
+    "resin:Events/20140/Hospitalization": {
+        "name": "Hospitalization",
+        "description": "Infected persons are hospitalized.",
+        "children": [],
+        "out_links": [
+            "resin:Events/20013/Treatment"
+        ],
+        "participants": [
+            {
+                "@id": "resin:Participants/30253/sender",
+                "roleName": "A0_pag_sender",
+                "entity": "resin:Entities/10021/"
+            },
+            {
+                "@id": "resin:Participants/30254/infected",
+                "roleName": "A1_ppt_injured/ill_entity",
+                "entity": "resin:Entities/10001/"
+            }
+        ],
+        "template": "<A0_pag_sender> hospitalized <A1_ppt_injured/ill_entity> at <AM_loc>"
+    }
+}

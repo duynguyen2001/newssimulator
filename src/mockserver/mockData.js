@@ -1,14 +1,38 @@
-import deceaseOutbreak from './disease_outbreak.json'
-import coup from './coup.json'
-import cyber_attack from './cyber_attack.json'
-import construction from './construction.json'
-import general_ied from './general_ied.json'
 
-export const mockData = [deceaseOutbreak, coup, cyber_attack, construction, general_ied];
-export const mockGeneratedText = [
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500",
-    "s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also",
-    " the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets cont",
-    "aining Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+export const mockData = [
+    {
+        name: "1",
+        constraints:
+            "- The mode of transmission of the disease is airborne.\n- The infectivity of the disease is low.\n- The fatality rate is low.\n- The incubation period is long.\n- The pathogen is not novel.",
+        specializedSchemaURL: "./mockData/1/event_dict.json",
+        instantiatedEntitiesURL: "./mockData/1/new_entity.jsonl",
+    },
+    {
+        name: "2",
+        constraints:
+            "- The mode of transmission of the disease is airborne.\n- The infectivity of the disease is high.\n- The fatality rate is low.\n- The incubation period is long.\n- The pathogen is not novel.",
+        specializedSchema: "./mockData/2/event_dict.json",
+        instantiatedEntities: "./mockData/2/new_entity.jsonl",
+    },
+];
+export const mockgenerateArticles = [
+    {
+        name: "article2",
+        dataURL: "./mockData/articles/article2.md",
+    },
+    {
+        name: "article3",
+        dataURL: "./mockData/articles/article3.md",
+    },
+    {
+        name: "article4",
+        dataURL: "./mockData/articles/article4.md",
+    },
+    {
+        name: "article5",
+        dataURL: "./mockData/articles/article5.md",
+    },
     
-]
+];
+
+export const mockPosts = [];

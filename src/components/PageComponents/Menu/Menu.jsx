@@ -161,7 +161,7 @@ function AddJSONPanel() {
             })
             .then((res) => {
                 console.log(res);
-                setJsonData(res.data.data);
+                // setJsonData(res.data.data.data);
             });
     };
 
@@ -194,23 +194,13 @@ function AddJSONPanel() {
     return (
         <div>
             <>
-                <h2>Form Attributes</h2>
+                <h2></h2>
+                <h2>Assumptions</h2>
 
                 <form onSubmit={handleSubmit}>
                     {Object.entries(attributes).map(([key, value]) => (
                         <div key={key}>
-                            <label>
-                                Key:
-                                <input
-                                    type="text"
-                                    value={key}
-                                    onChange={(e) =>
-                                        handleKeyChange(key, e.target.value)
-                                    }
-                                />
-                            </label>
-                            <label>
-                                Value:
+                            
                                 <input
                                     type="text"
                                     value={value}
@@ -218,13 +208,6 @@ function AddJSONPanel() {
                                         handleValueChange(key, e.target.value)
                                     }
                                 />
-                            </label>
-                            <button
-                                type="button"
-                                onClick={() => handleRemoveAttribute(key)}
-                            >
-                                Remove
-                            </button>
                         </div>
                     ))}
                     <button type="button" onClick={handleAddAttribute}>
@@ -267,7 +250,8 @@ const TA1DownloadPanel = () => {
     };
     return (
         <div>
-            <button onClick={downloadJSON}>Get Generated Text</button>
+            <h2>Situation Report</h2>
+            <button onClick={downloadJSON}>Generate</button>
             {text && (<h2>News Article</h2>)}
             <p>{text}</p>
         </div>
