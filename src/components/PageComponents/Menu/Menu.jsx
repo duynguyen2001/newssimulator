@@ -505,7 +505,7 @@ const TA1DownloadPanel = () => {
     };
     return (
         <div>
-            <h2>Situation Report</h2>
+            <h2>Situation Reports</h2>
             <button onClick={downloadJSON}>Generate</button>
             {text && <h2>News Article</h2>}
             <p>{text}</p>

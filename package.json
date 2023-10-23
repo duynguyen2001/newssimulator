@@ -24,6 +24,7 @@
     "idb": "^7.1.1",
     "idb-keyval": "^6.2.1",
     "json2typescript": "^1.5.1",
+    "marked": "^9.1.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0-beta.1",
     "react-color": "^2.19.3",
