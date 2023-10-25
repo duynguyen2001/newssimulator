@@ -52,6 +52,7 @@ const EditableText = ({
                     {variant === "p" && <p>{values}</p>}
                     {variant === "none" && <>{values}</>}
                     {variant === "h3" && <h3>{values}</h3>}
+                    {variant === "h4" && <h4>{values}</h4>}
                     {variant === "span" && (
                         <span
                             key={id}

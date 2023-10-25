@@ -278,6 +278,9 @@ export class TA1Entity {
     @JsonProperty("name", String)
     name: string = undefined!;
 
+    @JsonProperty("description", String, true)
+    description?: string;
+
     @JsonProperty("wd_node", ForceStringArray, true)
     wd_node?: string[];
 

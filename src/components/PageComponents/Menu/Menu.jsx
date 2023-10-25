@@ -218,61 +218,119 @@ function AddJSONPanel() {
         const formData = assumptions
             .filter((item) => item.selected)
             .map((item) => item.assumption)
-            .join("  \n  ");
-        console.log(formData);
-        axios
-            .post("/api/specializingSchema", formData, {
-                headers: {
-                    "Content-Type": "multipart/form-data",
-                },
-            })
-            .then((res) => {
-                console.log(res);
-                const jsonConverter = new JsonConvert();
+            .join("  -  ");
 
-                // resolve entities
-                const lines = res.data.data.instantiatedEntities
-                    .split("\n")
-                    .filter(Boolean);
-                const newEntities = new Map();
-                lines.forEach((line) => {
-                    const newEntity = JSON.parse(line);
-                    newEntities.set(
-                        newEntity["@id"],
-                        jsonConverter.deserialize(newEntity, TA1Entity)
-                    );
-                });
-                console.log("newEntities", newEntities);
-                setEntities(newEntities);
+        console.log("formData", formData);
+        let config = {
+            method: "post",
+            maxBodyLength: Infinity,
+            url: "https://newssimulator-mockserver.netlify.app/.netlify/functions/specializingSchema",
+            headers: {
+                "Content-Type": "text/plain",
+            },
+            data: `"${formData}"`,
+        };
 
-                const schema = JSON.parse(res.data.data.specializedSchema);
-                const newAssumptionSet = new Set();
-                const listEvents = jsonConverter.deserializeArray(
-                    Object.entries(schema.event).map(([key, object]) => {
-                        if (object.revise_extra_assumption) {
-                            newAssumptionSet.add(object.revise_extra_assumption.split(":")[1]);
+        axios.request(config).then((res) => {
+            console.log(res);
+            const jsonConverter = new JsonConvert();
+
+            // resolve entities
+            const lines = res.data.data.instantiatedEntities
+                .split("\n")
+                .filter(Boolean);
+            const newEntities = new Map();
+            const newEntitiesMapCheck = new Map();
+            lines.forEach((line) => {
+                const entity = jsonConverter.deserialize(
+                    JSON.parse(line),
+                    TA1Entity
+                );
+                if (entity.new_entity) {
+                    console.log("entity", entity);
+                    const newEntityList = entity.new_entity.map((newEntity) => {
+                        if (newEntitiesMapCheck.has(newEntity)) {
+                            return newEntitiesMapCheck.get(newEntity);
                         }
-                        return {
-                            ...object,
-                            children_gate: "or",
-                            outlinks: object.out_links,
-                            "@id": key,
-                        };
-                    }),
-                    TA1Event
-                );
+                        const newId = UniqueString.getUniqueStringWithForm(
+                            "resin:Entity/",
+                            "/"
+                        );
+                        const entityListData = newEntity.split(":");
+                        if (entityListData.length > 1) {
+                            const aNewEntity = jsonConverter.deserialize(
+                                {
+                                    "@id": newId,
+                                    name: entityListData[0],
+                                    description: entityListData[1],
+                                },
+                                TA1Entity
+                            );
+                            newEntities.set(aNewEntity.id, aNewEntity);
+                        } else {
+                            const aNewEntity = jsonConverter.deserialize(
+                                {
+                                    "@id": newId,
+                                    name: entityListData[0],
+                                    description: "",
+                                },
+                                TA1Entity
+                            );
+                            newEntities.set(aNewEntity.id, aNewEntity);
+                        }
 
-                console.log("listEvents", listEvents);
-                console.log("newAssumptionSet", newAssumptionSet);
-                setAssumptions(
-                    [...assumptions, ...Array.from(newAssumptionSet).map((item) => ({
-                        id: uuidv4(),
-                        assumption: item,
-                        selected: true,
-                    }))]
-                );
-                setEvents(listEvents);
+                        newEntities.set(entity["id"], entity);
+                        newEntitiesMapCheck.set(newEntity, entity);
+                        return newId;
+                    });
+                    entity.new_entity = newEntityList;
+                }
             });
+            console.log("newEntities", newEntities);
+            setEntities(newEntities);
+
+            const schema = JSON.parse(res.data.data.specializedSchema);
+            const newAssumptionSet = new Set();
+            assumptions.forEach((item) => {
+                newAssumptionSet.add(item.assumption);
+            });
+            const listEvents = jsonConverter.deserializeArray(
+                Object.entries(schema.event).map(([key, object]) => {
+                    if (object.revise_extra_assumption) {
+                        newAssumptionSet.add(
+                            object.revise_extra_assumption.split(":")[1]
+                        );
+                    }
+                    return {
+                        ...object,
+                        children_gate: "or",
+                        outlinks: object.out_links,
+                        "@id": key,
+                    };
+                }),
+                TA1Event
+            );
+
+            console.log("listEvents", listEvents);
+            console.log("newAssumptionSet", newAssumptionSet);
+            setAssumptions([
+                ...Array.from(newAssumptionSet).map((item) => ({
+                    id: uuidv4(),
+                    assumption: item,
+                    selected:
+                        assumptions.filter(
+                            (assumption) => assumption.assumption === item
+                        ).length > 0
+                            ? assumptions.filter(
+                                  (assumption) => assumption.assumption === item
+                              )[0].selected
+                            : true,
+                })),
+            ]);
+            setEvents(listEvents);
+
+            // set new entities
+        });
     };
 
     // form handling

@@ -106,7 +106,7 @@ const SituationReportsPage = () => {
     }, [articleLists]);
     const generateArticles = () => {
         axios
-            .post("/api/generateArticles", JSON.stringify(newData), {
+            .post("https://newssimulator-mockserver.netlify.app/.netlify/functions/generateArticles", JSON.stringify(newData), {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
