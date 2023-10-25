@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newssimulator/static/css/main.4915c275.css",
-    "main.js": "/newssimulator/static/js/main.cbffd9b2.js",
+    "main.js": "/newssimulator/static/js/main.700705c3.js",
     "static/js/787.ff165372.chunk.js": "/newssimulator/static/js/787.ff165372.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/newssimulator/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/newssimulator/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/newssimulator/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/newssimulator/index.html",
     "main.4915c275.css.map": "/newssimulator/static/css/main.4915c275.css.map",
-    "main.cbffd9b2.js.map": "/newssimulator/static/js/main.cbffd9b2.js.map",
+    "main.700705c3.js.map": "/newssimulator/static/js/main.700705c3.js.map",
     "787.ff165372.chunk.js.map": "/newssimulator/static/js/787.ff165372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4915c275.css",
-    "static/js/main.cbffd9b2.js"
+    "static/js/main.700705c3.js"
   ]
 }
