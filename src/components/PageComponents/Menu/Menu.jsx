@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
-import mock from "../../../mockserver/server";
+// import mock from "../../../mockserver/server";
 import { JsonConvert } from "json2typescript";
 import { useContext, useEffect, useState } from "react";
 import { ConnectionLineType, ReactFlowProvider } from "reactflow";
