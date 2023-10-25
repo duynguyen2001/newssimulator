@@ -16,6 +16,7 @@ export const TA1EntityInfoPanel = ({ data, onClose }) => {
     };
     const handleOnSave = (value, field) => {
         mapEntities.get(data.id).set(field, value);
+        setTimeFrame(Date.now());
     };
     console.log("rendering TA1EntityInfoPanel", data);
     
@@ -100,10 +101,10 @@ export const TA1EntityInfoPanel = ({ data, onClose }) => {
                                     values={entityData.name}
                                     variant="h4"
                                     index={index}
-                                    onSave={() => {
+                                    onSave={(value, field) => {
                                         mapEntities
-                                            .get(entityData.id)
-                                            .set("name", entityData.name);
+                                            .get(entity).name = value;
+                                            setTimeFrame(Date.now());
                                     }}
                                     field="name"
                                 />
@@ -111,13 +112,11 @@ export const TA1EntityInfoPanel = ({ data, onClose }) => {
                                     values={entityData.description}
                                     variant="p"
                                     index={index}
-                                    onSave={() => {
+                                    onSave={(value, field) => {
                                         mapEntities
-                                            .get(entityData.id)
-                                            .set(
-                                                "description",
-                                                entityData.description
-                                            );
+                                            .get(entity).description = value;
+                                            setTimeFrame(Date.now());
+                                            
                                     }}
                                     field="description"
                                 />

@@ -149,12 +149,13 @@ const SituationReportsPage = () => {
                 {articleLists && (
                     <div
                         style={{
+                            position: "relative",
                             height: "80%",
                             width: "100%",
                             display: "flex",
                             flexDirection: "column",
                             justifyContent: "center",
-                            alignItems: "center",
+                            // alignItems: "center",
                             overflowY: "scroll",
                         }}
                     >
@@ -174,7 +175,7 @@ const SituationReportsPage = () => {
                                     width: "100%",
                                     display: "flex",
                                     flexDirection: "column",
-                                    justifyContent: "center",
+                                    justifyContent: "left",
                                     alignItems: "center",
                                     overflowY: "auto",
                                 }}
