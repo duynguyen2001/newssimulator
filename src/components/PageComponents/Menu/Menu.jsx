@@ -23,6 +23,7 @@ import {
     DataContext,
     EntitiesContext,
     EventsContext,
+    NewsContext,
 } from "../../DataReadingComponents/DataReader";
 import {
     TA1Entity,
@@ -195,6 +196,7 @@ function AddJSONPanel() {
     const [jsonData, setJsonData] = useContext(DataContext);
     const [Entities, setEntities] = useContext(EntitiesContext);
     const [Events, setEvents] = useContext(EventsContext);
+    const [News, setNews] = useContext(NewsContext);
     const [assumptions, setAssumptions] = useState([
         { id: 1, assumption: "Assumption 1", selected: true },
         { id: 2, assumption: "Assumption 2", selected: false },
@@ -383,10 +385,14 @@ function AddJSONPanel() {
             setJsonData(parsedJson);
         };
     };
-    useEffect(() => {
-        console.log("assumptions", assumptions);
-    }, [assumptions]);
-
+    const handleNewsUpload = (event) => {
+        const fileReader = new FileReader();
+        fileReader.readAsText(event.target.files[0], "UTF-8");
+        fileReader.onload = (e) => {
+            let parsedJson = JSON.parse(e.target.result);
+            setNews(parsedJson);
+        };
+    };
     return (
         <div>
             <>
@@ -398,6 +404,18 @@ function AddJSONPanel() {
                     accept=".json"
                     multiple
                     onChange={handleJSONUpload}
+                />
+                <h3>Critics Upload</h3>
+                {News === null || News.length === 0 ? (
+                    <h4>No Critics Available</h4>
+                ) : (
+                    <h4>Critics Uploaded</h4>
+                )}
+                <input
+                    type="file"
+                    accept=".json"
+                    multiple
+                    onChange={handleNewsUpload}
                 />
                 <h3>Assumptions</h3>
                 <button
