@@ -14,11 +14,17 @@ import { InfoPanel } from "../../components/PageComponents/Panel/Panel";
 import { TA1Event } from "../../components/TA1/LibraryTA1";
 import { TA1EditEventPanel } from "../../components/TA1/TA1EditEventPanel";
 import useStore from "../../components/TA1/storeTA1";
-import { EntitiesContext, EventsContext, nodeTypes } from "../../components/DataReadingComponents/DataReader";
+import {
+    EntitiesContext,
+    EventsContext,
+    nodeTypes,
+    NewsChosenContext,
+} from "../../components/DataReadingComponents/DataReader";
 import "./graph.css";
 export const GraphTA1 = () => {
     const [eventNodes] = useContext(EventsContext);
-    const [Entities] = useContext(EntitiesContext)
+    const [Entities] = useContext(EntitiesContext);
+    const [newsChosen] = useContext(NewsChosenContext);
     const {
         nodes,
         edges,
@@ -50,6 +56,7 @@ export const GraphTA1 = () => {
         onNodesDelete,
         onSelectionChange,
         setConfidenceInterval,
+        setSelectedNew,
     } = useStore();
 
     const handleClosePanel = () => {
@@ -70,6 +77,10 @@ export const GraphTA1 = () => {
         setMapEntities(Entities);
         updateGraphByTA1Events(eventNodes);
     }, [eventNodes]);
+
+    useEffect(() => {
+        setSelectedNew(newsChosen);
+    }, [newsChosen]);
 
     const [grouping, setGrouping] = useState(false);
     const [addInPanel, setAddInPanel] = useState(false);
@@ -139,9 +150,11 @@ export const GraphTA1 = () => {
                     <>
                         <InfoPanel
                             data={
-                                clickedNode.data.isEntity?
-                                mapEntities.get(clickedNode.id.split("-")[0]):
-                                clickedNode.data.isGate
+                                clickedNode.data.isEntity
+                                    ? mapEntities.get(
+                                          clickedNode.id.split("-")[0]
+                                      )
+                                    : clickedNode.data.isGate
                                     ? mapNodes.get(
                                           clickedNode.data.referredNode
                                       )

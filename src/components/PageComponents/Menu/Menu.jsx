@@ -197,10 +197,15 @@ function AddJSONPanel() {
     const [Entities, setEntities] = useContext(EntitiesContext);
     const [Events, setEvents] = useContext(EventsContext);
     const [News, setNews] = useContext(NewsContext);
+    const [updateNews] = useStoreTA1((state) => [state.updateNews]);
     const [assumptions, setAssumptions] = useState([
         { id: 1, assumption: "Assumption 1", selected: true },
         { id: 2, assumption: "Assumption 2", selected: false },
     ]);
+
+    useEffect(() => {
+        updateNews(News);
+    }, [News]);
 
     const [setChosenNodes, setChosenEntities, setClickedNode] = useStoreTA1(
         (state) => [
@@ -209,6 +214,102 @@ function AddJSONPanel() {
             state.setClickedNode,
         ]
     );
+    const specializingSchema = (resData) => {
+        console.log(resData);
+        const jsonConverter = new JsonConvert();
+
+        // resolve entities
+        const lines = resData.instantiatedEntities.split("\n").filter(Boolean);
+        const newEntities = new Map();
+        const newEntitiesMapCheck = new Map();
+        lines.forEach((line) => {
+            const entity = jsonConverter.deserialize(
+                JSON.parse(line),
+                TA1Entity
+            );
+            if (entity.new_entity) {
+                console.log("entity", entity);
+                const newEntityList = entity.new_entity.map((newEntity) => {
+                    if (newEntitiesMapCheck.has(newEntity)) {
+                        return newEntitiesMapCheck.get(newEntity);
+                    }
+                    const newId = UniqueString.getUniqueStringWithForm(
+                        "resin:Entity/",
+                        "/"
+                    );
+                    const entityListData = newEntity.split(":");
+                    if (entityListData.length > 1) {
+                        const aNewEntity = jsonConverter.deserialize(
+                            {
+                                "@id": newId,
+                                name: entityListData[0],
+                                description: entityListData[1],
+                            },
+                            TA1Entity
+                        );
+                        newEntities.set(aNewEntity.id, aNewEntity);
+                    } else {
+                        const aNewEntity = jsonConverter.deserialize(
+                            {
+                                "@id": newId,
+                                name: entityListData[0],
+                                description: "",
+                            },
+                            TA1Entity
+                        );
+                        newEntities.set(aNewEntity.id, aNewEntity);
+                    }
+
+                    newEntities.set(entity["id"], entity);
+                    newEntitiesMapCheck.set(newEntity, entity);
+                    return newId;
+                });
+                entity.new_entity = newEntityList;
+            }
+        });
+        console.log("newEntities", newEntities);
+        setEntities(newEntities);
+
+        const schema = JSON.parse(resData.specializedSchema);
+        const newAssumptionSet = new Set();
+        assumptions.forEach((item) => {
+            newAssumptionSet.add(item.assumption);
+        });
+        const listEvents = jsonConverter.deserializeArray(
+            Object.entries(schema.event).map(([key, object]) => {
+                if (object.revise_extra_assumption) {
+                    newAssumptionSet.add(
+                        object.revise_extra_assumption.split(":")[1]
+                    );
+                }
+                return {
+                    ...object,
+                    children_gate: "or",
+                    outlinks: object.out_links,
+                    "@id": key,
+                };
+            }),
+            TA1Event
+        );
+
+        console.log("listEvents", listEvents);
+        console.log("newAssumptionSet", newAssumptionSet);
+        setAssumptions([
+            ...Array.from(newAssumptionSet).map((item) => ({
+                id: uuidv4(),
+                assumption: item,
+                selected:
+                    assumptions.filter(
+                        (assumption) => assumption.assumption === item
+                    ).length > 0
+                        ? assumptions.filter(
+                              (assumption) => assumption.assumption === item
+                          )[0].selected
+                        : true,
+            })),
+        ]);
+        setEvents(listEvents);
+    };
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -234,103 +335,7 @@ function AddJSONPanel() {
         };
 
         axios.request(config).then((res) => {
-            console.log(res);
-            const jsonConverter = new JsonConvert();
-
-            // resolve entities
-            const lines = res.data.data.instantiatedEntities
-                .split("\n")
-                .filter(Boolean);
-            const newEntities = new Map();
-            const newEntitiesMapCheck = new Map();
-            lines.forEach((line) => {
-                const entity = jsonConverter.deserialize(
-                    JSON.parse(line),
-                    TA1Entity
-                );
-                if (entity.new_entity) {
-                    console.log("entity", entity);
-                    const newEntityList = entity.new_entity.map((newEntity) => {
-                        if (newEntitiesMapCheck.has(newEntity)) {
-                            return newEntitiesMapCheck.get(newEntity);
-                        }
-                        const newId = UniqueString.getUniqueStringWithForm(
-                            "resin:Entity/",
-                            "/"
-                        );
-                        const entityListData = newEntity.split(":");
-                        if (entityListData.length > 1) {
-                            const aNewEntity = jsonConverter.deserialize(
-                                {
-                                    "@id": newId,
-                                    name: entityListData[0],
-                                    description: entityListData[1],
-                                },
-                                TA1Entity
-                            );
-                            newEntities.set(aNewEntity.id, aNewEntity);
-                        } else {
-                            const aNewEntity = jsonConverter.deserialize(
-                                {
-                                    "@id": newId,
-                                    name: entityListData[0],
-                                    description: "",
-                                },
-                                TA1Entity
-                            );
-                            newEntities.set(aNewEntity.id, aNewEntity);
-                        }
-
-                        newEntities.set(entity["id"], entity);
-                        newEntitiesMapCheck.set(newEntity, entity);
-                        return newId;
-                    });
-                    entity.new_entity = newEntityList;
-                }
-            });
-            console.log("newEntities", newEntities);
-            setEntities(newEntities);
-
-            const schema = JSON.parse(res.data.data.specializedSchema);
-            const newAssumptionSet = new Set();
-            assumptions.forEach((item) => {
-                newAssumptionSet.add(item.assumption);
-            });
-            const listEvents = jsonConverter.deserializeArray(
-                Object.entries(schema.event).map(([key, object]) => {
-                    if (object.revise_extra_assumption) {
-                        newAssumptionSet.add(
-                            object.revise_extra_assumption.split(":")[1]
-                        );
-                    }
-                    return {
-                        ...object,
-                        children_gate: "or",
-                        outlinks: object.out_links,
-                        "@id": key,
-                    };
-                }),
-                TA1Event
-            );
-
-            console.log("listEvents", listEvents);
-            console.log("newAssumptionSet", newAssumptionSet);
-            setAssumptions([
-                ...Array.from(newAssumptionSet).map((item) => ({
-                    id: uuidv4(),
-                    assumption: item,
-                    selected:
-                        assumptions.filter(
-                            (assumption) => assumption.assumption === item
-                        ).length > 0
-                            ? assumptions.filter(
-                                  (assumption) => assumption.assumption === item
-                              )[0].selected
-                            : true,
-                })),
-            ]);
-            setEvents(listEvents);
-
+            specializingSchema(res.data.data);
             // set new entities
         });
     };
@@ -390,6 +395,12 @@ function AddJSONPanel() {
         fileReader.readAsText(event.target.files[0], "UTF-8");
         fileReader.onload = (e) => {
             let parsedJson = JSON.parse(e.target.result);
+            parsedJson = parsedJson.map((item) => {
+                return {
+                    ...item,
+                    id: uuidv4(),
+                };
+            });
             setNews(parsedJson);
         };
     };
@@ -397,7 +408,7 @@ function AddJSONPanel() {
         <div>
             <>
                 <h2>Specializing Schema</h2>
-                <h3>Default Schema Upload</h3>
+                <h3>Initial Schema</h3>
                 {jsonData.id && <h4>Current File: {jsonData.id}</h4>}
                 <input
                     type="file"

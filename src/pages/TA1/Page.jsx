@@ -138,6 +138,7 @@ const TimelinePage = () => {
     const [News, setNews] = useContext(NewsContext);
     const [TimelineNews, setTimelineNews] = useState([]);
     const [chosenNews, setChosenNews] = useContext(NewsChosenContext);
+    // const [setSelectedNew] = useStoreTA1((state) => state.setSelectedNew);
     const [listDate, setListDate] = useState([]);
     const [chosenDate, setChosenDate] = useState("");
     const chosenStyle = {
@@ -146,6 +147,12 @@ const TimelinePage = () => {
         color: "black",
     };
     const [chosenIndex, setChosenIndex] = useState(-1);
+    // useEffect(() => {
+    //     const selectedNew = News.find(
+    //         (article) => article.id === chosenNews.id
+    //     );
+    //     setSelectedNew(selectedNew);
+    // }, [chosenNews]);
     useEffect(() => {
         console.log("News", News);
         const temp = [];
@@ -246,6 +253,7 @@ const TimelinePage = () => {
                                             ) {
                                                 return (
                                                     <TimelineItem
+                                                        key={article.id}
                                                         onClick={() => {
                                                             setChosenNews(
                                                                 article

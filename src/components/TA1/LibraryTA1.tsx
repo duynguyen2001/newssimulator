@@ -15,6 +15,14 @@ export type TreeRenderOptions = {
     entityNode?: string;
 };
 
+export type New = {
+    id: string;
+    schemaEvent: string;
+    description: string;
+    time: string;
+    participants: TA1Participant[];
+};
+
 export abstract class TA1NodeRenderingStrategy {
     protected node: {
         id: string;
@@ -296,6 +304,8 @@ export class TA1Entity {
     @JsonProperty("new_entity", [String], true)
     new_entity?: string[];
 
+    populatedData?: any;
+
     constructor(
         id: string,
         name: string,
@@ -320,9 +330,10 @@ export class TA1Entity {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
-                }}>
+                }}
+            >
                 {this.renderStrategy.render(isConnectable)}
-                <h1>{parseInt(this.id.replace(/^\D+/g, ''))}</h1>
+                <h1>{parseInt(this.id.replace(/^\D+/g, ""))}</h1>
                 <div
                     className=" font-bold"
                     style={{
@@ -334,7 +345,7 @@ export class TA1Entity {
                         hyphens: "auto",
                     }}
                 >
-                    {this.name}
+                    {this.populatedData ? this.populatedData.name : this.name}
                 </div>
             </div>
         );
@@ -380,14 +391,14 @@ export class Relation {
 export class TA1EventStrategy extends TA1NodeRenderingStrategy {
     static colorOptions: string = "#56B4E9";
     get color(): string {
-        return TA1EventStrategy.colorOptions
+        return TA1EventStrategy.colorOptions;
     }
 }
 
 export class TA1EntityStrategy extends TA1NodeRenderingStrategy {
     static colorOptions: string = "#D55E00";
     get color(): string {
-        return TA1EntityStrategy.colorOptions
+        return TA1EntityStrategy.colorOptions;
     }
 }
 @JsonObject("TA1Participant")

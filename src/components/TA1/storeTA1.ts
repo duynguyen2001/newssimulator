@@ -25,6 +25,7 @@ import {
     TA1EventStrategy,
     TA1NodeRenderingStrategy,
     TA1Participant,
+    New,
 } from "./LibraryTA1";
 
 enum GraphEdgeType {
@@ -62,6 +63,8 @@ type EdgeStyle = {
 type RFState = {
     nodes: Node[];
     edges: Edge[];
+    news: New[];
+    chosenNew: New | null;
     chosenNodes: string[];
     confidenceInterval: [number, number];
     chosenEntities: string[];
@@ -130,12 +133,16 @@ type RFState = {
     getNodeById: (id: string) => Node | undefined;
     updateLayout: () => void;
     getMapEntities: (eventNodes: TA1Event[]) => void;
+    updateNews: (news: New[]) => void;
+    setSelectedNew: (chosenNew: New | null) => void;
 };
 
 // this is our useStore hook that we can use in our components to get parts of the store and call actions
 const useStoreTA1 = create<RFState>((set, get) => ({
     nodes: [],
     edges: [],
+    news: [],
+    chosenNew: null,
     chosenNodes: [],
     chosenEntities: [],
     mapNodes: new Map(),
@@ -705,8 +712,8 @@ const useStoreTA1 = create<RFState>((set, get) => ({
         set({ contextMenu: null, showAddPanel: null });
         if (node.data.isEntity) {
             set({
-                clickedNode:node,
-            })
+                clickedNode: node,
+            });
             return;
         }
         const mapNodes = get().mapNodes;
@@ -1097,6 +1104,37 @@ const useStoreTA1 = create<RFState>((set, get) => ({
             });
         });
         set({ mapEntities });
+    },
+    updateNews: (news: New[]) => {
+        set({ news });
+    },
+    setSelectedNew: (chosenNew: New | null) => {
+        console.log("chosenNew", chosenNew);
+        if (chosenNew === null) {
+            set({ chosenNew });
+            return;
+        }
+        const { mapNodes, mapEntities } = get();
+        if (chosenNew.schemaEvent && chosenNew.schemaEvent !== "") {
+            const mapNodesValues = Array.from(mapNodes.values());
+            const schemaEventNode = mapNodesValues.find(
+                (node) => node.name === chosenNew.schemaEvent
+            );
+            console.log("schemaEventNode", schemaEventNode);
+            if (schemaEventNode) {
+                schemaEventNode.participants?.forEach((participant) => {
+                    // populate by roleName
+                    const entity = mapEntities.get(participant.entity);
+                    if (entity) {
+                        entity.populatedData =
+                            chosenNew.participants[participant.roleName];
+                        console.log("entity here", entity);
+                    }
+                });
+            }
+        }
+
+        set({ chosenNew });
     },
 }));
 
