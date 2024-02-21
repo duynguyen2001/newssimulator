@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "/newssimulator/static/css/main.4915c275.css",
-    "main.js": "/newssimulator/static/js/main.3a3a4c8a.js",
-    "static/js/787.ff165372.chunk.js": "/newssimulator/static/js/787.ff165372.chunk.js",
+    "main.css": "/newssimulator/static/css/main.067c4222.css",
+    "main.js": "/newssimulator/static/js/main.78d4deac.js",
+    "static/js/206.f6e36540.chunk.js": "/newssimulator/static/js/206.f6e36540.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/newssimulator/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/newssimulator/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/newssimulator/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/newssimulator/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/newssimulator/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/newssimulator/index.html",
-    "main.4915c275.css.map": "/newssimulator/static/css/main.4915c275.css.map",
-    "main.3a3a4c8a.js.map": "/newssimulator/static/js/main.3a3a4c8a.js.map",
-    "787.ff165372.chunk.js.map": "/newssimulator/static/js/787.ff165372.chunk.js.map"
+    "index.html": "/newssimulator/index.html"
   },
   "entrypoints": [
-    "static/css/main.4915c275.css",
-    "static/js/main.3a3a4c8a.js"
+    "static/css/main.067c4222.css",
+    "static/js/main.78d4deac.js"
   ]
 }
