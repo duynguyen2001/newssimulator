@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newssimulator/static/css/main.067c4222.css",
-    "main.js": "/newssimulator/static/js/main.d3d4fbf4.js",
+    "main.css": "/newssimulator/static/css/main.1b1e8fb1.css",
+    "main.js": "/newssimulator/static/js/main.525b7878.js",
     "static/js/206.f6e36540.chunk.js": "/newssimulator/static/js/206.f6e36540.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/newssimulator/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/newssimulator/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -11,7 +11,7 @@
     "index.html": "/newssimulator/index.html"
   },
   "entrypoints": [
-    "static/css/main.067c4222.css",
-    "static/js/main.d3d4fbf4.js"
+    "static/css/main.1b1e8fb1.css",
+    "static/js/main.525b7878.js"
   ]
 }
