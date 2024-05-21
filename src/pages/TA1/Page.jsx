@@ -4,6 +4,7 @@ import {
     DataContext,
     NewsChosenContext,
     NewsContext,
+    FilteredNewsContext,
 } from "../../components/DataReadingComponents/DataReader";
 import useStoreTA1 from "../../components/TA1/storeTA1";
 import axios from "axios";
@@ -31,7 +32,7 @@ import { set } from "idb-keyval";
 const Page = () => {
     const [selectedTab, setSelectedTab] = React.useState("Timeline");
     const [clickedNode] = useStoreTA1((state) => [state.clickedNode]);
-    console.log("clickedNode", clickedNode);
+    // console.log("clickedNode", clickedNode);
     return (
         <div
             style={{
@@ -120,7 +121,7 @@ const Page = () => {
                 <div
                     style={{
                         height: "fit-content",
-                        width: clickedNode? "50%" : "80%",
+                        width: clickedNode ? "50%" : "80%",
                         border: "1px solid black",
                         left: "10vw",
                         top: "5vh",
@@ -153,12 +154,12 @@ const CircleBig = ({ active }) => {
                 height: 32,
                 width: 32,
                 borderRadius: "50%",
-                backgroundColor: active ? "black": "grey",
+                backgroundColor: active ? "black" : "grey",
             }}
         />
     );
 };
-const CircleSmall = ({active}) => {
+const CircleSmall = ({ active }) => {
     return (
         <Box
             sx={{
@@ -170,11 +171,12 @@ const CircleSmall = ({active}) => {
             }}
         />
     );
-}
+};
 const TimelinePage = () => {
     const [News, setNews] = useContext(NewsContext);
     const [TimelineNews, setTimelineNews] = useState([]);
     const [chosenNews, setChosenNews] = useContext(NewsChosenContext);
+    const [filteredNews, setFilteredNews] = useContext(FilteredNewsContext);
     // const [setSelectedNew] = useStoreTA1((state) => state.setSelectedNew);
     const [listDate, setListDate] = useState([]);
     const [chosenDate, setChosenDate] = useState("");
@@ -191,11 +193,29 @@ const TimelinePage = () => {
     //     setSelectedNew(selectedNew);
     // }, [chosenNews]);
     useEffect(() => {
-        console.log("News", News);
         const temp = [];
         const uniqueDate = [];
-        News &&
+        News && filteredNews.length === 0 ?
             News.map((article) => {
+                const date = new Date(article.time);
+                const dateString = date.toLocaleString("default", {
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                });
+                if (!uniqueDate.includes(dateString)) {
+                    uniqueDate.push(dateString);
+                }
+                temp.push({
+                    ...article,
+                    date: date,
+                    year: date.getDate(),
+                    month: date.getMonth(),
+                    day: date.getDay(),
+                    hour: date.getHours(),
+                    minute: date.getMinutes(),
+                });
+            }): filteredNews.map((article) => {
                 const date = new Date(article.time);
                 const dateString = date.toLocaleString("default", {
                     month: "long",
@@ -333,7 +353,7 @@ const TimelinePage = () => {
                                                             }
                                                         </Typography>
                                                     </StepLabel>
-                                                    <StepContent>
+                                                    {/* <StepContent>
                                                         {chosenIndex ===
                                                             index && (
                                                             <>
@@ -358,7 +378,7 @@ const TimelinePage = () => {
                                                                 </Typography>
                                                             </>
                                                         )}
-                                                    </StepContent>
+                                                    </StepContent> */}
                                                 </Step>
                                             );
                                         }

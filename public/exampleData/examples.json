@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Earthquake",
+        "schema": "/newssimulator/exampleData/earthquakes/earthquake_schema.json",
+        "crtics": [
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v1_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v1.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v2_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v2.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v3_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v3.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v4_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v4.json"
+            }
+
+        ]
+    },
+    {
+        "name": "Earthquake Reactions",
+        "schema": "/newssimulator/exampleData/earthquakes/earthquake_response_schema.json",
+        "crtics": [
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v1_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v1_reaction.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v2_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v2_reaction.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v3_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v3_reaction.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v4_assumption.json",
+                "news":"/newssimulator/exampleData/earthquakes/earthquake_v4_reaction.json"
+            }
+        ]
+    }
+]

@@ -12,6 +12,7 @@ export const RelationsContext = createContext([]);
 export const EventsContext = createContext([]);
 export const NewsContext = createContext([]);
 export const NewsChosenContext = createContext([]);
+export const FilteredNewsContext = createContext([]);
 export const nodeTypes = {
     customNode: CustomNode,
     gate: Gate,
@@ -25,9 +26,9 @@ const DataReader = () => {
     const [Relations, setRelations] = React.useState([]);
     const [News, setNews] = React.useState([]);
     const [chosenNews, setChosenNews] = React.useState(null);
+    const [filteredNews, setFilteredNews] = React.useState([]);
 
     useEffect(() => {
-        console.log("rawdata", data);
         // ta1 handling
         if (data.events && data.events.length > 0) {
             const entitiesMap = new Map();
@@ -57,36 +58,30 @@ const DataReader = () => {
         return;
     }, [data]);
 
-    useEffect(() => {
-        if (News.length > 0) {
-            console.log("news", News);
-        }
-    }, [News]);
-
-    useEffect(() => {
-        console.log("entities", Entities);
-        console.log("relations", Relations);
-        console.log("events", Events);
-    }, [Entities, Relations, Events]);
-
     return (
         <div style={{ width: "100vw", height: "100vh" }}>
             <NewsContext.Provider value={[News, setNews]}>
-                <NewsChosenContext.Provider value={[chosenNews, setChosenNews]}>
-                    <DataContext.Provider value={[data, setData]}>
-                        <EventsContext.Provider value={[Events, setEvents]}>
-                            <EntitiesContext.Provider
-                                value={[Entities, setEntities]}
-                            >
-                                <RelationsContext.Provider
-                                    value={[Relations, setRelations]}
+                <FilteredNewsContext.Provider
+                    value={[filteredNews, setFilteredNews]}
+                >
+                    <NewsChosenContext.Provider
+                        value={[chosenNews, setChosenNews]}
+                    >
+                        <DataContext.Provider value={[data, setData]}>
+                            <EventsContext.Provider value={[Events, setEvents]}>
+                                <EntitiesContext.Provider
+                                    value={[Entities, setEntities]}
                                 >
-                                    <Page />
-                                </RelationsContext.Provider>
-                            </EntitiesContext.Provider>
-                        </EventsContext.Provider>
-                    </DataContext.Provider>
-                </NewsChosenContext.Provider>
+                                    <RelationsContext.Provider
+                                        value={[Relations, setRelations]}
+                                    >
+                                        <Page />
+                                    </RelationsContext.Provider>
+                                </EntitiesContext.Provider>
+                            </EventsContext.Provider>
+                        </DataContext.Provider>
+                    </NewsChosenContext.Provider>
+                </FilteredNewsContext.Provider>
             </NewsContext.Provider>
         </div>
     );
