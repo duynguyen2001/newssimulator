@@ -24,6 +24,7 @@ import {
     EntitiesContext,
     EventsContext,
     NewsContext,
+    FilteredNewsContext
 } from "../../DataReadingComponents/DataReader";
 import {
     TA1Entity,
@@ -35,6 +36,7 @@ import {
 import useStoreTA1 from "../../TA1/storeTA1";
 import { UniqueString } from "../../utils/TypeScriptUtils";
 import "./Menu.css";
+import { set } from "idb-keyval";
 // console.log(mock);
 
 function Menu() {
@@ -191,6 +193,80 @@ const ToggleInput = ({
         </div>
     );
 };
+function ExamplesPanel({ examples, setJsonData, setAssumptions, setNews }) {
+    if (examples === null) {
+        return <h2>Loading Examples...</h2>;
+    }
+    return (
+        <>
+            <h2>Examples</h2>
+            {examples.map((example) => {
+                const { name, schema, crtics } = example;
+                return (
+                    <>
+                        <h3 key={name}>{name}</h3>
+                        {crtics.map((critic, i) => {
+                            return (
+                                <button
+                                    key={i}
+                                    type="button"
+                                    className="button"
+                                    style={{
+                                        width: "25%",
+                                    }}
+                                    onClick={() => {
+                                        fetch(critic.assumptions)
+                                            .then((res) => res.json())
+                                            .then((res) => {
+                                                setAssumptions(
+                                                    res.map((item, j) => {
+                                                        return {
+                                                            id: j,
+                                                            assumption: item,
+                                                            selected: true,
+                                                        };
+                                                    })
+                                                );
+                                            });
+                                        fetch(example.schema)
+                                            .then((res) => res.json())
+                                            .then((res) => {
+                                                setJsonData(res);
+                                            });
+                                        fetch(critic.news)
+                                            .then((res) => {
+                                                return res.json();
+                                            })
+                                            .then((res) => {
+                                                const clearedNews = res.map(
+                                                    (item) => {
+                                                        return {
+                                                            ...item,
+                                                            id: uuidv4(),
+                                                        };
+                                                    }
+                                                );
+
+                                                setNews(clearedNews);
+                                            })
+                                            .catch((error) =>
+                                                console.error(
+                                                    "Error fetching data:",
+                                                    error
+                                                )
+                                            );
+                                    }}
+                                >
+                                    {i + 1}
+                                </button>
+                            );
+                        })}
+                    </>
+                );
+            })}
+        </>
+    );
+}
 
 function AddJSONPanel() {
     const [jsonData, setJsonData] = useContext(DataContext);
@@ -202,10 +278,26 @@ function AddJSONPanel() {
         { id: 1, assumption: "Assumption 1", selected: true },
         { id: 2, assumption: "Assumption 2", selected: false },
     ]);
-
+    const [examples, setExamples] = useState(null);
     useEffect(() => {
         updateNews(News);
     }, [News]);
+    const initialFetch = () => {
+        fetch("/newssimulator/exampleData/examples.json")
+            .then((res) => {
+                if (!res.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return res.json();
+            })
+            .then((data) => {
+                setExamples(data);
+            })
+            .catch((error) => console.error("Error fetching data:", error));
+    };
+    useEffect(() => {
+        initialFetch();
+    }, []);
 
     const [setChosenNodes, setChosenEntities, setClickedNode] = useStoreTA1(
         (state) => [
@@ -267,7 +359,7 @@ function AddJSONPanel() {
                 entity.new_entity = newEntityList;
             }
         });
-        console.log("newEntities", newEntities);
+
         setEntities(newEntities);
 
         const schema = JSON.parse(resData.specializedSchema);
@@ -404,9 +496,17 @@ function AddJSONPanel() {
             setNews(parsedJson);
         };
     };
+
     return (
         <div>
             <>
+                <ExamplesPanel
+                    examples={examples}
+                    setJsonData={setJsonData}
+                    setAssumptions={setAssumptions}
+                    setEntities={setEntities}
+                    setNews={setNews}
+                />
                 <h2>Specializing Schema</h2>
                 <h3>Initial Schema</h3>
                 {jsonData.id && <h4>Current File: {jsonData.id}</h4>}
@@ -416,100 +516,8 @@ function AddJSONPanel() {
                     multiple
                     onChange={handleJSONUpload}
                 />
-                <h3>Critics Upload</h3>
-                {News === null || News.length === 0 ? (
-                    <h4>No Critics Available</h4>
-                ) : (
-                    <h4>Critics Uploaded</h4>
-                )}
-                <input
-                    type="file"
-                    accept=".json"
-                    multiple
-                    onChange={handleNewsUpload}
-                />
-                <h3>Assumptions</h3>
-                <button
-                    type="button"
-                    className="button"
-                    style={{
-                        width: "50%",
-                    }}
-                    onClick={() => {
-                        setAssumptions((prev) => [
-                            {
-                                id: 1,
-                                assumption:
-                                    "The mode of transmission of the disease is airborne.",
-                                selected: true,
-                            },
-                            {
-                                id: 2,
-                                assumption:
-                                    "The infectivity of the disease is low.",
-                                selected: true,
-                            },
-                            {
-                                id: 3,
-                                assumption: "The fatality rate is low.",
-                                selected: true,
-                            },
-                            {
-                                id: 4,
-                                assumption: "The incubation period is long.",
-                                selected: true,
-                            },
-                            {
-                                id: 5,
-                                assumption: "The pathogen is not novel.",
-                                selected: true,
-                            },
-                        ]);
-                    }}
-                >
-                    Example 1
-                </button>
-                <button
-                    type="button"
-                    className="button"
-                    style={{
-                        width: "50%",
-                    }}
-                    onClick={() => {
-                        setAssumptions((prev) => [
-                            {
-                                id: 1,
-                                assumption:
-                                    "The mode of transmission of the disease is airborne.",
-                                selected: true,
-                            },
-                            {
-                                id: 2,
-                                assumption:
-                                    "The infectivity of the disease is high.",
-                                selected: true,
-                            },
-                            {
-                                id: 3,
-                                assumption: "The fatality rate is low.",
-                                selected: true,
-                            },
-                            {
-                                id: 4,
-                                assumption: "The incubation period is long.",
-                                selected: true,
-                            },
-                            {
-                                id: 5,
-                                assumption: "The pathogen is not novel.",
-                                selected: true,
-                            },
-                        ]);
-                    }}
-                >
-                    Example 2
-                </button>
 
+                <h3>Assumptions</h3>
                 <form onSubmit={handleSubmit}>
                     {assumptions &&
                         assumptions.map((object) => {
@@ -555,6 +563,20 @@ function AddJSONPanel() {
                         </button>
                     </div>
                 </form>
+                <details>
+                    <summary>Existed Critics Upload</summary>
+                    {News === null || News.length === 0 ? (
+                        <h4>No Critics Available</h4>
+                    ) : (
+                        <h4>Critics Uploaded</h4>
+                    )}
+                    <input
+                        type="file"
+                        accept=".json"
+                        multiple
+                        onChange={handleNewsUpload}
+                    />
+                </details>
             </>
         </div>
     );
@@ -922,23 +944,46 @@ const TA1GlobalEntityList = () => {
         state.chosenEntities,
     ]);
     const [EntitiesList, setEntitiesList] = useState([]);
-    console.log("relatedEntities", relatedEntities);
-    console.log("entities", Entities);
+    const [News, setNews] = useContext(NewsContext);
+    const [instantiatedEntities, setInstantiatedEntities] = useState([]);
+
+    const [filteredNews, setFilteredNews] = useContext(FilteredNewsContext);
+    useEffect(() => {
+        const newEntitiesMap = {}
+        News.map((item) => 
+            Object.keys(item.participants).forEach((relation) => {
+                    const key = `${item.participants[relation].name}`;
+                    if (!newEntitiesMap[key]){
+                        newEntitiesMap[key] =
+                            item.participants[relation].instanceOf[0];
+                        newEntitiesMap[key]['count'] = 1
+                        newEntitiesMap[key]['news'] = [item]
+                    } else {
+                        newEntitiesMap[key]['count'] += 1
+                        newEntitiesMap[key]['news'].push(item)
+                    }
+                }
+            
+            )
+        );
+        let listObject = Object.values(newEntitiesMap).sort(
+            (a, b) => b.count - a.count
+        );
+        console.log("listObject", listObject);
+        setInstantiatedEntities(listObject);
+    }, []);
     useEffect(() => {
         const newEntitiesList = [];
-        for (const [entityName, events] of relatedEntities) {
-            const key = `${entityName}`;
-            const entity = Entities.get(entityName);
-            if (entity === undefined) {
-                continue;
-            }
+        for (const  entityObject of instantiatedEntities) {
+            const key = `${entityObject.id}`;
+            const entityName = entityObject.name;
             newEntitiesList.push(
                 <ToggleButtonTA1
-                    key={key}
+                    key={`${key}-${entityName}`}
                     id={key}
-                    name={entity.name}
-                    relatedEventsLength={events.length}
-                    chosen={chosenEntities.includes(key)}
+                    name={entityName}
+                    relatedEventsLength={entityObject.count}
+                    chosen={chosenEntities.includes(entityName)}
                 />
             );
         }
@@ -949,7 +994,7 @@ const TA1GlobalEntityList = () => {
                 <div>No Entities</div>
             )
         );
-    }, [Entities]);
+    }, [instantiatedEntities]);
 
     return (
         <div>
