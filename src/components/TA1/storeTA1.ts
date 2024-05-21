@@ -1115,12 +1115,51 @@ const useStoreTA1 = create<RFState>((set, get) => ({
             return;
         }
         const { mapNodes, mapEntities } = get();
+
         if (chosenNew.schemaEvent && chosenNew.schemaEvent !== "") {
             const mapNodesValues = Array.from(mapNodes.values());
+
             const schemaEventNode = mapNodesValues.find(
                 (node) => node.name === chosenNew.schemaEvent
             );
+            // traverse all the nodes to find the schemaEvent all the selectedNodes are related to the schemaEvent
+            function traverse(node: TA1Event, schemaEvent: string) {
+                if (node.id === schemaEvent) {
+                    return node;
+                }
+                if (node.children) {
+                    for (const child of node.children) {
+                        const childNode = mapNodes.get(child);
+                        if (childNode) {
+                            const result = traverse(childNode, schemaEvent);
+                            if (result) {
+                                return result;
+                            }
+                        }
+                    }
+                }
+                return null;
+            }
+            const listChosenNodes = [schemaEventNode?.id];
+            let currentNode = schemaEventNode;
+            while (currentNode) {
+                let found = false;
+                mapNodesValues.forEach((node) => {
+                    if (node.children?.includes(currentNode.id)) {
+                        listChosenNodes.push(node.id);
+                        currentNode = node;
+                        found = true;
+                    }
+                });
+                if (!found) {
+                    currentNode = null;
+                }
+            }
+
             console.log("schemaEventNode", schemaEventNode);
+            console.log("listChosenNodes", listChosenNodes);
+            const setChosenNodes = get().setChosenNodes;
+            setChosenNodes(listChosenNodes);
             if (schemaEventNode) {
                 schemaEventNode.participants?.forEach((participant) => {
                     // populate by roleName
