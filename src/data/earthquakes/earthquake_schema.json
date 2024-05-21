@@ -1,0 +1,1478 @@
+{
+    "@id": "resin:Schemas/earthquake",
+    "sdfVersion": "3.0",
+    "version": "resin:Phase2b",
+    "events": [
+        {
+            "@id": "resin:Events/10000",
+            "name": "Earthquake",
+            "description": "Earthquake news story.",
+            "wd_node": "wd:Q7944",
+            "wd_label": "Earthquake",
+            "wd_description": "Result of a sudden release of energy in the Earth's crust that creates seismic waves.",
+            "isSchema": true,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [],
+            "children": [
+                "resin:Events/10001",
+                "resin:Events/10003",
+                "resin:Events/10004",
+                "resin:Events/10005",
+                "resin:Events/10006",
+                "resin:Events/10007"
+            ],
+            "children_gate": "or",
+            "entities": [
+                {
+                    "@id": "Entities/20002/",
+                    "name": "Casualty",
+                    "wd_node": "wd:Q1056901",
+                    "wd_label": "Casualty",
+                    "wd_description": "person who is wounded, incapacitated, or killed in an event"
+                },
+                {
+                    "@id": "Entities/20003/",
+                    "name": "Earthquake Losses",
+                    "wd_node": "wd:Q386724",
+                    "wd_label": "work",
+                    "wd_description": "physical or virtual object made by humans"
+                },
+                {
+                    "@id": "Entities/20005/",
+                    "name": "Earthquake victim (died)",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20038/",
+                    "name": "International Responder",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20064/",
+                    "name": "Earthquake Survivor",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20097/",
+                    "name": "Water Supplier",
+                    "wd_label": "geographic_location",
+                    "wd_node": "wd:Q2221906",
+                    "wd_description": "point or an area on the Earth's surface or elsewhere"
+                },
+                {
+                    "@id": "Entities/20119/",
+                    "name": "Rescue Coordinator",
+                    "wd_node": "wd:Q15911314",
+                    "wd_label": "association",
+                    "wd_description": "group of individuals (natural persons) or entities (legal persons) of all kinds"
+                },
+                {
+                    "@id": "Entities/20128/",
+                    "name": "Communicator",
+                    "wd_node": "wd:Q15911314",
+                    "wd_label": "association",
+                    "wd_description": "group of individuals (natural persons) or entities (legal persons) of all kinds"
+                },
+                {
+                    "@id": "Entities/20130/",
+                    "name": "Medical Provider",
+                    "wd_label": "health_professional",
+                    "wd_node": "wd:Q11974939",
+                    "wd_description": "individual who systematically provides health care services"
+                },
+                {
+                    "@id": "Entities/20138/",
+                    "name": "Rescue Team",
+                    "wd_node": "wd:Q327245",
+                    "wd_label": "team",
+                    "wd_description": "group linked in a common purpose"
+                },
+                {
+                    "@id": "Entities/20145/",
+                    "name": "Collaborator",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20156/",
+                    "name": "Assessor",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20176/",
+                    "name": "Media Liaison",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20177/",
+                    "name": "Media Liaison",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20193/",
+                    "name": "Advocate",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20194/",
+                    "name": "Conversation Partner",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20246/",
+                    "name": "Coordinator",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20261/",
+                    "name": "Humanitarian Aid Worker",
+                    "wd_node": "wd:Q215627",
+                    "wd_label": "person",
+                    "wd_description": "being that has certain capacities or attributes constituting personhood"
+                },
+                {
+                    "@id": "Entities/20297/",
+                    "name": "Medical Equipment",
+                    "wd_node": "wd:Q6657015",
+                    "wd_label": "medical_equipment",
+                    "wd_description": "medical equipment"
+                },
+                {
+                    "@id": "Entities/20312/",
+                    "name": "Journalist",
+                    "wd_node": "wd:Q482980",
+                    "wd_label": "Author",
+                    "wd_description": "creator of a linguistic work"
+                },
+                {
+                    "@id": "Entities/20315/",
+                    "name": "Earthquake Ground",
+                    "wd_label": "geographic_location",
+                    "wd_node": "wd:Q2221906",
+                    "wd_description": "point or an area on the Earth's surface or elsewhere"
+                },
+                {
+                    "@id": "Entities/20316/",
+                    "name": "Earthquake Itself",
+                    "wd_node": "wd:Q27096213",
+                    "wd_label": "geographic_entity",
+                    "wd_description": "place or entity that could be a place"
+                },
+                {
+                    "@id": "Entities/20317/",
+                    "name": "Building",
+                    "wd_node": "wd:Q41176",
+                    "wd_label": "building",
+                    "wd_description": "structure, typically with a roof and walls, standing more or less permanently in one place"
+                },
+                {
+                    "@id": "Entities/10000/Earthquake WideArea",
+                    "name": "Earthquake WideArea",
+                    "wd_label": "geographic_location",
+                    "wd_node": "wd:Q2221906",
+                    "wd_description": "point or an area on the Earth's surface or elsewhere"
+                }
+            ],
+            "relations": [
+                {
+                    "@id": "resin:Relations/40001",
+                    "name": "location",
+                    "relationSubject": "Entities/20064/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },
+                {
+                    "@id": "resin:Relations/40002",
+                    "name": "location",
+                    "relationSubject": "Entities/20315/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },
+                {
+                    "@id": "resin:Relations/40003",
+                    "name": "location",
+                    "relationSubject": "Entities/20316/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40004",
+                    "name": "location",
+                    "relationSubject": "Entities/20038/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40005",
+                    "name": "location",
+                    "relationSubject": "Entities/20261/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40006",
+                    "name": "location",
+                    "relationSubject": "Entities/20003/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40007",
+                    "name": "location",
+                    "relationSubject": "Entities/20138/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40007",
+                    "name": "location",
+                    "relationSubject": "Entities/20246/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40008",
+                    "name": "location",
+                    "relationSubject": "Entities/20005/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40009",
+                    "name": "location",
+                    "relationSubject": "Entities/20119/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40010",
+                    "name": "location",
+                    "relationSubject": "Entities/20193/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40011",
+                    "name": "location",
+                    "relationSubject": "Entities/20002/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40012",
+                    "name": "location",
+                    "relationSubject": "Entities/20130/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40013",
+                    "name": "location",
+                    "relationSubject": "Entities/20145/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40014",
+                    "name": "location",
+                    "relationSubject": "Entities/20156/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40015",
+                    "name": "location",
+                    "relationSubject": "Entities/20297/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },{
+                    "@id": "resin:Relations/40016",
+                    "name": "location",
+                    "relationSubject": "Entities/20317/",
+                    "relationObject": "Entities/10000/Earthquake WideArea",
+                    "wd_node": "wdt:P276",
+                    "wd_label": "location",
+                    "wd_description": "location of the object, structure or event"
+                },
+                {
+                    "@id": "resin:Relations/40017",
+                    "name": "commissioned by",
+                    "relationSubject": "Entities/20138/",
+                    "relationObject": "Entities/20119/",
+                    "wd_node": "wdt:P88",
+                    "wd_label": "commissioned by",
+                    "wd_description": "person or organization that commissioned this work"
+                },
+                {
+                    "@id": "resin:Relations/40018",
+                    "name": "has cause",
+                    "relationSubject": "Entities/20003/",
+                    "relationObject": "Entities/20316/",
+                    "wd_node": "wdt:P828",
+                    "wd_label": "has cause",
+                    "wd_description": "underlying cause, thing that ultimately resulted in this effect"
+                },
+                {
+                    "@id": "resin:Relations/40019",
+                    "name": "has cause",
+                    "relationSubject": "Entities/20064/",
+                    "relationObject": "Entities/20316/",
+                    "wd_node": "wdt:P828",
+                    "wd_label": "has cause",
+                    "wd_description": "underlying cause, thing that ultimately resulted in this effect"
+                },
+                {
+                    "@id": "resin:Relations/40020",
+                    "name": "has cause",
+                    "relationSubject": "Entities/20002/",
+                    "relationObject": "Entities/20316/",
+                    "wd_node": "wdt:P828",
+                    "wd_label": "has cause",
+                    "wd_description": "underlying cause, thing that ultimately resulted in this effect"
+                },
+                {
+                    "@id": "resin:Relations/40021",
+                    "name": "has cause",
+                    "relationSubject": "Entities/20005/",
+                    "relationObject": "Entities/20316/",
+                    "wd_node": "wdt:P828",
+                    "wd_label": "has cause",
+                    "wd_description": "underlying cause, thing that ultimately resulted in this effect"
+                }
+            ],
+            "importance": [],
+            "likelihood": []
+        },
+        {
+            "@id": "resin:Events/10001",
+            "name": "Earthquake Sequence",
+            "description": "Background of the earthquake.",
+            "wd_node": "wd:Q7944",
+            "wd_label": "earthquake",
+            "wd_description": "result of a sudden release of energy in the Earth's crust that creates seismic waves",
+            "isSchema": true,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10003"
+            ],
+            "participants": [],
+            "children": [
+                "resin:Events/10009",
+                "resin:Events/10011",
+                "resin:Events/10013",
+                "resin:Events/10021"
+            ],
+            "children_gate": "or",
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10003",
+            "name": "Damage and Casualities",
+            "description": "The earthquake caused damage and lead to injuries and deaths.",
+            "wd_node": "wd:Q481609",
+            "wd_label": "damage",
+            "wd_description": "changes introduced into a system that adversely affect its current or future performance",
+            "isSchema": true,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10005",
+                "resin:Events/10006",
+                "resin:Events/10004",
+                "resin:Events/10007"
+            ],
+            "participants": [],
+            "children": [
+                "resin:Events/10020",
+                "resin:Events/10023",
+                "resin:Events/10024",
+                "Events/20000/Injury"
+            ],
+            "children_gate": "or",
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10004",
+            "name": "Search and Rescue",
+            "description": "Search and rescue efforts to save people.",
+            "wd_node": "wd:Q1341429",
+            "wd_label": "rescue",
+            "wd_description": "comprises responsive operations that usually involve the saving of life, or prevention of injury",
+            "isSchema": true,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [],
+            "children": [
+                "resin:Events/10034",
+                "resin:Events/10025",
+                "resin:Events/10026",
+                "resin:Events/10029",
+                "resin:Events/10030",
+                "resin:Events/10031"
+            ],
+            "children_gate": "or",
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10005",
+            "name": "Government Response",
+            "description": "The local government responds to the earthquake.",
+            "wd_node": "wd:Q31983622",
+            "wd_label": "reaction",
+            "wd_description": "action or statement in response to a stimulus or other event",
+            "isSchema": true,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [],
+            "children": [
+                "resin:Events/10035",
+                "resin:Events/10036",
+                "resin:Events/10038",
+                "resin:Events/10039",
+                "resin:Events/10040"
+            ],
+            "children_gate": "or",
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10006",
+            "name": "Social Response",
+            "description": "The society responds to the earthquake.",
+            "wd_node": "wd:Q31983622",
+            "wd_label": "reaction",
+            "wd_description": "action or statement in response to a stimulus or other event",
+            "isSchema": true,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [],
+            "children": [
+                "resin:Events/10044",
+                "resin:Events/10045"
+            ],
+            "children_gate": "or",
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10007",
+            "name": "International Response",
+            "description": "Governments and organizations from other countries respond to the earthquake.",
+            "wd_node": "wd:Q31983622",
+            "wd_label": "reaction",
+            "wd_description": "action or statement in response to a stimulus or other event",
+            "isSchema": true,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [],
+            "children": [
+                "resin:Events/10048",
+                "resin:Events/10049",
+                "resin:Events/10051",
+                "resin:Events/10057",
+                "resin:Events/10077",
+                "resin:Events/10078",
+                "resin:Events/10080"
+            ],
+            "children_gate": "or",
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10009",
+            "name": "Foreshock",
+            "description": "earthquake that occurs before the larger mainshock, and is related to the latter in both time and space",
+            "wd_node": "wd:Q950713",
+            "wd_label": "foreshock",
+            "wd_description": "earthquake that occurs before the larger mainshock, and is related to the latter in both time and space",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10011"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20005/A1_ppt_thing_trembling",
+                    "roleName": "A1_ppt_thing_trembling",
+                    "entity": "Entities/20315/"
+                },
+                {
+                    "@id": "Participants/20007/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10011",
+            "name": "Main Earthquake",
+            "description": "Formation of seismic waves ",
+            "wd_node": "wd:Q7944",
+            "wd_label": "earthquake",
+            "wd_description": "result of a sudden release of energy in the Earth's crust that creates seismic waves",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10013",
+                "resin:Events/10021"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20009/A1_ppt_ground_shaken",
+                    "roleName": "A1_ppt_ground_shaken",
+                    "entity": "Entities/20315/"
+                },
+                {
+                    "@id": "Participants/20011/A3_vsp_death/injury_toll",
+                    "roleName": "A3_vsp_death/injury_toll",
+                    "entity": "Entities/20005/"
+                },
+                {
+                    "@id": "Participants/20013/A4_vsp_damages/cost",
+                    "roleName": "A4_vsp_damages/cost",
+                    "entity": "Entities/20003/"
+                },
+                {
+                    "@id": "Participants/20015/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10013",
+            "name": "Aftershocks",
+            "description": "Aftershocks",
+            "wd_node": "wd:Q308442",
+            "wd_label": "aftershock",
+            "wd_description": "smaller earthquake that occurs after a previous large earthquake",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20017/A1_ppt_ground_shaken",
+                    "roleName": "A1_ppt_ground_shaken",
+                    "entity": "Entities/20315/"
+                },
+                {
+                    "@id": "Participants/20019/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10020",
+            "name": "Infrastructure Damage",
+            "description": "Buildings, roads, and other infrastructure are damaged or destroyed",
+            "wd_node": "wd:Q554774",
+            "wd_label": "property_damage",
+            "wd_description": "natural or intentional damage or destruction of public or private property",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10024"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20005/A0_pag_agent",
+                    "roleName": "A0_pag_agent",
+                    "entity": "Entities/20316/"
+                },
+                {
+                    "@id": "Participants/20007/A1_ppt_entity_damaged",
+                    "roleName": "A1_ppt_entity_damaged",
+                    "entity": "Entities/20317/"
+                },
+                {
+                    "@id": "Participants/20009/A2_mnr_instrument",
+                    "roleName": "A2_mnr_instrument",
+                    "entity": "Entities/20316/"
+                },
+                {
+                    "@id": "Participants/20011/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/20315/"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10021",
+            "name": "Tsunami",
+            "description": "Tsunamis can result from undersea earthquakes",
+            "wd_node": "wd:Q8070",
+            "wd_label": "tsunami",
+            "wd_description": "series of water waves caused by the displacement of a large volume of a body of water",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20013/A1_ppt_water",
+                    "roleName": "A1_ppt_water",
+                    "entity": "Entities/20097/"
+                },
+                {
+                    "@id": "Participants/20015/A3_vsp_death/injury_toll",
+                    "roleName": "A3_vsp_death/injury_toll",
+                    "entity": "Entities/20002/"
+                },
+                {
+                    "@id": "Participants/20017/A4_vsp_damages/cost",
+                    "roleName": "A4_vsp_damages/cost",
+                    "entity": "Entities/20003/"
+                },
+                {
+                    "@id": "Participants/20019/A5_vsp_run_up",
+                    "roleName": "A5_vsp_run_up",
+                    "entity": "Entities/20316/"
+                },
+                {
+                    "@id": "Participants/20021/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10023",
+            "name": "Death",
+            "description": "People can suffer injuries and death due to collapsing buildings, flying debris, and other hazards",
+            "wd_node": "wd:Q4",
+            "wd_label": "death",
+            "wd_description": "permanent cessation of vital functions",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20023/A1_ppt_the_deceased",
+                    "roleName": "A1_ppt_the_deceased",
+                    "entity": "Entities/20005/"
+                },
+                {
+                    "@id": "Participants/20025/AM_loc__location",
+                    "roleName": "AM_loc__location",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                },
+                {
+                    "@id": "Participants/20027/AM_cau__cause",
+                    "roleName": "AM_cau__cause",
+                    "entity": "Entities/20316/"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10024",
+            "name": "Displacement",
+            "description": "People can be left stranded or homeless due to displacement",
+            "wd_node": "wd:Q1800545",
+            "wd_label": "migration",
+            "wd_description": "displacement of a human or animal population",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20029/A0_pag_mover",
+                    "roleName": "A0_pag_mover",
+                    "entity": "Entities/20316/"
+                },
+                {
+                    "@id": "Participants/20031/A1_ppt_moved",
+                    "roleName": "A1_ppt_moved",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20033/AM_cau__cause",
+                    "roleName": "AM_cau__cause",
+                    "entity": "Entities/20316/"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10025",
+            "name": "Initial Assessment",
+            "description": "Initial assessments of the situation and potential casualties",
+            "wd_node": "wd:Q851176",
+            "wd_label": "assessment",
+            "wd_description": "value judgement about a fact, an object or a person",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10026"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20051/A0_pag_assessor",
+                    "roleName": "A0_pag_assessor",
+                    "entity": "Entities/20119/"
+                },
+                {
+                    "@id": "Participants/20053/A1_ppt_entity_assessed",
+                    "roleName": "A1_ppt_entity_assessed",
+                    "entity": "Entities/20315/"
+                },
+                {
+                    "@id": "Participants/20055/A2_prd_value_or_attribute",
+                    "roleName": "A2_prd_value_or_attribute",
+                    "entity": "Entities/20003/"
+                },
+                {
+                    "@id": "Participants/20057/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/20315/"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10026",
+            "name": "Deploy Search and Rescue Teams",
+            "description": "Deployment of search and rescue teams",
+            "wd_node": "wd:Q1308677",
+            "wd_label": "deployment",
+            "wd_description": "task-oriented activity of task forces",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10030"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20059/A0_pag_Deployer",
+                    "roleName": "A0_pag_Deployer",
+                    "entity": "Entities/20119/"
+                },
+                {
+                    "@id": "Participants/20061/A1_ppt_Deployed",
+                    "roleName": "A1_ppt_Deployed",
+                    "entity": "Entities/20138/"
+                },
+                {
+                    "@id": "Participants/20063/A2_loc_deployed_where",
+                    "roleName": "A2_loc_deployed_where",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                },
+                {
+                    "@id": "Participants/20065/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10029",
+            "name": "Provide Medical Assistance",
+            "description": "Providing medical assistance",
+            "wd_node": "wd:Q1595418",
+            "wd_label": "remedy",
+            "wd_description": "substance or procedure that ends a medical condition",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20083/A0_pag_causer_doctor",
+                    "roleName": "A0_pag_causer_doctor",
+                    "entity": "Entities/20130/"
+                },
+                {
+                    "@id": "Participants/20085/A1_dir_source_patient",
+                    "roleName": "A1_dir_source_patient",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20087/A2_ppt_theme_illness_or_injury",
+                    "roleName": "A2_ppt_theme_illness_or_injury",
+                    "entity": "Entities/20003/"
+                },
+                {
+                    "@id": "Participants/20089/A3_mnr__instrument_treatment",
+                    "roleName": "A3_mnr__instrument_treatment",
+                    "entity": "Entities/20297/"
+                },
+                {
+                    "@id": "Participants/20091/AM_loc__location",
+                    "roleName": "AM_loc__location",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10030",
+            "name": "Search for Survivors",
+            "description": "Searching for trapped survivors",
+            "wd_node": "wd:Q11540953",
+            "wd_label": "search",
+            "wd_description": "search for target data from a set of data",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10031"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20067/A0_pag_searcher",
+                    "roleName": "A0_pag_searcher",
+                    "entity": "Entities/20138/"
+                },
+                {
+                    "@id": "Participants/20069/A1_loc_Area_searched",
+                    "roleName": "A1_loc_Area_searched",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                },
+                {
+                    "@id": "Participants/20071/A2_ppt_searched_for",
+                    "roleName": "A2_ppt_searched_for",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20073/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10031",
+            "name": "Extricate Survivors",
+            "description": "Extricating survivors from debris",
+            "wd_node": "wd:Q1341429",
+            "wd_label": "rescue",
+            "wd_description": "comprises responsive operations that usually involve the saving of life, or prevention of injury",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10034",
+                "resin:Events/10029"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20075/A0_pag_rescuer",
+                    "roleName": "A0_pag_rescuer",
+                    "entity": "Entities/20138/"
+                },
+                {
+                    "@id": "Participants/20077/A1_ppt_entity_rescued",
+                    "roleName": "A1_ppt_entity_rescued",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20079/A2_dir_rescued_from",
+                    "roleName": "A2_dir_rescued_from",
+                    "entity": "Entities/20315/"
+                },
+                {
+                    "@id": "Participants/20081/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10034",
+            "name": "Transport Survivors",
+            "description": "Transporting survivors to safety",
+            "wd_node": "wd:Q1341429",
+            "wd_label": "rescue",
+            "wd_description": "comprises responsive operations that usually involve the saving of life, or prevention of injury",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20093/A0_pag_rescuer",
+                    "roleName": "A0_pag_rescuer",
+                    "entity": "Entities/20138/"
+                },
+                {
+                    "@id": "Participants/20095/A1_ppt_entity_rescued",
+                    "roleName": "A1_ppt_entity_rescued",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20097/A2_dir_rescued_from",
+                    "roleName": "A2_dir_rescued_from",
+                    "entity": "Entities/20315/"
+                },
+                {
+                    "@id": "Participants/20099/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10035",
+            "name": "Evaluate Damage",
+            "description": "Assessing the extent of damage ",
+            "wd_node": "wd:Q1379672",
+            "wd_label": "evaluation",
+            "wd_description": "systematic determination of a subject's merit, worth and significance",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10039"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20005/A0_pag_evaluator",
+                    "roleName": "A0_pag_evaluator",
+                    "entity": "Entities/20156/"
+                },
+                {
+                    "@id": "Participants/20007/A1_ppt_thing_evaluated",
+                    "roleName": "A1_ppt_thing_evaluated",
+                    "entity": "Entities/20315/"
+                },
+                {
+                    "@id": "Participants/20009/AM_loc__location",
+                    "roleName": "AM_loc__location",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10036",
+            "name": "Provide Shelter and Aid",
+            "description": "Providing shelter and aid to affected people ",
+            "wd_node": "wd:Q102358908",
+            "wd_label": "support",
+            "wd_description": "help for a person in a difficult situation",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20017/A0_pag_helper",
+                    "roleName": "A0_pag_helper",
+                    "entity": "Entities/20261/"
+                },
+                {
+                    "@id": "Participants/20019/A1_ppt_person",
+                    "roleName": "A1_ppt_person",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20021/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10038",
+            "name": "Distribute Relief Supplies",
+            "description": "Distributing relief supplies ",
+            "wd_node": "wd:Q989018",
+            "wd_label": "distribution",
+            "wd_description": "economical term referring to the way total output, income, or wealth is distributed among individuals or among the factors of production",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20031/A0_pag_distributor",
+                    "roleName": "A0_pag_distributor",
+                    "entity": "Entities/20261/"
+                },
+                {
+                    "@id": "Participants/20033/A2_gol_distributed_to",
+                    "roleName": "A2_gol_distributed_to",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20035/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10039",
+            "name": "Coordinate  Agencies",
+            "description": "Coordinating with other government agencies and private organizations ",
+            "wd_node": "wd:Q1145523",
+            "wd_label": "collaboration",
+            "wd_description": "working together",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10036",
+                "resin:Events/10038",
+                "resin:Events/10040"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20011/A0_pag_agent_focussed_party",
+                    "roleName": "A0_pag_agent_focussed_party",
+                    "entity": "Entities/20246/"
+                },
+                {
+                    "@id": "Participants/20013/A1_com_co_agent_second_party",
+                    "roleName": "A1_com_co_agent_second_party",
+                    "entity": "Entities/20145/"
+                },
+                {
+                    "@id": "Participants/20015/AM_loc__location",
+                    "roleName": "AM_loc__location",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10040",
+            "name": "Coordinate with Media Outlets",
+            "description": "Coordinating with local and national media outlets ",
+            "wd_node": "wd:Q1783823",
+            "wd_label": "coordination",
+            "wd_description": "action that ease collaboration between humans or groups of humans",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20023/A0_pag_organizer",
+                    "roleName": "A0_pag_organizer",
+                    "entity": "Entities/20246/"
+                },
+                {
+                    "@id": "Participants/20025/A1_ppt_entity_coordinated",
+                    "roleName": "A1_ppt_entity_coordinated",
+                    "entity": "Entities/20176/"
+                },
+                {
+                    "@id": "Participants/20027/A2_com_entity_coordinated_with",
+                    "roleName": "A2_com_entity_coordinated_with",
+                    "entity": "Entities/20177/"
+                },
+                {
+                    "@id": "Participants/20029/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10044",
+            "name": "Donate",
+            "description": "Donations from individuals, groups, and charities",
+            "wd_node": "wd:Q1161355",
+            "wd_label": "fundraising",
+            "wd_description": "process of gathering voluntary contributions of money or other resources",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20045/A0_pag_raiser_of_funds",
+                    "roleName": "A0_pag_raiser_of_funds",
+                    "entity": "Entities/20193/"
+                },
+                {
+                    "@id": "Participants/20047/A2_gol_beneficiary",
+                    "roleName": "A2_gol_beneficiary",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20049/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10045",
+            "name": "Increase Awareness",
+            "description": "Increase in media coverage and public awareness",
+            "wd_node": "wd:Q3030248",
+            "wd_label": "discussion",
+            "wd_description": "conversation between two or more people in which they express their point of view on a choosen theme",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10044"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20037/A0_pag_agent_discussant",
+                    "roleName": "A0_pag_agent_discussant",
+                    "entity": "Entities/20193/"
+                },
+                {
+                    "@id": "Participants/20039/A2_gol_co_agent_conversation_partner",
+                    "roleName": "A2_gol_co_agent_conversation_partner",
+                    "entity": "Entities/20194/"
+                },
+                {
+                    "@id": "Participants/20041/AM_loc__location",
+                    "roleName": "AM_loc__location",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                },
+                {
+                    "@id": "Participants/20043/A1_ppt__topic",
+                    "roleName": "A1_ppt__topic",
+                    "entity": "Entities/20316/"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10048",
+            "name": "Deploy Personnel",
+            "description": "Deployment of medical and relief personnel",
+            "wd_node": "wd:Q1308677",
+            "wd_label": "deployment",
+            "wd_description": "task-oriented activity of task forces",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10077"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20007/A0_pag_Deployer",
+                    "roleName": "A0_pag_Deployer",
+                    "entity": "Entities/20246/"
+                },
+                {
+                    "@id": "Participants/20009/A1_ppt_Deployed",
+                    "roleName": "A1_ppt_Deployed",
+                    "entity": "Entities/20038/"
+                },
+                {
+                    "@id": "Participants/20011/A2_loc_deployed_where",
+                    "roleName": "A2_loc_deployed_where",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                },
+                {
+                    "@id": "Participants/20013/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "children_gate": "or",
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10049",
+            "name": "Provide Aid",
+            "description": "Provision of food, shelter, and other forms of aid",
+            "wd_node": "wd:Q102358908",
+            "wd_label": "support",
+            "wd_description": "help for a person in a difficult situation",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10077"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20027/A0_pag_helper",
+                    "roleName": "A0_pag_helper",
+                    "entity": "Entities/20261/"
+                },
+                {
+                    "@id": "Participants/20029/A1_ppt_person",
+                    "roleName": "A1_ppt_person",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20031/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10051",
+            "name": "Coordinate Recovery Efforts",
+            "description": "Coordination of recovery efforts",
+            "wd_node": "wd:Q1783823",
+            "wd_label": "coordination",
+            "wd_description": "action that ease collaboration between humans or groups of humans",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10049",
+                "resin:Events/10080",
+                "resin:Events/10077",
+                "resin:Events/10048"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20021/A0_pag_organizer",
+                    "roleName": "A0_pag_organizer",
+                    "entity": "Entities/20038/"
+                },
+                {
+                    "@id": "Participants/20023/A1_ppt_entity_coordinated",
+                    "roleName": "A1_ppt_entity_coordinated",
+                    "entity": "Entities/20038/"
+                },
+                {
+                    "@id": "Participants/20025/A2_com_entity_coordinated_with",
+                    "roleName": "A2_com_entity_coordinated_with",
+                    "entity": "Entities/20261/"
+                },
+                {
+                    "@id": "Participants/20027/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10057",
+            "name": "Increase Relief Services",
+            "description": "Increased ability to provide relief services to those in need",
+            "wd_node": "wd:Q102358908",
+            "wd_label": "support",
+            "wd_description": "help for a person in a difficult situation",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20009/A0_pag_helper",
+                    "roleName": "A0_pag_helper",
+                    "entity": "Entities/20038/"
+                },
+                {
+                    "@id": "Participants/20011/A1_ppt_person",
+                    "roleName": "A1_ppt_person",
+                    "entity": "Entities/20064/"
+                },
+                {
+                    "@id": "Participants/20013/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10077",
+            "name": "Evaluate Relief Efforts",
+            "description": "Evaluation of medical and relief efforts",
+            "wd_node": "wd:Q1379672",
+            "wd_label": "evaluation",
+            "wd_description": "systematic determination of a subject's merit, worth and significance",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10078",
+                "resin:Events/10057"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20021/A0_pag_evaluator",
+                    "roleName": "A0_pag_evaluator",
+                    "entity": "Entities/20038/"
+                },
+                {
+                    "@id": "Participants/20023/A1_ppt_thing_evaluated",
+                    "roleName": "A1_ppt_thing_evaluated",
+                    "entity": "Entities/20261/"
+                },
+                {
+                    "@id": "Participants/20025/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10078",
+            "name": "Report Activities",
+            "description": "Reporting of medical and relief activities",
+            "wd_node": "wd:Q60050485",
+            "wd_label": "reporting",
+            "wd_description": "producing a report (oral or written)",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [],
+            "participants": [
+                {
+                    "@id": "Participants/20001/A0_pag_Reporter",
+                    "roleName": "A0_pag_Reporter",
+                    "entity": "Entities/20038/"
+                },
+                {
+                    "@id": "Participants/20003/A1_ppt_thing_reported",
+                    "roleName": "A1_ppt_thing_reported",
+                    "entity": "Entities/20316/"
+                },
+                {
+                    "@id": "Participants/20005/A2_gol_entity_reported_to",
+                    "roleName": "A2_gol_entity_reported_to",
+                    "entity": "Entities/20312/"
+                },
+                {
+                    "@id": "Participants/20007/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "resin:Events/10080",
+            "name": "Mobilize Resources",
+            "description": "Mobilization of resources ",
+            "wd_node": "wd:Q242412",
+            "wd_label": "mobilization",
+            "wd_description": "assembling and readying troops and supplies for war",
+            "isSchema": false,
+            "repeatable": false,
+            "outlinks": [
+                "resin:Events/10077"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20015/A0_pag_mobilizer",
+                    "roleName": "A0_pag_mobilizer",
+                    "entity": "Entities/20246/"
+                },
+                {
+                    "@id": "Participants/20017/A1_ppt_thing_mobilized",
+                    "roleName": "A1_ppt_thing_mobilized",
+                    "entity": "Entities/20038/"
+                },
+                {
+                    "@id": "Participants/20019/AM_loc",
+                    "roleName": "AM_loc",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "entities": [],
+            "relations": []
+        },
+        {
+            "@id": "Events/20000/Injury",
+            "name": "Injury",
+            "description": "Earthquake can injure people, possibly leading to death",
+            "wd_node": "wd:Q193078",
+            "wd_label": "injury",
+            "wd_description": "physiological wound caused by an external source",
+            "isSchema": false,
+            "repeatable": false,
+            "optional": false,
+            "outlinks": [
+                "resin:Events/10023"
+            ],
+            "participants": [
+                {
+                    "@id": "Participants/20001/A1_ppt_experiencer_injured_party",
+                    "roleName": "A1_ppt_experiencer_injured_party",
+                    "entity": "Entities/20005/"
+                },
+                {
+                    "@id": "Participants/20003/A0_pag_stimulus_stimulus_of_injury",
+                    "roleName": "A0_pag_stimulus_stimulus_of_injury",
+                    "entity": "Entities/20316/"
+                },
+                {
+                    "@id": "Participants/20005/AM_loc__location",
+                    "roleName": "AM_loc__location",
+                    "entity": "Entities/10000/Earthquake WideArea"
+                }
+            ],
+            "modality": [],
+            "importance": [],
+            "likelihood": [],
+            "entities": [],
+            "relations": []
+        }
+    ]
+}
