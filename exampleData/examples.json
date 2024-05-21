@@ -24,7 +24,7 @@
     },
     {
         "name": "Earthquake Reactions",
-        "schema": "/newssimulator/exampleData/earthquakes/earthquake_response_schema.json",
+        "schema": "/newssimulator/exampleData/earthquakes/earthquake_schema.json",
         "crtics": [
             {
                 "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v1_assumption.json",
