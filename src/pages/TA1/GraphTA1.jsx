@@ -132,7 +132,7 @@ export const GraphTA1 = () => {
                     zoomable
                     pannable
                 />
-                <div
+                {/* <div
                     style={{
                         position: "absolute",
                         bottom: 10,
@@ -144,7 +144,7 @@ export const GraphTA1 = () => {
                         initialValue={confidenceInterval}
                         onValueChange={setConfidenceInterval}
                     />
-                </div>
+                </div> */}
                 <Controls />
                 {clickedNode && (
                     <>
