@@ -201,13 +201,13 @@ export const TA1EntityInfoPanel = ({ data, onClose }) => {
                             </summary>
                             <table>
                                 <tr>
-                                    <th>Property</th>
-                                    <th>Value</th>
+                                    {/* <th>Property</th> */}
+                                    {/* <th>Entities</th> */}
                                 </tr>
                                 {Object.keys(data.populatedData.properties).map(
                                     (prop) => (
                                         <tr key={prop}>
-                                            <td>{prop}</td>
+                                            {/* <td>{prop}</td> */}
                                             <td>
                                                 {
                                                     data.populatedData

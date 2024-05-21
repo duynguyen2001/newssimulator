@@ -5,11 +5,9 @@ import { TA1EventNodeInfoPanel } from "../../TA1/TA1EventNodeInfoPanel";
 import "./Panel.css";
 
 export function InfoPanel({ data, onClose }) {
-    console.log("data", data);
     if (data === undefined) {
         return <></>;
     }
-    console.log("dataoverhere", data);
     if (data instanceof TA1Entity) {
         return <TA1EntityInfoPanel data={data} onClose={onClose} />;
     }

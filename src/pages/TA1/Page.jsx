@@ -13,20 +13,30 @@ import "./MarkdownPreviewCard.css";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import Box from "@mui/material/Box";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-import { Typography } from "@mui/material";
+import {
+    Stepper,
+    Step,
+    StepLabel,
+    Typography,
+    StepContent,
+    Button,
+} from "@mui/material";
 import { set } from "idb-keyval";
 
 const Page = () => {
     const [selectedTab, setSelectedTab] = React.useState("Timeline");
+    const [clickedNode] = useStoreTA1((state) => [state.clickedNode]);
+    console.log("clickedNode", clickedNode);
     return (
         <div
             style={{
                 display: "flex",
-                flexDirection: "row",
+                flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
                 height: "100vh",
@@ -36,23 +46,15 @@ const Page = () => {
         >
             <div
                 style={{
-                    width: "50vw",
-                    height: "100vh",
-                }}
-            >
-                <GraphTA1 />
-            </div>
-            <div
-                style={{
-                    width: "50vw",
-                    height: "100vh",
+                    width: "100vw",
+                    height: "fit-content",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "center",
                 }}
             >
-                <div
+                {/* <div
                     style={{
                         display: "flex",
                         flexDirection: "row",
@@ -113,27 +115,62 @@ const Page = () => {
                     >
                         Posts
                     </button>
-                </div>
+                </div> */}
 
                 <div
                     style={{
-                        height: "80vh",
-                        width: "80%",
+                        height: "fit-content",
+                        width: clickedNode? "50%" : "80%",
                         border: "1px solid black",
-
-                        position: "relative",
-                        overflowY: "scroll",
+                        left: "10vw",
+                        top: "5vh",
+                        zIndex: 1,
+                        position: "absolute",
+                        backgroundColor: "white",
                     }}
                 >
-                    {selectedTab === "Situation Reports" && (
+                    {/* {selectedTab === "Situation Reports" && (
                         <SituationReportsPage />
-                    )}
+                    )} */}
                     {selectedTab === "Timeline" && <TimelinePage />}
                 </div>
+            </div>
+            <div
+                style={{
+                    width: "100vw",
+                    height: "100vh",
+                }}
+            >
+                <GraphTA1 />
             </div>
         </div>
     );
 };
+const CircleBig = ({ active }) => {
+    return (
+        <Box
+            sx={{
+                height: 32,
+                width: 32,
+                borderRadius: "50%",
+                backgroundColor: active ? "black": "grey",
+            }}
+        />
+    );
+};
+const CircleSmall = ({active}) => {
+    return (
+        <Box
+            sx={{
+                height: 16,
+                width: 16,
+                borderRadius: "50%",
+                center: "center",
+                backgroundColor: active ? "black" : "grey",
+            }}
+        />
+    );
+}
 const TimelinePage = () => {
     const [News, setNews] = useContext(NewsContext);
     const [TimelineNews, setTimelineNews] = useState([]);
@@ -189,154 +226,185 @@ const TimelinePage = () => {
             <div
                 style={{
                     position: "relative",
-                    overflowY: "scroll",
-                    width: "100%",
+                    overflowX: "hidden",
+                    width: "initial",
                     display: "flex",
+                    margin: "50px 10px 10px 10px",
                     flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "center",
                 }}
             >
-                <Timeline position="alternate">
-                    {listDate &&
-                        listDate.map((date) => {
-                            return (
-                                <>
-                                    <TimelineItem
+                <div
+                    style={{
+                        overflowX: "scroll",
+                        display: "flex",
+                        justifyContent: "center",
+                        width: "100%",
+                        alignItems: "center",
+                        flexDirection: "row",
+                    }}
+                >
+                    <Stepper orientation="horizontal" alternativeLabel>
+                        {listDate &&
+                            listDate.map((date, dateIndex) => [
+                                <Step
+                                    orientation="vertical"
+                                    key={dateIndex}
+                                    active={chosenDate === date}
+                                >
+                                    <StepLabel
                                         onClick={() => {
                                             setChosenDate(date);
                                             setChosenNews(null);
                                         }}
+                                        StepIconComponent={CircleBig}
+                                        style={
+                                            chosenDate === date
+                                                ? chosenStyle
+                                                : {}
+                                        }
                                     >
-                                        <TimelineOppositeContent
-                                            style={
-                                                date === chosenDate
-                                                    ? chosenStyle
-                                                    : {}
-                                            }
-                                        >
-                                            {date}
-                                        </TimelineOppositeContent>
-                                        <TimelineSeparator>
-                                            <TimelineDot
-                                                style={
-                                                    date === chosenDate
-                                                        ? {
-                                                              backgroundColor:
-                                                                  "black",
-                                                          }
-                                                        : {}
+                                        {date}
+                                    </StepLabel>
+                                </Step>,
+                                TimelineNews &&
+                                    TimelineNews.map((article, index) => {
+                                        const articleDateString =
+                                            article.date.toLocaleString(
+                                                "default",
+                                                {
+                                                    month: "long",
+                                                    day: "numeric",
+                                                    year: "numeric",
                                                 }
-                                            />
-                                            <TimelineConnector />
-                                        </TimelineSeparator>
-                                        <TimelineContent
-                                            sx={{ m: "auto 0" }}
-                                            variant="body2"
-                                            color="text.secondary"
-                                        ></TimelineContent>
-                                    </TimelineItem>
-                                    {TimelineNews &&
-                                        TimelineNews.map((article, index) => {
-                                            const articleDateString =
-                                                article.date.toLocaleString(
-                                                    "default",
-                                                    {
-                                                        month: "long",
-                                                        day: "numeric",
-                                                        year: "numeric",
-                                                    }
-                                                );
-                                            if (
-                                                chosenDate === date &&
-                                                articleDateString === chosenDate
-                                            ) {
-                                                return (
-                                                    <TimelineItem
-                                                        key={article.id}
-                                                        onClick={() => {
-                                                            setChosenNews(
-                                                                article
-                                                            );
-                                                            setChosenIndex(
-                                                                index
-                                                            );
-                                                        }}
+                                            );
+                                        if (
+                                            articleDateString === date &&
+                                            date === chosenDate
+                                        ) {
+                                            return (
+                                                <Step
+                                                    key={article.id}
+                                                    onClick={() => {
+                                                        setChosenNews(article);
+                                                        setChosenIndex(index);
+                                                    }}
+                                                >
+                                                    <StepLabel
+                                                        StepIconComponent={
+                                                            CircleSmall
+                                                        }
                                                     >
-                                                        <TimelineOppositeContent>
-                                                            <Typography
-                                                                style={
-                                                                    chosenIndex ===
+                                                        <Typography
+                                                            onClick={() => {
+                                                                setChosenNews(
+                                                                    article
+                                                                );
+                                                                setChosenIndex(
                                                                     index
-                                                                        ? chosenStyle
-                                                                        : {}
-                                                                }
-                                                            >
-                                                                {article.hour}
-                                                                {":"}
-                                                                {article.minute <
+                                                                );
+                                                            }}
+                                                            style={
+                                                                chosenIndex ===
+                                                                index
+                                                                    ? chosenStyle
+                                                                    : {}
+                                                            }
+                                                        >
+                                                            {`${article.hour}:${
+                                                                article.minute <
                                                                 10
                                                                     ? `0${article.minute}`
-                                                                    : article.minute}
-                                                            </Typography>
-                                                            <br />
-                                                        </TimelineOppositeContent>
-                                                        <TimelineSeparator>
-                                                            <TimelineDot
-                                                                variant="outlined"
-                                                                style={
-                                                                    chosenIndex ===
-                                                                    index
-                                                                        ? {
-                                                                              borderColor:
-                                                                                  "black",
-                                                                          }
-                                                                        : {}
-                                                                }
-                                                            />
-                                                            <TimelineConnector />
-                                                        </TimelineSeparator>
-                                                        <TimelineContent
-                                                            sx={{ m: "auto 0" }}
-                                                            variant="body2"
-                                                            color="text.secondary"
+                                                                    : article.minute
+                                                            }`}
+                                                        </Typography>
+                                                        <Typography
+                                                            variant="p"
+                                                            style={
+                                                                chosenIndex ===
+                                                                index
+                                                                    ? chosenStyle
+                                                                    : {}
+                                                            }
                                                         >
-                                                            {chosenIndex ===
-                                                            index ? (
-                                                                <>
-                                                                    <Typography
-                                                                        variant="h6"
-                                                                        component="span"
-                                                                        style={
-                                                                            chosenStyle
-                                                                        }
-                                                                    >
-                                                                        {
-                                                                            article.schemaEvent
-                                                                        }
-                                                                    </Typography>
-                                                                    <Typography
-                                                                        style={
-                                                                            chosenStyle
-                                                                        }
-                                                                    >
-                                                                        {
-                                                                            article.description
-                                                                        }
-                                                                    </Typography>
-                                                                </>
-                                                            ) : (
+                                                            {
                                                                 article.schemaEvent
-                                                            )}
-                                                        </TimelineContent>
-                                                    </TimelineItem>
-                                                );
-                                            }
-                                        })}
-                                </>
-                            );
-                        })}
-                </Timeline>
+                                                            }
+                                                        </Typography>
+                                                    </StepLabel>
+                                                    <StepContent>
+                                                        {chosenIndex ===
+                                                            index && (
+                                                            <>
+                                                                <Typography
+                                                                    variant="h6"
+                                                                    style={
+                                                                        chosenStyle
+                                                                    }
+                                                                >
+                                                                    {
+                                                                        article.schemaEvent
+                                                                    }
+                                                                </Typography>
+                                                                <Typography
+                                                                    style={
+                                                                        chosenStyle
+                                                                    }
+                                                                >
+                                                                    {
+                                                                        article.description
+                                                                    }
+                                                                </Typography>
+                                                            </>
+                                                        )}
+                                                    </StepContent>
+                                                </Step>
+                                            );
+                                        }
+                                        return null;
+                                    }),
+                            ])}
+                    </Stepper>
+                </div>
+
+                <div
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        width: "100%",
+                        height: "100%",
+                    }}
+                >
+                    {chosenNews && (
+                        <div
+                            style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "center",
+                                alignItems: "center",
+                                width: "80%",
+                                height: "100%",
+                            }}
+                        >
+                            <Typography
+                                variant="h6"
+                                style={{
+                                    fontWeight: "bold",
+                                    alignSelf: "left",
+                                }}
+                            >
+                                {chosenNews.schemaEvent}
+                            </Typography>
+                            <Typography>{chosenNews.time}</Typography>
+                            <ReactMarkdown>
+                                {chosenNews.description}
+                            </ReactMarkdown>
+                        </div>
+                    )}
+                </div>
             </div>
         </>
     );
@@ -406,7 +474,6 @@ const SituationReportsPage = () => {
                             flexDirection: "column",
                             justifyContent: "center",
                             // alignItems: "center",
-                            overflowY: "scroll",
                         }}
                     >
                         {articleLists &&
