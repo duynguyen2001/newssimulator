@@ -15,6 +15,7 @@ export const ToggleButtonTA1 = ({ name, id, relatedEventsLength, chosen = false,
             ? chosenEntities.filter((item) => item !== id)
             : [...chosenEntities, id];
         setChosenEntities(updatedList);
+        handleClick()
     };
 
     return (

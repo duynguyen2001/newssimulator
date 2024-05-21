@@ -1,0 +1,3462 @@
+[
+  {
+    "schemaEvent": "Airborne Transmission",
+    "time": "2030-01-01 09:00",
+    "description": "During a high-profile business conference at the Grand Metropolitan Convention Center, Maria Gonzalez unknowingly becomes infected with a novel airborne pathogen. The highly infectious nature of the disease, combined with the short incubation period, leads to rapid transmission among attendees, including David Thompson, a financial analyst present at the event.",
+    "participants": {
+      "A0-pag_agent_causer_of_contamination": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A1-gol_destination_thing_becoming_contaminated": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 13:00",
+    "description": "Maria Gonzalez, now unknowingly carrying the novel airborne pathogen, spends time organizing and planning for upcoming work projects in her office. During this period, she touches shared office supplies, potentially leading to further transmission of the highly infectious disease among her colleagues.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Direct Transmission",
+    "time": "2030-01-01 14:00",
+    "description": "Maria Gonzalez meets with colleagues at a bustling coffee shop to discuss work projects. Unbeknownst to them, the highly infectious airborne pathogen Novarix-21 is transmitted among the group, further spreading the disease in the densely populated urban area.",
+    "participants": {
+      "A0_pag_spreader": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A1_gol_thing_becoming_infected": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Airborne Transmission",
+    "time": "2030-01-01 16:00",
+    "description": "Alex Carter, unknowingly carrying the highly infectious airborne pathogen Novarix-21, goes for a run in the local park. During his run, he interacts with several friends, further facilitating the rapid spread of the disease in the densely populated urban area.",
+    "participants": {
+      "A0-pag_agent_causer_of_contamination": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A1-gol_destination_thing_becoming_contaminated": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Social Gathering",
+    "time": "2030-01-01 17:00",
+    "description": "Maria Gonzalez attends a social gathering at a friend's house, where her outgoing nature leads her to interact closely with many attendees. Unbeknownst to her, she is carrying the highly infectious airborne pathogen Novarix-21, which she transmits to several friends, further accelerating the spread of the disease in the densely populated urban area.",
+    "participants": {
+      "A0_pag_celebrator": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 19:00",
+    "description": "After a busy day of unknowingly spreading the highly infectious Novarix-21 pathogen, Maria Gonzalez prepares a healthy dinner at home. As she finishes her meal, she begins to feel mild symptoms of the disease, including a slight cough and fatigue.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 22:00",
+    "description": "As Maria Gonzalez prepares for bed, she takes a moment to reflect on her busy day, setting goals for the upcoming week. Despite feeling increasingly fatigued and noticing a persistent cough, she remains unaware of the severity of her symptoms and the potential impact of her actions on the spread of the highly infectious Novarix-21 pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-02 00:00",
+    "description": "On January 2, 2030, a surge in new infections is anticipated in the densely populated urban area due to the rapid spread of the highly infectious airborne pathogen Novarix-21. Individuals who had contact with Maria Gonzalez and Alex Carter on January 1, 2030, are expected to exhibit symptoms and further disseminate the virus. The situation is dire, necessitating immediate public health measures to curb the outbreak.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Central City Transit System",
+        "type": "other",
+        "description": "The Central City Transit System is the primary public transportation network in the bustling metropolitan area. It includes buses, subways, and trams that connect various parts of the city, making it a vital part of daily life for millions of residents and visitors.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-02 00:00",
+    "description": "On January 2, 2030, individuals exposed to the highly infectious airborne pathogen Novarix-21 on January 1st begin to experience symptoms such as cough and fatigue, underscoring the pathogen's short incubation period. The outbreak, which originated from interactions at a local park and a social gathering, continues to spread rapidly in the densely populated urban area, prompting immediate public health interventions to contain the virus.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 01:00",
+    "description": "Alex Carter, a 29-year-old fitness enthusiast and personal trainer, went for a run in the local park, interacting with several friends along the way. Unbeknownst to him, he was carrying the highly infectious airborne pathogen Novarix-21, which he inadvertently spread to others in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 02:00",
+    "description": "Alex Carter, still unaware of his infection with the highly contagious Novarix-21, meets with friends at a bustling local caf\u00e9. During their gathering, the airborne pathogen continues to spread rapidly among the patrons, further exacerbating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "On the morning of January 2, 2030, Maria Gonzalez, feeling increasingly unwell with a persistent cough and fatigue, calls her workplace to report her symptoms. She informs her employer about her potential exposure to the highly infectious airborne pathogen Novarix-21, emphasizing the need for immediate precautions to prevent further spread within the office.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "David Thompson, unaware of his recent infection with the highly contagious airborne pathogen Novarix-21, prepares for his day and heads to his office in the bustling downtown area, potentially exposing numerous colleagues and commuters to the disease.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "Alex Carter, still unaware of his infection with Novarix-21, attends a crowded group fitness class at a local gym. During the high-intensity workout, the airborne pathogen spreads rapidly among the participants, further accelerating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 09:00",
+    "description": "Feeling increasingly unwell with a persistent cough and fatigue, Maria Gonzalez schedules a telehealth appointment with a doctor to discuss her symptoms and receive medical advice on managing the highly infectious Novarix-21 pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 09:00",
+    "description": "David Thompson promptly informs his workplace about the potential exposure to the highly infectious airborne pathogen Novarix-21 and initiates a discussion with management regarding the implementation of remote work options to mitigate further spread among colleagues.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-02 10:00",
+    "description": "Maria Gonzalez receives an urgent call from Dr. Emily Chen, a health official, informing her that she may have been exposed to the highly infectious Novarix-21 pathogen. Dr. Chen advises Maria to get tested immediately to confirm her status and to take necessary precautions to prevent further spread of the virus.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "David Thompson attends a scheduled meeting with a key client at their office to discuss financial strategies. Unbeknownst to him, he is already contagious with the highly infectious airborne pathogen Novarix-21, potentially spreading the disease to the client and others in the office.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "Alex Carter, still unaware of his infection with the highly contagious Novarix-21, meets Maria in person to offer support and discuss her new role. During their meeting, the airborne pathogen spreads to Maria, further contributing to the rapid outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-02 11:00",
+    "description": "Maria Gonzalez promptly notifies her friends and recent contacts about her symptoms and potential exposure to the highly infectious Novarix-21 pathogen, urging them to monitor their health and get tested immediately to prevent further spread of the virus.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Michael Patel",
+        "type": "person",
+        "description": "Dr. Michael Patel is a 42-year-old emergency medicine physician working at Central City General Hospital. He is known for his quick decision-making skills and his ability to stay calm under pressure. Dr. Patel is dedicated to his patients and often goes above and beyond to ensure they receive the best care possible.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 11:00",
+    "description": "David Thompson attends a team meeting in his office, unknowingly spreading the highly infectious airborne pathogen Novarix-21 to his colleagues, further exacerbating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "Maria Gonzalez contacts her workplace to inform them of her positive test result for the highly infectious Novarix-21 pathogen. She provides a detailed list of colleagues she interacted with recently, urging her employer to take immediate precautions to prevent further spread within the office.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "David Thompson meets a colleague for lunch at a nearby restaurant, unknowingly continuing to spread the highly infectious airborne pathogen Novarix-21 to his colleague and other patrons in the crowded establishment.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 13:00",
+    "description": "Maria Gonzalez, now experiencing more severe symptoms including a high fever and difficulty breathing, is advised to rest, stay hydrated, and take her prescribed medications. She remains under close observation to monitor her symptoms, given the highly infectious and potentially fatal nature of the Novarix-21 pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 14:00",
+    "description": "After noticing mild symptoms, David Thompson diligently researches and stays updated on Novarix-21 developments and guidelines from health authorities to ensure he takes appropriate measures to mitigate the spread of the highly infectious airborne pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-02 15:00",
+    "description": "Maria Gonzalez receives confirmation of her Novarix-21 infection and promptly contacts health officials to provide a comprehensive list of her recent contacts, including friends, colleagues, and social acquaintances, to help contain the spread of the highly infectious pathogen.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 15:00",
+    "description": "After experiencing mild symptoms and staying informed about Novarix-21, David Thompson contacts his healthcare provider for advice and possible testing to confirm if he has contracted the highly infectious airborne pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 15:00",
+    "description": "Alex Carter, still unaware of his infection with Novarix-21, participates in an outdoor group fitness session with his clients. During the session, the airborne pathogen spreads quickly among the participants, further exacerbating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 16:00",
+    "description": "Maria Gonzalez contacts her health provider again to report her worsening symptoms, including high fever and difficulty breathing, and seeks urgent advice on whether she needs to be hospitalized due to the highly infectious and potentially fatal Novarix-21 pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 17:00",
+    "description": "David Thompson promptly informs his family and close contacts about his potential exposure to the highly infectious airborne pathogen Novarix-21, advising them to monitor for symptoms, seek medical advice, and follow health guidelines to prevent further transmission.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 17:00",
+    "description": "Later in the day, Alex Carter, still unaware of his infection with the highly contagious Novarix-21, visits a crowded grocery store to pick up some essentials. As he moves through the aisles, the airborne pathogen spreads rapidly among the shoppers, further accelerating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 18:00",
+    "description": "Maria Gonzalez, now experiencing severe symptoms of the highly infectious Novarix-21 pathogen, prepares a light dinner and continues to rest in isolation, strictly avoiding any social interactions to prevent further transmission of the virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-03 00:00",
+    "description": "As the Novarix-21 pathogen continues to spread rapidly in the densely populated urban area, an increasing number of individuals experiencing severe symptoms are urgently contacting their health providers. Dr. Emily Chen, an infectious disease specialist at Central City General Hospital, is inundated with calls from patients like Maria Gonzalez, who are seeking immediate medical advice to manage their condition and prevent further transmission.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-03 00:00",
+    "description": "By January 3, 2030, individuals exposed to the highly infectious Novarix-21 pathogen, including Alex Carter and others from the fitness session and grocery store, begin to experience symptoms such as high fever and difficulty breathing. The rapid onset of symptoms underscores the severity and swift transmission of the novel airborne disease in the densely populated urban area.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-03 00:00",
+    "description": "The highly infectious airborne pathogen Novarix-21 continues to spread rapidly in the densely populated urban area, with new infections expected to emerge as individuals exposed during recent high-risk activities, such as visits to crowded grocery stores and public transportation, begin to show symptoms. Health authorities are urging the public to adhere to strict guidelines to prevent further transmission, as the pathogen's short incubation period and high fatality rate pose a significant public health threat.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Central City Transit System",
+        "type": "other",
+        "description": "The Central City Transit System is the primary public transportation network in the bustling metropolitan area. It includes buses, subways, and trams that connect various parts of the city, making it a vital part of daily life for millions of residents and visitors.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-03 01:00",
+    "description": "Dr. Emily Chen contacts Maria Gonzalez to provide her with detailed instructions on isolation and care, emphasizing the importance of strict adherence to prevent further transmission of the highly infectious Novarix-21 pathogen. Dr. Chen also works with Maria to identify any additional individuals she may have been in contact with recently, ensuring that they are promptly notified and tested to help contain the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_pag_agent_caller": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_theme_item_being_labelled": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 01:00",
+    "description": "On the morning of January 3, 2030, Alex Carter, still unaware of his infection with the highly contagious Novarix-21, continues his daily routine by going for an early morning run in the park. As he jogs, the airborne pathogen spreads to other joggers and park-goers, further accelerating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-03 01:00",
+    "description": "Dr. Emily Chen urgently advises Maria Gonzalez to proceed to Central City General Hospital for immediate evaluation and potential hospitalization due to her rapidly worsening symptoms from the highly infectious and potentially fatal Novarix-21 pathogen.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-03 02:00",
+    "description": "Dr. Emily Chen, an infectious disease specialist at Central City General Hospital, contacts Maria Gonzalez to inform her that she may have been exposed to the highly infectious Novarix-21 pathogen. Dr. Chen advises Maria to get tested immediately to confirm her status and to take necessary precautions to prevent further spread of the virus in the densely populated urban area.",
+    "participants": {
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1_examined": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 02:00",
+    "description": "Maria Gonzalez, following the urgent advice from Dr. Emily Chen, begins to prepare necessary items for a potential hospital stay. She meticulously disinfects her personal belongings to prevent further transmission of the highly infectious Novarix-21 pathogen, ensuring she adheres to strict guidelines to protect herself and others in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 03:00",
+    "description": "Dr. Emily Chen convenes an emergency meeting with the hospital's infectious disease team to strategize and implement protocols for managing the anticipated surge in Novarix-21 cases. The team discusses isolation procedures, resource allocation, and communication plans to ensure swift and effective response to the rapidly evolving outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 03:00",
+    "description": "On the night of January 3, 2030, Alex Carter, still unaware of his infection with the highly contagious Novarix-21, meets a friend for a late-night snack at a 24-hour diner. During their time at the diner, the airborne pathogen spreads to his friend and other patrons, further contributing to the rapid outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 03:00",
+    "description": "Maria Gonzalez promptly informs her close contacts, health authorities, and colleagues from the recent business conference about her potential exposure to the highly infectious Novarix-21 pathogen. She provides detailed accounts of her recent interactions and urges them to get tested and take necessary precautions to prevent further spread in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 04:00",
+    "description": "Maria Gonzalez reflects on her interactions at the recent business conference, realizing the high potential for the airborne Novarix-21 pathogen to spread rapidly among attendees due to its high infectivity and the densely populated urban setting.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 06:00",
+    "description": "Dr. Emily Chen, recognizing the critical need to confirm her own health status amidst the Novarix-21 outbreak, undergoes testing to ensure she can continue to provide care safely and prevent further transmission of the highly infectious pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-03 06:00",
+    "description": "Maria Gonzalez, after receiving her positive test result for the highly infectious Novarix-21 pathogen, urgently contacts her colleagues and friends to inform them of her status. She advises them to get tested immediately and to take necessary precautions to prevent further spread of the virus in the densely populated urban area.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Laura Martinez",
+        "type": "person",
+        "description": "Dr. Laura Martinez is a 36-year-old pulmonologist working at Central City General Hospital. She is known for her expertise in respiratory diseases and her dedication to patient care. Dr. Martinez is proactive and meticulous, often collaborating with her colleagues to ensure the best outcomes for her patients.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 07:00",
+    "description": "David Thompson attends a high-profile business conference in the city, unknowingly carrying the highly infectious airborne pathogen Novarix-21, potentially exposing numerous attendees to the novel disease.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "Dr. Emily Chen holds a comprehensive briefing with the hospital staff at Central City General Hospital to update them on the latest developments regarding the highly infectious and potentially fatal Novarix-21 pathogen. She outlines the airborne transmission mode, high infectivity, and short incubation period, emphasizing the critical importance of strict adherence to updated protocols to manage the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "On the morning of January 3, 2030, Alex Carter, still unaware of his infection with the highly contagious Novarix-21, attends a morning yoga class at a local studio. During the session, the airborne pathogen spreads to the instructor and other participants, further exacerbating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "On the morning of January 4, 2030, David Thompson met a colleague for breakfast at a nearby caf\u00e9, unknowingly continuing to spread the highly infectious airborne pathogen Novarix-21 to his colleague and other patrons in the bustling urban establishment.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Monitoring",
+    "time": "2030-01-03 08:00",
+    "description": "Maria Gonzalez, having tested positive for the highly infectious Novarix-21 pathogen, is advised by Dr. Rachel Kim to rest and closely monitor her symptoms while awaiting further instructions. Dr. Kim emphasizes the importance of isolation to prevent further transmission in the densely populated urban area.",
+    "participants": {
+      "A1_loc_thing_looked_at": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_observer": {
+        "name": "Dr. Rachel Kim",
+        "type": "person",
+        "description": "Dr. Rachel Kim is a 40-year-old infectious disease nurse practitioner working at Central City General Hospital. She is known for her hands-on approach to patient care and her ability to provide comfort and reassurance to patients during outbreaks. Dr. Kim is highly skilled in managing infectious diseases and works closely with other specialists to ensure comprehensive care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 09:00",
+    "description": "On January 4, 2030, David Thompson attended a team meeting at his office, unknowingly continuing to spread the highly infectious airborne pathogen Novarix-21 to his colleagues, further exacerbating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Disinfect",
+    "time": "2030-01-03 10:00",
+    "description": "Dr. Emily Chen leads a team of specialized cleaners to thoroughly disinfect all contaminated areas within Central City General Hospital, implementing stringent protocols to prevent the further spread of the highly infectious and potentially fatal Novarix-21 pathogen.",
+    "participants": {
+      "A0_pag_agent_cleaner": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 10:00",
+    "description": "On January 4, 2030, David Thompson met a colleague for lunch at a nearby restaurant, unknowingly continuing to spread the highly infectious airborne pathogen Novarix-21 to his colleague and other diners in the crowded urban establishment.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 11:00",
+    "description": "David Thompson, after noticing mild symptoms, diligently researches and stays updated on Novarix-21 developments and guidelines from health authorities to ensure he takes appropriate measures to prevent further transmission of the highly infectious airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 12:00",
+    "description": "Dr. Emily Chen, an infectious disease specialist at Central City General Hospital, held a press conference to inform the public about the highly infectious and potentially fatal Novarix-21 pathogen. She detailed the airborne transmission mode, high infectivity, short incubation period, and necessary precautions to prevent further spread in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 12:00",
+    "description": "Health officials convene a virtual meeting to urgently discuss containment strategies for the highly contagious and deadly Novarix-21 outbreak in the densely populated urban area. The discussion focuses on immediate quarantine measures, public health advisories, and resource allocation to curb the rapid spread of the novel airborne pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 12:00",
+    "description": "David Thompson, after noticing mild symptoms and staying updated on Novarix-21 developments, contacts his healthcare provider for advice and possible testing to confirm if he has contracted the highly infectious airborne pathogen, aiming to take appropriate measures to prevent further transmission in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-03 12:00",
+    "description": "Maria Gonzalez, following her positive test result for the highly infectious Novarix-21 pathogen, schedules a follow-up consultation with Dr. Emily Chen. During the consultation, Dr. Chen provides new directives for Maria to follow, including additional isolation measures and symptom monitoring protocols. Maria diligently updates Dr. Chen on her current condition and any new symptoms, ensuring that she complies with all medical advice to prevent further spread of the virus in the densely populated urban area.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Collect Lab Samples",
+    "time": "2030-01-03 14:00",
+    "description": "Dr. Emily Chen, leading a team of medical professionals, systematically collects lab samples from various surfaces throughout Central City General Hospital. This effort aims to monitor the presence of the highly infectious Novarix-21 pathogen and ensure that the stringent safety protocols implemented are effectively preventing further transmission within the densely populated urban area.",
+    "participants": {
+      "A0_pag_processor": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_thing_processed": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-03 16:00",
+    "description": "Dr. Emily Chen, leveraging her expertise as an infectious disease specialist, meticulously reviews and analyzes the latest data on Novarix-21 cases at Central City General Hospital. She integrates her own test results into the analysis to adjust containment strategies, ensuring a comprehensive approach to managing the highly infectious and fatal pathogen in the densely populated urban area.",
+    "participants": {
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Jessica Lee",
+        "type": "person",
+        "description": "Jessica Lee is a 32-year-old software developer living in the city. She is known for her tech-savvy skills and often works remotely from various coffee shops and co-working spaces. Jessica enjoys attending tech meetups and socializing with her peers in the tech community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 16:00",
+    "description": "Health officials and public health experts urgently research and disseminate critical information on social media about Novarix-21 prevention and safety measures. They emphasize the importance of wearing masks, maintaining social distance, and avoiding crowded places to curb the rapid spread of the highly infectious and deadly airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 00:00",
+    "description": "Dr. Emily Chen, leveraging her expertise and dedication, promptly reviews and responds to a surge of urgent patient calls and messages regarding the highly infectious Novarix-21 pathogen. She provides critical medical advice and updates on containment measures to ensure the safety and well-being of the densely populated urban community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-04 00:00",
+    "description": "Health officials, led by Dr. Emily Chen, will launch an extensive contact tracing and monitoring initiative to identify individuals exposed to the highly infectious Novarix-21 virus in Central City. This effort aims to curb the rapid spread of the deadly airborne pathogen by ensuring that exposed individuals are promptly isolated and receive appropriate medical care, thereby protecting the densely populated urban community.",
+    "participants": {
+      "A0_pag_agent_caller": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_theme_item_being_labelled": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-04 00:00",
+    "description": "On January 4, 2030, numerous individuals in the densely populated urban area, suspecting they may have contracted the highly infectious Novarix-21 pathogen, will contact their healthcare providers for advice and possible testing. This proactive approach, driven by heightened awareness and recent public health advisories, aims to curb the rapid spread of the deadly airborne disease by ensuring timely medical intervention and adherence to safety protocols. Dr. Emily Chen, an infectious disease specialist, will play a crucial role in guiding these individuals through the necessary steps to manage their health and prevent further transmission.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-04 00:00",
+    "description": "The highly infectious airborne pathogen Novarix-21 continues to spread rapidly in the densely populated urban area. Despite stringent containment measures and public health advisories, new infections are being reported as the pathogen's short incubation period and high infectivity challenge efforts to curb its transmission. Health officials are working tirelessly to manage the outbreak and prevent further spread.\n\n---\n\nEvent: The highly infectious airborne pathogen Novarix-21 continues to spread rapidly in the densely populated urban area. Despite stringent containment measures and public health advisories, new infections are being reported as the pathogen's short incubation period and high infectivity challenge efforts to curb its transmission. Health officials are working tirelessly to manage the outbreak and prevent further spread.\n\nConditions: The mode of transmission of the disease is airborne. - The infectivity of the disease is high. - The fatality rate is high. - The incubation period is short (a few days). - The pathogen is novel. - The location of the outbreak is in a highly populated urban area.\n\nPrevious Events: [2030-01-03 16:00] [Gather Data]Dr. Emily Chen, leveraging her expertise as an infectious disease specialist, meticulously reviews and analyzes the latest data on Novarix-21 cases at Central City General Hospital. She integrates her own test results into the analysis to adjust containment strategies, ensuring a comprehensive approach to managing the highly infectious and fatal pathogen in the densely populated urban area. - [2030-01-03 16:00] Health officials and public health experts urgently research and disseminate critical information on social media about Novarix-21 prevention and safety measures. They emphasize the importance of wearing masks, maintaining social distance, and avoiding crowded places to curb the rapid spread of the highly infectious and deadly airborne pathogen in the densely populated urban area. - [2030-01-04 00:00] Dr. Emily Chen, leveraging her expertise and dedication, promptly reviews and responds to a surge of urgent patient calls and messages regarding the highly infectious Novarix-21 pathogen. She provides critical medical advice and updates on containment measures to ensure the safety and well-being of the densely populated urban community. - [2030-01-04 00:00] [Identify Exposed People]Health officials, led by Dr. Emily Chen, will launch an extensive contact tracing and monitoring initiative to identify individuals exposed to the highly infectious Novarix",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Central City Transit System",
+        "type": "other",
+        "description": "The Central City Transit System is the primary public transportation network in the bustling metropolitan area. It includes buses, subways, and trams that connect various parts of the city, making it a vital part of daily life for millions of residents and visitors.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 01:00",
+    "description": "Health officials mandate immediate self-isolation at home for all residents in the densely populated urban area to prevent further spread of the highly contagious and deadly Novarix-21 virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 01:00",
+    "description": "Reflecting on her recent interactions at the business conference, Maria Gonzalez realizes the high potential for the airborne Novarix-21 pathogen to spread rapidly among attendees. Given the pathogen's high infectivity and the densely populated urban setting, she becomes increasingly concerned about the implications for public health and the urgent need for stringent containment measures.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 02:00",
+    "description": "Dr. Emily Chen, leveraging her expertise as an infectious disease specialist, conducts a thorough analysis of the latest data on Novarix-21 cases in Central City. She identifies exposed individuals and traces their contacts, adjusting containment strategies to curb the rapid spread of the highly infectious and deadly airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-04 02:00",
+    "description": "Health officials, under the leadership of Dr. Emily Chen, are urgently contacting all recent close contacts of individuals who tested positive for the highly infectious Novarix-21 pathogen, including those of Maria Gonzalez. These contacts are being informed of their potential exposure and are strongly advised to get tested immediately to prevent further spread of the deadly airborne virus in the densely populated urban area.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-04 04:00",
+    "description": "Health officials, led by Dr. Emily Chen, contacted Lisa Parker to inform her that she may have been exposed to the highly infectious Novarix-21 pathogen. They advised her to get tested immediately to prevent further spread of the deadly airborne virus in the densely populated urban area.",
+    "participants": {
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1_examined": {
+        "name": "Lisa Parker",
+        "type": "person",
+        "description": "Lisa Parker is a 30-year-old elementary school teacher living in the city. She is known for her dedication to her students and her active involvement in school activities and community events. Lisa enjoys spending her weekends volunteering at local shelters and participating in charity runs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 04:00",
+    "description": "Maria Gonzalez, a 34-year-old marketing executive, begins to experience initial symptoms of the Novarix-21 infection, such as fever and cough. Aware of the recent public health advisories and the rapid spread of the virus in her densely populated urban area, she decides to get tested immediately to ensure her health and prevent further transmission.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 06:00",
+    "description": "Dr. Emily Chen, in collaboration with hospital staff and public health officials, is implementing updated strategies to combat the Novarix-21 outbreak in Central City. These measures include extensive testing, strict quarantine protocols, and the hospitalization of severely infected patients to control the highly infectious and deadly airborne virus in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 06:00",
+    "description": "Maria Gonzalez, reflecting on her recent interactions at a business conference and her active social life, becomes acutely aware of the high potential for having unknowingly spread the highly infectious Novarix-21 pathogen. Feeling a profound sense of responsibility and urgency, she contemplates the serious implications for public health and the necessity of immediate containment measures.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 08:00",
+    "description": "Alex Carter, now experiencing symptoms and recognizing his potential exposure to others, promptly contacts health officials to report his condition and the locations he visited, aiding in the containment efforts of the highly contagious and deadly Novarix-21 virus in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 08:00",
+    "description": "On January 2, 2030, David Thompson attended a high-profile business conference in the city, where he unknowingly contracted the highly infectious airborne pathogen Novarix-21 amidst the crowded gathering of industry professionals.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 08:00",
+    "description": "Maria Gonzalez, experiencing symptoms of Novarix-21 and aware of her potential exposure, promptly schedules a telehealth appointment with Dr. Emily Chen to discuss her condition, receive further medical guidance, and inform Dr. Chen about the potential airborne transmission to others at the recent business conference.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 09:00",
+    "description": "Alex Carter promptly informs his friends, clients, and the yoga studio about their potential exposure to the highly contagious and deadly Novarix-21 virus, urging them to self-isolate and seek medical advice immediately.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 09:00",
+    "description": "On the morning of January 3, 2030, David Thompson met a colleague for breakfast at a nearby caf\u00e9. Unaware that he was infected with the highly contagious airborne pathogen Novarix-21, he inadvertently spread the virus to his colleague and other patrons in the crowded establishment, further contributing to the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-04 10:00",
+    "description": "Dr. Emily Chen conducts follow-up consultations with patients, including Maria Gonzalez, at Central City General Hospital. These consultations focus on monitoring symptoms, providing medical advice, and ensuring adherence to safety protocols to manage the highly infectious and deadly Novarix-21 outbreak in the densely populated urban area.",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Central City General Hospital",
+        "type": "facility",
+        "description": "Central City General Hospital is a leading medical facility located in the heart of the bustling metropolitan area. Known for its advanced medical technology and highly skilled staff, the hospital specializes in infectious diseases and respiratory care, making it a critical center for managing the Novarix-21 outbreak.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "Health officials instruct Alex Carter to get tested for Novarix-21 and provide a detailed list of his recent contacts to facilitate contact tracing and further containment of the highly contagious and deadly virus in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "On January 4, 2030, David Thompson attended a team meeting at his office, unknowingly spreading the highly infectious airborne pathogen Novarix-21 to his colleagues, further contributing to the rapid outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "Maria Gonzalez, aware of the high infectivity and fatality rate of the airborne Novarix-21 pathogen and experiencing initial symptoms, arranges for a delivery of essential supplies, including food and medication, to her apartment to avoid going out and risking further transmission in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 11:00",
+    "description": "On January 4, 2030, David Thompson met a colleague for lunch at a nearby restaurant. Unaware that he was infected with the highly contagious airborne pathogen Novarix-21, he inadvertently spread the virus to his colleague and other diners, further exacerbating the outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-04 12:00",
+    "description": "Dr. Emily Chen and Dr. James Anderson, both key figures in managing the Novarix-21 outbreak at Central City General Hospital, undergo testing for the highly infectious and deadly airborne pathogen. While awaiting their results, they continue to provide critical care and guidance to patients, ensuring that safety protocols are strictly followed to prevent further spread of the virus in the densely populated urban area.",
+    "participants": {
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1_examined": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 12:00",
+    "description": "After noticing mild symptoms, David Thompson begins researching the latest developments and guidelines on Novarix-21 from health authorities to understand the necessary precautions and steps to take, given the highly infectious nature of the airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 12:00",
+    "description": "As Maria Gonzalez's symptoms of Novarix-21 worsen, she decides to go to Central City General Hospital for further evaluation and potential hospitalization, recognizing the critical need for professional medical care in light of the highly infectious and deadly nature of the virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 13:00",
+    "description": "David Thompson, after experiencing mild symptoms and researching Novarix-21, contacts his healthcare provider for advice and possible testing, given the highly infectious nature of the airborne pathogen and the rapid outbreak in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "David Thompson",
+        "type": "person",
+        "description": "David Thompson is a 45-year-old financial analyst working for a major investment firm in the city. He is known for his analytical skills and dedication to his job, often attending industry conferences and seminars to stay updated on market trends.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 14:00",
+    "description": "Dr. Emily Chen, along with a team of health officials, is implementing strict quarantine and monitoring protocols for individuals who have come into contact with potentially exposed persons, including those recently informed of their exposure. These measures are crucial to prevent the further spread of the highly infectious and deadly Novarix-21 pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 14:00",
+    "description": "Alex Carter, following health officials' instructions, diligently monitors his symptoms and remains isolated at home. He is prepared to seek immediate medical attention if his condition worsens, understanding the critical importance of these measures in curbing the spread of the highly infectious and deadly Novarix-21 virus in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 14:00",
+    "description": "Maria Gonzalez, recognizing the critical need for immediate action due to her worsening symptoms and the highly infectious nature of Novarix-21, reaches out to her close contacts to ensure they have taken necessary precautions, offers support, and informs them of the severity of her condition.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 20:00",
+    "description": "Dr. Emily Chen takes a short break for personal rest and self-care to maintain her effectiveness in managing the highly infectious and deadly Novarix-21 outbreak in Central City.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-05 00:00",
+    "description": "Despite strict quarantine measures, the highly infectious and deadly Novarix-21 pathogen continues to spread in Central City, with new infections reported daily. The virus's airborne nature and short incubation period contribute to its rapid transmission, particularly through the Central City Transit System, which remains a critical vector in the densely populated urban area. Health officials, led by Dr. Emily Chen, are working tirelessly to contain the outbreak and provide medical care to those affected, including individuals like Ethan Walker, a delivery driver who has recently been infected.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Ethan Walker",
+        "type": "person",
+        "description": "Ethan Walker is a 31-year-old delivery driver living in the city. He is known for his hardworking nature and friendly demeanor, often interacting with numerous clients and colleagues throughout his day. Ethan enjoys playing basketball with friends at the local community center and attending local sports events.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Central City Transit System",
+        "type": "other",
+        "description": "The Central City Transit System is the primary public transportation network in the bustling metropolitan area. It includes buses, subways, and trams that connect various parts of the city, making it a vital part of daily life for millions of residents and visitors.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-05 00:00",
+    "description": "On January 5, 2030, numerous individuals in Central City, including public transportation operator John Miller, began experiencing symptoms of the highly infectious and deadly Novarix-21 virus. The rapid onset of symptoms, consistent with the short incubation period of the novel airborne pathogen, prompted immediate medical attention and further quarantine measures, especially around high-traffic areas like the Central City Transit System and the Grand Metropolitan Convention Center, to curb the outbreak.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 33-year-old public transportation operator working for the Central City Transit System. He is known for his punctuality and friendly demeanor, often interacting with hundreds of passengers daily as he drives his bus route through the bustling city.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-05 00:00",
+    "description": "As the Novarix-21 virus continues its rapid spread in Central City, Ethan Walker, a delivery driver, contacts Dr. Emily Chen at Central City General Hospital for advice and testing after experiencing symptoms. This proactive measure is part of a broader effort by residents to manage the outbreak and prevent further transmission in the densely populated urban area.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Ethan Walker",
+        "type": "person",
+        "description": "Ethan Walker is a 31-year-old delivery driver living in the city. He is known for his hardworking nature and friendly demeanor, often interacting with numerous clients and colleagues throughout his day. Ethan enjoys playing basketball with friends at the local community center and attending local sports events.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-05 00:00",
+    "description": "Health officials, led by Dr. Emily Chen, will commence a rigorous identification process of individuals exposed to the highly infectious Novarix-21 virus in Central City. This critical initiative, involving extensive contact tracing and immediate quarantine measures, aims to curb the rapid spread of the deadly airborne pathogen, particularly in high-traffic areas like the Central City Transit System, where public transportation operator John Miller and numerous others have already shown symptoms.",
+    "participants": {
+      "A0_pag_agent_caller": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_theme_item_being_labelled": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 33-year-old public transportation operator working for the Central City Transit System. He is known for his punctuality and friendly demeanor, often interacting with hundreds of passengers daily as he drives his bus route through the bustling city.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-05 00:00",
+    "description": "On January 5, 2030, health officials, led by Dr. Emily Chen, will initiate a comprehensive quarantine and monitoring program for individuals who have come into contact with infected persons in Central City. This critical measure aims to prevent the further spread of the highly infectious and deadly Novarix-21 pathogen in the densely populated urban area. The quarantine will commence at the start of the day, focusing on high-traffic zones such as the Central City Transit System and the Grand Metropolitan Convention Center, to ensure maximum effectiveness in curbing the outbreak.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-05 00:00",
+    "description": "A city-wide quarantine has been enforced in Central City starting at 12AM on January 5, 2030, to prevent the spread of the highly infectious and deadly Novarix-21 virus. Movement of people, animals, and goods is restricted to contain the outbreak in the densely populated urban area. Health officials, led by Dr. Emily Chen, urge residents to comply with the measures to ensure public safety.",
+    "participants": {
+      "A1-ppt_theme_thing_transported": {
+        "name": "Ethan Walker",
+        "type": "person",
+        "description": "Ethan Walker is a 31-year-old delivery driver living in the city. He is known for his hardworking nature and friendly demeanor, often interacting with numerous clients and colleagues throughout his day. Ethan enjoys playing basketball with friends at the local community center and attending local sports events.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-05 01:00",
+    "description": "Dr. Emily Chen and her team at Central City General Hospital are meticulously reviewing and updating the latest data on Novarix-21 cases. This includes a detailed analysis of contact tracing efforts to identify exposed individuals and understand the spread patterns of the highly infectious and deadly airborne pathogen. Their comprehensive approach aims to curb the outbreak in the densely populated urban area by ensuring timely and accurate information is available for effective intervention measures.",
+    "participants": {
+      "A0-pag_agent_researcher": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_reseached": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 01:00",
+    "description": "Dr. James Anderson, alongside Dr. Emily Chen, spearheads the review and update of Central City General Hospital's outbreak response plan, incorporating the latest data and protocols to address the highly infectious and deadly airborne Novarix-21 pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 01:00",
+    "description": "Alex Carter, adhering to health officials' directives, meticulously takes his temperature and monitors his symptoms multiple times a day while remaining in self-isolation. This vigilant self-monitoring is part of a broader effort to detect any worsening of his condition early and to prevent further transmission of the highly contagious and deadly Novarix-21 virus in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 04:00",
+    "description": "Dr. James Anderson conducts a detailed briefing with the emergency room staff at Central City General Hospital, ensuring that everyone is fully informed about the latest safety protocols, the current status of the Novarix-21 outbreak, and the critical importance of adhering to these measures to prevent further spread of the highly infectious and deadly airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-05 06:00",
+    "description": "Dr. Emily Chen convenes a comprehensive briefing with hospital staff and public health officials to coordinate the day's activities. The meeting focuses on implementing updated quarantine protocols and identifying exposed individuals, leveraging the latest data on the highly infectious and deadly Novarix-21 virus to curb its spread in Central City.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 07:00",
+    "description": "On the morning of January 3rd, Alex Carter went for his usual run in the local park, where he interacted with several joggers and stopped to chat with a friend. Unbeknownst to him at the time, he was already infected with the highly contagious and deadly Novarix-21 virus, potentially exposing others to the pathogen during these interactions.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 08:00",
+    "description": "Dr. James Anderson oversees the testing and triage of incoming patients at Central City General Hospital, ensuring strict adherence to safety protocols to prevent the spread of the highly infectious and deadly airborne Novarix-21 pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 08:00",
+    "description": "Alex Carter contacts health officials to provide an update on his test results and report any new symptoms, recognizing the critical need to inform them of his potential exposure to others during his previous day's activities in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 08:00",
+    "description": "Despite experiencing mild symptoms of Novarix-21, Maria Gonzalez attends a virtual meeting with the marketing team to discuss ongoing projects and strategies, ensuring she remains engaged with her professional responsibilities while adhering to safety protocols to prevent any potential risk of transmission.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 10:00",
+    "description": "Dr. Emily Chen will oversee the establishment of additional testing sites in high-risk areas of Central City to facilitate the rapid identification and diagnosis of Novarix-21 cases. She will ensure the accurate collection of lab samples to aid in the timely isolation and treatment of infected individuals, thereby helping to curb the spread of the highly infectious and deadly airborne pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-05 10:00",
+    "description": "Dr. James Anderson begins to experience symptoms of Novarix-21, such as fever and fatigue, but remains committed to his responsibilities at Central City General Hospital, carefully monitoring his condition while continuing to provide critical care and guidance to patients and staff.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-05 10:00",
+    "description": "While participating in a virtual networking event to maintain professional connections, Maria Gonzalez receives an alarming message from a colleague who attended the same conference, revealing they have tested positive for the highly infectious and deadly Novarix-21. This news prompts Maria to take immediate action, considering the severe implications of potential exposure to the airborne pathogen.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 12:00",
+    "description": "Dr. James Anderson receives a confirmed diagnosis of Novarix-21 and consults with his health provider about immediate steps, including potential hospitalization or quarantine, to prevent further spread of the highly infectious and deadly airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 12:00",
+    "description": "Despite being unaware of his infection with the highly contagious and deadly Novarix-21 virus, Alex Carter met friends for lunch at a crowded caf\u00e9, where they discussed weekend plans and shared a meal, potentially exposing numerous individuals to the pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-05 13:00",
+    "description": "Maria Gonzalez, experiencing worsening symptoms of the highly infectious and deadly Novarix-21, conducts a virtual consultation with Dr. Emily Chen, an infectious disease specialist at Central City General Hospital, to monitor her health status and receive critical medical advice.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-05 14:00",
+    "description": "Dr. Emily Chen met with city officials to discuss the implementation of stringent containment measures for the highly infectious and deadly Novarix-21 outbreak. The meeting focused on the quarantine of exposed groups, issuing public health advisories, and ensuring the hospitalization of severely infected patients to curb the spread in the densely populated urban area.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 14:00",
+    "description": "Dr. James Anderson, despite experiencing symptoms of Novarix-21, meets with the hospital administration to discuss the critical allocation of resources and potential needs, emphasizing the urgent necessity for stringent protective measures to combat the highly infectious and deadly airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 15:00",
+    "description": "Despite feeling increasingly unwell, Maria Gonzalez diligently reviews and responds to urgent work emails and messages. Recognizing the severity of her symptoms and potential exposure to the highly infectious Novarix-21, she decides to schedule a telehealth appointment with Dr. Emily Chen to discuss her condition and receive necessary medical guidance.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 16:00",
+    "description": "Alex Carter engages in a light home workout to maintain his fitness, all the while reflecting on the potential exposure to others during his previous day's activities, as he continues to follow health officials' instructions to monitor his symptoms and remain isolated at home due to the highly infectious and deadly Novarix-21 virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 17:00",
+    "description": "Despite being unaware of his infection with the highly contagious and deadly Novarix-21 virus, Alex Carter attended a yoga class at a local studio, where he interacted closely with other participants, potentially exposing them to the pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 18:00",
+    "description": "Dr. James Anderson, despite his confirmed diagnosis of Novarix-21, convenes a critical meeting with Dr. Emily Chen and other key team members to review the day's progress, inform them about the confirmed infection, and discuss the immediate implementation of additional protective measures to combat the highly infectious and deadly airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-05 18:00",
+    "description": "Despite her worsening symptoms of Novarix-21, Maria Gonzalez prepares and enjoys a home-cooked meal to maintain her nutrition. To avoid going out and risking further exposure, she arranges for the delivery of essential supplies. She then spends a relaxing evening to unwind and reduce stress, hoping to support her recovery.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Gonzalez",
+        "type": "person",
+        "description": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Grand Metropolitan Convention Center",
+        "type": "location",
+        "description": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-05 20:00",
+    "description": "Dr. Emily Chen convenes a meeting with the team responsible for patient care and isolation protocols to review the latest data on patient outcomes. She ensures that all contaminated areas are thoroughly disinfected to prevent further spread of the highly infectious and deadly Novarix-21 virus in Central City.",
+    "participants": {
+      "A0-pag_agent_researcher": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_reseached": {
+        "name": "Novarix-21",
+        "type": "pathogen",
+        "description": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-05 20:00",
+    "description": "Dr. James Anderson contacts his health provider to report his symptoms of Novarix-21 and receives advice on immediate next steps, including potential testing and quarantine measures, to prevent further spread of the highly infectious and deadly airborne pathogen in the densely populated urban area.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 21:00",
+    "description": "Before going to bed, Alex Carter diligently takes his temperature and monitors his symptoms, following health officials' instructions to track any changes in his condition due to the highly infectious and deadly Novarix-21 virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Alex Carter",
+        "type": "person",
+        "description": "Alex Carter is a 29-year-old fitness enthusiast and personal trainer living in the city. Known for his energetic and friendly demeanor, Alex often goes for runs in the local park and interacts with friends and clients during his workouts.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-05 22:00",
+    "description": "Dr. James Anderson, following his health provider's advice, begins quarantine to prevent further spread of Novarix-21. Despite his isolation, he continues to provide remote guidance to his colleagues and patients at Central City General Hospital, ensuring the ongoing management of the outbreak.",
+    "participants": {
+      "A1_ppt_injured/ill_entity": {
+        "name": "Dr. James Anderson",
+        "type": "person",
+        "description": "Dr. James Anderson is a 44-year-old emergency room physician at Central City General Hospital. Known for his tireless work ethic and dedication to his patients, Dr. Anderson often works long shifts and is deeply involved in the hospital's response to the Novarix-21 outbreak.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_sender": {
+        "name": "Dr. Emily Chen",
+        "type": "person",
+        "description": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the Central City General Hospital. She is known for her expertise in handling outbreaks and her compassionate approach to patient care. Dr. Chen has a calm demeanor and is highly respected by her colleagues for her dedication and thoroughness.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Central City General Hospital",
+        "type": "facility",
+        "description": "Central City General Hospital is a leading medical facility located in the heart of the bustling metropolitan area. Known for its advanced medical technology and highly skilled staff, the hospital specializes in infectious diseases and respiratory care, making it a critical center for managing the Novarix-21 outbreak.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  }
+]

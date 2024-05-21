@@ -195,8 +195,12 @@ const TimelinePage = () => {
     useEffect(() => {
         const temp = [];
         const uniqueDate = [];
-        News && filteredNews.length === 0 ?
-            News.map((article) => {
+        let chosenListNews = [];
+        if (News.length > 0 && filteredNews.length === 0) 
+            {chosenListNews = News;}
+        else if (filteredNews.length > 0)
+            {chosenListNews = filteredNews;}
+            chosenListNews.map((article) => {
                 const date = new Date(article.time);
                 const dateString = date.toLocaleString("default", {
                     month: "long",
@@ -215,26 +219,7 @@ const TimelinePage = () => {
                     hour: date.getHours(),
                     minute: date.getMinutes(),
                 });
-            }): filteredNews.map((article) => {
-                const date = new Date(article.time);
-                const dateString = date.toLocaleString("default", {
-                    month: "long",
-                    day: "numeric",
-                    year: "numeric",
-                });
-                if (!uniqueDate.includes(dateString)) {
-                    uniqueDate.push(dateString);
-                }
-                temp.push({
-                    ...article,
-                    date: date,
-                    year: date.getDate(),
-                    month: date.getMonth(),
-                    day: date.getDay(),
-                    hour: date.getHours(),
-                    minute: date.getMinutes(),
-                });
-            });
+            })
         temp.sort((a, b) => {
             return a.date - b.date;
         });
@@ -246,7 +231,7 @@ const TimelinePage = () => {
             <div
                 style={{
                     position: "relative",
-                    overflowX: "hidden",
+                    // overflowX: "hidden",
                     width: "initial",
                     display: "flex",
                     margin: "50px 10px 10px 10px",
@@ -259,10 +244,10 @@ const TimelinePage = () => {
                     style={{
                         overflowX: "scroll",
                         display: "flex",
-                        justifyContent: "center",
-                        width: "100%",
+                        margin: "auto",
                         alignItems: "center",
                         flexDirection: "row",
+                        maxWidth: "100%",
                     }}
                 >
                     <Stepper orientation="horizontal" alternativeLabel>

@@ -66,6 +66,7 @@ type RFState = {
     news: New[];
     chosenNew: New | null;
     chosenNodes: string[];
+    chosenInstantiatedEntities: string[];
     confidenceInterval: [number, number];
     chosenEntities: string[];
     entityChosenEvents: Set<string>;
@@ -100,6 +101,7 @@ type RFState = {
     setChosenEntities: (chosenEntities: string[]) => void;
     setChosenNodes: (chosenNodes: string[]) => void;
     setMapNodes: (mapNodes: Map<string, any>) => void;
+    setChosenInstantiatedEntities: (chosenInstantiatedEntities: string[]) => void;
     setShowAddPanel: (showAddPanel: string) => void;
     setSelectionContextMenu: (selectionContextMenu: boolean) => void;
     setPaneContextMenu: (paneContextMenu: object | null) => void;
@@ -145,6 +147,7 @@ const useStoreTA1 = create<RFState>((set, get) => ({
     chosenNew: null,
     chosenNodes: [],
     chosenEntities: [],
+    chosenInstantiatedEntities: [],
     mapNodes: new Map(),
     mapEntities: new Map(),
     entityChosenEvents: new Set(),
@@ -393,6 +396,9 @@ const useStoreTA1 = create<RFState>((set, get) => ({
     setMapNodes: (mapNodes) => {
         set({ mapNodes });
         get().getEntitiesRelatedEventMap();
+    },
+    setChosenInstantiatedEntities: (chosenInstantiatedEntities) => {
+        set({ chosenInstantiatedEntities });
     },
     setShowAddPanel: (showAddPanel) => set({ showAddPanel }),
     setClickedNode: (clickedNode) => set({ clickedNode }),

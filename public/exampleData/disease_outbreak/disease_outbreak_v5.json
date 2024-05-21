@@ -1,0 +1,3482 @@
+[
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 08:00",
+    "description": "Maria Lopez, aware of the severe airborne disease outbreak in her rural village, meticulously prepared breakfast for her two children, ensuring all surfaces were sanitized and food was properly cooked. She then carefully dressed her children in protective masks and instructed them on the importance of hygiene before sending them off for the day.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Social Gathering",
+    "time": "2030-01-01 09:00",
+    "description": "Maria Lopez attended a community meeting in San Pedro de los Pinos to discuss improvements to the local school. During the meeting, she unknowingly contracted a highly infectious novel airborne pathogen.",
+    "participants": {
+      "A0_pag_celebrator": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 12:00",
+    "description": "While preparing lesson plans and materials for the upcoming school week, Maria Lopez begins to feel a slight headache and fatigue. She dismisses these symptoms as stress, unaware that she has contracted the highly infectious San Pedro Virus (SPV) during a recent community meeting.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 15:00",
+    "description": "Despite her worsening symptoms, Maria Lopez spent quality time with her children, assisting them with their homework and participating in various activities. Her deteriorating condition raised significant concern among her family, who feared the potential spread of the highly infectious San Pedro Virus (SPV) within their household.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 16:00",
+    "description": "Maria Lopez, a dedicated school teacher in San Pedro de los Pinos, began feeling unwell with symptoms such as a headache and fatigue, raising significant concern among her family about the potential spread of the highly infectious San Pedro Virus (SPV) within their household.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Social Gathering",
+    "time": "2030-01-01 19:00",
+    "description": "During a parent-teacher meeting to discuss student progress and upcoming school activities, Maria Lopez's symptoms of the highly infectious San Pedro Virus (SPV) became severe. She was forced to leave the meeting early and seek immediate medical help, highlighting the urgent need for better healthcare resources in the rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_celebrator": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-02 00:00",
+    "description": "A significant outbreak of the highly infectious San Pedro Virus (SPV) has been confirmed in the rural village of San Pedro de los Pinos. Following multiple social interactions by an infected individual, Maria Lopez, numerous new cases have emerged, highlighting the urgent need for medical intervention and resources. The community is now on high alert as efforts to contain the virus intensify, with local authorities scrambling to address the healthcare crisis in the underdeveloped area.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Rural Bat",
+        "type": "animal",
+        "description": "The Rural Bat is a species of bat commonly found in the agricultural regions surrounding San Pedro de los Pinos. These bats are known to roost in barns and other structures close to human habitation, making frequent contact with the villagers.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-02 00:00",
+    "description": "On January 2, 2030, Maria Lopez, a dedicated school teacher from San Pedro de los Pinos, reached out to Dr. Elena Martinez, a general practitioner, for urgent medical advice regarding her severe symptoms of the highly infectious San Pedro Virus (SPV). This underscores the critical need for enhanced healthcare resources in the rural village as the outbreak continues to escalate.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-02 00:00",
+    "description": "On January 2, 2030, Maria Lopez, a dedicated school teacher in San Pedro de los Pinos, continues to experience severe symptoms of the highly infectious San Pedro Virus (SPV). Her deteriorating condition, following multiple social interactions, underscores the urgent need for enhanced healthcare resources in the rural village, as the rapid progression of her symptoms highlights the high infectivity and short incubation period of the novel airborne pathogen.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 01:00",
+    "description": "Overnight, Maria Lopez's symptoms of the highly infectious San Pedro Virus (SPV) worsened significantly, causing grave concern among her family and the local community. This alarming development underscores the urgent need for immediate medical intervention and enhanced healthcare resources in the underdeveloped rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-02 06:00",
+    "description": "Maria Lopez's condition deteriorated rapidly, prompting her family to urgently seek medical help. They contacted Dr. Carlos Rivera, an infectious disease specialist, who immediately arranged for her transfer to a regional hospital for intensive care, highlighting the critical need for enhanced healthcare resources in the rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-02 08:00",
+    "description": "Dr. Elena Martinez meticulously reviewed patient records at the Regional Health Center of Santa Maria, identifying critical cases and preparing for the day's consultations. Given the high infectivity and fatality rate of the San Pedro Virus (SPV), she coordinated with the hospital staff to ensure stringent safety protocols and adequate resources were in place to manage the escalating outbreak in San Pedro de los Pinos.",
+    "participants": {
+      "A0-pag_agent_doctor": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_patient": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_prd_attribute_illness": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-02 08:00",
+    "description": "Maria Lopez urgently contacted Dr. Elena Martinez for advice and possible testing for the highly infectious San Pedro Virus (SPV), emphasizing the severity of her rapidly deteriorating condition. Given the high infectivity and fatality rate of the novel airborne pathogen, Dr. Martinez coordinated with hospital staff to ensure immediate testing and intensive care for Maria, highlighting the critical need for enhanced healthcare resources in the rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "Dr. Elena Martinez organized a comprehensive community health workshop in San Pedro de los Pinos, focusing on infectious disease prevention, SPV testing, and contact tracing. Given the high infectivity and fatality rate of the novel airborne San Pedro Virus (SPV), the workshop aimed to educate the rural community on critical preventive measures and the importance of early detection and isolation to control the escalating outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "Maria Lopez urgently informed the school administration about her severe symptoms of the highly infectious San Pedro Virus (SPV) and emphasized the critical need for a substitute teacher. Given the high infectivity and airborne transmission of the novel pathogen, she stressed the urgency and potential risk to the school community, prompting immediate action to prevent further spread and ensure the safety of students and staff.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-02 11:00",
+    "description": "Maria Lopez's test results confirmed she has the highly infectious San Pedro Virus (SPV). Dr. Elena Martinez, the attending healthcare provider, advised immediate hospitalization at the Regional Health Center of Santa Maria to ensure she receives intensive care and to prevent further spread of the virus in the rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A1_ppt_injured/ill_entity": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_sender": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "Maria Lopez, now hospitalized with the highly infectious San Pedro Virus (SPV), arranged for her children to be cared for by a trusted neighbor while ensuring minimal contact to prevent the spread of the virus. Local health authorities, aware of the high transmission risk, provided guidance and support to the caregiver, emphasizing strict quarantine measures and the use of protective equipment.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-02 13:00",
+    "description": "Dr. Elena Martinez visited the local clinic in San Pedro de los Pinos to provide urgent medical care, including SPV testing and diagnosis for patients. Given the high infectivity and fatality rate of the novel airborne San Pedro Virus (SPV), she implemented stringent safety protocols and coordinated with local healthcare workers to ensure rapid testing and isolation of suspected cases, aiming to control the escalating outbreak in the underdeveloped rural village.",
+    "participants": {
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1_examined": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Disinfect",
+    "time": "2030-01-02 15:00",
+    "description": "Dr. Elena Martinez led a coordinated effort to oversee the disinfection of contaminated areas in San Pedro de los Pinos. Given the high infectivity and fatality rate of the airborne San Pedro Virus (SPV), she worked closely with local authorities and healthcare workers to implement stringent disinfection protocols, aiming to curb the escalating outbreak in the underdeveloped rural village.",
+    "participants": {
+      "A0_pag_agent_cleaner": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-02 15:00",
+    "description": "Maria Lopez, who has been diagnosed with the highly infectious San Pedro Virus (SPV), was urgently transported to the Regional Health Center of Santa Maria for intensive care. Dr. Elena Martinez, her attending physician, followed up with Maria to provide test results and further instructions, ensuring that all necessary precautions were taken to prevent the spread of the virus in the rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-02 16:00",
+    "description": "Dr. Elena Martinez convened a critical meeting with public health officials to discuss new initiatives for the containment and treatment of the highly infectious San Pedro Virus (SPV). Given the airborne transmission, high fatality rate, and recent efforts in testing and disinfection in San Pedro de los Pinos, the meeting focused on enhancing rapid testing protocols, improving isolation facilities, and increasing community education to curb the escalating outbreak. Juan Hernandez, a local farmer, provided valuable insights into the community's agricultural practices and living conditions, which are essential for tailoring effective containment strategies.",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 17:00",
+    "description": "Dr. Elena Martinez convened a follow-up meeting with the treatment team at the Regional Health Center of Santa Maria to review the progress of hospitalized SPV patients. The team discussed the effectiveness of current treatment protocols and made necessary adjustments to improve patient outcomes and prevent further spread of the highly infectious virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 19:00",
+    "description": "Dr. Elena Martinez convened a comprehensive review meeting to reflect on the day's activities, including the outcomes of SPV testing, disinfection efforts, patient care, and treatment protocols. The team assessed the effectiveness of the measures taken and identified key areas for improvement, laying out a strategic plan for the upcoming week to enhance containment and treatment efforts in the underdeveloped rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-03 00:00",
+    "description": "Authorities have imposed a strict quarantine in the rural village of San Pedro de los Pinos to prevent the spread of the highly infectious and deadly San Pedro Virus (SPV). The restriction on the movement of people, animals, and goods aims to contain the outbreak and protect neighboring communities. Local authorities, led by Dr. Elena Martinez, are working closely with healthcare workers and community members like Pedro Alvarez to enforce these measures and ensure the safety and health of the population.",
+    "participants": {
+      "A1-ppt_theme_thing_transported": {
+        "name": "Pedro Alvarez",
+        "type": "person",
+        "description": "Pedro Alvarez is a 35-year-old agricultural worker in San Pedro de los Pinos. He is known for his hardworking nature and his role in maintaining the local farms. Pedro is married with two children and is well-liked by his neighbors for his willingness to help others.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-03 00:00",
+    "description": "Despite rigorous containment efforts, new infections of the highly infectious San Pedro Virus (SPV) continue to surge in the rural village of San Pedro de los Pinos. The airborne pathogen's rapid spread has overwhelmed local healthcare facilities, prompting urgent public health interventions to manage the escalating crisis.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Rural Bat",
+        "type": "animal",
+        "description": "The Rural Bat is a species of bat commonly found in the agricultural regions surrounding San Pedro de los Pinos. These bats are known to roost in barns and other structures close to human habitation, making frequent contact with the villagers.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-03 00:00",
+    "description": "On January 3, 2030, residents of San Pedro de los Pinos, severely impacted by the highly infectious San Pedro Virus (SPV), began urgently contacting their health providers for medical advice. The rapid spread of the airborne virus, coupled with its high fatality rate, has led to a surge in individuals seeking medical attention. Local healthcare facilities, under the leadership of Dr. Elena Martinez, are working tirelessly to manage the influx of patients and provide necessary care, while community members like Rosa Garcia play a crucial role in disseminating information and supporting containment efforts.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Rosa Garcia",
+        "type": "person",
+        "description": "Rosa Garcia is a 28-year-old local shopkeeper in San Pedro de los Pinos. She is known for her friendly demeanor and her small grocery store, which serves as a central hub for the villagers to gather and purchase daily necessities. Rosa is married and has one young child.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-03 00:00",
+    "description": "On January 3, 2030, individuals in the rural village of San Pedro de los Pinos, including Maria Lopez, a dedicated school teacher and single mother, began experiencing symptoms of the highly infectious San Pedro Virus (SPV). The rapid onset of symptoms among residents underscores the urgent need for enhanced containment and treatment measures. Healthcare workers, led by Dr. Elena Martinez, are on high alert to manage the increasing number of symptomatic cases, as the local healthcare facilities struggle to cope with the surge in infections.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-03 01:00",
+    "description": "Dr. Carlos Rivera, upon Maria Lopez's arrival at the Regional Health Center of Santa Maria, conducted a thorough assessment of her condition. Utilizing his expertise in infectious diseases, he and his team swiftly implemented advanced medical interventions to stabilize her, underscoring the critical need for rapid response and enhanced healthcare resources in combating the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 01:00",
+    "description": "Dr. Elena Martinez conducted a thorough examination of Maria Lopez at the Regional Health Center of Santa Maria, ensuring all safety protocols were followed to prevent the spread of the highly infectious San Pedro Virus (SPV). Lab samples were meticulously collected for further analysis to aid in understanding and combating the novel pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-03 03:00",
+    "description": "Dr. Carlos Rivera, in collaboration with the medical team at the Regional Health Center of Santa Maria, meticulously coordinated a comprehensive treatment plan for Maria Lopez. This plan included advanced medical interventions and strict infection control measures to manage her condition and mitigate the spread of the highly infectious San Pedro Virus.",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-03 03:00",
+    "description": "Dr. Elena Martinez coordinated with the hospital staff at the Regional Health Center of Santa Maria to implement stringent precautions against the airborne San Pedro Virus (SPV). Given the high infectivity and fatality rate, the team focused on rapid identification and quarantine of exposed individuals, enhancing isolation facilities, and ensuring comprehensive disinfection protocols. The efforts were particularly critical in the underdeveloped rural area of San Pedro de los Pinos, where resources are limited and the community is highly vulnerable.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 06:00",
+    "description": "Dr. Carlos Rivera swiftly mobilized a small medical team and gathered essential medical supplies and equipment, including PPE, antiviral medications, ventilators, and diagnostic tools, to travel to the underdeveloped rural area of San Pedro de los Pinos. This rapid response was crucial to manage and contain the highly infectious and deadly San Pedro Virus outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 06:00",
+    "description": "Juan Hernandez diligently checked on the health and well-being of his family, ensuring they adhered to strict safety protocols such as wearing masks and maintaining social distancing. He also educated his neighbors about these measures, emphasizing the importance of following them to prevent the spread of the highly infectious San Pedro Virus (SPV) in their rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-03 06:00",
+    "description": "Dr. Elena Martinez spearheaded a comprehensive contact tracing initiative to identify individuals who may have come into contact with Maria Lopez, a confirmed SPV patient. The effort involved detailed interviews with Maria to map out her recent interactions, followed by notifying and advising the identified contacts on necessary precautions and quarantine measures to curb the spread of the highly infectious San Pedro Virus in the vulnerable rural community.",
+    "participants": {
+      "A0-pag_agent_Agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2-cau_X_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 06:00",
+    "description": "In light of the escalating San Pedro Virus (SPV) outbreak, the community of San Pedro de los Pinos held a virtual meeting to discuss urgent improvements to the local school, ensuring the safety and continued education of students. Community leaders, healthcare professionals, and concerned parents, including Maria Lopez who participated remotely from her hospital bed, collaborated to develop strategies for remote learning and enhanced health protocols.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "Dr. Carlos Rivera, along with his medical team, conducted thorough rounds in San Pedro de los Pinos, checking on other patients and initiating widespread testing and diagnostic procedures to identify and contain the highly infectious San Pedro Virus within the community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "During a meeting with local farmers to discuss and implement enhanced hygiene and safety measures in agricultural practices, Juan Hernandez began to feel unwell and exhibited early symptoms of the highly infectious San Pedro Virus (SPV).",
+    "participants": {
+      "A0_agent": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "Dr. Elena Martinez organized a virtual meeting with local health officials to discuss the urgent outbreak of the highly infectious and airborne San Pedro Virus (SPV) in the underdeveloped rural area of San Pedro de los Pinos. The meeting focused on reviewing the current containment efforts, strategizing additional measures, and coordinating resources to manage the high fatality rate and short incubation period of the novel pathogen.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-03 08:00",
+    "description": "After attending the virtual community meeting from her hospital bed, Maria Lopez began experiencing severe symptoms of the San Pedro Virus (SPV). Recognizing the urgency, she immediately contacted Dr. Elena Martinez for an urgent consultation and update on the outbreak, highlighting the critical need for rapid medical intervention and updated information on the escalating health crisis in San Pedro de los Pinos.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-03 10:00",
+    "description": "Dr. Carlos Rivera, leveraging his expertise and the resources of his medical team, initiated a comprehensive contact tracing effort in San Pedro de los Pinos. They identified individuals who had been in close contact with infected patients, conducted widespread testing, and implemented strict quarantine measures to prevent further spread of the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A0-pag_agent_Agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2-cau_X_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-03 10:00",
+    "description": "Dr. Elena Martinez, leveraging her expertise in infectious diseases, led a detailed analysis of the collected lab samples and epidemiologic data to understand the spread and impact of the highly infectious San Pedro Virus (SPV). This comprehensive analysis aimed to identify transmission patterns, assess the virus's impact on the rural community of San Pedro de los Pinos, and inform further containment and treatment strategies.",
+    "participants": {
+      "A0-pag_agent_researcher": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_reseached": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 10:00",
+    "description": "As her condition deteriorated, Maria Lopez decided to isolate herself at home to prevent further spread of the highly infectious San Pedro Virus (SPV). This decision underscores the critical need for containment measures in the underdeveloped rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 11:00",
+    "description": "Juan Hernandez coordinated with community leaders to organize the distribution of masks, sanitizers, and informational pamphlets to combat the spread of the highly infectious San Pedro Virus (SPV). However, as his condition worsened, he had to leave early to seek medical attention, leaving the community leaders to continue the distribution efforts in his absence.",
+    "participants": {
+      "A0_agent": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 12:00",
+    "description": "Dr. Carlos Rivera convened a crucial meeting with the hospital administration to discuss the urgent allocation of resources and the initiation of treatment protocols for the San Pedro Virus. Given the high infectivity and fatality rate of the airborne pathogen, the meeting emphasized the need for immediate action, including the deployment of additional medical personnel, procurement of essential supplies, and implementation of strict infection control measures to contain the outbreak in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-03 12:00",
+    "description": "Dr. Elena Martinez visited San Pedro de los Pinos to assess the escalating situation of the SPV outbreak. She provided critical medical advice to the community, including Juan Hernandez, and meticulously gathered epidemiologic data to better understand the spread and impact of the highly infectious and deadly virus in the underdeveloped rural area.",
+    "participants": {
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 12:00",
+    "description": "Maria Lopez arranged for her children to stay with her sister, Ana Lopez, who lives in a nearby village and is not infected. Ana, understanding the gravity of the situation, agreed to follow strict quarantine measures to ensure the children's safety and prevent further spread of the San Pedro Virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 14:00",
+    "description": "Dr. Carlos Rivera and his medical team meticulously disinfected contaminated areas in San Pedro de los Pinos and collected lab samples to trace the spread and potential sources of the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 14:00",
+    "description": "Due to his worsening condition, Juan Hernandez is unable to assist in setting up a temporary isolation facility for those showing symptoms of the highly infectious San Pedro Virus (SPV). Community leaders and health officials must take over the task to ensure the facility is established promptly to contain the outbreak in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 14:00",
+    "description": "Despite her worsening condition, Maria Lopez coordinated with local authorities to launch an urgent community awareness campaign, emphasizing the airborne transmission of the highly infectious San Pedro Virus (SPV) and the critical need for immediate safety measures in the underdeveloped rural village of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 15:00",
+    "description": "At the local clinic, Dr. Elena Martinez and Dr. Carlos Rivera examined Juan Hernandez and confirmed his infection with the highly infectious San Pedro Virus (SPV). They discussed the severity of his condition and emphasized the urgent need for containment measures to prevent further spread in the underdeveloped rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-03 16:00",
+    "description": "Dr. Carlos Rivera, alongside community health worker Lucia Fernandez, convened a critical meeting with local health officials in San Pedro de los Pinos to advocate for enhanced healthcare resources. Leveraging epidemiologic data collected from widespread testing and contact tracing efforts, they underscored the urgent need for additional medical personnel, supplies, and strict infection control measures to contain the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 16:00",
+    "description": "Dr. Elena Martinez and Dr. Carlos Rivera held a press conference to urgently inform the community of San Pedro de los Pinos about the critical need for immediate containment measures against the highly infectious and deadly San Pedro Virus (SPV). They emphasized the airborne nature of the virus, its high infectivity and fatality rates, and the short incubation period, urging the community to adhere strictly to the recommended safety protocols to prevent further spread in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-03 16:00",
+    "description": "Dr. Elena Martinez, recognizing the urgent need for enhanced healthcare resources, has called upon regional authorities to provide additional support for improved isolation facilities and comprehensive community education programs. This advocacy aims to address the critical gaps in managing the highly infectious and deadly San Pedro Virus (SPV) outbreak in the vulnerable rural community of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 16:00",
+    "description": "Despite her worsening condition, Maria Lopez followed up with Dr. Elena Martinez for any new instructions or updates on her health status and the San Pedro Virus (SPV) outbreak. This follow-up was crucial for monitoring any new symptoms and ensuring she received the latest medical advice to manage her condition and contribute to the community's containment efforts.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 17:00",
+    "description": "Due to his severe illness and subsequent admission to the isolation facility, Juan Hernandez was unable to participate in the community education session aimed at informing residents about the importance of rapid testing and isolation. In his absence, community leaders, supported by Dr. Elena Martinez and Dr. Carlos Rivera, took charge of the session to ensure that the critical information reached the residents of San Pedro de los Pinos, emphasizing the urgent need for adherence to safety protocols to contain the highly infectious San Pedro Virus (SPV).",
+    "participants": {
+      "A0_agent": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-04 00:00",
+    "description": "Infected individuals in San Pedro de los Pinos, including Juan Hernandez, are now experiencing severe symptoms of the highly infectious and deadly San Pedro Virus (SPV). This marks a critical phase in the outbreak, highlighting the urgent need for strict adherence to containment measures and rapid medical intervention to prevent further spread in the vulnerable rural community.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "San Pedro de los Pinos",
+        "type": "location",
+        "description": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-04 00:00",
+    "description": "Infected individuals in San Pedro de los Pinos are urged to contact their health providers, including community health worker Lucia Fernandez and Dr. Elena Martinez, for advice and updates on managing their condition and preventing the spread of the highly infectious San Pedro Virus (SPV). This proactive approach, led by dedicated healthcare professionals, is crucial in the community's efforts to contain the outbreak and ensure timely medical intervention.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-04 00:00",
+    "description": "The San Pedro Virus (SPV) continues to spread rapidly in the rural community of San Pedro de los Pinos, with new infections reported daily. Despite the efforts of healthcare professionals like Dr. Elena Martinez and community health worker Lucia Fernandez, the outbreak remains uncontrolled, underscoring the urgent need for additional healthcare resources and strict adherence to safety protocols to prevent further fatalities.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Rural Bat",
+        "type": "animal",
+        "description": "The Rural Bat is a species of bat commonly found in the agricultural regions surrounding San Pedro de los Pinos. These bats are known to roost in barns and other structures close to human habitation, making frequent contact with the villagers.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 01:00",
+    "description": "Dr. Carlos Rivera and his medical team meticulously reviewed the latest test results and contact tracing data in San Pedro de los Pinos, identifying exposed individuals and updating quarantine measures to curb the spread of the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-04 01:00",
+    "description": "Maria Lopez was urgently transported to the Regional Health Center of Santa Maria, where Dr. Carlos Rivera and his team began initial medical treatment and stabilization efforts to manage her severe symptoms caused by the highly infectious San Pedro Virus (SPV).",
+    "participants": {
+      "A1_dir_source_patient": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_X_doctor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 01:00",
+    "description": "Dr. Elena Martinez convened a virtual meeting with regional health authorities to urgently request additional resources and support for the San Pedro Virus (SPV) outbreak. The discussion focused on the critical need for improved isolation facilities and comprehensive community education programs to manage the highly infectious and deadly virus in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 03:00",
+    "description": "Dr. Carlos Rivera convened an emergency meeting with the medical team to update treatment protocols and discuss the hospitalization of severely infected patients. The team reviewed the latest epidemiological data and adjusted their approach to managing the highly infectious and deadly San Pedro Virus, ensuring that all medical personnel were aligned on the new protocols and prepared to handle the influx of patients.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 06:00",
+    "description": "Despite her worsening condition, Maria Lopez communicated with her family and friends to update them on her deteriorating health due to the San Pedro Virus (SPV). She emphasized the importance of quarantine measures and reassured them that her children were being cared for by her sister, Ana Lopez, who is following strict safety protocols to prevent further spread of the virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-04 06:00",
+    "description": "Dr. Elena Martinez visited the Regional Health Center of Santa Maria to oversee patient care, ensure that strict protocols for the highly infectious San Pedro Virus (SPV) are being followed, and diagnose new cases. During her visit, she provided critical medical guidance to the staff and assessed the condition of patients, including Maria Lopez, to ensure timely and effective treatment.",
+    "participants": {
+      "A0-pag_agent_doctor": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_patient": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_prd_attribute_illness": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 07:00",
+    "description": "Dr. Carlos Rivera oversaw the distribution of medical supplies and personal protective equipment to frontline workers in San Pedro de los Pinos, ensuring that all necessary items were available and properly used. He also conducted a briefing with the medical team to review the latest protocols and prepare them for the day's operations, emphasizing the importance of strict infection control measures to manage the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 08:00",
+    "description": "Lucia Fernandez convened with local health officials to review the outcomes of the previous meeting and develop a comprehensive strategy to combat the highly infectious and deadly San Pedro Virus. The discussion focused on implementing immediate and effective measures to enhance healthcare resources, enforce strict infection control protocols, and ensure timely medical intervention in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 09:00",
+    "description": "Lucia Fernandez, a dedicated community health worker, urges infected individuals in San Pedro de los Pinos to promptly contact their health providers for advice and updates on managing their condition and preventing the spread of the highly infectious San Pedro Virus. This proactive measure is essential to ensure timely medical intervention and contain the outbreak in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "Dr. Carlos Rivera conducted a press briefing to inform the public about the highly infectious and deadly San Pedro Virus outbreak in San Pedro de los Pinos. He detailed the airborne transmission mode, high infectivity, and short incubation period of the novel pathogen, emphasizing the critical need for strict precautions and outlining the steps being taken to contain the outbreak, including enhanced healthcare resources, updated treatment protocols, and rigorous quarantine measures.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "Dr. Carlos Rivera conducted a detailed consultation with Maria Lopez to discuss the critical treatment plan for her severe symptoms caused by the highly infectious San Pedro Virus (SPV). The discussion focused on airborne transmission and containment measures to prevent further spread in the underdeveloped rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "Dr. Elena Martinez led a comprehensive community education session in San Pedro de los Pinos to inform residents about the preventive measures and symptoms of the highly infectious and deadly San Pedro Virus (SPV). She emphasized the airborne transmission of the virus, the importance of wearing masks, maintaining social distance, and recognizing early symptoms to seek timely medical intervention.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "Lucia Fernandez visited the local clinic in San Pedro de los Pinos to assess the current status of medical supplies and personnel. This visit aimed to identify any resource gaps and ensure the clinic is adequately prepared to handle the increasing number of cases of the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 11:00",
+    "description": "Community health worker Lucia Fernandez confirmed the diagnosis of several individuals in San Pedro de los Pinos with the highly infectious and deadly San Pedro Virus. The rapid confirmation of these cases underscores the urgent need for immediate medical intervention and strict infection control measures to prevent further spread in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-04 12:00",
+    "description": "Dr. Elena Martinez, in collaboration with the healthcare team at the Regional Health Center of Santa Maria, has begun the process of hospitalizing newly diagnosed SPV patients, including Juan Hernandez. They are coordinating treatment plans to ensure timely and effective medical intervention, aiming to contain the highly infectious and deadly virus in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_sender": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_injured/ill_entity": {
+        "name": "Juan Hernandez",
+        "type": "person",
+        "description": "Juan Hernandez is a 40-year-old farmer living in San Pedro de los Pinos. He is known for his hard work and dedication to his family and community. Juan is a father of three and is deeply involved in local agricultural practices, often sharing his knowledge and resources with his neighbors.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-04 12:00",
+    "description": "Due to the severity of their symptoms and the high infectivity of the San Pedro Virus, several infected individuals in San Pedro de los Pinos, under the coordination of community health worker Lucia Fernandez, were urgently transported to the Regional Health Center of Santa Maria for further evaluation and potential hospitalization.",
+    "participants": {
+      "A1_ppt_theme_thing_transported": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A3_gol_destination_destination": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 13:00",
+    "description": "Lucia Fernandez, a dedicated community health worker, conducted a comprehensive community outreach session via video call from the hospital to educate residents of San Pedro de los Pinos about critical infection control measures. During the session, she also coordinated the distribution of necessary supplies to help curb the spread of the highly infectious and deadly San Pedro Virus in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-04 14:00",
+    "description": "Dr. Carlos Rivera, accompanied by community health worker Lucia Fernandez, visited the quarantine zones in San Pedro de los Pinos to assess conditions, ensure compliance with stringent infection control measures, and provide direct treatment to critically ill patients suffering from the highly infectious San Pedro Virus. The team meticulously evaluated the effectiveness of the quarantine protocols, distributed additional medical supplies, and administered life-saving treatments to those in critical condition, reinforcing the community's efforts to contain the deadly outbreak.",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-04 14:00",
+    "description": "Maria Lopez, currently under the care of Dr. Carlos Rivera at the Regional Health Center of Santa Maria, is advised to rest and strictly follow medical guidelines to aid in her recovery from the highly infectious San Pedro Virus (SPV). She remains in contact with her children via phone and video calls, while a viral test is conducted to confirm her infection, ensuring that all necessary precautions are taken to prevent further spread of the virus in the underdeveloped rural community.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 14:00",
+    "description": "Dr. Elena Martinez, leveraging her expertise in infectious diseases, meticulously analyzed the latest epidemiologic data to identify individuals exposed to the highly infectious San Pedro Virus (SPV). She then coordinated with regional health authorities to implement targeted quarantine measures, aiming to contain the outbreak in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-04 15:00",
+    "description": "Infected individuals from San Pedro de los Pinos, under the supervision of community health worker Lucia Fernandez and medical staff at the Regional Health Center of Santa Maria, underwent rigorous treatment and quarantine procedures to prevent further spread of the highly infectious and deadly San Pedro Virus.",
+    "participants": {
+      "A1-ppt_theme_thing_transported": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Collect Lab Samples",
+    "time": "2030-01-04 16:00",
+    "description": "Dr. Carlos Rivera led a specialized team to collect and analyze lab samples from multiple sources in San Pedro de los Pinos, aiming to trace the spread and identify potential origins of the highly infectious San Pedro Virus (SPV). The team, equipped with advanced protective gear, meticulously gathered samples from local water sources, soil, and agricultural sites, working swiftly to provide critical data for containment and treatment strategies.",
+    "participants": {
+      "A0_pag_processor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_thing_processed": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 16:00",
+    "description": "Dr. Elena Martinez, along with a team of healthcare professionals, systematically collected and processed lab samples from various sources, including food, water, and surfaces, in San Pedro de los Pinos. This effort aimed to gain a comprehensive understanding of the spread of the highly infectious and deadly San Pedro Virus (SPV) in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 16:00",
+    "description": "Lucia Fernandez, a dedicated community health worker, coordinated with Dr. Carlos Rivera to meticulously review the epidemiologic data of the San Pedro Virus outbreak. Together, they prepared a comprehensive report for regional health authorities, emphasizing the critical need for immediate intervention. Additionally, Lucia discussed her own infection with Dr. Rivera to underscore the urgency of the situation, given the high infectivity and fatality rates of the novel airborne pathogen affecting the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-04 18:00",
+    "description": "Dr. Elena Martinez and Dr. Carlos Rivera convened a meeting with local community leaders and healthcare workers at the Regional Health Center of Santa Maria to strategize on disseminating crucial information and bolstering efforts to contain the airborne San Pedro Virus (SPV). Concurrently, Maria Lopez's condition deteriorated further, leading to an urgent discussion about her potential hospitalization to ensure she receives the intensive care required.",
+    "participants": {
+      "A1_ppt_injured/ill_entity": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_sender": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 19:00",
+    "description": "Dr. Elena Martinez, in collaboration with local volunteers and community leaders, organized the distribution of medical supplies and information pamphlets to the residents of San Pedro de los Pinos. They also initiated a thorough disinfection of contaminated areas to curb the spread of the highly infectious and deadly San Pedro Virus (SPV).",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 19:00",
+    "description": "Lucia Fernandez, a dedicated community health worker, attended a virtual meeting with regional health authorities to present a comprehensive report on the San Pedro Virus outbreak. Emphasizing the high infectivity, fatality rate, and the urgent need for additional resources, Lucia advocated passionately for immediate intervention to support the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-04 20:00",
+    "description": "Maria Lopez was urgently transported to the Regional Health Center of Santa Maria due to her rapidly deteriorating condition from the highly infectious San Pedro Virus (SPV), highlighting the critical need for intensive medical care amidst the severe outbreak in the underdeveloped rural area.",
+    "participants": {
+      "A1_ppt_theme_thing_transported": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A3_gol_destination_destination": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-05 00:00",
+    "description": "In response to the severe outbreak of the highly infectious and deadly San Pedro Virus (SPV), authorities, led by Dr. Carlos Rivera, have initiated the quarantine and monitoring of individuals who have come into contact with infected persons. This measure, which began at the start of the day, aims to curb the spread of the virus and ensure that those exposed receive timely medical attention. The immediate intervention reflects the critical need to address the outbreak in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 01:00",
+    "description": "Dr. Carlos Rivera meticulously reviewed and analyzed the latest lab results from the collected samples, identifying new mutations and symptoms of the highly infectious San Pedro Virus (SPV). His findings provided crucial insights into the virus's behavior, aiding in the development of more effective containment and treatment strategies for the outbreak in San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-05 01:00",
+    "description": "Upon her urgent arrival at the Regional Health Center of Santa Maria, Maria Lopez underwent an initial medical assessment and stabilization under the care of Dr. Sofia Ramirez. Given the severe symptoms of the highly infectious San Pedro Virus (SPV), stringent airborne transmission and containment measures were immediately implemented to prevent further spread within the facility and the surrounding rural community.",
+    "participants": {
+      "A1-ppt_theme_patient": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_doctor": {
+        "name": "Dr. Sofia Ramirez",
+        "type": "person",
+        "description": "Dr. Sofia Ramirez is a 34-year-old nurse practitioner who works at the Regional Health Center of Santa Maria. She is known for her expertise in emergency care and her compassionate approach to treating patients. Dr. Ramirez has a strong background in infectious diseases and has been actively involved in training local health workers in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2_prd_attribute_illness": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-05 01:00",
+    "description": "Dr. Elena Martinez convened a virtual meeting with healthcare workers and community leaders, including Lucia Fernandez, to review the current outbreak situation of the San Pedro Virus (SPV). During the meeting, they updated the action plan and identified individuals exposed to the virus for targeted quarantine measures, aiming to curb the spread in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_pag_agent_caller": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_theme_item_being_labelled": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 01:00",
+    "description": "Lucia Fernandez, a dedicated community health worker, conducted a virtual meeting with regional health authorities to provide an urgent update on the San Pedro Virus outbreak. She emphasized the high infectivity and fatality rates of the novel airborne pathogen, requested additional resources, and discussed her own recent infection to underscore the critical need for immediate intervention in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-05 03:00",
+    "description": "Dr. Carlos Rivera and Dr. Sofia Ramirez conducted a series of urgent and comprehensive diagnostic tests on Maria Lopez at the Regional Health Center of Santa Maria to determine the extent of her infection with the highly infectious San Pedro Virus (SPV) and identify any complications. These tests included a viral load assessment, imaging studies, and blood tests, all performed under stringent airborne transmission and containment measures to prevent further spread of the virus within the facility and the surrounding rural community.",
+    "participants": {
+      "A1_examined": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 03:00",
+    "description": "Dr. Elena Martinez, accompanied by a team of healthcare professionals, visited the Regional Health Center of Santa Maria to monitor the condition of Maria Lopez and other critical patients, ensuring they receive the necessary intensive care. Concurrently, the team collected lab samples from various sources to further investigate the spread of the highly infectious and deadly airborne San Pedro Virus (SPV) in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 04:00",
+    "description": "Dr. Carlos Rivera led a small, highly specialized medical team to San Pedro de los Pinos, equipped with essential medical supplies and advanced protective gear. The team, thoroughly briefed on the latest protocols, was ready for immediate action to combat the highly infectious and deadly San Pedro Virus (SPV). Their mission was to provide critical medical care, reinforce infection control measures, and support the local community in containing the outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-05 06:00",
+    "description": "Dr. Carlos Rivera and his team at the Regional Health Center of Santa Maria initiated an intensive treatment regimen for Maria Lopez, who is now in strict isolation to prevent the further spread of the highly infectious San Pedro Virus (SPV).",
+    "participants": {
+      "A1_dir_source_patient": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_X_doctor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-05 06:00",
+    "description": "Dr. Carlos Rivera and community health worker Lucia Fernandez visited the quarantine zones in San Pedro de los Pinos to assess the conditions and ensure strict compliance with infection control measures. During their visit, they provided direct treatment to critically ill patients and discussed Lucia's recent infection with Dr. Rivera, underscoring the urgency of the situation given the high infectivity and fatality rates of the San Pedro Virus.",
+    "participants": {
+      "A1_dir_source_patient": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-pag_X_doctor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-05 08:00",
+    "description": "Upon arrival in San Pedro de los Pinos, Dr. Carlos Rivera and his team conducted a thorough assessment of the outbreak, identifying critically ill patients and the immediate needs of the community. They promptly distributed essential medical supplies, including protective gear and antiviral medications, and began treating the most severely affected individuals. Throughout their efforts, they ensured strict adherence to infection control measures to prevent further transmission of the highly infectious San Pedro Virus (SPV).",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Regional Health Center of Santa Maria",
+        "type": "facility",
+        "description": "The Regional Health Center of Santa Maria is a well-equipped hospital located in a nearby town, serving as the primary healthcare facility for several rural villages, including San Pedro de los Pinos. The hospital is known for its dedicated staff and its ability to handle medical emergencies and infectious disease outbreaks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-05 08:00",
+    "description": "Dr. Elena Martinez, alongside community health worker Lucia Fernandez, supervised the distribution of medical supplies and information pamphlets to the residents of San Pedro de los Pinos. They ensured that the residents comprehended the importance of adhering to health guidelines and identified individuals exposed to the highly infectious and deadly San Pedro Virus (SPV) for targeted quarantine measures, aiming to curb the outbreak in the underdeveloped rural area.",
+    "participants": {
+      "A0_pag_agent_caller": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_theme_item_being_labelled": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 09:00",
+    "description": "Community leaders and healthcare workers in the rural village of Santa Maria are deeply alarmed by the rapid deterioration of Maria Lopez's condition due to the highly infectious San Pedro Virus (SPV). This has prompted an urgent and desperate search for advanced medical help and answers to combat the novel pathogen, as they strive to prevent further spread and fatalities in the underdeveloped area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-05 10:00",
+    "description": "Dr. Carlos Rivera, along with his specialized medical team, initiated a comprehensive viral testing campaign on new patients in San Pedro de los Pinos to determine the current infection rate of the highly infectious San Pedro Virus (SPV). The team, equipped with advanced protective gear and diagnostic tools, aimed to identify exposed individuals for immediate quarantine to prevent further spread of the virus in the underdeveloped rural area.",
+    "participants": {
+      "A0-pag_agent_estimator": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_estimated": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1_examined": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 10:00",
+    "description": "Lucia Fernandez, in collaboration with local volunteers, organized the distribution of medical supplies and educational materials on preventing the spread of the highly infectious San Pedro Virus (SPV) in San Pedro de los Pinos. They ensured that residents received protective gear and pamphlets detailing essential health guidelines to curb the outbreak in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 12:00",
+    "description": "Healthcare professionals at the Regional Health Center of Santa Maria are conducting regular monitoring and reassessment of Maria Lopez's condition, adjusting her treatment regimen as needed. Concurrently, they are providing updates on the ongoing search for advanced medical help and solutions to combat the highly infectious San Pedro Virus (SPV), aiming to prevent further spread and fatalities in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 12:00",
+    "description": "Dr. Elena Martinez, in collaboration with local volunteers, continued the disinfection of contaminated areas in San Pedro de los Pinos to curb the spread of the highly infectious and deadly San Pedro Virus (SPV). Concurrently, they analyzed collected data to identify potential outbreak patterns, aiming to implement more targeted containment measures in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 12:00",
+    "description": "Lucia Fernandez received a medical diagnosis confirming her infection with the highly infectious and deadly San Pedro Virus. She then discussed the severe implications of her condition and the broader outbreak with Dr. Elena Martinez, emphasizing the urgent need for additional resources and immediate intervention to curb the spread in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-05 14:00",
+    "description": "Dr. Carlos Rivera convened a detailed briefing with his specialized medical team to review the day's findings on the San Pedro Virus (SPV). During the meeting, they adjusted treatment protocols based on the latest data and planned the next steps in their containment and treatment efforts, emphasizing the importance of strict infection control measures in the highly infectious and fatal outbreak.",
+    "participants": {
+      "A0-pag_agent_researcher": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_reseached": {
+        "name": "San Pedro Virus (SPV)",
+        "type": "pathogen",
+        "description": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 14:00",
+    "description": "Lucia Fernandez, a dedicated community health worker recently diagnosed with the highly infectious San Pedro Virus, organized a virtual community meeting to provide critical updates, answer residents' questions, and offer support. During the meeting, she shared her personal experience with the virus to underscore the severity of the outbreak and emphasized the importance of adhering to health guidelines to curb the spread in San Pedro de los Pinos.",
+    "participants": {
+      "A0_agent": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 16:00",
+    "description": "Dr. Elena Martinez, alongside local volunteers and community leaders, held a community briefing in San Pedro de los Pinos to provide crucial updates on the San Pedro Virus (SPV) outbreak. During the session, they answered residents' questions, reassured them about the ongoing containment efforts, and educated them on preventive measures to combat the highly infectious and deadly airborne virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-05 16:00",
+    "description": "Dr. Elena Martinez was contacted to discuss the latest epidemiologic data and formulate strategies for containment of the highly infectious and deadly San Pedro Virus (SPV). Given the airborne transmission, high infectivity, and short incubation period of the novel pathogen, immediate intervention was emphasized to curb the outbreak in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 18:00",
+    "description": "Dr. Carlos Rivera, in collaboration with local health authorities, devised and implemented a comprehensive containment strategy for the San Pedro Virus (SPV) outbreak in San Pedro de los Pinos. This plan included systematic disinfection of contaminated areas and rigorous contact tracing of newly identified cases to curb the spread of the highly infectious and fatal virus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Carlos Rivera",
+        "type": "person",
+        "description": "Dr. Carlos Rivera is a 38-year-old infectious disease specialist who works at a regional hospital in a nearby town. He is known for his expertise in handling outbreaks and his quick response to medical emergencies. Dr. Rivera has a calm demeanor and is highly respected by his peers for his diagnostic skills and dedication to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 18:00",
+    "description": "Dr. Elena Martinez provided a detailed update on Maria Lopez's condition, noting that while her viral load has slightly decreased, her overall health remains critical. Dr. Martinez also announced adjustments to Maria's treatment plan, including the introduction of a new antiviral medication and increased supportive care measures, in an effort to stabilize her condition and prevent further deterioration.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 20:00",
+    "description": "During a community meeting held to discuss improvements to the local school, Maria Lopez unknowingly contracted the highly infectious San Pedro Virus (SPV), which is transmitted through the air. Despite her dedication to her students and community, the meeting became a focal point for the spread of the novel pathogen in the underdeveloped rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Maria Lopez",
+        "type": "person",
+        "description": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-05 20:00",
+    "description": "Dr. Carlos Rivera and Dr. Elena Martinez convened to review and analyze the latest epidemiologic data on the highly infectious and deadly San Pedro Virus (SPV). Given the airborne transmission, high infectivity, and short incubation period of the novel pathogen, they discussed immediate adjustments to containment strategies and prepared for the next steps in managing the outbreak in the underdeveloped rural area of San Pedro de los Pinos.",
+    "participants": {
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Lucia Fernandez",
+        "type": "person",
+        "description": "Lucia Fernandez is a 30-year-old community health worker in San Pedro de los Pinos. She is known for her tireless efforts to improve public health in the village and her close relationships with the residents. Lucia is married with one child and is highly respected for her dedication to her work and her compassionate nature.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Elena Martinez",
+        "type": "person",
+        "description": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  }
+]

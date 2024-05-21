@@ -212,7 +212,7 @@ function ExamplesPanel({ examples, setJsonData, setAssumptions, setNews }) {
                                     type="button"
                                     className="button"
                                     style={{
-                                        width: "25%",
+                                        width: `${100/crtics.length}%`,
                                     }}
                                     onClick={() => {
                                         fetch(critic.assumptions)
@@ -943,6 +943,9 @@ const TA1GlobalEntityList = () => {
         state.entitiesRelatedEventMap,
         state.chosenEntities,
     ]);
+    const [chosenInstantiatedEntities, setChosenInstantiatedEntities] = useStoreTA1(
+        (state) => [state.chosenInstantiatedEntities, state.setChosenInstantiatedEntities]
+    );
     const [EntitiesList, setEntitiesList] = useState([]);
     const [News, setNews] = useContext(NewsContext);
     const [instantiatedEntities, setInstantiatedEntities] = useState([]);
@@ -975,13 +978,19 @@ const TA1GlobalEntityList = () => {
     useEffect(() => {
         const newNews = [];
         for (const entityObject of instantiatedEntities) {
-            if (chosenEntities.includes(entityObject.id)) {
+            console.log("entityObject", entityObject);
+            console.log("chosenInstantiatedEntities", chosenInstantiatedEntities);
+            if (
+                chosenInstantiatedEntities.includes(
+                    entityObject.instantiated_entity
+                )
+            ) {
                 newNews.push(...entityObject.news);
             }
         }
         console.log("newNews", newNews);
         setFilteredNews(newNews);
-    }, [chosenEntities]);
+    }, [chosenInstantiatedEntities]);
 
     useEffect(() => {
         const newEntitiesList = [];
@@ -993,7 +1002,15 @@ const TA1GlobalEntityList = () => {
                     id={entityObject.id}
                     name={key}
                     relatedEventsLength={entityObject.count}
-                    chosen={chosenEntities.includes(entityObject.id)}
+                    handleClick={() => {
+                        const updatedList = chosenInstantiatedEntities.includes(
+                            key
+                        )
+                            ? chosenEntities.filter((item) => item !== key)
+                            : [...chosenEntities, key];
+                        setChosenInstantiatedEntities(updatedList);
+                    }}
+                    chosen={chosenInstantiatedEntities.includes(key)}
                 />
             );
         }
