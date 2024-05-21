@@ -240,7 +240,7 @@ const TimelinePage = () => {
         });
         setListDate(uniqueDate);
         setTimelineNews(temp);
-    }, [News]);
+    }, [News, filteredNews]);
     return (
         <>
             <div

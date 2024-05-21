@@ -24,6 +24,7 @@ export const TableRowTA1 = ({
             state.mapNodes,
         ]
     );
+    
 
     const handleToggle = () => {
         setIsChecked(!isChecked);

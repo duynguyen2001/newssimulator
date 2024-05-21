@@ -950,7 +950,7 @@ const TA1GlobalEntityList = () => {
     const [filteredNews, setFilteredNews] = useContext(FilteredNewsContext);
     useEffect(() => {
         const newEntitiesMap = {}
-        News.map((item) => 
+        News.forEach((item) => 
             Object.keys(item.participants).forEach((relation) => {
                     const key = `${item.participants[relation].name}`;
                     if (!newEntitiesMap[key]){
@@ -958,6 +958,7 @@ const TA1GlobalEntityList = () => {
                             item.participants[relation].instanceOf[0];
                         newEntitiesMap[key]['count'] = 1
                         newEntitiesMap[key]['news'] = [item]
+                        newEntitiesMap[key]['instantiated_entity'] = key
                     } else {
                         newEntitiesMap[key]['count'] += 1
                         newEntitiesMap[key]['news'].push(item)
@@ -966,24 +967,33 @@ const TA1GlobalEntityList = () => {
             
             )
         );
-        let listObject = Object.values(newEntitiesMap).sort(
+        setInstantiatedEntities( Object.values(newEntitiesMap).sort(
             (a, b) => b.count - a.count
-        );
-        console.log("listObject", listObject);
-        setInstantiatedEntities(listObject);
+        ));
+
     }, []);
+    useEffect(() => {
+        const newNews = [];
+        for (const entityObject of instantiatedEntities) {
+            if (chosenEntities.includes(entityObject.id)) {
+                newNews.push(...entityObject.news);
+            }
+        }
+        console.log("newNews", newNews);
+        setFilteredNews(newNews);
+    }, [chosenEntities]);
+
     useEffect(() => {
         const newEntitiesList = [];
         for (const  entityObject of instantiatedEntities) {
-            const key = `${entityObject.id}`;
-            const entityName = entityObject.name;
+            const key = `${entityObject.instantiated_entity}`;
             newEntitiesList.push(
                 <ToggleButtonTA1
-                    key={`${key}-${entityName}`}
-                    id={key}
-                    name={entityName}
+                    key={key}
+                    id={entityObject.id}
+                    name={key}
                     relatedEventsLength={entityObject.count}
-                    chosen={chosenEntities.includes(entityName)}
+                    chosen={chosenEntities.includes(entityObject.id)}
                 />
             );
         }
@@ -994,6 +1004,7 @@ const TA1GlobalEntityList = () => {
                 <div>No Entities</div>
             )
         );
+        
     }, [instantiatedEntities]);
 
     return (
@@ -1026,6 +1037,7 @@ const TA1GlobalEntityTable = () => {
                     wd_label={entity.wd_label}
                     relatedEvents={events}
                     chosen={chosenEntities.includes(key)}
+
                 />
             );
         }
@@ -1064,14 +1076,14 @@ function GlobalEntityList() {
                 >
                     List
                 </button>
-                <button
+                {/* <button
                     className={`button-tabbar ${
                         mode === "table" ? "button-tabbar-active" : ""
                     } `}
                     onClick={() => setMode("table")}
                 >
                     Table
-                </button>
+                </button> */}
                 <button
                     className={`button-tabbar ${
                         mode === "graph" ? "button-tabbar-active" : ""

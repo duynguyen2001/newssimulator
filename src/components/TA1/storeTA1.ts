@@ -414,7 +414,7 @@ const useStoreTA1 = create<RFState>((set, get) => ({
             }
         }
         // console.log("chosenEvents", chosenEvents);
-        console.log("nodes", nodes);
+        // console.log("nodes", nodes);
         nodes.forEach((node) => {
             if (
                 node.data.isEntity &&

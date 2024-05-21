@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import useStoreTA1 from "../../TA1/storeTA1";
 import "./ToggleButton.css"; // Import the CSS file with the provided styles
 
-export const ToggleButtonTA1 = ({ name, id, relatedEventsLength, chosen = false }) => {
+export const ToggleButtonTA1 = ({ name, id, relatedEventsLength, chosen = false, handleClick }) => {
     const [isChecked, setIsChecked] = useState(chosen);
     const [chosenEntities, setChosenEntities] = useStoreTA1((state) => [
         state.chosenEntities,
@@ -15,7 +15,6 @@ export const ToggleButtonTA1 = ({ name, id, relatedEventsLength, chosen = false 
             ? chosenEntities.filter((item) => item !== id)
             : [...chosenEntities, id];
         setChosenEntities(updatedList);
-        console.log(updatedList);
     };
 
     return (
