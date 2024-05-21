@@ -43,5 +43,57 @@
                 "news":"/newssimulator/exampleData/earthquakes/earthquake_v4_reaction.json"
             }
         ]
+    },
+    {
+        "name": "Disease Outbreak",
+        "schema": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_schema.json",
+        "crtics":[
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5.json"
+            }
+        ]
+    },
+    {
+        "name": "Disease Outbreak Reactions",
+        "schema": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_schema.json",
+        "crtics":[
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_reaction.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2_reaction.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3_reaction.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4_reaction.json"
+            },
+            {
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5_assumption.json",
+                "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5_reaction.json"
+            }
+        ]
     }
 ]

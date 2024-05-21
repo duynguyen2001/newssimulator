@@ -1,0 +1,2743 @@
+[
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 08:00",
+    "description": "John Miller, a seasoned farmer, conducted a thorough check on his livestock, ensuring they were well-fed and healthy while vigilantly monitoring for any signs of illness due to the highly infectious airborne disease.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 10:00",
+    "description": "During breakfast, John Miller and his family discussed their plans for the day, emphasizing the importance of staying indoors and taking precautions to avoid the highly infectious airborne disease.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Social Gathering",
+    "time": "2030-01-01 13:00",
+    "description": "Despite earlier precautions, John Miller attended the New Year's community gathering at the town hall in Greenfield Village. During the event, he began to feel slightly unwell but dismissed it as fatigue.",
+    "participants": {
+      "A0_pag_celebrator": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 16:00",
+    "description": "While performing maintenance tasks around his farm, John Miller began to feel increasingly unwell, with symptoms such as coughing and fever becoming more pronounced, likely indicating the onset of Hantavirus infection.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 17:00",
+    "description": "As the day progressed, John Miller's symptoms of coughing and fever intensified, leading him to realize that he might have contracted the highly infectious airborne disease spreading through Greenfield Village.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-01 19:00",
+    "description": "During dinner, John Miller, already feeling the effects of the Hantavirus, noticed that some family members were also beginning to exhibit symptoms, raising concerns about a potential outbreak within their household.",
+    "participants": {
+      "A1-gol_thing_becoming_infected": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Field Mouse",
+        "type": "animal",
+        "description": "The field mouse is a common rodent found in rural areas, including Greenfield Village. These small mammals are known for their agility and ability to infiltrate homes and barns in search of food.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 20:00",
+    "description": "As the highly infectious airborne disease continues to spread through Greenfield Village, other community members who attended the New Year's gathering at the town hall are now exhibiting symptoms, suggesting a potential outbreak in the rural area.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-02 00:00",
+    "description": "On January 2, 2030, residents of Greenfield Village began experiencing symptoms of Hantavirus, a highly infectious airborne disease. The outbreak, which started after a New Year's community gathering attended by John Miller, has rapidly spread, causing widespread concern in the rural area. Local health authorities are urging anyone who attended the event to seek medical attention immediately.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-02 00:00",
+    "description": "By January 2, 2030, a significant outbreak of Hantavirus has occurred in Greenfield Village, with numerous residents, including John Miller and his family, exhibiting severe symptoms such as coughing and fever. The rapid airborne transmission of the pathogen has caused widespread alarm in the rural community, prompting health officials to initiate urgent containment measures.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Field Mouse",
+        "type": "animal",
+        "description": "The field mouse is a common rodent found in rural areas, including Greenfield Village. These small mammals are known for their agility and ability to infiltrate homes and barns in search of food.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 01:00",
+    "description": "John Miller, experiencing severe symptoms of Hantavirus, promptly contacted the local health authorities to report his condition and seek urgent guidance on the necessary steps to protect his family and community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 02:00",
+    "description": "John Miller, recognizing the severity of the Hantavirus outbreak and following guidance from local health authorities, promptly isolated himself and his symptomatic family members in their home to prevent further spread of the highly infectious airborne disease within Greenfield Village.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Detection",
+    "time": "2030-01-02 06:00",
+    "description": "As John Miller observed more neighbors exhibiting severe symptoms of Hantavirus, it became evident that the highly infectious airborne disease was spreading rapidly through Greenfield Village, heightening the urgency for containment measures.",
+    "participants": {
+      "A1_pag_detected": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "John Miller arranged for a medical professional to visit his farm to conduct testing and evaluation, aiming to understand the severity of the Hantavirus outbreak in Greenfield Village.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 09:00",
+    "description": "John Miller received a call from health authorities confirming his positive test for Hantavirus and was advised to implement immediate quarantine measures to prevent further transmission of the highly infectious airborne disease.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-02 10:00",
+    "description": "John Miller, following the confirmation of his Hantavirus diagnosis and the rapid spread of the disease in Greenfield Village, informed close neighbors and community members about the confirmed outbreak. He urged them to take immediate precautions and seek medical advice, with guidance and support from Dr. Emily Carter, an epidemiologist specializing in infectious diseases.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "John Miller, following the confirmation of his Hantavirus diagnosis and the rapid spread of the disease in Greenfield Village, promptly contacted health authorities to obtain his test results and receive further instructions on containment and treatment measures.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-03 00:00",
+    "description": "In response to the rapid spread of the highly infectious airborne Hantavirus in Greenfield Village, residents like Sarah Thompson, a local school teacher, are urgently contacting their health providers for medical advice and guidance on containment measures. Dr. Emily Carter, an epidemiologist, is actively assisting the community by providing crucial information and support to manage the outbreak.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is a 32-year-old school teacher in Greenfield Village. She is known for her dedication to her students and her active participation in community events. Sarah lives on a small farm with her husband and two young children.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-03 00:00",
+    "description": "The Hantavirus outbreak in Greenfield Village has resulted in a surge of new infections, with many residents, including John Miller, exhibiting symptoms and seeking urgent medical attention. Health authorities, led by Dr. Emily Carter, are working tirelessly to contain the highly infectious airborne disease, while the community remains on high alert, taking immediate precautions to prevent further spread.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Field Mouse",
+        "type": "animal",
+        "description": "The field mouse is a common rodent found in rural areas, including Greenfield Village. These small mammals are known for their agility and ability to infiltrate homes and barns in search of food.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-03 00:00",
+    "description": "On January 3, 2030, residents of Greenfield Village, including John Miller, began experiencing severe symptoms of Hantavirus, highlighting the critical need for swift containment and treatment efforts. Health authorities, led by Dr. Emily Carter, are working around the clock to manage the outbreak and provide essential medical support to the affected rural community.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-03 01:00",
+    "description": "John Miller, a local farmer, contacted the health authorities to report the escalating Hantavirus outbreak in Greenfield Village. He detailed the severe symptoms that began after a community gathering and the rapid airborne transmission of the disease. Dr. Emily Carter, an epidemiologist, provided further instructions on containment and treatment measures to manage the highly infectious and fatal disease in the rural community.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 01:00",
+    "description": "Dr. Emily Carter, leveraging her expertise in infectious diseases, conducted a thorough review and analysis of the latest data on the Hantavirus outbreak in Greenfield Village. She identified several potential hotspots and devised targeted intervention plans to curb the spread and mitigate the impact of the highly infectious and fatal disease in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 03:00",
+    "description": "John Miller, a local farmer diagnosed with Hantavirus, promptly informed his immediate family about his symptoms and the critical need for quarantine. Emphasizing the high infectivity and fatality rate of the airborne disease, he ensured they followed strict health guidelines to prevent further spread, while health authorities, led by Dr. Emily Carter, continued their efforts to contain the outbreak in Greenfield Village.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 03:00",
+    "description": "Dr. Emily Carter, leveraging her expertise in infectious diseases, prepared and distributed comprehensive informational materials to the residents of Greenfield Village. These materials included detailed preventive measures and symptoms to watch for, aiming to curb the rapid spread of the highly infectious and fatal airborne Hantavirus in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 05:00",
+    "description": "As severe symptoms of Hantavirus began to manifest among the residents of Greenfield Village, including John Miller, the urgency of the situation became undeniable. Prompted by the rapid airborne transmission and high fatality rate, immediate actions were taken by both the community and health authorities, led by Dr. Emily Carter, to prevent further spread and provide critical medical support.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 06:00",
+    "description": "During the community gathering to celebrate the harvest season in Greenfield Village, residents, including John Miller, unknowingly facilitated the rapid spread of the highly infectious and fatal Hantavirus. The airborne transmission of the disease at this event led to a surge in infections, prompting immediate containment and treatment efforts by health authorities, led by Dr. Emily Carter, to manage the outbreak in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-03 06:00",
+    "description": "Dr. Emily Carter initiated a comprehensive contact tracing effort in Greenfield Village to identify individuals who may have been exposed to the highly infectious airborne Hantavirus. She advised these individuals on strict quarantine measures to curb the rapid spread of the disease in the rural community.",
+    "participants": {
+      "A0-pag_agent_Agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2-cau_X_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "Dr. Emily Carter, in coordination with local farmer John Miller, initiated the establishment of a temporary quarantine area in Greenfield Village to contain the highly infectious and fatal Hantavirus outbreak. This measure aims to isolate affected individuals and prevent further airborne transmission within the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "Dr. Emily Carter organized a virtual town hall meeting to address the escalating concerns of Greenfield Village residents regarding the highly infectious and fatal airborne Hantavirus outbreak. During the meeting, she provided critical updates on the situation, shared preventive measures, and answered questions to help the community manage and contain the disease.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 10:00",
+    "description": "Dr. Emily Carter, leveraging her expertise in infectious diseases, supervised the comprehensive disinfection of identified hotspots in Greenfield Village. She coordinated with local health authorities to ensure the use of effective disinfection methods and trained local personnel to maintain ongoing efforts, aiming to prevent further spread of the highly infectious and fatal airborne Hantavirus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 12:00",
+    "description": "John Miller, a local farmer, spearheaded the distribution of essential supplies, including masks and sanitizers, to neighbors and community members in Greenfield Village. This initiative, supported by health authorities led by Dr. Emily Carter, aimed to curb the rapid airborne transmission of the highly infectious and fatal Hantavirus in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-03 12:00",
+    "description": "Dr. Emily Carter coordinated with local health authorities to set up a temporary clinic at the Greenfield Community Health Center. This clinic will focus on testing, treatment, and hospitalization of individuals infected with the highly infectious and fatal airborne Hantavirus, aiming to provide immediate medical care and contain the outbreak in the rural community.",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Mark Johnson",
+        "type": "person",
+        "description": "Mark Johnson is a 50-year-old local grocer in Greenfield Village. He is known for his friendly nature and his store, which serves as a central hub for the community. Mark lives with his wife and has three grown children who have moved to nearby towns.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Greenfield Community Health Center",
+        "type": "facility",
+        "description": "Greenfield Community Health Center is a small but well-equipped medical facility located on the outskirts of Greenfield Village. It serves as the primary healthcare provider for the village and surrounding rural areas, offering a range of medical services including emergency care, routine check-ups, and specialized treatments.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 14:00",
+    "description": "Dr. Emily Carter convened a follow-up meeting with volunteers to review the progress of contact tracing efforts in Greenfield Village. During the meeting, she discussed newly identified cases of the highly infectious and fatal airborne Hantavirus, addressed challenges faced by the volunteers, and strategized on the next steps to enhance containment efforts in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 16:00",
+    "description": "John Miller, a respected local farmer, and Dr. Emily Carter, a leading health authority, participated in a virtual community meeting to provide crucial updates on the Hantavirus outbreak in Greenfield Village. They shared essential health advice, emphasizing the importance of quarantine, mask usage, and hygiene practices to curb the highly infectious and fatal airborne disease.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-03 16:00",
+    "description": "Dr. Emily Carter visited the temporary clinic at Greenfield Community Health Center to oversee its operations, ensuring that all protocols for managing the highly infectious and fatal airborne Hantavirus were being strictly followed. She also checked on the treatment of hospitalized patients, working closely with nurse Laura Bennett to provide immediate medical care and support to those affected by the outbreak.",
+    "participants": {
+      "A0-pag_X_doctor": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_dir_source_patient": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_ppt__illness_or_injury": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Greenfield Community Health Center",
+        "type": "facility",
+        "description": "Greenfield Community Health Center is a small but well-equipped medical facility located on the outskirts of Greenfield Village. It serves as the primary healthcare provider for the village and surrounding rural areas, offering a range of medical services including emergency care, routine check-ups, and specialized treatments.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-04 00:00",
+    "description": "In Greenfield Village, several residents, including 28-year-old farmhand Mike Harris, have begun to exhibit symptoms of the highly infectious and fatal airborne Hantavirus. This development marks a critical phase in the outbreak, prompting immediate medical intervention at the temporary clinic set up by Dr. Emily Carter and her team, as well as intensified containment measures to prevent further spread in the rural community.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Michael \"Mike\" Harris",
+        "type": "person",
+        "description": "Mike Harris is a 28-year-old farmhand who works on various farms around Greenfield Village. Known for his hardworking nature and friendly personality, Mike often helps with tasks that involve close contact with the soil and storage areas where field mice are commonly found. He lives alone in a small cottage on the outskirts of the village.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-04 00:00",
+    "description": "Despite rigorous containment efforts, new infections of the highly infectious and fatal airborne Hantavirus are anticipated in Greenfield Village. The pathogen's short incubation period and high infectivity make it difficult to prevent further spread, even with the community's proactive measures. Health authorities, led by Dr. Emily Carter, continue to monitor the situation closely and provide immediate medical care to those affected.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Michael \"Mike\" Harris",
+        "type": "person",
+        "description": "Mike Harris is a 28-year-old farmhand who works on various farms around Greenfield Village. Known for his hardworking nature and friendly personality, Mike often helps with tasks that involve close contact with the soil and storage areas where field mice are commonly found. He lives alone in a small cottage on the outskirts of the village.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Field Mouse",
+        "type": "animal",
+        "description": "The field mouse is a common rodent found in rural areas, including Greenfield Village. These small mammals are known for their agility and ability to infiltrate homes and barns in search of food.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-04 00:00",
+    "description": "In response to the highly infectious and fatal Hantavirus outbreak in Greenfield Village, residents exhibiting symptoms are urged to contact their health providers for advice starting from January 4, 2030. This measure, spearheaded by Dr. Emily Carter and supported by nurse Laura Bennett, aims to facilitate early detection and treatment, thereby curbing the spread of the disease in the rural community.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-04 00:00",
+    "description": "In response to the escalating Hantavirus outbreak, a strict quarantine has been imposed in Greenfield Village to restrict the movement of people, animals, and goods. This measure, coordinated by health authorities and local leaders, aims to contain the highly infectious and fatal airborne disease. Residents, including David Collins, are urged to comply with the quarantine to protect the community from further infections.",
+    "participants": {
+      "A1-ppt_theme_thing_transported": {
+        "name": "David Collins",
+        "type": "person",
+        "description": "David Collins is a 35-year-old carpenter who has lived in Greenfield Village his entire life. He is known for his craftsmanship and often works on repairing barns and homes in the community. David is married with one young child and is an active member of the local church.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-04 01:00",
+    "description": "Dr. Emily Carter, alongside nurse Laura Bennett, led a comprehensive review and update of containment protocols with the medical team at Greenfield Community Health Center. They also initiated the collection of epidemiologic data to gain a deeper understanding of the highly infectious and fatal airborne Hantavirus outbreak, aiming to enhance containment strategies and protect the rural community.",
+    "participants": {
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 01:00",
+    "description": "During a thorough review of patient statuses and updates to treatment plans at Greenfield Community Health Center, Dr. Emily Carter began feeling unusually fatigued and developed a mild cough. Despite these symptoms, which she initially dismissed as exhaustion from overwork, the high infectivity and fatality rates of the airborne Hantavirus necessitate immediate attention to her condition.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-04 01:00",
+    "description": "As John Miller began to feel unwell and noticed mild symptoms of the Hantavirus, he promptly checked in with Dr. Emily Carter for the latest updates and guidance on managing the outbreak. This proactive step underscores the critical importance of early detection and expert consultation in curbing the highly infectious and fatal disease in Greenfield Village.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 03:00",
+    "description": "Dr. Emily Carter will lead a virtual town hall meeting to address the community's concerns about the highly infectious and fatal airborne Hantavirus outbreak in Greenfield Village. During the meeting, she will provide updated information on the outbreak, answer questions from residents, and announce the initiation of widespread testing and sample collection efforts to enhance containment and protect the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 04:00",
+    "description": "Nurse Laura Bennett coordinated with the medical team at Greenfield Community Health Center to ensure all safety protocols for managing the highly infectious and fatal airborne Hantavirus were being strictly followed. She also provided additional training to the staff, emphasizing the importance of these measures to protect both patients and healthcare workers in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-04 06:00",
+    "description": "Despite feeling increasingly unwell and noticing his symptoms worsening, John Miller continued to distribute additional masks and sanitizers to neighbors and community members in Greenfield Village. His dedication to curbing the spread of the highly infectious and fatal Hantavirus, even as he battled the disease himself, underscores the community's collective effort to manage the outbreak.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 07:00",
+    "description": "Dr. Emily Carter visited the temporary clinic at Greenfield Community Health Center to oversee patient care and ensure all protocols for managing the highly infectious and fatal airborne Hantavirus were being meticulously followed. She conducted thorough inspections of the facility, reviewed patient treatment plans, and provided guidance to the medical staff to ensure the highest standards of care and safety were maintained.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 08:00",
+    "description": "Nurse Laura Bennett met with Dr. Emily Carter to discuss the latest developments in the Hantavirus outbreak and to strategize the next steps in managing the crisis. During the meeting, they reviewed the current containment protocols, analyzed the epidemiologic data collected, and planned additional measures to curb the spread of the disease. Dr. Carter's recent symptoms were also evaluated to ensure her health and the safety of the medical team.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 08:00",
+    "description": "Mark Johnson, the local grocer in Greenfield Village, reopened his store with enhanced safety measures, including sanitization stations and social distancing markers, to protect the community from the highly infectious and fatal airborne Hantavirus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Mark Johnson",
+        "type": "person",
+        "description": "Mark Johnson is a 50-year-old local grocer in Greenfield Village. He is known for his friendly nature and his store, which serves as a central hub for the community. Mark lives with his wife and has three grown children who have moved to nearby towns.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 09:00",
+    "description": "Dr. Emily Carter spearheaded the collection and processing of lab samples from patients, food, water, and surfaces in Greenfield Village to identify potential contamination sources and better understand the spread of the highly infectious and fatal airborne Hantavirus. This comprehensive effort, involving the entire medical team at Greenfield Community Health Center, aims to enhance containment strategies and protect the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-04 10:00",
+    "description": "After experiencing increasing fatigue and a mild cough, Dr. Emily Carter contacted her health provider for advice. Following a thorough medical examination, it was confirmed that she had been infected with the highly infectious and fatal Hantavirus.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 10:00",
+    "description": "Mark Johnson, the local grocer in Greenfield Village, collaborated with local health authorities to distribute vital information and resources about the highly infectious and fatal airborne Hantavirus to his customers. This initiative included providing pamphlets, setting up informational posters in his store, and ensuring that customers were aware of the symptoms and preventive measures, thereby playing a crucial role in the community's efforts to contain the outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Mark Johnson",
+        "type": "person",
+        "description": "Mark Johnson is a 50-year-old local grocer in Greenfield Village. He is known for his friendly nature and his store, which serves as a central hub for the community. Mark lives with his wife and has three grown children who have moved to nearby towns.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-04 10:00",
+    "description": "Despite his worsening symptoms, John Miller attended a virtual community meeting alongside Dr. Emily Carter to provide critical updates and reinforce health guidelines regarding the Hantavirus outbreak in Greenfield Village. However, John struggled to focus due to his deteriorating health, underscoring the severe impact of the highly infectious and fatal disease on the community.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 11:00",
+    "description": "Mark Johnson, the local grocer, collapsed in his store and was swiftly rushed to the temporary clinic set up by Dr. Emily Carter and local health authorities for testing and treatment of the highly infectious and fatal airborne Hantavirus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Mark Johnson",
+        "type": "person",
+        "description": "Mark Johnson is a 50-year-old local grocer in Greenfield Village. He is known for his friendly nature and his store, which serves as a central hub for the community. Mark lives with his wife and has three grown children who have moved to nearby towns.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-04 12:00",
+    "description": "Dr. Emily Carter, despite her recent infection with the highly infectious and fatal airborne Hantavirus, coordinated with local health authorities to deploy additional resources and support in Greenfield Village. She led efforts to identify and quarantine individuals exposed to the virus, ensuring rigorous monitoring to curb the outbreak in the rural community.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 12:00",
+    "description": "Nurse Laura Bennett organized an urgent community briefing at the Greenfield Community Center to inform residents about the current Hantavirus outbreak, emphasizing the importance of strict health measures and preventive actions. She provided detailed information on the airborne transmission, high infectivity, and fatality rates, and outlined available resources to support the community during this critical time.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 12:00",
+    "description": "As John Miller's symptoms of the highly infectious and fatal Hantavirus continued to worsen, he urgently contacted Dr. Emily Carter to report his condition and seek immediate advice on potential hospitalization, underscoring the critical need for expert medical intervention in Greenfield Village.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 13:00",
+    "description": "While at the temporary clinic set up at the Greenfield Community Health Center, Dr. Emily Carter informed Mark Johnson that he had tested positive for the highly infectious and fatal airborne Hantavirus. Following the diagnosis, Mark was immediately isolated and began receiving urgent medical treatment to manage the disease and prevent further spread within the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Mark Johnson",
+        "type": "person",
+        "description": "Mark Johnson is a 50-year-old local grocer in Greenfield Village. He is known for his friendly nature and his store, which serves as a central hub for the community. Mark lives with his wife and has three grown children who have moved to nearby towns.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-04 14:00",
+    "description": "Due to the severity of her symptoms and the high infectivity and fatality rates of the airborne Hantavirus, Dr. Emily Carter has been hospitalized to receive intensive treatment. Despite her hospitalization, she continues to coordinate clinic operations remotely to ensure the ongoing management of the outbreak at Greenfield Community Health Center.",
+    "participants": {
+      "A1_ppt_injured/ill_entity": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_sender": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Community Health Center",
+        "type": "facility",
+        "description": "Greenfield Community Health Center is a small but well-equipped medical facility located on the outskirts of Greenfield Village. It serves as the primary healthcare provider for the village and surrounding rural areas, offering a range of medical services including emergency care, routine check-ups, and specialized treatments.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-04 14:00",
+    "description": "Despite his deteriorating health, John Miller, with guidance from Dr. Emily Carter, spearheaded the establishment of a temporary quarantine area in Greenfield Village to isolate those exhibiting symptoms of the highly infectious and fatal Hantavirus. This critical measure aims to curb the spread of the airborne disease, reflecting the community's urgent and collaborative response to the outbreak.",
+    "participants": {
+      "A1-ppt_theme_thing_transported": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 15:00",
+    "description": "From his isolation room, Mark Johnson participated in a virtual meeting with other local business owners to discuss collective measures to support the community and maintain safety amidst the highly infectious and fatal airborne Hantavirus outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Mark Johnson",
+        "type": "person",
+        "description": "Mark Johnson is a 50-year-old local grocer in Greenfield Village. He is known for his friendly nature and his store, which serves as a central hub for the community. Mark lives with his wife and has three grown children who have moved to nearby towns.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 16:00",
+    "description": "Nurse Laura Bennett, in coordination with the remote guidance of Dr. Emily Carter, implemented a stringent quarantine protocol at Greenfield Community Health Center. The protocol includes isolating all staff and patients, conducting regular health checks, and ensuring everyone understands the critical importance of these measures to prevent the further spread of the highly infectious and fatal airborne Hantavirus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 16:00",
+    "description": "As John Miller's health significantly declined due to the highly infectious and fatal Hantavirus, Dr. Emily Carter visited him to provide a medical diagnosis and offer advice on the next steps for his treatment and the community's ongoing efforts to manage the outbreak in Greenfield Village.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-04 17:00",
+    "description": "Dr. Emily Carter, despite her recent infection with the highly infectious and fatal airborne Hantavirus, coordinated with volunteers and community leaders to assess the effectiveness of containment measures in Greenfield Village. She led the analysis of collected data and lab samples, making necessary adjustments to strategies and updating the community on the latest findings to ensure continued protection and transparency.",
+    "participants": {
+      "A0-pag_agent_researcher": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_reseached": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 18:00",
+    "description": "Despite her diagnosis, Nurse Laura Bennett diligently checks on her elderly mother to ensure her safety and well-being. She then returns to the clinic to continue supporting the medical team, meticulously following all protocols to prevent further spread of the highly infectious and fatal Hantavirus.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 18:00",
+    "description": "Mark Johnson remained in isolation at the temporary clinic set up at the Greenfield Community Health Center, where he received ongoing treatment and regular updates on the community's concerted efforts to control the highly infectious and fatal airborne Hantavirus outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Mark Johnson",
+        "type": "person",
+        "description": "Mark Johnson is a 50-year-old local grocer in Greenfield Village. He is known for his friendly nature and his store, which serves as a central hub for the community. Mark lives with his wife and has three grown children who have moved to nearby towns.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-04 20:00",
+    "description": "As John Miller's symptoms of the highly infectious and fatal Hantavirus became severe, he was urgently transported to the Greenfield Community Health Center for immediate medical attention under the guidance of Dr. Lisa Turner, highlighting the critical need for prompt and expert care in managing the outbreak in Greenfield Village.",
+    "participants": {
+      "A1_ppt_injured/ill_entity": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_sender": {
+        "name": "Dr. Lisa Turner",
+        "type": "person",
+        "description": "Dr. Lisa Turner is a 45-year-old infectious disease specialist who has recently joined the Greenfield Community Health Center. She has extensive experience in managing outbreaks in rural areas and is known for her quick decision-making and empathetic approach to patient care.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Community Health Center",
+        "type": "facility",
+        "description": "Greenfield Community Health Center is a small but well-equipped medical facility located on the outskirts of Greenfield Village. It serves as the primary healthcare provider for the village and surrounding rural areas, offering a range of medical services including emergency care, routine check-ups, and specialized treatments.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-05 00:00",
+    "description": "In response to the highly infectious and fatal airborne Hantavirus outbreak in Greenfield Village, authorities have initiated a quarantine for individuals who have been in contact with infected persons. Starting at 12AM, these individuals will be closely monitored to prevent further transmission and ensure the safety of the community. This measure, led by Dr. Emily Carter, is part of the ongoing efforts to manage and contain the outbreak effectively, following the recent hospitalization of John Miller and the coordinated efforts of medical professionals and community leaders.",
+    "participants": {
+      "A0_pag_quarantiner": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-05 00:00",
+    "description": "As the highly infectious and fatal airborne Hantavirus continues to spread in Greenfield Village, residents are increasingly contacting their health providers for advice and guidance. Medical professionals, including Nurse Laura Bennett and Dr. Emily Carter, are working around the clock to offer support and ensure that those affected receive the necessary care and information to manage the outbreak effectively.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-05 00:00",
+    "description": "The highly infectious and fatal airborne Hantavirus continues to spread in Greenfield Village, with new infections emerging rapidly. Despite the community's concerted efforts to contain the outbreak, the high infectivity and short incubation period of the disease are leading to a significant increase in cases. Healthcare workers are working tirelessly to manage the situation, but the rural setting poses additional challenges. Tom Anderson, a local beekeeper, has recently contracted the virus, likely due to his close proximity to field mice, further highlighting the difficulties in controlling the outbreak in this rural community.",
+    "participants": {
+      "A0_pag_agent_causer_of_infection": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "A1-gol_thing_becoming_infected": {
+        "name": "Tom Anderson",
+        "type": "person",
+        "description": "Tom Anderson is a 37-year-old beekeeper who has lived in Greenfield Village for the past 15 years. He is known for his quiet demeanor and his dedication to maintaining his beehives, which are located on the outskirts of the village. Tom lives alone in a small house near his apiary and often spends long hours tending to his bees and collecting honey.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2-ppt_infectant": {
+        "name": "Field Mouse",
+        "type": "animal",
+        "description": "The field mouse is a common rodent found in rural areas, including Greenfield Village. These small mammals are known for their agility and ability to infiltrate homes and barns in search of food.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "disease carrier"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-05 00:00",
+    "description": "On January 5, 2030, more residents of Greenfield Village, including Jess Parker, began experiencing severe symptoms of the highly infectious and fatal airborne Hantavirus. The rapid onset of symptoms among individuals like Jess, a long-time farmhand, underscores the urgent need for continued medical intervention and strict containment measures to manage the outbreak effectively in this rural community.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Jessica \"Jess\" Parker",
+        "type": "person",
+        "description": "Jess Parker is a 34-year-old farmhand who has been working in Greenfield Village for the past 10 years. She is known for her hardworking nature and her close ties with the local farming community. Jess lives alone in a small cabin near the fields where she works.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-05 01:00",
+    "description": "Dr. Emily Carter, leveraging her extensive experience in infectious diseases, led a comprehensive review and update of containment strategies for the highly infectious and fatal airborne Hantavirus outbreak in Greenfield Village. Utilizing the latest data and lab results, she coordinated with local health authorities and community leaders to refine measures and prepare for an upcoming community meeting, ensuring transparent communication and continued protection for the rural community.",
+    "participants": {
+      "A0-pag_agent_researcher": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-ppt_theme_thing_reseached": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 01:00",
+    "description": "Nurse Laura Bennett, under the remote guidance of Dr. Emily Carter, conducted a comprehensive check on all patients and staff at the Greenfield Community Health Center to ensure strict adherence to quarantine protocols. This measure is crucial to prevent the further spread of the highly infectious and fatal airborne Hantavirus in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-05 01:00",
+    "description": "Mike Harris, feeling increasingly unwell with symptoms of fever and coughing, heads to the temporary clinic set up by Dr. Emily Carter and her team in Greenfield Village. The clinic, established to manage the outbreak of the highly infectious and fatal airborne Hantavirus, is now seeing a steady influx of patients as the disease continues to spread rapidly through the rural community.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Michael \"Mike\" Harris",
+        "type": "person",
+        "description": "Mike Harris is a 28-year-old farmhand who works on various farms around Greenfield Village. Known for his hardworking nature and friendly personality, Mike often helps with tasks that involve close contact with the soil and storage areas where field mice are commonly found. He lives alone in a small cottage on the outskirts of the village.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-05 01:00",
+    "description": "Dr. Rob Mitchell, leveraging his expertise in infectious diseases, meticulously reviews and updates the latest patient data and outbreak statistics at Greenfield Community Health Center. He identifies exposed individuals, including local farmhand Jess Parker, and initiates contact tracing efforts to curb the spread of the highly infectious and fatal airborne Hantavirus in the rural community.",
+    "participants": {
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Jessica \"Jess\" Parker",
+        "type": "person",
+        "description": "Jess Parker is a 34-year-old farmhand who has been working in Greenfield Village for the past 10 years. She is known for her hardworking nature and her close ties with the local farming community. Jess lives alone in a small cabin near the fields where she works.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-05 02:00",
+    "description": "After experiencing symptoms of fatigue and a mild cough, Nurse Laura Bennett contacted her health provider and was diagnosed with the highly infectious and fatal airborne Hantavirus. Despite her diagnosis, she continues to play a crucial role in managing the outbreak at Greenfield Community Health Center, under the remote guidance of Dr. Emily Carter.",
+    "participants": {
+      "A0_pag_agent_first_communicator": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_com_co_agent_other_communicators": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 03:00",
+    "description": "After a thorough check-up at the temporary clinic in Greenfield Village, Mike Harris was advised by Dr. Emily Carter and her team to remain at the clinic for further tests as his condition deteriorated, reflecting the critical nature of the Hantavirus outbreak in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Michael \"Mike\" Harris",
+        "type": "person",
+        "description": "Mike Harris is a 28-year-old farmhand who works on various farms around Greenfield Village. Known for his hardworking nature and friendly personality, Mike often helps with tasks that involve close contact with the soil and storage areas where field mice are commonly found. He lives alone in a small cottage on the outskirts of the village.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 04:00",
+    "description": "Despite her diagnosis with the highly infectious and fatal airborne Hantavirus, Nurse Laura Bennett collaborated with the medical team to review and update the containment protocols at Greenfield Community Health Center, incorporating the latest data and insights to enhance the effectiveness of the measures in place.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 06:00",
+    "description": "Dr. Emily Carter convened a virtual meeting with community leaders and health providers to discuss the current situation of the Hantavirus outbreak in Greenfield Village. The meeting focused on reviewing the latest data, planning next steps, and establishing treatment centers to manage the highly infectious and fatal disease effectively.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-05 06:00",
+    "description": "Nurse Laura Bennett was transported to Greenfield Regional Hospital for further monitoring and treatment of the highly infectious and fatal airborne Hantavirus. Despite her hospitalization, she continued to coordinate clinic operations remotely, ensuring the ongoing management of the outbreak in Greenfield Village.",
+    "participants": {
+      "A1_ppt_theme_thing_transported": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A3_gol_destination_destination": {
+        "name": "Greenfield Regional Hospital",
+        "type": "facility",
+        "description": "Greenfield Regional Hospital is a well-equipped medical facility located about 20 miles from Greenfield Village. It serves as the primary healthcare provider for the region, offering a range of medical services including emergency care, specialized treatments, and long-term care.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 06:00",
+    "description": "Dr. Rob Mitchell, in collaboration with the remotely coordinating Dr. Emily Carter, convenes a virtual meeting with the remote team to strategize the day's tasks. They focus on contact tracing and identifying individuals exposed to the highly infectious and fatal airborne Hantavirus, ensuring swift action to mitigate the outbreak in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-05 08:00",
+    "description": "Despite her hospitalization, Nurse Laura Bennett continued to remotely coordinate with Dr. Emily Carter to analyze the latest epidemiologic data on the highly infectious and fatal airborne Hantavirus. Together, they adjusted containment and treatment strategies to better manage the outbreak in Greenfield Village, ensuring that the updated protocols were effectively communicated and implemented by the local health teams.",
+    "participants": {
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-05 08:00",
+    "description": "After being diagnosed with the highly infectious hantavirus, 28-year-old farmhand Mike Harris was immediately transferred from the temporary clinic in Greenfield Village to Greenfield Regional Hospital for intensive treatment and isolation. Dr. Sam Reed, an infectious disease specialist, oversaw the transfer to ensure that all necessary precautions were taken to prevent further spread of the virus.",
+    "participants": {
+      "A1_ppt_injured/ill_entity": {
+        "name": "Michael \"Mike\" Harris",
+        "type": "person",
+        "description": "Mike Harris is a 28-year-old farmhand who works on various farms around Greenfield Village. Known for his hardworking nature and friendly personality, Mike often helps with tasks that involve close contact with the soil and storage areas where field mice are commonly found. He lives alone in a small cottage on the outskirts of the village.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A0_pag_sender": {
+        "name": "Dr. Samuel \"Sam\" Reed",
+        "type": "person",
+        "description": "Dr. Sam Reed is a 39-year-old infectious disease specialist who has recently joined the Greenfield Community Health Center. He is known for his meticulous approach to diagnosis and treatment, as well as his ability to stay calm under pressure. Dr. Reed has a background in managing viral outbreaks and has worked in various rural and urban settings.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Greenfield Regional Hospital",
+        "type": "facility",
+        "description": "Greenfield Regional Hospital is a well-equipped medical facility located about 20 miles from Greenfield Village. It serves as the primary healthcare provider for the region, offering a range of medical services including emergency care, specialized treatments, and long-term care.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10025/",
+            "name": "hospital"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-05 10:00",
+    "description": "Dr. Emily Carter spearheaded a coordinated effort with volunteers to distribute updated health guidelines and resources to the residents of Greenfield Village. Leveraging her expertise and the strong community ties of local farmhand Jess Parker, they also identified individuals who may have been exposed to the highly infectious and fatal airborne Hantavirus, ensuring timely intervention and support.",
+    "participants": {
+      "A0_pag_agent_caller": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1_ppt_theme_item_being_labelled": {
+        "name": "Jessica \"Jess\" Parker",
+        "type": "person",
+        "description": "Jess Parker is a 34-year-old farmhand who has been working in Greenfield Village for the past 10 years. She is known for her hardworking nature and her close ties with the local farming community. Jess lives alone in a small cabin near the fields where she works.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 10:00",
+    "description": "Despite her worsening condition and hospitalization due to the highly infectious and fatal airborne Hantavirus, Nurse Laura Bennett conducted a virtual training session for new volunteers. This session aimed to ensure they are well-prepared to assist in the clinic by covering updated containment protocols, safety measures, and patient care techniques essential for managing the outbreak in Greenfield Village.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-05 10:00",
+    "description": "Dr. Rob Mitchell, leveraging his expertise in infectious diseases, convenes a virtual meeting with local health officials to update them on the outbreak status of the highly infectious and fatal airborne Hantavirus. During the meeting, he outlines necessary public health measures, including contact tracing and quarantine protocols, to mitigate the spread in the rural community, while Dr. Emily Carter provides additional insights remotely from her hospital bed.",
+    "participants": {
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Jessica \"Jess\" Parker",
+        "type": "person",
+        "description": "Jess Parker is a 34-year-old farmhand who has been working in Greenfield Village for the past 10 years. She is known for her hardworking nature and her close ties with the local farming community. Jess lives alone in a small cabin near the fields where she works.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-05 12:00",
+    "description": "Despite her hospitalization and diagnosis with the highly infectious and fatal airborne Hantavirus, Nurse Laura Bennett arranged a virtual check-in with her elderly mother to ensure her well-being and provide necessary care instructions. She strictly adhered to quarantine protocols to prevent any risk of transmission, demonstrating her unwavering commitment to both her family and community health.",
+    "participants": {
+      "A1-ppt_theme_thing_transported": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 12:00",
+    "description": "As Mike Harris's condition continues to deteriorate due to the highly infectious and fatal airborne Hantavirus, he undergoes further testing and treatment at Greenfield Regional Hospital under the supervision of Dr. Sam Reed, an infectious disease specialist. The medical team is working tirelessly to manage his symptoms and prevent the virus from spreading further in the rural community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Michael \"Mike\" Harris",
+        "type": "person",
+        "description": "Mike Harris is a 28-year-old farmhand who works on various farms around Greenfield Village. Known for his hardworking nature and friendly personality, Mike often helps with tasks that involve close contact with the soil and storage areas where field mice are commonly found. He lives alone in a small cottage on the outskirts of the village.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Disinfect",
+    "time": "2030-01-05 12:00",
+    "description": "Dr. Rob Mitchell, leveraging his expertise in infectious diseases, conducts a comprehensive virtual training session for healthcare workers in Greenfield Village. The session focuses on proper disinfection techniques and the critical importance of protective equipment to curb the spread of the highly infectious and fatal airborne Hantavirus. Despite being hospitalized, Dr. Emily Carter provides additional insights and support remotely, ensuring that the healthcare workers are well-prepared to handle the outbreak in the rural community.",
+    "participants": {
+      "A0_pag_agent_cleaner": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "AM-LOC": {
+        "name": "Greenfield Village",
+        "type": "location",
+        "description": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-05 14:00",
+    "description": "Dr. Emily Carter, alongside a dedicated team of health professionals and volunteers, meticulously monitored and analyzed new cases and symptoms reported by the Greenfield Village community. Utilizing advanced epidemiological tools and real-time data, they conducted thorough contact tracing to identify potential new exposures to the highly infectious and fatal airborne Hantavirus, ensuring swift intervention and containment measures were implemented to protect the rural population.",
+    "participants": {
+      "A0-pag_agent_Agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A2-cau_X_cause_or_disease": {
+        "name": "Hantavirus",
+        "type": "pathogen",
+        "description": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 14:00",
+    "description": "Despite her hospitalization due to the highly infectious and fatal airborne Hantavirus, Nurse Laura Bennett received a call from the local news station to share her experience and emphasize the importance of strict health measures to the broader community, leveraging her platform to advocate for enhanced containment protocols and community vigilance.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-05 14:00",
+    "description": "Dr. Rob Mitchell, leveraging his expertise in infectious diseases, spearheads the distribution of medical supplies and ensures that all healthcare workers in Greenfield Village have the necessary protective equipment to combat the highly infectious and fatal airborne Hantavirus. Concurrently, he gathers data on supply usage and needs, with remote support from the hospitalized Dr. Emily Carter. Their coordinated efforts aim to mitigate the outbreak's impact in the rural community, ensuring swift and efficient action to protect both healthcare workers and residents.",
+    "participants": {
+      "A0-ppt_experiencer_observer": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      },
+      "A1-pag_stimulus_thing_looked_at": {
+        "name": "Jessica \"Jess\" Parker",
+        "type": "person",
+        "description": "Jess Parker is a 34-year-old farmhand who has been working in Greenfield Village for the past 10 years. She is known for her hardworking nature and her close ties with the local farming community. Jess lives alone in a small cabin near the fields where she works.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 16:00",
+    "description": "Dr. Emily Carter, in collaboration with local health authorities, ensured that treatment centers in Greenfield Village were fully operational and that infected individuals received the necessary care, leveraging her expertise and the strong community ties established during the outbreak management efforts.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 16:00",
+    "description": "Despite her hospitalization due to the highly infectious and fatal airborne Hantavirus, Nurse Laura Bennett organized and led a virtual community meeting to update Greenfield Village residents on the current situation, provide essential guidance, and address any concerns. The meeting focused on the latest containment protocols, safety measures, and the importance of community vigilance in managing the outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Laura Bennett",
+        "type": "person",
+        "description": "Laura Bennett is a 40-year-old nurse who has been working at the Greenfield Community Health Center for the past 15 years. She is known for her dedication to her patients and her proactive approach to community health. Laura lives with her elderly mother and is deeply involved in local health initiatives.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 16:00",
+    "description": "Dr. Rob Mitchell, leveraging his expertise in infectious diseases, leads a team of healthcare workers in Greenfield Village to collect and process lab samples from affected individuals. The goal is to gather epidemiologic data and identify the source of the highly infectious and fatal airborne Hantavirus outbreak. Despite the challenges posed by the rural setting, Dr. Mitchell ensures that the samples are handled with utmost care and precision, coordinating closely with local health officials and receiving remote support from Dr. Emily Carter. Their concerted efforts aim to pinpoint the origin of the outbreak and implement effective containment measures swiftly.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 20:00",
+    "description": "Despite needing to rest and follow medical advice due to the highly infectious and fatal airborne Hantavirus, Dr. Emily Carter continued to remotely update the Greenfield Village community on the latest developments and containment measures, ensuring that the residents remained well-informed and supported during the outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a 38-year-old epidemiologist specializing in infectious diseases. She has a strong background in public health and has worked in various rural communities to manage and control outbreaks. Dr. Carter is known for her compassionate approach and her ability to communicate complex medical information in a way that is easily understood by the general public.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-05 20:00",
+    "description": "Dr. Rob Mitchell conducts thorough check-ins with hospitalized patients, including Dr. Emily Carter, to monitor their progress and adjust treatment plans as needed. He discusses ongoing treatment and disinfection efforts with the medical team, ensuring that all measures are in place to combat the highly infectious and fatal airborne Hantavirus in the rural community. Dr. Carter, despite her hospitalization, continues to provide valuable insights remotely, contributing to the coordinated efforts to manage the outbreak effectively.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Robert \"Rob\" Mitchell",
+        "type": "person",
+        "description": "Dr. Rob Mitchell is a 42-year-old physician who has been working at the Greenfield Community Health Center for the past 10 years. He is known for his expertise in infectious diseases and his calm, methodical approach to treatment. Dr. Mitchell lives with his wife and two teenage children in Greenfield Village and is an active participant in local health education programs.",
+        "properties": {
+          "isAlive": true
+        },
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10021/",
+            "name": "health professional that provides treatment"
+          }
+        ]
+      }
+    }
+  }
+]
