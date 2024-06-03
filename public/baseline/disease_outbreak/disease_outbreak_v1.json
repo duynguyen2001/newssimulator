@@ -1,0 +1,665 @@
+[
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 07:00",
+    "description": "On the morning of January 1, 2030, Maria Gonzalez woke up with a high fever, severe cough, and body aches. These symptoms were indicative of an infection with the Influenza A (H3N2) virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30012/",
+        "roleName": "A1_ppt_sick/ill_one",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick/ill_one": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30013/",
+        "roleName": "A2_cau_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2_cau_cause_or_disease": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      },
+      {
+        "@id": "resin:Participants/30014/",
+        "roleName": "AM_loc",
+        "entity": "resin:Entities/10010/",
+        "AM_loc": {
+          "name": "Central Park Community Center",
+          "desc": "Central Park Community Center is a bustling hub located in the heart of the city. It hosts various events, from community breakfasts to educational workshops, and is frequented by residents of all ages."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-01 07:00",
+    "description": "Feeling extremely unwell, Maria Gonzalez contacted her health provider, Dr. Emily Carter, at 8AM for advice on her symptoms.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30015/",
+        "roleName": "A0_pag_agent_first_communicator",
+        "entity": "resin:Entities/10000/",
+        "A0_pag_agent_first_communicator": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30016/",
+        "roleName": "A2_com_co_agent_other_communicators",
+        "entity": "resin:Entities/10021/",
+        "A2_com_co_agent_other_communicators": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-01 08:00",
+    "description": "Feeling increasingly unwell, Maria Gonzalez decided to go to the hospital for further medical attention. She called a local ambulance service at 10AM, which promptly arrived to transport her to the nearest hospital.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30017/",
+        "roleName": "A1_ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-01 08:00",
+    "description": "After a thorough examination and testing at the city's main hospital, Maria Gonzalez was diagnosed with Influenza A (H3N2) by Dr. Emily Carter at 12PM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-01 08:00",
+    "description": "Dr. Alan Thompson and his team at the Baxter Biomedical Research Institute began collecting epidemiologic data on the Influenza A (H3N2) outbreak at 8AM. They aim to understand the disease's transmission patterns, its impact on the local population, and the effectiveness of current control measures.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30033/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observer",
+        "roleName": "A0-ppt_experiencer_observer",
+        "entity": "resin:Entities/10016/",
+        "A0-ppt_experiencer_observer": {
+          "name": "Dr. Alan Thompson\n\nReasoning: Given the severity of the disease outbreak, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks.\n\nEntity Description: Dr. Alan Thompson is a 50-year-old epidemiologist who works at the city's main hospital alongside Dr. Emily Carter. Known for his meticulous research and innovative solutions, Dr. Thompson has been instrumental in controlling similar outbreaks in the past. He is now tasked with studying the Influenza A (H3N2) outbreak and devising strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease outbreak is severe and that the local government has the resources and manpower to carry out large-scale disinfection efforts. Given these factors, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30034/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observedentity",
+        "roleName": "A1-pag_stimulus_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1-pag_stimulus_thing_looked_at": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30035/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "Baxter Biomedical Research Institute\n\nReasoning: Given the severity of the disease outbreak and the involvement of Dr. Alan Thompson, a respected epidemiologist, it would be plausible for a research facility to be involved in studying the disease and finding ways to control its spread. This facility could be the Baxter Biomedical Research Institute, a renowned institution known for its cutting-edge research in infectious diseases.\n\nEntity Description: Baxter Biomedical Research Institute is a leading research facility located in the same city where the outbreak has occurred. Known for its advanced research in infectious diseases, the institute has been instrumental in studying and controlling similar outbreaks in the past. Dr. Alan Thompson and his team are currently using the institute's resources to study the Influenza A (H3N2) outbreak and devise strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease outbreak is severe and that Dr. Alan Thompson, a respected epidemiologist, is involved in studying the disease and finding ways to control its spread. Given these factors, it would be plausible for a research facility to be involved in this effort. This facility could be the Baxter Biomedical Research Institute, a renowned institution known for its cutting-edge research in infectious diseases."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-01 10:00",
+    "description": "Dr. Alan Thompson and his team at the Baxter Biomedical Research Institute spent the day analyzing the collected epidemiologic data on the Influenza A (H3N2) outbreak. They aimed to understand the disease's transmission patterns, its impact on the local population, and the effectiveness of current control measures.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30038/kairos:Primitives_Events_AnalyzeData_Agent",
+        "roleName": "A0-pag_agent_researcher",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_researcher": {
+          "name": "Dr. Alan Thompson\n\nReasoning: Given the severity of the disease outbreak, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks.\n\nEntity Description: Dr. Alan Thompson is a 50-year-old epidemiologist who works at the city's main hospital alongside Dr. Emily Carter. Known for his meticulous research and innovative solutions, Dr. Thompson has been instrumental in controlling similar outbreaks in the past. He is now tasked with studying the Influenza A (H3N2) outbreak and devising strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease outbreak is severe and that the local government has the resources and manpower to carry out large-scale disinfection efforts. Given these factors, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30039/kairos:Primitives_Events_AnalyzeData_Subject",
+        "roleName": "A1-ppt_theme_thing_reseached",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_reseached": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Detection",
+    "time": "2030-01-01 12:00",
+    "description": "On January 1, 2030, the Baxter Biomedical Research Institute, led by Dr. Alan Thompson, confirmed the full scale of the Influenza A (H3N2) outbreak in the city. The institute reported a significant increase in the number of cases, indicating a rapid spread of the disease in the densely populated urban area.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30249/detector",
+        "roleName": "A0_ppt_detector",
+        "entity": "resin:Entities/10011/",
+        "A0_ppt_detector": {
+          "name": "Baxter Biomedical Research Institute\n\nReasoning: Given the severity of the disease outbreak and the involvement of Dr. Alan Thompson, a respected epidemiologist, it would be plausible for a research facility to be involved in studying the disease and finding ways to control its spread. This facility could be the Baxter Biomedical Research Institute, a renowned institution known for its cutting-edge research in infectious diseases.\n\nEntity Description: Baxter Biomedical Research Institute is a leading research facility located in the same city where the outbreak has occurred. Known for its advanced research in infectious diseases, the institute has been instrumental in studying and controlling similar outbreaks in the past. Dr. Alan Thompson and his team are currently using the institute's resources to study the Influenza A (H3N2) outbreak and devise strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease outbreak is severe and that Dr. Alan Thompson, a respected epidemiologist, is involved in studying the disease and finding ways to control its spread. Given these factors, it would be plausible for a research facility to be involved in this effort. This facility could be the Baxter Biomedical Research Institute, a renowned institution known for its cutting-edge research in infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30250/thing_detected",
+        "roleName": "A1_pag_detected",
+        "entity": "resin:Entities/10000/",
+        "A1_pag_detected": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-01 12:00",
+    "description": "Dr. Emily Carter and her team at the city's main hospital initiated a contact tracing operation at 5PM to identify individuals who may have come into contact with Maria Gonzalez, a local school teacher who tested positive for Influenza A (H3N2).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Monitoring",
+    "time": "2030-01-01 15:00",
+    "description": "Dr. Emily Carter and her team at the city's main hospital have begun closely monitoring the health conditions of infected persons, including Maria Gonzalez, a local school teacher who tested positive for Influenza A (H3N2).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30259/observer",
+        "roleName": "A0_pag_observer",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_observer": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30260/thing_looked_at",
+        "roleName": "A1_loc_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1_loc_thing_looked_at": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-01 18:00",
+    "description": "Maria Gonzalez, a 32-year-old school teacher, was among the first to be infected by the Influenza A (H3N2) virus during a community event at the Central Park Community Center. The virus, known for its high infectivity and short incubation period, spread rapidly through the center's air ventilation system, infecting many attendees.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30007/kairos:Primitives_Events_Life.Infect.Unspecified:1_victim",
+        "roleName": "A1-gol_thing_becoming_infected",
+        "entity": "resin:Entities/10000/",
+        "A1-gol_thing_becoming_infected": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30008/kairos:Primitives_Events_Life.Infect.Unspecified:1_infectingagent",
+        "roleName": "A2-ppt_infectant",
+        "entity": "resin:Entities/10005/",
+        "A2-ppt_infectant": {
+          "name": "Central Park Community Center Air Ventilation System",
+          "desc": "The Central Park Community Center Air Ventilation System is an essential part of the community center's infrastructure, ensuring proper air circulation and maintaining indoor air quality."
+        }
+      },
+      {
+        "@id": "resin:Participants/30009/kairos:Primitives_Events_Life.Infect.Unspecified:1_cause",
+        "roleName": "A0_pag_agent_causer_of_infection",
+        "entity": "resin:Entities/10006/",
+        "A0_pag_agent_causer_of_infection": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Outbreak",
+    "time": "2030-01-02 00:00",
+    "description": "On January 1, 2030, Dr. Alan Thompson and his team at the Baxter Biomedical Research Institute identified a significant outbreak of Influenza A (H3N2) in the city. The team announced their findings to the public, warning of the highly infectious nature of the disease and its rapid spread in densely populated areas.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30040/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifier",
+        "roleName": "A0-pag_agent_caller",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_caller": {
+          "name": "Dr. Alan Thompson\n\nReasoning: Given the severity of the disease outbreak, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks.\n\nEntity Description: Dr. Alan Thompson is a 50-year-old epidemiologist who works at the city's main hospital alongside Dr. Emily Carter. Known for his meticulous research and innovative solutions, Dr. Thompson has been instrumental in controlling similar outbreaks in the past. He is now tasked with studying the Influenza A (H3N2) outbreak and devising strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease outbreak is severe and that the local government has the resources and manpower to carry out large-scale disinfection efforts. Given these factors, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30041/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifiedobject",
+        "roleName": "A1-ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_item_being_labelled": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      },
+      {
+        "@id": "resin:Participants/30042/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "Baxter Biomedical Research Institute\n\nReasoning: Given the severity of the disease outbreak and the involvement of Dr. Alan Thompson, a respected epidemiologist, it would be plausible for a research facility to be involved in studying the disease and finding ways to control its spread. This facility could be the Baxter Biomedical Research Institute, a renowned institution known for its cutting-edge research in infectious diseases.\n\nEntity Description: Baxter Biomedical Research Institute is a leading research facility located in the same city where the outbreak has occurred. Known for its advanced research in infectious diseases, the institute has been instrumental in studying and controlling similar outbreaks in the past. Dr. Alan Thompson and his team are currently using the institute's resources to study the Influenza A (H3N2) outbreak and devise strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease outbreak is severe and that Dr. Alan Thompson, a respected epidemiologist, is involved in studying the disease and finding ways to control its spread. Given these factors, it would be plausible for a research facility to be involved in this effort. This facility could be the Baxter Biomedical Research Institute, a renowned institution known for its cutting-edge research in infectious diseases."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-02 10:00",
+    "description": "Dr. Emily Carter and her team identified John Davis, a local cafe owner, as a person who potentially came into contact with Maria Gonzalez, the school teacher who tested positive for Influenza A (H3N2).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30126/Steps_kairos:Primitives_Events_Identify_Caller",
+        "roleName": "A0_pag_agent_caller",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_agent_caller": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30127/Steps_kairos:Primitives_Events_Identify_Thing_Being_Labelled",
+        "roleName": "A1_ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10002/",
+        "A1_ppt_theme_item_being_labelled": {
+          "name": "John Davis\n\nReasoning: Given that Maria Gonzalez is a regular at local cafes and markets, it's plausible that she could come into contact with a variety of people. One such person could be John Davis, a local cafe owner who interacts with many customers daily, making him a potential vehicle for disease transmission.\n\nEntity Description: John Davis is a 45-year-old cafe owner in the same densely populated urban area where Maria Gonzalez lives. Known for his friendly demeanor and popular cafe, John interacts with hundreds of customers daily, making him a potential vehicle for disease transmission.",
+          "desc": "produce the entity description. We know that Maria Gonzalez is a regular at local cafes and markets, so it's plausible that she could come into contact with a variety of people. One such person could be John Davis, a local cafe owner who interacts with many customers daily. Given the high infectivity of the disease and its airborne mode of transmission, John could potentially become a vehicle for disease transmission."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-03 00:00",
+    "description": "Dr. Emily Carter and her team, in collaboration with local health authorities, have identified and quarantined a group of individuals who potentially came into contact with Maria Gonzalez, the school teacher who tested positive for Influenza A (H3N2). These individuals, including John Davis, a local cafe owner, are now under strict quarantine and are being closely monitored for any symptoms of the disease.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30129/Steps_kairos:Primitives_Events_Quarantine_Quarantiner",
+        "roleName": "A0_pag_quarantiner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_quarantiner": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30130/Steps_kairos:Primitives_Events_Quarantine_Thing",
+        "roleName": "A1_ppt_thing",
+        "entity": "resin:Entities/10001/",
+        "A1_ppt_thing": {
+          "name": "Exposed Individuals\n\nReasoning: Given the high infectivity of the disease and its airborne mode of transmission, it's plausible that a significant number of people in the densely populated urban area could be exposed to the pathogen. These individuals could be collectively referred to as \"Exposed Individuals\".\n\nEntity Description: Exposed Individuals refers to the large number of people in the densely populated urban area who have potentially been exposed to the Influenza A (H3N2) virus. These individuals range from school teachers like Maria Gonzalez to cafe owners like John Davis, and even include those who frequent community centers like the Central Park Community Center.",
+          "desc": "produce the entity description. We know that the disease is highly infectious and airborne, and the outbreak is in a densely populated urban area. This means that a significant number of people in the area could be exposed to the pathogen. These individuals could be collectively referred to as \"Exposed Individuals\"."
+        }
+      },
+      {
+        "@id": "resin:Participants/30131/Steps_kairos:Primitives_Events_Quarantine_Quarantined_From_Whom",
+        "roleName": "A2_gol_quarrantined_from_whom",
+        "entity": "resin:Entities/10019/",
+        "A2_gol_quarrantined_from_whom": {
+          "name": "City Residents\n\nReasoning: Given the urban setting of the outbreak and the high population density, the general population can be referred to as \"City Residents\". This term encompasses all individuals living in the city, regardless of their occupation or lifestyle.\n\nEntity Description: City Residents refers to all individuals living in the densely populated urban area where the Influenza A (H3N2) outbreak has occurred. This includes school teachers like Maria Gonzalez, cafe owners like John Davis, and all those who frequent community centers like the Central Park Community Center. As the disease is highly infectious and airborne, all City Residents are potentially at risk of exposure.",
+          "desc": "produce the entity description. We know that the disease is highly infectious and airborne, and the outbreak is in a densely populated urban area. This means that a significant number of people in the area could be exposed to the pathogen. These individuals, referred to as \"City Residents\", include a wide range of occupations and lifestyles, from school teachers to cafe owners, and even those who frequent community centers."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Disinfect",
+    "time": "2030-01-03 08:00",
+    "description": "At 8AM, a team of sanitation workers led by Dr. Emily Carter began a large-scale disinfection operation at the Central Park Community Center, a known hotspot for the Influenza A (H3N2) outbreak.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30023/Steps_kairos:Primitives_Events_Disinfect_Cleaner",
+        "roleName": "A0_pag_agent_cleaner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_agent_cleaner": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30024/Steps_kairos:Primitives_Events_Disinfect_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10010/",
+        "AM-LOC": {
+          "name": "Central Park Community Center",
+          "desc": "Central Park Community Center is a bustling hub located in the heart of the city. It hosts various events, from community breakfasts to educational workshops, and is frequented by residents of all ages."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-03 08:00",
+    "description": "After conducting a series of tests, Dr. Emily Carter confirmed that Maria Gonzalez is infected with the Influenza A (H3N2) virus at 2PM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-03 09:00",
+    "description": "On January 3, 2030, Dr. Emily Carter and her team initiated a comprehensive contact tracing effort to identify individuals who may have come into contact with Maria Gonzalez, a local school teacher who tested positive for Influenza A (H3N2).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-03 09:00",
+    "description": "On the morning of January 3, 2030, Dr. Emily Carter conducted a viral test on Maria Gonzalez to confirm if she was infected with the Influenza A (H3N2) virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30122/Steps_kairos:Primitives_Events_Testing_Assessor",
+        "roleName": "A0-pag_agent_estimator",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_estimator": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30123/Steps_kairos:Primitives_Events_Testing_Thing_Assessed_for",
+        "roleName": "A1-ppt_theme_thing_estimated",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_estimated": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Collect Lab Samples",
+    "time": "2030-01-03 10:00",
+    "description": "Dr. Alan Thompson and his team collected various samples from the local school where Maria Gonzalez works and from her home at 10AM. These samples included swabs from surfaces, air samples, and water samples to study the presence and concentration of the Influenza A (H3N2) virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30036/kairos:Primitives_Events_CollectLabSamples_Processor",
+        "roleName": "A0_pag_processor",
+        "entity": "resin:Entities/10016/",
+        "A0_pag_processor": {
+          "name": "Dr. Alan Thompson\n\nReasoning: Given the severity of the disease outbreak, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks.\n\nEntity Description: Dr. Alan Thompson is a 50-year-old epidemiologist who works at the city's main hospital alongside Dr. Emily Carter. Known for his meticulous research and innovative solutions, Dr. Thompson has been instrumental in controlling similar outbreaks in the past. He is now tasked with studying the Influenza A (H3N2) outbreak and devising strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease outbreak is severe and that the local government has the resources and manpower to carry out large-scale disinfection efforts. Given these factors, it would be plausible for a researcher to be involved in studying the disease and finding ways to control its spread. This researcher could be Dr. Alan Thompson, a respected epidemiologist who has previously worked on controlling similar outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30037/kairos:Primitives_Events_CollectLabSamples_Artifact",
+        "roleName": "A1_ppt_thing_processed",
+        "entity": "resin:Entities/10006/",
+        "A1_ppt_thing_processed": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Recover",
+    "time": "2030-01-03 10:00",
+    "description": "After a few days of intense treatment, Maria Gonzalez starts to show signs of recovery from the Influenza A (H3N2) virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30137/Recover:Agent",
+        "roleName": "A1_ppt_sick",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30138/Recover:Affliction",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Recover",
+    "time": "2030-01-03 10:00",
+    "description": "After a few days of intense treatment, Maria Gonzalez starts to show signs of recovery from the Influenza A (H3N2) virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30137/Recover:Agent",
+        "roleName": "A1_ppt_sick",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30138/Recover:Affliction",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-03 12:00",
+    "description": "After being diagnosed with Influenza A (H3N2), Maria Gonzalez was promptly started on antiviral treatment by Dr. Emily Carter at 2PM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30025/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_treater",
+        "roleName": "A0-pag_X_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_X_doctor": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30026/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "resin:Entities/10000/",
+        "A1_dir_source_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      },
+      {
+        "@id": "resin:Participants/30028/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_illness",
+        "roleName": "A2_ppt__illness_or_injury",
+        "entity": "resin:Entities/10006/",
+        "A2_ppt__illness_or_injury": {
+          "name": "Influenza A (H3N2)",
+          "desc": "Influenza A (H3N2) is a subtype of the influenza virus known for causing seasonal flu outbreaks. It is highly contagious and spreads through airborne droplets when an infected person coughs, sneezes, or talks. The virus has a short incubation period of 1-4 days and typically results in mild to moderate respiratory illness."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-03 12:00",
+    "description": "After being diagnosed with Influenza A (H3N2), Maria Gonzalez was admitted to the city's main hospital under the care of Dr. Emily Carter at 2PM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30253/sender",
+        "roleName": "A0_pag_sender",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_sender": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her expertise in managing outbreaks and her compassionate approach to patient care. Dr. Carter is actively involved in community health initiatives and often appears in local media to provide updates and advice on public health matters."
+        }
+      },
+      {
+        "@id": "resin:Participants/30254/infected",
+        "roleName": "A1_ppt_injured/ill_entity",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_injured/ill_entity": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-03 18:00",
+    "description": "On January 3, 2030, the Urban Health and Safety Department (UHSD) imposed a quarantine in the densely populated urban area where Maria Gonzalez resides, restricting the movement of people, animals, and goods to prevent the further spread of Influenza A (H3N2).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "Urban Health and Safety Department (UHSD)\n\nReasoning: Given the urban setting of the outbreak and the government's resources and manpower to carry out large-scale disinfection efforts, it would be plausible for a government agency to be involved in managing the outbreak. This agency could be the Urban Health and Safety Department (UHSD), which would be responsible for public health and safety in the city.\n\nEntity Description: The Urban Health and Safety Department (UHSD) is a government agency responsible for maintaining public health and safety in the city. In response to the Influenza A (H3N2) outbreak, the UHSD is coordinating large-scale disinfection efforts and working closely with local hospitals and research institutions like the Baxter Biomedical Research Institute.",
+          "desc": "produce the entity description. We know that the local government has the resources and manpower to carry out large-scale disinfection efforts. Given the urban setting of the outbreak, it would be plausible for a government agency to be involved in managing the outbreak. This agency could be the Urban Health and Safety Department (UHSD), which would be responsible for public health and safety in the city."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-03 18:00",
+    "description": "On January 3, 2030, the Urban Health and Safety Department (UHSD) imposed a quarantine in the densely populated urban area where Maria Gonzalez resides, restricting the movement of people, animals, and goods to prevent the further spread of Influenza A (H3N2).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "Urban Health and Safety Department (UHSD)\n\nReasoning: Given the urban setting of the outbreak and the government's resources and manpower to carry out large-scale disinfection efforts, it would be plausible for a government agency to be involved in managing the outbreak. This agency could be the Urban Health and Safety Department (UHSD), which would be responsible for public health and safety in the city.\n\nEntity Description: The Urban Health and Safety Department (UHSD) is a government agency responsible for maintaining public health and safety in the city. In response to the Influenza A (H3N2) outbreak, the UHSD is coordinating large-scale disinfection efforts and working closely with local hospitals and research institutions like the Baxter Biomedical Research Institute.",
+          "desc": "produce the entity description. We know that the local government has the resources and manpower to carry out large-scale disinfection efforts. Given the urban setting of the outbreak, it would be plausible for a government agency to be involved in managing the outbreak. This agency could be the Urban Health and Safety Department (UHSD), which would be responsible for public health and safety in the city."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old school teacher living in a densely populated urban area. She is known for her dedication to her students and her active involvement in community events. Maria enjoys attending social gatherings and is a regular at local cafes and markets."
+        }
+      }
+    ]
+  }
+]

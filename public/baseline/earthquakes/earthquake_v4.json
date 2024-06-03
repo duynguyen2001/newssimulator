@@ -1,0 +1,566 @@
+[
+  {
+    "schemaEvent": "Aftershocks",
+    "time": "2030-01-01 11:00",
+    "description": "Several aftershocks, ranging from 3.0 to 4.0 in magnitude, were reported in the Pine Ridge Mountains region, further destabilizing the already precarious situation in the aftermath of the initial 5.0 magnitude earthquake.",
+    "participants": [
+      {
+        "@id": "Participants/20017/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "Pine Ridge Epicenter",
+          "desc": "The Pine Ridge Epicenter refers to the exact location within the Pine Ridge Mountains where the earthquake originated. This area, already difficult to access due to its rugged terrain and limited transportation options, became even more isolated following the earthquake, complicating rescue and recovery efforts."
+        }
+      },
+      {
+        "@id": "Participants/20019/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Main Earthquake",
+    "time": "2030-01-02 00:00",
+    "description": "On January 1, 2030, at approximately 2:00 PM, the Pine Ridge Mountains were rocked by a powerful earthquake with a magnitude of 5.0. The seismic waves originated from the Pine Ridge Epicenter, causing significant damage to the surrounding areas and leaving the already isolated region in a state of crisis.",
+    "participants": [
+      {
+        "@id": "Participants/20009/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "Pine Ridge Epicenter",
+          "desc": "The Pine Ridge Epicenter refers to the exact location within the Pine Ridge Mountains where the earthquake originated. This area, already difficult to access due to its rugged terrain and limited transportation options, became even more isolated following the earthquake, complicating rescue and recovery efforts."
+        }
+      },
+      {
+        "@id": "Participants/20011/A3_vsp_death/injury_toll",
+        "roleName": "A3_vsp_death/injury_toll",
+        "entity": "Entities/20005/",
+        "A3_vsp_death/injury_toll": {
+          "name": "Samuel \"Sam\" Thompson",
+          "desc": "Sam Thompson is a 45-year-old resident of the Pine Ridge Mountains. He is a seasoned forestry worker who has lived in the area his entire life. Known for his resourcefulness and deep knowledge of the local terrain, Sam is well-respected in his community. He enjoys hiking and fishing in his free time, often exploring the less-traveled paths of the mountains."
+        }
+      },
+      {
+        "@id": "Participants/20013/A4_vsp_damages/cost",
+        "roleName": "A4_vsp_damages/cost",
+        "entity": "Entities/20003/",
+        "A4_vsp_damages/cost": {
+          "name": "Pine Ridge Quake Aftermath",
+          "desc": "The Pine Ridge Quake Aftermath refers to the devastating consequences of the Pine Ridge Quake. The earthquake caused significant damage to homes and infrastructure, leading to loss of life and property. The isolation of the region further complicated rescue and recovery efforts, leaving the community in a state of crisis."
+        }
+      },
+      {
+        "@id": "Participants/20015/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Injury",
+    "time": "2030-01-03 00:00",
+    "description": "Sam Thompson was severely injured during the Pine Ridge Quake. While he was hiking in the mountains, the 5.0 magnitude earthquake triggered a landslide, trapping him under a pile of rocks and debris.",
+    "participants": [
+      {
+        "@id": "Participants/20001/A1_ppt_experiencer_injured_party",
+        "roleName": "A1_ppt_experiencer_injured_party",
+        "entity": "Entities/20005/",
+        "A1_ppt_experiencer_injured_party": {
+          "name": "Samuel \"Sam\" Thompson",
+          "desc": "Sam Thompson is a 45-year-old resident of the Pine Ridge Mountains. He is a seasoned forestry worker who has lived in the area his entire life. Known for his resourcefulness and deep knowledge of the local terrain, Sam is well-respected in his community. He enjoys hiking and fishing in his free time, often exploring the less-traveled paths of the mountains."
+        }
+      },
+      {
+        "@id": "Participants/20003/A0_pag_stimulus_stimulus_of_injury",
+        "roleName": "A0_pag_stimulus_stimulus_of_injury",
+        "entity": "Entities/20316/",
+        "A0_pag_stimulus_stimulus_of_injury": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      },
+      {
+        "@id": "Participants/20005/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Death",
+    "time": "2030-01-03 10:00",
+    "description": "Sam Thompson, a 45-year-old forestry worker and resident of Pine Ridge Mountains, was tragically killed during the Pine Ridge Quake. While hiking in the mountains, the 5.0 magnitude earthquake triggered a landslide, burying him under a pile of rocks and debris.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A1_ppt_the_deceased",
+        "roleName": "A1_ppt_the_deceased",
+        "entity": "Entities/20005/",
+        "A1_ppt_the_deceased": {
+          "name": "Samuel \"Sam\" Thompson",
+          "desc": "Sam Thompson is a 45-year-old resident of the Pine Ridge Mountains. He is a seasoned forestry worker who has lived in the area his entire life. Known for his resourcefulness and deep knowledge of the local terrain, Sam is well-respected in his community. He enjoys hiking and fishing in his free time, often exploring the less-traveled paths of the mountains."
+        }
+      },
+      {
+        "@id": "Participants/20025/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      },
+      {
+        "@id": "Participants/20027/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Displacement",
+    "time": "2030-01-04 00:00",
+    "description": "In the aftermath of the Pine Ridge Quake, Emily Carter, along with many other residents of the Pine Ridge Mountains, found herself displaced from her home. The earthquake, which struck at 2:45 PM, caused significant damage to her house, rendering it uninhabitable. Emily, along with her neighbors, is now stranded in the mountainous region with limited access to transportation and resources.",
+    "participants": [
+      {
+        "@id": "Participants/20029/A0_pag_mover",
+        "roleName": "A0_pag_mover",
+        "entity": "Entities/20316/",
+        "A0_pag_mover": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      },
+      {
+        "@id": "Participants/20031/A1_ppt_moved",
+        "roleName": "A1_ppt_moved",
+        "entity": "Entities/20064/",
+        "A1_ppt_moved": {
+          "name": "Emily Carter",
+          "desc": "Emily Carter is a 32-year-old schoolteacher who moved to the Pine Ridge Mountains five years ago. She is known for her dedication to her students and her involvement in the local community. Emily is an avid gardener and often spends her weekends tending to her vegetable patch and helping neighbors with their gardens."
+        }
+      },
+      {
+        "@id": "Participants/20033/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Death",
+    "time": "2030-01-05 00:00",
+    "description": "Despite the best efforts of the local community and emergency services, Sam Thompson succumbed to his injuries from the Pine Ridge Quake on January 4, 2030. Trapped under a pile of rocks and debris from a landslide triggered by the earthquake, Sam's injuries were too severe, and he passed away before he could be reached by rescuers.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A1_ppt_the_deceased",
+        "roleName": "A1_ppt_the_deceased",
+        "entity": "Entities/20005/",
+        "A1_ppt_the_deceased": {
+          "name": "Samuel \"Sam\" Thompson",
+          "desc": "Sam Thompson is a 45-year-old resident of the Pine Ridge Mountains. He is a seasoned forestry worker who has lived in the area his entire life. Known for his resourcefulness and deep knowledge of the local terrain, Sam is well-respected in his community. He enjoys hiking and fishing in his free time, often exploring the less-traveled paths of the mountains."
+        }
+      },
+      {
+        "@id": "Participants/20025/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      },
+      {
+        "@id": "Participants/20027/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infrastructure Damage",
+    "time": "2030-01-06 00:00",
+    "description": "The Pine Ridge Quake caused extensive damage to the infrastructure in the Pine Ridge Mountains on January 5, 2030. Buildings, including the Pine Ridge Elementary School, were severely damaged, roads were destroyed, and the already limited transportation options were further reduced, making the region even more isolated.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_agent",
+        "roleName": "A0_pag_agent",
+        "entity": "Entities/20316/",
+        "A0_pag_agent": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_entity_damaged",
+        "roleName": "A1_ppt_entity_damaged",
+        "entity": "Entities/20317/",
+        "A1_ppt_entity_damaged": {
+          "name": "Pine Ridge Elementary School",
+          "desc": "Pine Ridge Elementary School is a small, multi-grade school located in the heart of the Pine Ridge Mountains. Serving as the educational hub for the scattered communities in the region, the school is known for its dedicated staff, including Emily Carter, and its strong sense of community. The Pine Ridge Quake caused significant damage to the school, disrupting education and community activities."
+        }
+      },
+      {
+        "@id": "Participants/20009/A2_mnr_instrument",
+        "roleName": "A2_mnr_instrument",
+        "entity": "Entities/20316/",
+        "A2_mnr_instrument": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      },
+      {
+        "@id": "Participants/20011/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "Pine Ridge Epicenter",
+          "desc": "The Pine Ridge Epicenter refers to the exact location within the Pine Ridge Mountains where the earthquake originated. This area, already difficult to access due to its rugged terrain and limited transportation options, became even more isolated following the earthquake, complicating rescue and recovery efforts."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Search for Survivors",
+    "time": "2030-01-07 00:00",
+    "description": "Mountain Rescue Team Alpha was dispatched to the Pine Ridge Mountains to search for survivors following the 5.0 magnitude earthquake. Among the missing was Emily Carter, a beloved local schoolteacher known for her community involvement and gardening skills.",
+    "participants": [
+      {
+        "@id": "Participants/20067/A0_pag_searcher",
+        "roleName": "A0_pag_searcher",
+        "entity": "Entities/20138/",
+        "A0_pag_searcher": {
+          "name": "Mountain Rescue Team Alpha",
+          "desc": "Mountain Rescue Team Alpha is a specialized group of highly trained professionals with expertise in mountain rescue operations. The team is composed of individuals with diverse skills, including search and rescue, medical care, and technical climbing. They are known for their ability to navigate challenging terrain and their dedication to saving lives."
+        }
+      },
+      {
+        "@id": "Participants/20069/A1_loc_Area_searched",
+        "roleName": "A1_loc_Area_searched",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A1_loc_Area_searched": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      },
+      {
+        "@id": "Participants/20071/A2_ppt_searched_for",
+        "roleName": "A2_ppt_searched_for",
+        "entity": "Entities/20064/",
+        "A2_ppt_searched_for": {
+          "name": "Emily Carter",
+          "desc": "Emily Carter is a 32-year-old schoolteacher who moved to the Pine Ridge Mountains five years ago. She is known for her dedication to her students and her involvement in the local community. Emily is an avid gardener and often spends her weekends tending to her vegetable patch and helping neighbors with their gardens."
+        }
+      },
+      {
+        "@id": "Participants/20073/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Deploy Search and Rescue Teams",
+    "time": "2030-01-07 00:00",
+    "description": "At 6:00 AM, Mark Johnson, the experienced rescue coordinator, mobilized Mountain Rescue Team Alpha to the Pine Ridge Mountains following the 5.0 magnitude earthquake. The team was tasked with locating and assisting any individuals affected by the quake in the remote, mountainous region.",
+    "participants": [
+      {
+        "@id": "Participants/20059/A0_pag_Deployer",
+        "roleName": "A0_pag_Deployer",
+        "entity": "Entities/20119/",
+        "A0_pag_Deployer": {
+          "name": "Mark Johnson",
+          "desc": "Mark Johnson is a 42-year-old experienced rescue coordinator who has worked in various disaster scenarios, including earthquakes, floods, and wildfires. He is known for his strategic thinking, quick decision-making, and ability to lead diverse teams under pressure. Mark has a background in emergency management and has received numerous commendations for his work in disaster response."
+        }
+      },
+      {
+        "@id": "Participants/20061/A1_ppt_Deployed",
+        "roleName": "A1_ppt_Deployed",
+        "entity": "Entities/20138/",
+        "A1_ppt_Deployed": {
+          "name": "Mountain Rescue Team Alpha",
+          "desc": "Mountain Rescue Team Alpha is a specialized group of highly trained professionals with expertise in mountain rescue operations. The team is composed of individuals with diverse skills, including search and rescue, medical care, and technical climbing. They are known for their ability to navigate challenging terrain and their dedication to saving lives."
+        }
+      },
+      {
+        "@id": "Participants/20063/A2_loc_deployed_where",
+        "roleName": "A2_loc_deployed_where",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A2_loc_deployed_where": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      },
+      {
+        "@id": "Participants/20065/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Increase Awareness",
+    "time": "2030-01-07 06:00",
+    "description": "On January 7, 2030, Dr. Laura Bennett and Sarah \"Sally\" Davis collaborated to increase media coverage and public awareness about the dire situation in the Pine Ridge Mountains following the 5.0 magnitude earthquake.",
+    "participants": [
+      {
+        "@id": "Participants/20037/A0_pag_agent_discussant",
+        "roleName": "A0_pag_agent_discussant",
+        "entity": "Entities/20193/",
+        "A0_pag_agent_discussant": {
+          "name": "Dr. Laura Bennett",
+          "desc": "Dr. Laura Bennett is a 38-year-old public health advocate who has been working with remote communities for over a decade. She moved to the Pine Ridge Mountains three years ago to better understand and address the unique health challenges faced by the residents. Following the Pine Ridge Quake, she has been actively advocating for improved healthcare and emergency services in the region."
+        }
+      },
+      {
+        "@id": "Participants/20039/A2_gol_co_agent_conversation_partner",
+        "roleName": "A2_gol_co_agent_conversation_partner",
+        "entity": "Entities/20194/",
+        "A2_gol_co_agent_conversation_partner": {
+          "name": "Sarah \"Sally\" Davis",
+          "desc": "Sarah \"Sally\" Davis is a 50-year-old local radio host who has lived in the Pine Ridge Mountains for over 20 years. Known for her warm personality and deep connection with the community, Sally uses her radio show to keep residents informed about local news and events. Following the Pine Ridge Quake, she has been instrumental in disseminating important information and coordinating community efforts to support the recovery process."
+        }
+      },
+      {
+        "@id": "Participants/20041/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      },
+      {
+        "@id": "Participants/20043/A1_ppt__topic",
+        "roleName": "A1_ppt__topic",
+        "entity": "Entities/20316/",
+        "A1_ppt__topic": {
+          "name": "The Pine Ridge Quake",
+          "desc": "The Pine Ridge Quake, a 5.0 magnitude earthquake, struck the remote and rugged Pine Ridge Mountains, causing significant damage and isolating the region even further due to the limited transportation options. The quake's epicenter was located deep within the mountains, making rescue and recovery efforts extremely challenging."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Coordinate with Media Outlets",
+    "time": "2030-01-07 06:00",
+    "description": "Rachel Morgan, Jessica Parker, and Daniel Roberts coordinated with local and national media outlets to provide updates on the situation in the Pine Ridge Mountains following the 5.0 magnitude earthquake.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A0_pag_organizer",
+        "roleName": "A0_pag_organizer",
+        "entity": "Entities/20246/",
+        "A0_pag_organizer": {
+          "name": "Rachel Morgan",
+          "desc": "Rachel Morgan is a 36-year-old crisis communication specialist with a background in journalism. She has worked with various non-profit organizations and government agencies to manage communication during natural disasters and other emergencies. Known for her clear and concise communication style, Rachel is adept at handling media inquiries and ensuring accurate information is disseminated to the public."
+        }
+      },
+      {
+        "@id": "Participants/20025/A1_ppt_entity_coordinated",
+        "roleName": "A1_ppt_entity_coordinated",
+        "entity": "Entities/20176/",
+        "A1_ppt_entity_coordinated": {
+          "name": "Jessica \"Jess\" Parker",
+          "desc": "Jessica Parker is a 34-year-old media liaison with a background in public relations and journalism. She has worked with various organizations to manage media relations during crises and is known for her ability to maintain clear and effective communication under pressure."
+        }
+      },
+      {
+        "@id": "Participants/20027/A2_com_entity_coordinated_with",
+        "roleName": "A2_com_entity_coordinated_with",
+        "entity": "Entities/20177/",
+        "A2_com_entity_coordinated_with": {
+          "name": "Daniel \"Dan\" Roberts",
+          "desc": "Daniel \"Dan\" Roberts is a 40-year-old media liaison with a background in crisis communication. He has worked with various organizations and government agencies to manage media relations during disasters. Known for his ability to deliver clear and concise information under pressure, Dan was brought in to handle the media coverage of the Pine Ridge Quake aftermath."
+        }
+      },
+      {
+        "@id": "Participants/20029/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Initial Assessment",
+    "time": "2030-01-07 14:00",
+    "description": "On January 7, 2030, Mark Johnson, the experienced rescue coordinator, arrived at the Pine Ridge Epicenter to conduct an initial assessment of the situation and potential casualties following the 5.0 magnitude earthquake. The Pine Ridge Quake Aftermath was devastating, with significant damage to homes and infrastructure, and an unknown number of casualties.",
+    "participants": [
+      {
+        "@id": "Participants/20051/A0_pag_assessor",
+        "roleName": "A0_pag_assessor",
+        "entity": "Entities/20119/",
+        "A0_pag_assessor": {
+          "name": "Mark Johnson",
+          "desc": "Mark Johnson is a 42-year-old experienced rescue coordinator who has worked in various disaster scenarios, including earthquakes, floods, and wildfires. He is known for his strategic thinking, quick decision-making, and ability to lead diverse teams under pressure. Mark has a background in emergency management and has received numerous commendations for his work in disaster response."
+        }
+      },
+      {
+        "@id": "Participants/20053/A1_ppt_entity_assessed",
+        "roleName": "A1_ppt_entity_assessed",
+        "entity": "Entities/20315/",
+        "A1_ppt_entity_assessed": {
+          "name": "Pine Ridge Epicenter",
+          "desc": "The Pine Ridge Epicenter refers to the exact location within the Pine Ridge Mountains where the earthquake originated. This area, already difficult to access due to its rugged terrain and limited transportation options, became even more isolated following the earthquake, complicating rescue and recovery efforts."
+        }
+      },
+      {
+        "@id": "Participants/20055/A2_prd_value_or_attribute",
+        "roleName": "A2_prd_value_or_attribute",
+        "entity": "Entities/20003/",
+        "A2_prd_value_or_attribute": {
+          "name": "Pine Ridge Quake Aftermath",
+          "desc": "The Pine Ridge Quake Aftermath refers to the devastating consequences of the Pine Ridge Quake. The earthquake caused significant damage to homes and infrastructure, leading to loss of life and property. The isolation of the region further complicated rescue and recovery efforts, leaving the community in a state of crisis."
+        }
+      },
+      {
+        "@id": "Participants/20057/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "Pine Ridge Epicenter",
+          "desc": "The Pine Ridge Epicenter refers to the exact location within the Pine Ridge Mountains where the earthquake originated. This area, already difficult to access due to its rugged terrain and limited transportation options, became even more isolated following the earthquake, complicating rescue and recovery efforts."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Evaluate Damage",
+    "time": "2030-01-07 14:00",
+    "description": "On January 7, 2030, Dr. Laura Mitchell, a renowned structural engineer, was dispatched to the Pine Ridge Epicenter to evaluate the extent of the damage caused by the recent 5.0 magnitude earthquake.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_evaluator",
+        "roleName": "A0_pag_evaluator",
+        "entity": "Entities/20156/",
+        "A0_pag_evaluator": {
+          "name": "Dr. Laura Mitchell",
+          "desc": "Dr. Laura Mitchell is a 38-year-old structural engineer from the nearby city of Riverton. She has extensive experience in assessing earthquake damage and has worked on several high-profile projects in the region. Known for her meticulous attention to detail and her ability to remain calm under pressure, Laura is highly regarded in her field."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_thing_evaluated",
+        "roleName": "A1_ppt_thing_evaluated",
+        "entity": "Entities/20315/",
+        "A1_ppt_thing_evaluated": {
+          "name": "Pine Ridge Epicenter",
+          "desc": "The Pine Ridge Epicenter refers to the exact location within the Pine Ridge Mountains where the earthquake originated. This area, already difficult to access due to its rugged terrain and limited transportation options, became even more isolated following the earthquake, complicating rescue and recovery efforts."
+        }
+      },
+      {
+        "@id": "Participants/20009/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-07 16:00",
+    "description": "On January 7, 2030, Emily Carter, a local schoolteacher, initiated a donation drive to support the Pine Ridge Mountains community affected by the recent 5.0 magnitude earthquake. The drive received an overwhelming response, with individuals, groups, and charities contributing generously to the cause.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Dr. Laura Bennett",
+          "desc": "Dr. Laura Bennett is a 38-year-old public health advocate who has been working with remote communities for over a decade. She moved to the Pine Ridge Mountains three years ago to better understand and address the unique health challenges faced by the residents. Following the Pine Ridge Quake, she has been actively advocating for improved healthcare and emergency services in the region."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Emily Carter",
+          "desc": "Emily Carter is a 32-year-old schoolteacher who moved to the Pine Ridge Mountains five years ago. She is known for her dedication to her students and her involvement in the local community. Emily is an avid gardener and often spends her weekends tending to her vegetable patch and helping neighbors with their gardens."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-07 16:00",
+    "description": "On January 7, 2030, Emily Carter, a local schoolteacher, initiated a donation drive to support the Pine Ridge Mountains community affected by the recent 5.0 magnitude earthquake. The drive received an overwhelming response, with individuals, groups, and charities contributing generously to the cause.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Dr. Laura Bennett",
+          "desc": "Dr. Laura Bennett is a 38-year-old public health advocate who has been working with remote communities for over a decade. She moved to the Pine Ridge Mountains three years ago to better understand and address the unique health challenges faced by the residents. Following the Pine Ridge Quake, she has been actively advocating for improved healthcare and emergency services in the region."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Emily Carter",
+          "desc": "Emily Carter is a 32-year-old schoolteacher who moved to the Pine Ridge Mountains five years ago. She is known for her dedication to her students and her involvement in the local community. Emily is an avid gardener and often spends her weekends tending to her vegetable patch and helping neighbors with their gardens."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Pine Ridge Mountains",
+          "desc": "Pine Ridge Mountains is a remote and rugged area known for its dense forests and steep terrain. The region is sparsely populated, with small communities scattered throughout the valleys and ridges. Due to its isolation, transportation options are limited, making it challenging for residents to travel and for emergency services to reach affected areas quickly."
+        }
+      }
+    ]
+  }
+]

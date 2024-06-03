@@ -1,0 +1,615 @@
+[
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-01 19:00",
+    "description": "On January 1, 2030, Maria Gonzalez, a 34-year-old marketing executive, was among the first to be infected by the deadly Novarix-21 pathogen in the city. The disease, known for its high infectivity and fatality rate, was transmitted through the air, possibly from the large number of urban pigeons in the city.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30007/kairos:Primitives_Events_Life.Infect.Unspecified:1_victim",
+        "roleName": "A1-gol_thing_becoming_infected",
+        "entity": "resin:Entities/10000/",
+        "A1-gol_thing_becoming_infected": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      },
+      {
+        "@id": "resin:Participants/30008/kairos:Primitives_Events_Life.Infect.Unspecified:1_infectingagent",
+        "roleName": "A2-ppt_infectant",
+        "entity": "resin:Entities/10005/",
+        "A2-ppt_infectant": {
+          "name": "Urban Pigeon",
+          "desc": "Urban Pigeons are common birds found in many cities around the world. They are known for their adaptability to urban environments and their tendency to congregate in large numbers in public spaces."
+        }
+      },
+      {
+        "@id": "resin:Participants/30009/kairos:Primitives_Events_Life.Infect.Unspecified:1_cause",
+        "roleName": "A0_pag_agent_causer_of_infection",
+        "entity": "resin:Entities/10006/",
+        "A0_pag_agent_causer_of_infection": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-02 00:00",
+    "description": "On the evening of January 1, 2030, Maria Gonzalez began to experience the initial symptoms of Novarix-21. She developed a high fever, severe cough, and difficulty breathing, all telltale signs of the deadly pathogen.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30012/",
+        "roleName": "A1_ppt_sick/ill_one",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick/ill_one": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      },
+      {
+        "@id": "resin:Participants/30013/",
+        "roleName": "A2_cau_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2_cau_cause_or_disease": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      },
+      {
+        "@id": "resin:Participants/30014/",
+        "roleName": "AM_loc",
+        "entity": "resin:Entities/10010/",
+        "AM_loc": {
+          "name": "Grand Metropolitan Convention Center",
+          "desc": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-03 00:00",
+    "description": "On the morning of January 2, 2030, Maria Gonzalez, feeling increasingly unwell, decided to contact her health provider, Dr. Emily Chen, for advice. She reported her symptoms, which were consistent with the deadly Novarix-21 virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30015/",
+        "roleName": "A0_pag_agent_first_communicator",
+        "entity": "resin:Entities/10000/",
+        "A0_pag_agent_first_communicator": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      },
+      {
+        "@id": "resin:Participants/30016/",
+        "roleName": "A2_com_co_agent_other_communicators",
+        "entity": "resin:Entities/10021/",
+        "A2_com_co_agent_other_communicators": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-04 00:00",
+    "description": "On the afternoon of January 3, 2030, Maria Gonzalez, feeling progressively worse, decided to go to the hospital. She called an ambulance, which arrived at her apartment at 2:30 PM and transported her to the city's main hospital.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30017/",
+        "roleName": "A1_ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-04 00:00",
+    "description": "On the morning of January 4, 2030, Dr. Emily Chen, after examining Maria Gonzalez, confirmed that she was infected with the deadly Novarix-21 virus. The diagnosis was based on Maria's symptoms and the results of the rapid diagnostic test.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Monitoring",
+    "time": "2030-01-04 00:00",
+    "description": "By 10:00 AM on January 4, 2030, Dr. Emily Chen and her team at the city's main hospital began closely monitoring the condition of Maria Gonzalez and other infected individuals, tracking their symptoms and response to treatment.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30259/observer",
+        "roleName": "A0_pag_observer",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_observer": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30260/thing_looked_at",
+        "roleName": "A1_loc_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1_loc_thing_looked_at": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Detection",
+    "time": "2030-01-04 20:00",
+    "description": "By the evening of January 4, 2030, the BioGuard Research Institute had identified a significant number of Novarix-21 cases in the city, confirming a full-scale outbreak. Maria Gonzalez, among others, was confirmed to be infected with the deadly virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30249/detector",
+        "roleName": "A0_ppt_detector",
+        "entity": "resin:Entities/10011/",
+        "A0_ppt_detector": {
+          "name": "BioGuard Research Institute",
+          "desc": "The BioGuard Research Institute is a leading biomedical research facility located in the city. Known for its cutting-edge research and development in the field of infectious diseases, the institute has been instrumental in the study of various pathogens. Now, it is the primary research facility working tirelessly to understand and develop a cure for Novarix-21."
+        }
+      },
+      {
+        "@id": "resin:Participants/30250/thing_detected",
+        "roleName": "A1_pag_detected",
+        "entity": "resin:Entities/10000/",
+        "A1_pag_detected": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-05 00:00",
+    "description": "By 2:00 PM on January 4, 2030, Dr. Emily Chen and her team initiated a rigorous contact tracing process to identify individuals who may have come into contact with Maria Gonzalez and other infected persons. The team used a combination of interviews and surveillance footage to trace the movements of the infected individuals.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-05 00:00",
+    "description": "Dr. Robert Mitchell, in collaboration with the BioGuard Research Institute, began the collection of epidemiologic data on the Novarix-21 outbreak at 9:00 AM. The data collection process involved analyzing the medical records of Maria Gonzalez and other infected individuals, as well as gathering information on the disease's transmission rate, fatality rate, and incubation period.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30033/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observer",
+        "roleName": "A0-ppt_experiencer_observer",
+        "entity": "resin:Entities/10016/",
+        "A0-ppt_experiencer_observer": {
+          "name": "Dr. Robert \"Rob\" Mitchell",
+          "desc": "Dr. Robert \"Rob\" Mitchell is a 45-year-old virologist working at the city's main hospital alongside Dr. Emily Chen. Known for his meticulous research and dedication, Dr. Mitchell has spent the majority of his career studying novel pathogens. He is now at the forefront of the research to understand and combat Novarix-21."
+        }
+      },
+      {
+        "@id": "resin:Participants/30034/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observedentity",
+        "roleName": "A1-pag_stimulus_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1-pag_stimulus_thing_looked_at": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      },
+      {
+        "@id": "resin:Participants/30035/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "BioGuard Research Institute",
+          "desc": "The BioGuard Research Institute is a leading biomedical research facility located in the city. Known for its cutting-edge research and development in the field of infectious diseases, the institute has been instrumental in the study of various pathogens. Now, it is the primary research facility working tirelessly to understand and develop a cure for Novarix-21."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-06 00:00",
+    "description": "At 10:30 AM, Dr. Robert Mitchell, a renowned virologist, began the meticulous process of analyzing the epidemiologic data collected on the Novarix-21 outbreak. This involved a deep dive into the medical records of Maria Gonzalez and other infected individuals, as well as a thorough examination of the disease's transmission rate, fatality rate, and incubation period.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30038/kairos:Primitives_Events_AnalyzeData_Agent",
+        "roleName": "A0-pag_agent_researcher",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_researcher": {
+          "name": "Dr. Robert \"Rob\" Mitchell",
+          "desc": "Dr. Robert \"Rob\" Mitchell is a 45-year-old virologist working at the city's main hospital alongside Dr. Emily Chen. Known for his meticulous research and dedication, Dr. Mitchell has spent the majority of his career studying novel pathogens. He is now at the forefront of the research to understand and combat Novarix-21."
+        }
+      },
+      {
+        "@id": "resin:Participants/30039/kairos:Primitives_Events_AnalyzeData_Subject",
+        "roleName": "A1-ppt_theme_thing_reseached",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_reseached": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Outbreak",
+    "time": "2030-01-07 00:00",
+    "description": "At 2:00 PM, Dr. Robert \"Rob\" Mitchell, in collaboration with the BioGuard Research Institute, officially identified and announced the outbreak of the novel airborne pathogen, Novarix-21, in the densely populated urban area. The announcement was made after a thorough analysis of the epidemiologic data and medical records of infected individuals, including Maria Gonzalez.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30040/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifier",
+        "roleName": "A0-pag_agent_caller",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_caller": {
+          "name": "Dr. Robert \"Rob\" Mitchell",
+          "desc": "Dr. Robert \"Rob\" Mitchell is a 45-year-old virologist working at the city's main hospital alongside Dr. Emily Chen. Known for his meticulous research and dedication, Dr. Mitchell has spent the majority of his career studying novel pathogens. He is now at the forefront of the research to understand and combat Novarix-21."
+        }
+      },
+      {
+        "@id": "resin:Participants/30041/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifiedobject",
+        "roleName": "A1-ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_item_being_labelled": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      },
+      {
+        "@id": "resin:Participants/30042/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "BioGuard Research Institute",
+          "desc": "The BioGuard Research Institute is a leading biomedical research facility located in the city. Known for its cutting-edge research and development in the field of infectious diseases, the institute has been instrumental in the study of various pathogens. Now, it is the primary research facility working tirelessly to understand and develop a cure for Novarix-21."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-07 00:00",
+    "description": "By 10:00 AM on January 7, 2030, Dr. Emily Chen and her team identified John Doe, a 36-year-old software engineer, as a person who had been in close contact with Maria Gonzalez, one of the infected individuals. John had attended a networking event with Maria and was potentially exposed to the Novarix-21 virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30126/Steps_kairos:Primitives_Events_Identify_Caller",
+        "roleName": "A0_pag_agent_caller",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_agent_caller": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30127/Steps_kairos:Primitives_Events_Identify_Thing_Being_Labelled",
+        "roleName": "A1_ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10002/",
+        "A1_ppt_theme_item_being_labelled": {
+          "name": "John Doe",
+          "desc": "John Doe is a 36-year-old software engineer who recently attended a networking event with Maria Gonzalez. Known for his friendly nature and love for social gatherings, John unknowingly becomes a vehicle for the transmission of Novarix-21."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-08 00:00",
+    "description": "By 2:00 PM on January 7, 2030, Dr. Emily Chen and her team had successfully quarantined the Exposed Group, consisting of individuals who had attended the networking event with John Doe and Maria Gonzalez. The group is now under strict monitoring for symptoms of Novarix-21.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30129/Steps_kairos:Primitives_Events_Quarantine_Quarantiner",
+        "roleName": "A0_pag_quarantiner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_quarantiner": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30130/Steps_kairos:Primitives_Events_Quarantine_Thing",
+        "roleName": "A1_ppt_thing",
+        "entity": "resin:Entities/10001/",
+        "A1_ppt_thing": {
+          "name": "Exposed Group",
+          "desc": "The Exposed Group refers to the individuals who have been in close contact with Maria Gonzalez and John Doe, primarily those who attended the same networking event at the Grand Metropolitan Convention Center. They are now at high risk of contracting Novarix-21 due to its airborne nature and high infectivity."
+        }
+      },
+      {
+        "@id": "resin:Participants/30131/Steps_kairos:Primitives_Events_Quarantine_Quarantined_From_Whom",
+        "roleName": "A2_gol_quarrantined_from_whom",
+        "entity": "resin:Entities/10019/",
+        "A2_gol_quarrantined_from_whom": {
+          "name": "City Dwellers",
+          "desc": "City Dwellers refers to the general population living in the metropolitan city where the Novarix-21 outbreak is occurring. They represent a diverse mix of professionals, students, retirees, and others who call the city home. As the disease is highly infectious and airborne, all City Dwellers are at risk of contracting Novarix-21."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Collect Lab Samples",
+    "time": "2030-01-08 00:00",
+    "description": "Dr. Robert Mitchell and his team spent the day collecting various samples from around the city, including swabs from public surfaces, water samples, and food samples from local markets, in an attempt to better understand the transmission of Novarix-21.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30036/kairos:Primitives_Events_CollectLabSamples_Processor",
+        "roleName": "A0_pag_processor",
+        "entity": "resin:Entities/10016/",
+        "A0_pag_processor": {
+          "name": "Dr. Robert \"Rob\" Mitchell",
+          "desc": "Dr. Robert \"Rob\" Mitchell is a 45-year-old virologist working at the city's main hospital alongside Dr. Emily Chen. Known for his meticulous research and dedication, Dr. Mitchell has spent the majority of his career studying novel pathogens. He is now at the forefront of the research to understand and combat Novarix-21."
+        }
+      },
+      {
+        "@id": "resin:Participants/30037/kairos:Primitives_Events_CollectLabSamples_Artifact",
+        "roleName": "A1_ppt_thing_processed",
+        "entity": "resin:Entities/10006/",
+        "A1_ppt_thing_processed": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-08 00:00",
+    "description": "On January 8, 2030, Dr. Emily Chen and her team initiated a comprehensive contact tracing operation to identify individuals who may have come into contact with Maria Gonzalez and other infected persons. The operation involved interviewing the infected individuals, tracking their movements, and identifying people they had interacted with during the period they were likely infectious.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-08 00:00",
+    "description": "On the morning of January 8, 2030, Dr. Emily Chen confirmed that Maria Gonzalez was indeed infected with the deadly Novarix-21 virus. The diagnosis was made based on Maria's symptoms and the results of her laboratory tests.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Disinfect",
+    "time": "2030-01-08 06:00",
+    "description": "On the morning of January 8, 2030, Dr. Emily Chen led a team of health workers to disinfect the Grand Metropolitan Convention Center, which was identified as a potential hotspot for the Novarix-21 virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30023/Steps_kairos:Primitives_Events_Disinfect_Cleaner",
+        "roleName": "A0_pag_agent_cleaner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_agent_cleaner": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30024/Steps_kairos:Primitives_Events_Disinfect_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10010/",
+        "AM-LOC": {
+          "name": "Grand Metropolitan Convention Center",
+          "desc": "The Grand Metropolitan Convention Center is a state-of-the-art facility located in the heart of the city. It is renowned for hosting major business conferences, trade shows, and international events, drawing thousands of attendees from around the world."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-08 09:00",
+    "description": "On the morning of January 8, 2030, Dr. Emily Chen began the treatment of Maria Gonzalez for the Novarix-21 virus at the city's main hospital. The treatment plan included a combination of antiviral drugs and supportive care to manage the symptoms.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30025/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_treater",
+        "roleName": "A0-pag_X_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_X_doctor": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30026/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "resin:Entities/10000/",
+        "A1_dir_source_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      },
+      {
+        "@id": "resin:Participants/30028/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_illness",
+        "roleName": "A2_ppt__illness_or_injury",
+        "entity": "resin:Entities/10006/",
+        "A2_ppt__illness_or_injury": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-08 09:00",
+    "description": "On the morning of January 8, 2030, Maria Gonzalez was admitted to the city's main hospital under the care of Dr. Emily Chen due to her worsening condition from the Novarix-21 virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30253/sender",
+        "roleName": "A0_pag_sender",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_sender": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30254/infected",
+        "roleName": "A1_ppt_injured/ill_entity",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_injured/ill_entity": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-08 14:00",
+    "description": "On the afternoon of January 8, 2030, the National Health Security Agency (NHSA) issued a quarantine order for Maria Gonzalez, restricting her movements to prevent the spread of the Novarix-21 virus. The quarantine was enforced at the city's main hospital where Maria is currently receiving treatment.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "National Health Security Agency (NHSA)",
+          "desc": "The National Health Security Agency (NHSA) is a government agency responsible for protecting public health and safety in the face of health crises. It is currently leading the response to the Novarix-21 outbreak, coordinating efforts between hospitals, research institutes, and other relevant organizations."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-08 14:00",
+    "description": "On the afternoon of January 8, 2030, the National Health Security Agency (NHSA) issued a quarantine order for Maria Gonzalez, restricting her movements to prevent the spread of the Novarix-21 virus. The quarantine was enforced at the city's main hospital where Maria is currently receiving treatment.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "National Health Security Agency (NHSA)",
+          "desc": "The National Health Security Agency (NHSA) is a government agency responsible for protecting public health and safety in the face of health crises. It is currently leading the response to the Novarix-21 outbreak, coordinating efforts between hospitals, research institutes, and other relevant organizations."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 34-year-old marketing executive living in a bustling metropolitan city. She is known for her outgoing personality and active social life, often attending networking events and social gatherings."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-09 00:00",
+    "description": "On the morning of January 8, 2030, Dr. Emily Chen conducted a viral test on Maria Gonzalez to confirm if she was infected with the Novarix-21 virus. The test involved taking a swab from Maria's nose and mouth, which were then sent to the lab for analysis.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30122/Steps_kairos:Primitives_Events_Testing_Assessor",
+        "roleName": "A0-pag_agent_estimator",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_estimator": {
+          "name": "Dr. Emily Chen",
+          "desc": "Dr. Emily Chen is a 38-year-old infectious disease specialist working at the city's main hospital. She is known for her calm demeanor and quick decision-making skills, which are crucial in managing the outbreak of Novarix-21. Dr. Chen has a background in epidemiology and has previously worked on controlling outbreaks of other infectious diseases."
+        }
+      },
+      {
+        "@id": "resin:Participants/30123/Steps_kairos:Primitives_Events_Testing_Thing_Assessed_for",
+        "roleName": "A1-ppt_theme_thing_estimated",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_estimated": {
+          "name": "Novarix-21",
+          "desc": "Novarix-21 is a novel airborne pathogen that has recently emerged in a densely populated urban area. It is highly infectious with a short incubation period of just a few days, and it has a high fatality rate, making it a significant public health threat."
+        }
+      }
+    ]
+  }
+]

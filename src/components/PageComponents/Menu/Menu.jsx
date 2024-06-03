@@ -24,7 +24,7 @@ import {
     EntitiesContext,
     EventsContext,
     NewsContext,
-    FilteredNewsContext
+    FilteredNewsContext,
 } from "../../DataReadingComponents/DataReader";
 import {
     TA1Entity,
@@ -193,13 +193,19 @@ const ToggleInput = ({
         </div>
     );
 };
-function ExamplesPanel({ examples, setJsonData, setAssumptions, setNews }) {
+function ExamplesPanel({
+    examples,
+    setJsonData,
+    setAssumptions,
+    setNews,
+    name = "Example",
+}) {
     if (examples === null) {
-        return <h2>Loading Examples...</h2>;
+        return <h2>Loading {name}...</h2>;
     }
     return (
         <>
-            <h2>Examples</h2>
+            <h2>{name}</h2>
             {examples.map((example) => {
                 const { name, schema, crtics } = example;
                 return (
@@ -212,7 +218,7 @@ function ExamplesPanel({ examples, setJsonData, setAssumptions, setNews }) {
                                     type="button"
                                     className="button"
                                     style={{
-                                        width: `${100/crtics.length}%`,
+                                        width: `${100 / crtics.length}%`,
                                     }}
                                     onClick={() => {
                                         fetch(critic.assumptions)
@@ -279,6 +285,7 @@ function AddJSONPanel() {
         { id: 2, assumption: "Assumption 2", selected: false },
     ]);
     const [examples, setExamples] = useState(null);
+    const [baselines, setBaselines] = useState(null);
     useEffect(() => {
         updateNews(News);
     }, [News]);
@@ -292,6 +299,18 @@ function AddJSONPanel() {
             })
             .then((data) => {
                 setExamples(data);
+            })
+            .catch((error) => console.error("Error fetching data:", error));
+
+        fetch("/newssimulator/baseline/examples.json")
+            .then((res) => {
+                if (!res.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return res.json();
+            })
+            .then((data) => {
+                setBaselines(data);
             })
             .catch((error) => console.error("Error fetching data:", error));
     };
@@ -506,6 +525,14 @@ function AddJSONPanel() {
                     setAssumptions={setAssumptions}
                     setEntities={setEntities}
                     setNews={setNews}
+                />
+                <ExamplesPanel
+                    examples={baselines}
+                    setJsonData={setJsonData}
+                    setAssumptions={setAssumptions}
+                    setEntities={setEntities}
+                    setNews={setNews}
+                    name="Baselines"
                 />
                 <h2>Specializing Schema</h2>
                 <h3>Initial Schema</h3>
@@ -943,43 +970,45 @@ const TA1GlobalEntityList = () => {
         state.entitiesRelatedEventMap,
         state.chosenEntities,
     ]);
-    const [chosenInstantiatedEntities, setChosenInstantiatedEntities] = useStoreTA1(
-        (state) => [state.chosenInstantiatedEntities, state.setChosenInstantiatedEntities]
-    );
+    const [chosenInstantiatedEntities, setChosenInstantiatedEntities] =
+        useStoreTA1((state) => [
+            state.chosenInstantiatedEntities,
+            state.setChosenInstantiatedEntities,
+        ]);
     const [EntitiesList, setEntitiesList] = useState([]);
     const [News, setNews] = useContext(NewsContext);
     const [instantiatedEntities, setInstantiatedEntities] = useState([]);
 
     const [filteredNews, setFilteredNews] = useContext(FilteredNewsContext);
     useEffect(() => {
-        const newEntitiesMap = {}
-        News.forEach((item) => 
+        const newEntitiesMap = {};
+        News.forEach((item) =>
             Object.keys(item.participants).forEach((relation) => {
-                    const key = `${item.participants[relation].name}`;
-                    if (!newEntitiesMap[key]){
-                        newEntitiesMap[key] =
-                            item.participants[relation].instanceOf[0];
-                        newEntitiesMap[key]['count'] = 1
-                        newEntitiesMap[key]['news'] = [item]
-                        newEntitiesMap[key]['instantiated_entity'] = key
-                    } else {
-                        newEntitiesMap[key]['count'] += 1
-                        newEntitiesMap[key]['news'].push(item)
-                    }
+                const key = `${item.participants[relation].name}`;
+                if (!newEntitiesMap[key]) {
+                    newEntitiesMap[key] =
+                        item.participants[relation].instanceOf[0];
+                    newEntitiesMap[key]["count"] = 1;
+                    newEntitiesMap[key]["news"] = [item];
+                    newEntitiesMap[key]["instantiated_entity"] = key;
+                } else {
+                    newEntitiesMap[key]["count"] += 1;
+                    newEntitiesMap[key]["news"].push(item);
                 }
-            
-            )
+            })
         );
-        setInstantiatedEntities( Object.values(newEntitiesMap).sort(
-            (a, b) => b.count - a.count
-        ));
-
+        setInstantiatedEntities(
+            Object.values(newEntitiesMap).sort((a, b) => b.count - a.count)
+        );
     }, []);
     useEffect(() => {
         const newNews = [];
         for (const entityObject of instantiatedEntities) {
             console.log("entityObject", entityObject);
-            console.log("chosenInstantiatedEntities", chosenInstantiatedEntities);
+            console.log(
+                "chosenInstantiatedEntities",
+                chosenInstantiatedEntities
+            );
             if (
                 chosenInstantiatedEntities.includes(
                     entityObject.instantiated_entity
@@ -994,7 +1023,7 @@ const TA1GlobalEntityList = () => {
 
     useEffect(() => {
         const newEntitiesList = [];
-        for (const  entityObject of instantiatedEntities) {
+        for (const entityObject of instantiatedEntities) {
             const key = `${entityObject.instantiated_entity}`;
             newEntitiesList.push(
                 <ToggleButtonTA1
@@ -1021,7 +1050,6 @@ const TA1GlobalEntityList = () => {
                 <div>No Entities</div>
             )
         );
-        
     }, [instantiatedEntities]);
 
     return (
@@ -1054,7 +1082,6 @@ const TA1GlobalEntityTable = () => {
                     wd_label={entity.wd_label}
                     relatedEvents={events}
                     chosen={chosenEntities.includes(key)}
-
                 />
             );
         }

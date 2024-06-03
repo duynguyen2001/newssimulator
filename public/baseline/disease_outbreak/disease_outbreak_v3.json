@@ -1,0 +1,665 @@
+[
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 07:00",
+    "description": "On the morning of January 1, 2030, Maria Gonzalez started experiencing severe symptoms of Norovirus, including vomiting, diarrhea, and stomach cramps. Despite her discomfort, she managed to complete her shift at the hospital before heading home to rest.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30012/",
+        "roleName": "A1_ppt_sick/ill_one",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick/ill_one": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30013/",
+        "roleName": "A2_cau_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2_cau_cause_or_disease": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      },
+      {
+        "@id": "resin:Participants/30014/",
+        "roleName": "AM_loc",
+        "entity": "resin:Entities/10010/",
+        "AM_loc": {
+          "name": "Riverside District",
+          "desc": "Riverside District is a densely populated urban neighborhood known for its vibrant community life and bustling markets. It is situated along the banks of a major river, which serves as a primary water source for the residents."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-01 10:00",
+    "description": "Maria Gonzalez, a dedicated nurse, and Liam O'Brien, a popular bus driver, have both contracted Norovirus, a highly contagious virus causing gastroenteritis. The virus, known for its rapid spread in crowded environments, has begun to infect people in the densely populated urban area where they both work.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30007/kairos:Primitives_Events_Life.Infect.Unspecified:1_victim",
+        "roleName": "A1-gol_thing_becoming_infected",
+        "entity": "resin:Entities/10000/",
+        "A1-gol_thing_becoming_infected": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30008/kairos:Primitives_Events_Life.Infect.Unspecified:1_infectingagent",
+        "roleName": "A2-ppt_infectant",
+        "entity": "resin:Entities/10005/",
+        "A2-ppt_infectant": {
+          "name": "Liam O'Brien",
+          "desc": "Liam O'Brien is a 50-year-old bus driver who operates one of the busiest routes in the Riverside District. Known for his friendly demeanor and punctuality, Liam interacts with hundreds of passengers daily, unknowingly becoming a carrier of the Norovirus."
+        }
+      },
+      {
+        "@id": "resin:Participants/30009/kairos:Primitives_Events_Life.Infect.Unspecified:1_cause",
+        "roleName": "A0_pag_agent_causer_of_infection",
+        "entity": "resin:Entities/10006/",
+        "A0_pag_agent_causer_of_infection": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-01 15:00",
+    "description": "Feeling increasingly unwell, Maria Gonzalez decided to contact her health provider, Dr. Samuel Patel, for advice on her symptoms. She reached out to him at around 3PM, shortly after her shift ended.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30015/",
+        "roleName": "A0_pag_agent_first_communicator",
+        "entity": "resin:Entities/10000/",
+        "A0_pag_agent_first_communicator": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30016/",
+        "roleName": "A2_com_co_agent_other_communicators",
+        "entity": "resin:Entities/10021/",
+        "A2_com_co_agent_other_communicators": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-02 00:00",
+    "description": "Feeling progressively worse, Maria Gonzalez decided to go to the hospital for a check-up. She left her apartment at 5PM and arrived at the hospital around 5:30PM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30017/",
+        "roleName": "A1_ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-02 08:00",
+    "description": "At 8AM, Dr. Samuel Patel, in collaboration with local public health officials, initiated a comprehensive contact tracing process to identify individuals who may have come into contact with Maria Gonzalez, who was diagnosed with Norovirus the previous evening.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Detection",
+    "time": "2030-01-02 09:00",
+    "description": "At 9AM, the Urban Infectious Disease Research Center (UIDRC) detected the full scale of the Norovirus outbreak in the city. The center identified a significant increase in the number of cases reported in the past few days, with Maria Gonzalez being one of the patients.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30249/detector",
+        "roleName": "A0_ppt_detector",
+        "entity": "resin:Entities/10011/",
+        "A0_ppt_detector": {
+          "name": "Urban Infectious Disease Research Center (UIDRC)",
+          "desc": "The Urban Infectious Disease Research Center (UIDRC) is a state-of-the-art research facility located in the heart of the city. It is dedicated to studying and managing infectious diseases in urban environments. The center collaborates closely with local hospitals, universities, and public health officials to monitor disease outbreaks and develop effective strategies for disease control and prevention."
+        }
+      },
+      {
+        "@id": "resin:Participants/30250/thing_detected",
+        "roleName": "A1_pag_detected",
+        "entity": "resin:Entities/10000/",
+        "A1_pag_detected": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Monitoring",
+    "time": "2030-01-02 10:00",
+    "description": "At 10AM, Dr. Samuel Patel began closely monitoring the condition of Maria Gonzalez and other infected patients at the hospital. He meticulously recorded their symptoms and responses to treatment, aiming to understand the progression of the Norovirus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30259/observer",
+        "roleName": "A0_pag_observer",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_observer": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30260/thing_looked_at",
+        "roleName": "A1_loc_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1_loc_thing_looked_at": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-02 10:00",
+    "description": "At 10AM, Dr. Emily Thompson, in collaboration with the Urban Infectious Disease Research Center (UIDRC), began collecting epidemiologic data related to the Norovirus outbreak, focusing on the contacts of Maria Gonzalez, the first diagnosed case.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30033/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observer",
+        "roleName": "A0-ppt_experiencer_observer",
+        "entity": "resin:Entities/10016/",
+        "A0-ppt_experiencer_observer": {
+          "name": "Dr. Emily Thompson",
+          "desc": "Dr. Emily Thompson is a 40-year-old epidemiologist working at a local university. She has dedicated her career to studying infectious diseases and their patterns of spread in urban environments. Dr. Thompson is known for her meticulous research and her ability to communicate complex scientific concepts to the public."
+        }
+      },
+      {
+        "@id": "resin:Participants/30034/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observedentity",
+        "roleName": "A1-pag_stimulus_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1-pag_stimulus_thing_looked_at": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30035/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "Urban Infectious Disease Research Center (UIDRC)",
+          "desc": "The Urban Infectious Disease Research Center (UIDRC) is a state-of-the-art research facility located in the heart of the city. It is dedicated to studying and managing infectious diseases in urban environments. The center collaborates closely with local hospitals, universities, and public health officials to monitor disease outbreaks and develop effective strategies for disease control and prevention."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Collect Lab Samples",
+    "time": "2030-01-02 10:00",
+    "description": "At 10AM, Dr. Emily Thompson, along with her team of researchers, began collecting samples from various sources in the urban area affected by the Norovirus outbreak. They focused on water sources, food supplies, and frequently touched surfaces in public areas, aiming to identify the primary source of the virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30036/kairos:Primitives_Events_CollectLabSamples_Processor",
+        "roleName": "A0_pag_processor",
+        "entity": "resin:Entities/10016/",
+        "A0_pag_processor": {
+          "name": "Dr. Emily Thompson",
+          "desc": "Dr. Emily Thompson is a 40-year-old epidemiologist working at a local university. She has dedicated her career to studying infectious diseases and their patterns of spread in urban environments. Dr. Thompson is known for her meticulous research and her ability to communicate complex scientific concepts to the public."
+        }
+      },
+      {
+        "@id": "resin:Participants/30037/kairos:Primitives_Events_CollectLabSamples_Artifact",
+        "roleName": "A1_ppt_thing_processed",
+        "entity": "resin:Entities/10006/",
+        "A1_ppt_thing_processed": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-02 14:00",
+    "description": "By 2PM, Dr. Emily Thompson had begun the process of analyzing the collected epidemiologic data related to the Norovirus outbreak. She focused on the patterns of transmission, particularly the contacts of Maria Gonzalez, the first diagnosed case.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30038/kairos:Primitives_Events_AnalyzeData_Agent",
+        "roleName": "A0-pag_agent_researcher",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_researcher": {
+          "name": "Dr. Emily Thompson",
+          "desc": "Dr. Emily Thompson is a 40-year-old epidemiologist working at a local university. She has dedicated her career to studying infectious diseases and their patterns of spread in urban environments. Dr. Thompson is known for her meticulous research and her ability to communicate complex scientific concepts to the public."
+        }
+      },
+      {
+        "@id": "resin:Participants/30039/kairos:Primitives_Events_AnalyzeData_Subject",
+        "roleName": "A1-ppt_theme_thing_reseached",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_reseached": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-02 14:00",
+    "description": "By 2PM, Dr. Samuel Patel, along with his team, identified Carlos Rodriguez, a local food vendor, as a person potentially exposed to the Norovirus due to his close contact with Maria Gonzalez, who was diagnosed with the virus the previous day.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30126/Steps_kairos:Primitives_Events_Identify_Caller",
+        "roleName": "A0_pag_agent_caller",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_agent_caller": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30127/Steps_kairos:Primitives_Events_Identify_Thing_Being_Labelled",
+        "roleName": "A1_ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10002/",
+        "A1_ppt_theme_item_being_labelled": {
+          "name": "Carlos Rodriguez",
+          "desc": "Carlos Rodriguez is a 38-year-old food vendor who operates a popular food cart in the Riverside District. He is known for his refreshing fruit juices and smoothies, which he prepares using water from the local river. Carlos is a friendly and sociable individual, often engaging in conversations with his many customers throughout the day."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-02 16:00",
+    "description": "By 4PM, Dr. Samuel Patel and his team, in collaboration with local health officials, initiated a quarantine protocol for the exposed individuals in the Riverside District. They identified and isolated around 200 people who had direct or indirect contact with Carlos Rodriguez, the local food vendor potentially exposed to the Norovirus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30129/Steps_kairos:Primitives_Events_Quarantine_Quarantiner",
+        "roleName": "A0_pag_quarantiner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_quarantiner": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30130/Steps_kairos:Primitives_Events_Quarantine_Thing",
+        "roleName": "A1_ppt_thing",
+        "entity": "resin:Entities/10001/",
+        "A1_ppt_thing": {
+          "name": "Exposed Individuals",
+          "desc": "Exposed Individuals refers to the large group of people in the Riverside District who have potentially come into contact with the Norovirus, either through contaminated water or body fluids. These individuals may not yet show symptoms but are at risk of developing the disease and spreading it to others. They are a key focus of the public health response to the outbreak."
+        }
+      },
+      {
+        "@id": "resin:Participants/30131/Steps_kairos:Primitives_Events_Quarantine_Quarantined_From_Whom",
+        "roleName": "A2_gol_quarrantined_from_whom",
+        "entity": "resin:Entities/10019/",
+        "A2_gol_quarrantined_from_whom": {
+          "name": "Riverside District Residents",
+          "desc": "Riverside District Residents refers to the diverse community of people living in the Riverside District, a bustling urban neighborhood. These individuals come from various backgrounds and occupations, contributing to the vibrant community life. Amidst the Norovirus outbreak, they are at high risk of exposure due to the district's dense population and the virus's mode of transmission."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Outbreak",
+    "time": "2030-01-02 18:00",
+    "description": "By 6PM, Dr. Emily Thompson, working at the Urban Infectious Disease Research Center (UIDRC), had identified a potential Norovirus outbreak in the city. She made an official announcement, warning the public about the highly contagious virus and its mode of transmission.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30040/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifier",
+        "roleName": "A0-pag_agent_caller",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_caller": {
+          "name": "Dr. Emily Thompson",
+          "desc": "Dr. Emily Thompson is a 40-year-old epidemiologist working at a local university. She has dedicated her career to studying infectious diseases and their patterns of spread in urban environments. Dr. Thompson is known for her meticulous research and her ability to communicate complex scientific concepts to the public."
+        }
+      },
+      {
+        "@id": "resin:Participants/30041/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifiedobject",
+        "roleName": "A1-ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_item_being_labelled": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      },
+      {
+        "@id": "resin:Participants/30042/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "Urban Infectious Disease Research Center (UIDRC)",
+          "desc": "The Urban Infectious Disease Research Center (UIDRC) is a state-of-the-art research facility located in the heart of the city. It is dedicated to studying and managing infectious diseases in urban environments. The center collaborates closely with local hospitals, universities, and public health officials to monitor disease outbreaks and develop effective strategies for disease control and prevention."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-02 19:00",
+    "description": "After conducting a thorough examination and running several tests, Dr. Samuel Patel diagnosed Maria Gonzalez with Norovirus at around 7PM. The diagnosis was based on her symptoms and the fact that she works in a high-risk environment.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-03 00:00",
+    "description": "After diagnosing Maria Gonzalez with Norovirus, Dr. Samuel Patel immediately initiated treatment at 7:30PM. He prescribed a regimen of rehydration therapy and rest, given the nature of the disease and its symptoms.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30025/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_treater",
+        "roleName": "A0-pag_X_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_X_doctor": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30026/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "resin:Entities/10000/",
+        "A1_dir_source_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30028/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_illness",
+        "roleName": "A2_ppt__illness_or_injury",
+        "entity": "resin:Entities/10006/",
+        "A2_ppt__illness_or_injury": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Recover",
+    "time": "2030-01-04 00:00",
+    "description": "On the evening of January 3, 2030, Maria Gonzalez began to show signs of recovery from her Norovirus infection. Her symptoms of vomiting, diarrhea, and stomach cramps had significantly reduced, indicating that the rehydration therapy and rest prescribed by Dr. Samuel Patel were effective.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30137/Recover:Agent",
+        "roleName": "A1_ppt_sick",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30138/Recover:Affliction",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-04 08:00",
+    "description": "On January 4, 2030, Dr. Samuel Patel initiated a comprehensive contact tracing process to identify individuals who may have come into contact with Maria Gonzalez and other infected patients. He collaborated with a team of public health officials to track down and monitor these individuals, aiming to control the spread of the Norovirus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Disinfect",
+    "time": "2030-01-04 08:00",
+    "description": "On January 4, 2030, at 8AM, Dr. Samuel Patel, in collaboration with local health officials, initiated a large-scale disinfection operation in the Riverside District. The operation targeted public spaces and water sources suspected to be contaminated with the Norovirus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30023/Steps_kairos:Primitives_Events_Disinfect_Cleaner",
+        "roleName": "A0_pag_agent_cleaner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_agent_cleaner": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30024/Steps_kairos:Primitives_Events_Disinfect_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10010/",
+        "AM-LOC": {
+          "name": "Riverside District",
+          "desc": "Riverside District is a densely populated urban neighborhood known for its vibrant community life and bustling markets. It is situated along the banks of a major river, which serves as a primary water source for the residents."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-04 10:00",
+    "description": "On January 4, 2030, the Department of Public Health and Safety (DPHS) issued a quarantine order for Maria Gonzalez, the nurse diagnosed with Norovirus. The quarantine restricts her movement and interactions to prevent the further spread of the disease.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "Department of Public Health and Safety (DPHS)",
+          "desc": "The Department of Public Health and Safety (DPHS) is a government agency responsible for protecting and improving the health of the community. It works closely with hospitals, research centers, and other health organizations to manage disease outbreaks and implement public health policies. In the current Norovirus outbreak, the DPHS is coordinating the response efforts and providing resources to control the spread of the disease."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-04 10:00",
+    "description": "On January 4, 2030, the Department of Public Health and Safety (DPHS) issued a quarantine order for Maria Gonzalez, the nurse diagnosed with Norovirus. The quarantine restricts her movement and interactions to prevent the further spread of the disease.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "Department of Public Health and Safety (DPHS)",
+          "desc": "The Department of Public Health and Safety (DPHS) is a government agency responsible for protecting and improving the health of the community. It works closely with hospitals, research centers, and other health organizations to manage disease outbreaks and implement public health policies. In the current Norovirus outbreak, the DPHS is coordinating the response efforts and providing resources to control the spread of the disease."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-04 19:00",
+    "description": "On January 4, 2030, at 10AM, Maria Gonzalez was admitted to the hospital due to the severity of her Norovirus symptoms. Dr. Samuel Patel, who had diagnosed her two days prior, was overseeing her treatment.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30253/sender",
+        "roleName": "A0_pag_sender",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_sender": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30254/infected",
+        "roleName": "A1_ppt_injured/ill_entity",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_injured/ill_entity": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-05 00:00",
+    "description": "After conducting a thorough examination and running several tests, Dr. Samuel Patel confirmed that Maria Gonzalez was infected with the Norovirus at 10:30AM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Recover",
+    "time": "2030-01-05 00:00",
+    "description": "On the morning of January 5, 2030, Maria Gonzalez, a 32-year-old nurse, successfully recovered from her bout with Norovirus. After a few days of rest and rehydration therapy, her symptoms of vomiting, diarrhea, and stomach cramps subsided, and she was declared free of the virus by her doctor, Dr. Samuel Patel.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30137/Recover:Agent",
+        "roleName": "A1_ppt_sick",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick": {
+          "name": "Maria Gonzalez",
+          "desc": "Maria Gonzalez is a 32-year-old nurse working at a busy hospital in the heart of the city. She is dedicated to her profession and often works long hours, which leaves her little time for social activities. However, she enjoys attending community events and gatherings whenever she can."
+        }
+      },
+      {
+        "@id": "resin:Participants/30138/Recover:Affliction",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-05 00:00",
+    "description": "On the morning of January 5, 2030, Dr. Samuel Patel conducted a viral test on Maria Gonzalez to confirm if she was infected with the Norovirus. The test involved taking a swab from Maria's mouth and nose, which was then sent to the hospital's lab for analysis.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30122/Steps_kairos:Primitives_Events_Testing_Assessor",
+        "roleName": "A0-pag_agent_estimator",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_estimator": {
+          "name": "Dr. Samuel Patel",
+          "desc": "Dr. Samuel Patel is a 45-year-old infectious disease specialist working at the same hospital as Maria Gonzalez. He is known for his calm demeanor and methodical approach to diagnosing and treating infectious diseases. Dr. Patel has a keen interest in epidemiology and often collaborates with public health officials to manage outbreaks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30123/Steps_kairos:Primitives_Events_Testing_Thing_Assessed_for",
+        "roleName": "A1-ppt_theme_thing_estimated",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_estimated": {
+          "name": "Norovirus",
+          "desc": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments like urban areas, schools, and hospitals. The virus is transmitted through contaminated water and body fluids, making it a common cause of outbreaks in densely populated regions."
+        }
+      }
+    ]
+  }
+]

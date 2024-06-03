@@ -1,0 +1,781 @@
+[
+  {
+    "schemaEvent": "Aftershocks",
+    "time": "2030-01-02 00:00",
+    "description": "At approximately 2:30 PM, the city of San Miguel experienced a series of aftershocks from the San Miguel Fault Line, causing further damage to the already devastated city.",
+    "participants": [
+      {
+        "@id": "Participants/20017/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "San Miguel Fault Line",
+          "desc": "The San Miguel Fault Line is a major fault line that runs directly beneath the city of San Miguel. It has been relatively dormant for many years, with minor tremors being the only indication of its existence. However, the recent 6.1 magnitude earthquake has brought it to the forefront of public attention, causing widespread devastation and panic in the city."
+        }
+      },
+      {
+        "@id": "Participants/20019/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Main Earthquake",
+    "time": "2030-01-03 00:00",
+    "description": "At approximately 3:15 PM, the San Miguel Fault Line, which runs directly beneath the city of San Miguel, experienced a significant shift. This shift resulted in the formation of seismic waves, causing a 6.1 magnitude earthquake that shook the city to its core.",
+    "participants": [
+      {
+        "@id": "Participants/20009/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "San Miguel Fault Line",
+          "desc": "The San Miguel Fault Line is a major fault line that runs directly beneath the city of San Miguel. It has been relatively dormant for many years, with minor tremors being the only indication of its existence. However, the recent 6.1 magnitude earthquake has brought it to the forefront of public attention, causing widespread devastation and panic in the city."
+        }
+      },
+      {
+        "@id": "Participants/20011/A3_vsp_death/injury_toll",
+        "roleName": "A3_vsp_death/injury_toll",
+        "entity": "Entities/20005/",
+        "A3_vsp_death/injury_toll": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 32-year-old street vendor who moved to San Miguel from a rural village five years ago. He is known for his friendly demeanor and hardworking nature, selling fresh fruits and vegetables in one of the city's busiest markets."
+        }
+      },
+      {
+        "@id": "Participants/20013/A4_vsp_damages/cost",
+        "roleName": "A4_vsp_damages/cost",
+        "entity": "Entities/20003/",
+        "A4_vsp_damages/cost": {
+          "name": "The San Miguel Catastrophe",
+          "desc": "The San Miguel Catastrophe refers to the extensive losses and damages caused by the San Miguel Quake. The catastrophe resulted in numerous casualties, widespread property damage, and significant disruption to the city's infrastructure and services. The aftermath of the catastrophe has left the city in a state of emergency, with many residents displaced and in need of aid."
+        }
+      },
+      {
+        "@id": "Participants/20015/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Injury",
+    "time": "2030-01-04 00:00",
+    "description": "During the San Miguel Quake, Carlos Mendoza was severely injured when his fruit stand collapsed on him due to the violent shaking. Despite his injuries, he managed to crawl out from under the debris, but was later rushed to the hospital due to internal bleeding.",
+    "participants": [
+      {
+        "@id": "Participants/20001/A1_ppt_experiencer_injured_party",
+        "roleName": "A1_ppt_experiencer_injured_party",
+        "entity": "Entities/20005/",
+        "A1_ppt_experiencer_injured_party": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 32-year-old street vendor who moved to San Miguel from a rural village five years ago. He is known for his friendly demeanor and hardworking nature, selling fresh fruits and vegetables in one of the city's busiest markets."
+        }
+      },
+      {
+        "@id": "Participants/20003/A0_pag_stimulus_stimulus_of_injury",
+        "roleName": "A0_pag_stimulus_stimulus_of_injury",
+        "entity": "Entities/20316/",
+        "A0_pag_stimulus_stimulus_of_injury": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      },
+      {
+        "@id": "Participants/20005/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Death",
+    "time": "2030-01-05 00:00",
+    "description": "At approximately 2:15 PM, Carlos Mendoza, a beloved local fruit vendor, tragically lost his life due to the severe injuries he sustained during the San Miguel Quake. His fruit stand, located in one of the city's busiest markets, collapsed on him during the violent shaking, causing internal bleeding.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A1_ppt_the_deceased",
+        "roleName": "A1_ppt_the_deceased",
+        "entity": "Entities/20005/",
+        "A1_ppt_the_deceased": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 32-year-old street vendor who moved to San Miguel from a rural village five years ago. He is known for his friendly demeanor and hardworking nature, selling fresh fruits and vegetables in one of the city's busiest markets."
+        }
+      },
+      {
+        "@id": "Participants/20025/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      },
+      {
+        "@id": "Participants/20027/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Displacement",
+    "time": "2030-01-05 07:00",
+    "description": "In the aftermath of the San Miguel Quake, thousands of residents, including Maria Lopez and her two young children, were left homeless. Their homes, like many others, were reduced to rubble, leaving them with no choice but to seek shelter in makeshift camps set up by local authorities and international aid organizations.",
+    "participants": [
+      {
+        "@id": "Participants/20029/A0_pag_mover",
+        "roleName": "A0_pag_mover",
+        "entity": "Entities/20316/",
+        "A0_pag_mover": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      },
+      {
+        "@id": "Participants/20031/A1_ppt_moved",
+        "roleName": "A1_ppt_moved",
+        "entity": "Entities/20064/",
+        "A1_ppt_moved": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20033/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Death",
+    "time": "2030-01-06 00:00",
+    "description": "On January 5, 2030, Carlos Mendoza, a 32-year-old street vendor, tragically succumbed to his injuries sustained during the San Miguel Quake. Despite his initial survival and rescue from the debris of his collapsed fruit stand, his internal injuries proved too severe, leading to his untimely death.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A1_ppt_the_deceased",
+        "roleName": "A1_ppt_the_deceased",
+        "entity": "Entities/20005/",
+        "A1_ppt_the_deceased": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 32-year-old street vendor who moved to San Miguel from a rural village five years ago. He is known for his friendly demeanor and hardworking nature, selling fresh fruits and vegetables in one of the city's busiest markets."
+        }
+      },
+      {
+        "@id": "Participants/20025/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      },
+      {
+        "@id": "Participants/20027/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infrastructure Damage",
+    "time": "2030-01-06 00:00",
+    "description": "The San Miguel Quake, a 6.1 magnitude earthquake, caused extensive damage to the city's infrastructure on January 6, 2030. Buildings crumbled, roads were torn apart, and the city's largest hospital, San Miguel Central Hospital, was severely damaged, straining its resources and capacity.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_agent",
+        "roleName": "A0_pag_agent",
+        "entity": "Entities/20316/",
+        "A0_pag_agent": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_entity_damaged",
+        "roleName": "A1_ppt_entity_damaged",
+        "entity": "Entities/20317/",
+        "A1_ppt_entity_damaged": {
+          "name": "San Miguel Central Hospital",
+          "desc": "San Miguel Central Hospital is the largest hospital in the city, providing a wide range of medical services to the residents of San Miguel. The hospital was severely damaged in the San Miguel Quake, leading to a significant strain on its resources and capacity. Despite the challenges, the hospital staff, led by Dr. Luis Fernandez, continue to work tirelessly to treat the injured and sick, often in makeshift wards and operating rooms."
+        }
+      },
+      {
+        "@id": "Participants/20009/A2_mnr_instrument",
+        "roleName": "A2_mnr_instrument",
+        "entity": "Entities/20316/",
+        "A2_mnr_instrument": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      },
+      {
+        "@id": "Participants/20011/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "San Miguel Fault Line",
+          "desc": "The San Miguel Fault Line is a major fault line that runs directly beneath the city of San Miguel. It has been relatively dormant for many years, with minor tremors being the only indication of its existence. However, the recent 6.1 magnitude earthquake has brought it to the forefront of public attention, causing widespread devastation and panic in the city."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Extricate Survivors",
+    "time": "2030-01-07 00:00",
+    "description": "At 10:30 AM, Diego Alvarez and his rescue squad were dispatched to a collapsed apartment building in the heart of San Miguel, where they worked tirelessly to extricate survivors from the debris. Meanwhile, Maria Lopez, despite her own home being damaged, rushed to the local clinic to provide medical aid to the injured.",
+    "participants": [
+      {
+        "@id": "Participants/20075/A0_pag_rescuer",
+        "roleName": "A0_pag_rescuer",
+        "entity": "Entities/20138/",
+        "A0_pag_rescuer": {
+          "name": "Diego Alvarez",
+          "desc": "Diego Alvarez is a 40-year-old firefighter and team leader of the local rescue squad in San Miguel. Known for his bravery and quick decision-making, Diego has been a firefighter for over 15 years and has extensive experience in emergency response and rescue operations."
+        }
+      },
+      {
+        "@id": "Participants/20077/A1_ppt_entity_rescued",
+        "roleName": "A1_ppt_entity_rescued",
+        "entity": "Entities/20064/",
+        "A1_ppt_entity_rescued": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20079/A2_dir_rescued_from",
+        "roleName": "A2_dir_rescued_from",
+        "entity": "Entities/20315/",
+        "A2_dir_rescued_from": {
+          "name": "San Miguel Fault Line",
+          "desc": "The San Miguel Fault Line is a major fault line that runs directly beneath the city of San Miguel. It has been relatively dormant for many years, with minor tremors being the only indication of its existence. However, the recent 6.1 magnitude earthquake has brought it to the forefront of public attention, causing widespread devastation and panic in the city."
+        }
+      },
+      {
+        "@id": "Participants/20081/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Medical Assistance",
+    "time": "2030-01-08 00:00",
+    "description": "At 2:00 PM, Dr. Luis Fernandez and nurse Maria Lopez, along with their medical team, began providing emergency medical assistance to the victims of the San Miguel Catastrophe at a makeshift medical center set up by SMEMS.",
+    "participants": [
+      {
+        "@id": "Participants/20083/A0_pag_causer_doctor",
+        "roleName": "A0_pag_causer_doctor",
+        "entity": "Entities/20130/",
+        "A0_pag_causer_doctor": {
+          "name": "Dr. Luis Fernandez",
+          "desc": "Dr. Luis Fernandez is a 38-year-old emergency medicine physician with a decade of experience working in high-stress environments. He is known for his quick thinking, calm demeanor, and ability to handle multiple critical cases simultaneously. Dr. Fernandez moved to San Miguel three years ago to work at the city's main hospital, where he has become a respected figure among his colleagues and patients."
+        }
+      },
+      {
+        "@id": "Participants/20085/A1_dir_source_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "Entities/20064/",
+        "A1_dir_source_patient": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20087/A2_ppt_theme_illness_or_injury",
+        "roleName": "A2_ppt_theme_illness_or_injury",
+        "entity": "Entities/20003/",
+        "A2_ppt_theme_illness_or_injury": {
+          "name": "The San Miguel Catastrophe",
+          "desc": "The San Miguel Catastrophe refers to the extensive losses and damages caused by the San Miguel Quake. The catastrophe resulted in numerous casualties, widespread property damage, and significant disruption to the city's infrastructure and services. The aftermath of the catastrophe has left the city in a state of emergency, with many residents displaced and in need of aid."
+        }
+      },
+      {
+        "@id": "Participants/20089/A3_mnr__instrument_treatment",
+        "roleName": "A3_mnr__instrument_treatment",
+        "entity": "Entities/20297/",
+        "A3_mnr__instrument_treatment": {
+          "name": "San Miguel Emergency Medical Supplies (SMEMS)",
+          "desc": "San Miguel Emergency Medical Supplies (SMEMS) is a temporary organization set up in the aftermath of the San Miguel Quake. It is responsible for the procurement, storage, and distribution of emergency medical supplies to hospitals, clinics, and makeshift medical centers throughout the city. SMEMS works closely with local and international aid organizations to ensure that the city's medical needs are met during this crisis."
+        }
+      },
+      {
+        "@id": "Participants/20091/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Search for Survivors",
+    "time": "2030-01-09 00:00",
+    "description": "At 10:30 AM, Diego Alvarez and his rescue squad began their search for survivors in the densely populated areas of San Miguel, which were severely affected by the 6.1 magnitude earthquake. They worked tirelessly, navigating through the rubble and debris, in hopes of finding trapped residents.",
+    "participants": [
+      {
+        "@id": "Participants/20067/A0_pag_searcher",
+        "roleName": "A0_pag_searcher",
+        "entity": "Entities/20138/",
+        "A0_pag_searcher": {
+          "name": "Diego Alvarez",
+          "desc": "Diego Alvarez is a 40-year-old firefighter and team leader of the local rescue squad in San Miguel. Known for his bravery and quick decision-making, Diego has been a firefighter for over 15 years and has extensive experience in emergency response and rescue operations."
+        }
+      },
+      {
+        "@id": "Participants/20069/A1_loc_Area_searched",
+        "roleName": "A1_loc_Area_searched",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A1_loc_Area_searched": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      },
+      {
+        "@id": "Participants/20071/A2_ppt_searched_for",
+        "roleName": "A2_ppt_searched_for",
+        "entity": "Entities/20064/",
+        "A2_ppt_searched_for": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20073/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Medical Assistance",
+    "time": "2030-01-09 00:00",
+    "description": "At 8:00 AM, Dr. Luis Fernandez and Maria Lopez, along with their medical team, began providing medical assistance to the victims of the San Miguel Catastrophe at a makeshift medical center set up by SMEMS. They treated a variety of injuries, from minor cuts and bruises to severe fractures and trauma cases.",
+    "participants": [
+      {
+        "@id": "Participants/20083/A0_pag_causer_doctor",
+        "roleName": "A0_pag_causer_doctor",
+        "entity": "Entities/20130/",
+        "A0_pag_causer_doctor": {
+          "name": "Dr. Luis Fernandez",
+          "desc": "Dr. Luis Fernandez is a 38-year-old emergency medicine physician with a decade of experience working in high-stress environments. He is known for his quick thinking, calm demeanor, and ability to handle multiple critical cases simultaneously. Dr. Fernandez moved to San Miguel three years ago to work at the city's main hospital, where he has become a respected figure among his colleagues and patients."
+        }
+      },
+      {
+        "@id": "Participants/20085/A1_dir_source_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "Entities/20064/",
+        "A1_dir_source_patient": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20087/A2_ppt_theme_illness_or_injury",
+        "roleName": "A2_ppt_theme_illness_or_injury",
+        "entity": "Entities/20003/",
+        "A2_ppt_theme_illness_or_injury": {
+          "name": "The San Miguel Catastrophe",
+          "desc": "The San Miguel Catastrophe refers to the extensive losses and damages caused by the San Miguel Quake. The catastrophe resulted in numerous casualties, widespread property damage, and significant disruption to the city's infrastructure and services. The aftermath of the catastrophe has left the city in a state of emergency, with many residents displaced and in need of aid."
+        }
+      },
+      {
+        "@id": "Participants/20089/A3_mnr__instrument_treatment",
+        "roleName": "A3_mnr__instrument_treatment",
+        "entity": "Entities/20297/",
+        "A3_mnr__instrument_treatment": {
+          "name": "San Miguel Emergency Medical Supplies (SMEMS)",
+          "desc": "San Miguel Emergency Medical Supplies (SMEMS) is a temporary organization set up in the aftermath of the San Miguel Quake. It is responsible for the procurement, storage, and distribution of emergency medical supplies to hospitals, clinics, and makeshift medical centers throughout the city. SMEMS works closely with local and international aid organizations to ensure that the city's medical needs are met during this crisis."
+        }
+      },
+      {
+        "@id": "Participants/20091/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Deploy Search and Rescue Teams",
+    "time": "2030-01-09 00:00",
+    "description": "At 6:00 AM, Ricardo Gutierrez, the Rescue Coordinator, and Diego Alvarez, the local firefighter team leader, mobilized their respective teams to conduct search and rescue operations in the densely populated city of San Miguel, which was severely affected by the 6.1 magnitude earthquake.",
+    "participants": [
+      {
+        "@id": "Participants/20059/A0_pag_Deployer",
+        "roleName": "A0_pag_Deployer",
+        "entity": "Entities/20119/",
+        "A0_pag_Deployer": {
+          "name": "Ricardo Gutierrez",
+          "desc": "Ricardo Gutierrez is a 42-year-old Rescue Coordinator with over 18 years of experience in emergency management and rescue operations. He has a reputation for his strategic thinking and ability to remain calm under pressure. Ricardo has been involved in numerous disaster response efforts both within his country and internationally, making him well-equipped to handle the current crisis in San Miguel."
+        }
+      },
+      {
+        "@id": "Participants/20061/A1_ppt_Deployed",
+        "roleName": "A1_ppt_Deployed",
+        "entity": "Entities/20138/",
+        "A1_ppt_Deployed": {
+          "name": "Diego Alvarez",
+          "desc": "Diego Alvarez is a 40-year-old firefighter and team leader of the local rescue squad in San Miguel. Known for his bravery and quick decision-making, Diego has been a firefighter for over 15 years and has extensive experience in emergency response and rescue operations."
+        }
+      },
+      {
+        "@id": "Participants/20063/A2_loc_deployed_where",
+        "roleName": "A2_loc_deployed_where",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A2_loc_deployed_where": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      },
+      {
+        "@id": "Participants/20065/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Initial Assessment",
+    "time": "2030-01-10 00:00",
+    "description": "Ricardo Gutierrez, the seasoned Rescue Coordinator, conducted the initial assessment of the catastrophic situation in San Miguel following the 6.1 magnitude earthquake. He estimated that there were approximately 2,000 casualties and significant damage to the city's infrastructure.",
+    "participants": [
+      {
+        "@id": "Participants/20051/A0_pag_assessor",
+        "roleName": "A0_pag_assessor",
+        "entity": "Entities/20119/",
+        "A0_pag_assessor": {
+          "name": "Ricardo Gutierrez",
+          "desc": "Ricardo Gutierrez is a 42-year-old Rescue Coordinator with over 18 years of experience in emergency management and rescue operations. He has a reputation for his strategic thinking and ability to remain calm under pressure. Ricardo has been involved in numerous disaster response efforts both within his country and internationally, making him well-equipped to handle the current crisis in San Miguel."
+        }
+      },
+      {
+        "@id": "Participants/20053/A1_ppt_entity_assessed",
+        "roleName": "A1_ppt_entity_assessed",
+        "entity": "Entities/20315/",
+        "A1_ppt_entity_assessed": {
+          "name": "San Miguel Fault Line",
+          "desc": "The San Miguel Fault Line is a major fault line that runs directly beneath the city of San Miguel. It has been relatively dormant for many years, with minor tremors being the only indication of its existence. However, the recent 6.1 magnitude earthquake has brought it to the forefront of public attention, causing widespread devastation and panic in the city."
+        }
+      },
+      {
+        "@id": "Participants/20055/A2_prd_value_or_attribute",
+        "roleName": "A2_prd_value_or_attribute",
+        "entity": "Entities/20003/",
+        "A2_prd_value_or_attribute": {
+          "name": "The San Miguel Catastrophe",
+          "desc": "The San Miguel Catastrophe refers to the extensive losses and damages caused by the San Miguel Quake. The catastrophe resulted in numerous casualties, widespread property damage, and significant disruption to the city's infrastructure and services. The aftermath of the catastrophe has left the city in a state of emergency, with many residents displaced and in need of aid."
+        }
+      },
+      {
+        "@id": "Participants/20057/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "San Miguel Fault Line",
+          "desc": "The San Miguel Fault Line is a major fault line that runs directly beneath the city of San Miguel. It has been relatively dormant for many years, with minor tremors being the only indication of its existence. However, the recent 6.1 magnitude earthquake has brought it to the forefront of public attention, causing widespread devastation and panic in the city."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Coordinate with Media Outlets",
+    "time": "2030-01-10 00:00",
+    "description": "On January 10, 2030, Javier Morales and Laura Castillo, both seasoned media relations specialists, coordinated with local and national media outlets to disseminate accurate and timely information about the earthquake crisis in San Miguel.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A0_pag_organizer",
+        "roleName": "A0_pag_organizer",
+        "entity": "Entities/20246/",
+        "A0_pag_organizer": {
+          "name": "Javier Morales",
+          "desc": "Javier Morales is a 38-year-old media relations specialist with a background in journalism and crisis communication. He has worked for several major news outlets before transitioning to a role in public relations for the National Disaster Response Agency. Known for his calm demeanor and quick thinking, Javier is responsible for coordinating with local and national media outlets to ensure accurate and timely information is disseminated during the earthquake crisis."
+        }
+      },
+      {
+        "@id": "Participants/20025/A1_ppt_entity_coordinated",
+        "roleName": "A1_ppt_entity_coordinated",
+        "entity": "Entities/20176/",
+        "A1_ppt_entity_coordinated": {
+          "name": "Laura Castillo",
+          "desc": "Laura Castillo is a 36-year-old media liaison with a background in journalism and public relations. She has worked for various governmental and non-governmental organizations, specializing in crisis communication and media management. Laura is known for her articulate communication skills, ability to stay calm under pressure, and her knack for building strong relationships with the media."
+        }
+      },
+      {
+        "@id": "Participants/20027/A2_com_entity_coordinated_with",
+        "roleName": "A2_com_entity_coordinated_with",
+        "entity": "Entities/20177/",
+        "A2_com_entity_coordinated_with": {
+          "name": "Laura Castillo",
+          "desc": "Laura Castillo is a 36-year-old media liaison with a background in journalism and public relations. She has worked for various governmental and non-governmental organizations, specializing in crisis communication and media management. Laura is known for her articulate communication skills, ability to stay calm under pressure, and her knack for building strong relationships with the media."
+        }
+      },
+      {
+        "@id": "Participants/20029/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Distribute Relief Supplies",
+    "time": "2030-01-10 06:00",
+    "description": "On January 10, 2030, Emma Thompson, a humanitarian aid worker from the International Red Cross, and Maria Lopez, a local nurse, teamed up to distribute relief supplies to the earthquake-stricken city of San Miguel. They worked tirelessly from dawn to dusk, handing out food, water, medical supplies, and blankets to the affected residents.",
+    "participants": [
+      {
+        "@id": "Participants/20031/A0_pag_distributor",
+        "roleName": "A0_pag_distributor",
+        "entity": "Entities/20261/",
+        "A0_pag_distributor": {
+          "name": "Emma Thompson",
+          "desc": "Emma Thompson is a 34-year-old humanitarian aid worker from the United Kingdom. She has been working with the International Red Cross for the past decade, specializing in disaster response and emergency relief. Emma is known for her resilience, organizational skills, and empathetic nature."
+        }
+      },
+      {
+        "@id": "Participants/20033/A2_gol_distributed_to",
+        "roleName": "A2_gol_distributed_to",
+        "entity": "Entities/20064/",
+        "A2_gol_distributed_to": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20035/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Evaluate Damage",
+    "time": "2030-01-10 08:00",
+    "description": "Alejandro Ramirez, a seasoned structural engineer, arrived in the city of San Miguel at 8AM to assess the damage caused by the recent 6.1 magnitude earthquake that struck the city, which is located directly above the San Miguel Fault Line.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_evaluator",
+        "roleName": "A0_pag_evaluator",
+        "entity": "Entities/20156/",
+        "A0_pag_evaluator": {
+          "name": "Alejandro Ramirez",
+          "desc": "Alejandro Ramirez is a 45-year-old structural engineer with over 20 years of experience in disaster assessment and management. He works for the National Disaster Response Agency and has been deployed to San Miguel to evaluate the damage caused by the earthquake."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_thing_evaluated",
+        "roleName": "A1_ppt_thing_evaluated",
+        "entity": "Entities/20315/",
+        "A1_ppt_thing_evaluated": {
+          "name": "San Miguel Fault Line",
+          "desc": "The San Miguel Fault Line is a major fault line that runs directly beneath the city of San Miguel. It has been relatively dormant for many years, with minor tremors being the only indication of its existence. However, the recent 6.1 magnitude earthquake has brought it to the forefront of public attention, causing widespread devastation and panic in the city."
+        }
+      },
+      {
+        "@id": "Participants/20009/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Increase Awareness",
+    "time": "2030-01-10 09:00",
+    "description": "On January 10, 2030, Sofia Hernandez and Isabella Martinez launched a media campaign to raise awareness about the devastating effects of the San Miguel Quake. The campaign included a series of interviews, news articles, and social media posts highlighting the urgent need for aid and support in the city.",
+    "participants": [
+      {
+        "@id": "Participants/20037/A0_pag_agent_discussant",
+        "roleName": "A0_pag_agent_discussant",
+        "entity": "Entities/20193/",
+        "A0_pag_agent_discussant": {
+          "name": "Sofia Hernandez",
+          "desc": "Sofia Hernandez is a 30-year-old community organizer and social activist who has lived in San Miguel her entire life. She is known for her passionate advocacy for social justice and her ability to rally community support for various causes. Sofia has a background in social work and has been instrumental in organizing local initiatives to support vulnerable populations."
+        }
+      },
+      {
+        "@id": "Participants/20039/A2_gol_co_agent_conversation_partner",
+        "roleName": "A2_gol_co_agent_conversation_partner",
+        "entity": "Entities/20194/",
+        "A2_gol_co_agent_conversation_partner": {
+          "name": "Isabella Martinez",
+          "desc": "Isabella Martinez is a 33-year-old international relations specialist with a background in media and communications. She has worked with several international aid organizations and has a reputation for her strategic thinking and ability to foster strong partnerships."
+        }
+      },
+      {
+        "@id": "Participants/20041/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      },
+      {
+        "@id": "Participants/20043/A1_ppt__topic",
+        "roleName": "A1_ppt__topic",
+        "entity": "Entities/20316/",
+        "A1_ppt__topic": {
+          "name": "The San Miguel Quake",
+          "desc": "The San Miguel Quake was a devastating 6.1 magnitude earthquake that struck the city of San Miguel, causing widespread destruction and panic. The quake was particularly destructive due to the city's location on the San Miguel Fault Line, and it has brought the previously dormant fault line to the forefront of public attention."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-10 14:00",
+    "description": "On January 10, 2030, Sofia Hernandez and Maria Lopez, two prominent figures in the San Miguel community, initiated a donation drive to aid the victims of the recent earthquake. The drive received an overwhelming response, with individuals, groups, and charities contributing generously to the cause.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Sofia Hernandez",
+          "desc": "Sofia Hernandez is a 30-year-old community organizer and social activist who has lived in San Miguel her entire life. She is known for her passionate advocacy for social justice and her ability to rally community support for various causes. Sofia has a background in social work and has been instrumental in organizing local initiatives to support vulnerable populations."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-10 14:00",
+    "description": "On January 10, 2030, Sofia Hernandez and Maria Lopez, two prominent figures in the San Miguel community, initiated a donation drive to aid the victims of the recent earthquake. The drive received an overwhelming response, with individuals, groups, and charities contributing generously to the cause.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Sofia Hernandez",
+          "desc": "Sofia Hernandez is a 30-year-old community organizer and social activist who has lived in San Miguel her entire life. She is known for her passionate advocacy for social justice and her ability to rally community support for various causes. Sofia has a background in social work and has been instrumental in organizing local initiatives to support vulnerable populations."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Shelter and Aid",
+    "time": "2030-01-10 14:00",
+    "description": "On January 10, 2030, Emma Thompson, a humanitarian aid worker from the International Red Cross, arrived in San Miguel to provide emergency relief following a devastating 6.1 magnitude earthquake. Working alongside local nurse Maria Lopez, they set up a temporary shelter in the city's largest park, providing food, water, and medical aid to over 2,000 affected residents.",
+    "participants": [
+      {
+        "@id": "Participants/20017/A0_pag_helper",
+        "roleName": "A0_pag_helper",
+        "entity": "Entities/20261/",
+        "A0_pag_helper": {
+          "name": "Emma Thompson",
+          "desc": "Emma Thompson is a 34-year-old humanitarian aid worker from the United Kingdom. She has been working with the International Red Cross for the past decade, specializing in disaster response and emergency relief. Emma is known for her resilience, organizational skills, and empathetic nature."
+        }
+      },
+      {
+        "@id": "Participants/20019/A1_ppt_person",
+        "roleName": "A1_ppt_person",
+        "entity": "Entities/20064/",
+        "A1_ppt_person": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old nurse who has lived in San Miguel her entire life. Known for her dedication and compassion, she works at a local clinic and is deeply involved in her community. Maria is a single mother of two young children, balancing her demanding job with the responsibilities of parenthood."
+        }
+      },
+      {
+        "@id": "Participants/20021/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "San Miguel",
+          "desc": "San Miguel is a bustling city in a developing country, known for its vibrant markets, historical landmarks, and dense population. The city has been growing rapidly, with many people moving in from rural areas in search of better opportunities."
+        }
+      }
+    ]
+  }
+]

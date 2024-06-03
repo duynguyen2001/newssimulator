@@ -1,0 +1,817 @@
+[
+  {
+    "schemaEvent": "Aftershocks",
+    "time": "2030-01-01 00:00",
+    "description": "At approximately 3:00 AM, a series of powerful aftershocks, stemming from the Arctic Tremor, rattled the already devastated city of Crystal Springs. The aftershocks further destabilized the city's infrastructure, causing additional damage and panic among the residents.",
+    "participants": [
+      {
+        "@id": "Participants/20017/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20019/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tsunami",
+    "time": "2030-01-01 01:00",
+    "description": "In the early hours of January 1, 2030, the city of Crystal Springs was hit by a devastating tsunami, triggered by an undersea earthquake known as the Midnight Shaker. The tsunami, combined with the freezing temperatures of North Bay, resulted in widespread destruction and a high casualty count of 7,500 people.",
+    "participants": [
+      {
+        "@id": "Participants/20013/A1_ppt_water",
+        "roleName": "A1_ppt_water",
+        "entity": "Entities/20097/",
+        "A1_ppt_water": {
+          "name": "Crystal Springs Waterworks",
+          "desc": "Crystal Springs Waterworks is the primary water supplier for the city of 1 million residents. Known for its state-of-the-art infrastructure and quick response capabilities, the company plays a crucial role in maintaining the city's water supply, even in extreme conditions."
+        }
+      },
+      {
+        "@id": "Participants/20015/A3_vsp_death/injury_toll",
+        "roleName": "A3_vsp_death/injury_toll",
+        "entity": "Entities/20002/",
+        "A3_vsp_death/injury_toll": {
+          "name": "7,500",
+          "desc": "The earthquake and subsequent tsunami resulted in 7,500 people being wounded, incapacitated, or killed. The freezing temperatures and the timing of the disaster in the middle of the night contributed to the high number of casualties, despite the city's quick response."
+        }
+      },
+      {
+        "@id": "Participants/20017/A4_vsp_damages/cost",
+        "roleName": "A4_vsp_damages/cost",
+        "entity": "Entities/20003/",
+        "A4_vsp_damages/cost": {
+          "name": "Crystal Springs Catastrophe",
+          "desc": "The Crystal Springs Catastrophe refers to the devastating losses and destruction caused by the Arctic Tremor and the subsequent tsunami. The event resulted in significant damage to infrastructure, loss of life, and a long-term impact on the city's economy and residents' livelihoods. Despite the city's quick response, the recovery process was long and arduous, forever marking the event as a catastrophe in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20019/A5_vsp_run_up",
+        "roleName": "A5_vsp_run_up",
+        "entity": "Entities/20316/",
+        "A5_vsp_run_up": {
+          "name": "The Midnight Shaker",
+          "desc": "The Midnight Shaker was a powerful undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake, which was felt by the city's 1 million residents, triggered a massive tsunami and plunged the city into freezing temperatures. Despite the city's quick response, the Midnight Shaker caused widespread destruction and loss of life, marking it as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20021/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Main Earthquake",
+    "time": "2030-01-02 00:00",
+    "description": "At approximately 2:30 AM, the Arctic Tremor, a powerful undersea earthquake, struck near the city of Crystal Springs. The quake's seismic waves violently shook the city, causing buildings to sway and power lines to snap, plunging the city into darkness amidst the freezing temperatures.",
+    "participants": [
+      {
+        "@id": "Participants/20009/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20011/A3_vsp_death/injury_toll",
+        "roleName": "A3_vsp_death/injury_toll",
+        "entity": "Entities/20005/",
+        "A3_vsp_death/injury_toll": {
+          "name": "Sarah Mitchell",
+          "desc": "Sarah Mitchell is a 28-year-old school teacher who lives in Crystal Springs. Known for her resourcefulness and calm demeanor, she was at home when the earthquake struck. Despite the chaos, she managed to evacuate her apartment building and assist her neighbors in finding temporary shelter."
+        }
+      },
+      {
+        "@id": "Participants/20013/A4_vsp_damages/cost",
+        "roleName": "A4_vsp_damages/cost",
+        "entity": "Entities/20003/",
+        "A4_vsp_damages/cost": {
+          "name": "Crystal Springs Catastrophe",
+          "desc": "The Crystal Springs Catastrophe refers to the devastating losses and destruction caused by the Arctic Tremor and the subsequent tsunami. The event resulted in significant damage to infrastructure, loss of life, and a long-term impact on the city's economy and residents' livelihoods. Despite the city's quick response, the recovery process was long and arduous, forever marking the event as a catastrophe in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20015/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Injury",
+    "time": "2030-01-03 00:00",
+    "description": "In the early hours of January 2, 2030, Sarah Mitchell, a 28-year-old school teacher, was injured during the Midnight Shaker, a powerful undersea earthquake that triggered a massive tsunami near the city of Crystal Springs. Despite her injuries, Sarah managed to evacuate her apartment building and assist her neighbors in finding temporary shelter amidst the freezing temperatures.",
+    "participants": [
+      {
+        "@id": "Participants/20001/A1_ppt_experiencer_injured_party",
+        "roleName": "A1_ppt_experiencer_injured_party",
+        "entity": "Entities/20005/",
+        "A1_ppt_experiencer_injured_party": {
+          "name": "Sarah Mitchell",
+          "desc": "Sarah Mitchell is a 28-year-old school teacher who lives in Crystal Springs. Known for her resourcefulness and calm demeanor, she was at home when the earthquake struck. Despite the chaos, she managed to evacuate her apartment building and assist her neighbors in finding temporary shelter."
+        }
+      },
+      {
+        "@id": "Participants/20003/A0_pag_stimulus_stimulus_of_injury",
+        "roleName": "A0_pag_stimulus_stimulus_of_injury",
+        "entity": "Entities/20316/",
+        "A0_pag_stimulus_stimulus_of_injury": {
+          "name": "The Midnight Shaker",
+          "desc": "The Midnight Shaker was a powerful undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake, which was felt by the city's 1 million residents, triggered a massive tsunami and plunged the city into freezing temperatures. Despite the city's quick response, the Midnight Shaker caused widespread destruction and loss of life, marking it as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20005/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infrastructure Damage",
+    "time": "2030-01-03 07:00",
+    "description": "The Midnight Shaker, a powerful undersea earthquake, caused significant damage to the infrastructure of Crystal Springs on January 3, 2030. Buildings crumbled, roads were torn apart, and essential services were disrupted, leaving the city in a state of chaos and destruction.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_agent",
+        "roleName": "A0_pag_agent",
+        "entity": "Entities/20316/",
+        "A0_pag_agent": {
+          "name": "The Midnight Shaker",
+          "desc": "The Midnight Shaker was a powerful undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake, which was felt by the city's 1 million residents, triggered a massive tsunami and plunged the city into freezing temperatures. Despite the city's quick response, the Midnight Shaker caused widespread destruction and loss of life, marking it as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_entity_damaged",
+        "roleName": "A1_ppt_entity_damaged",
+        "entity": "Entities/20317/",
+        "A1_ppt_entity_damaged": {
+          "name": "Crystal Springs Emergency Shelter",
+          "desc": "The Crystal Springs Emergency Shelter is a large, multi-purpose building located in the heart of Crystal Springs. It was quickly established following the Arctic Tremor and subsequent tsunami to provide temporary accommodation, food, and medical aid to those affected by the disaster. Known for its robust structure and efficient management, the shelter played a crucial role in the city's disaster response efforts."
+        }
+      },
+      {
+        "@id": "Participants/20009/A2_mnr_instrument",
+        "roleName": "A2_mnr_instrument",
+        "entity": "Entities/20316/",
+        "A2_mnr_instrument": {
+          "name": "The Midnight Shaker",
+          "desc": "The Midnight Shaker was a powerful undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake, which was felt by the city's 1 million residents, triggered a massive tsunami and plunged the city into freezing temperatures. Despite the city's quick response, the Midnight Shaker caused widespread destruction and loss of life, marking it as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20011/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Extricate Survivors",
+    "time": "2030-01-04 00:00",
+    "description": "At 6:30 AM, Jack Reynolds and his team began the arduous task of extricating survivors from the debris left by the Arctic Tremor. Despite the freezing temperatures, they worked tirelessly, managing to pull Daniel Thompson and his family from the wreckage of their home.",
+    "participants": [
+      {
+        "@id": "Participants/20075/A0_pag_rescuer",
+        "roleName": "A0_pag_rescuer",
+        "entity": "Entities/20138/",
+        "A0_pag_rescuer": {
+          "name": "John \"Jack\" Reynolds",
+          "desc": "John \"Jack\" Reynolds is a 42-year-old search and rescue specialist with over 20 years of experience in disaster response. Known for his leadership skills and ability to make quick decisions under pressure, Jack has been involved in numerous rescue operations around the world."
+        }
+      },
+      {
+        "@id": "Participants/20077/A1_ppt_entity_rescued",
+        "roleName": "A1_ppt_entity_rescued",
+        "entity": "Entities/20064/",
+        "A1_ppt_entity_rescued": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20079/A2_dir_rescued_from",
+        "roleName": "A2_dir_rescued_from",
+        "entity": "Entities/20315/",
+        "A2_dir_rescued_from": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20081/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Medical Assistance",
+    "time": "2030-01-04 00:00",
+    "description": "At 8:00 AM, Dr. Olivia Martinez, a seasoned emergency physician, arrived at North Bay General Hospital to provide medical assistance to the victims of the Crystal Springs Catastrophe. Among the victims was Daniel Thompson, a resilient construction worker, who had been rescued from the debris of his home earlier that morning.",
+    "participants": [
+      {
+        "@id": "Participants/20083/A0_pag_causer_doctor",
+        "roleName": "A0_pag_causer_doctor",
+        "entity": "Entities/20130/",
+        "A0_pag_causer_doctor": {
+          "name": "Dr. Olivia Martinez",
+          "desc": "Dr. Olivia Martinez is a 36-year-old emergency physician with over 10 years of experience in trauma care. Known for her quick decision-making and ability to stay calm under pressure, she was one of the first medical professionals to arrive at North Bay General Hospital following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20085/A1_dir_source_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "Entities/20064/",
+        "A1_dir_source_patient": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20087/A2_ppt_theme_illness_or_injury",
+        "roleName": "A2_ppt_theme_illness_or_injury",
+        "entity": "Entities/20003/",
+        "A2_ppt_theme_illness_or_injury": {
+          "name": "Crystal Springs Catastrophe",
+          "desc": "The Crystal Springs Catastrophe refers to the devastating losses and destruction caused by the Arctic Tremor and the subsequent tsunami. The event resulted in significant damage to infrastructure, loss of life, and a long-term impact on the city's economy and residents' livelihoods. Despite the city's quick response, the recovery process was long and arduous, forever marking the event as a catastrophe in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20089/A3_mnr__instrument_treatment",
+        "roleName": "A3_mnr__instrument_treatment",
+        "entity": "Entities/20297/",
+        "A3_mnr__instrument_treatment": {
+          "name": "North Bay Medical Supplies",
+          "desc": "North Bay Medical Supplies is a leading provider of medical equipment in the North Bay region, including the city of Crystal Springs. Known for its quick response and reliable service, the company played a crucial role in providing necessary medical supplies in the aftermath of the Arctic Tremor and subsequent tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20091/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Transport Survivors",
+    "time": "2030-01-04 00:00",
+    "description": "At 10:00 AM, Jack Reynolds and his team successfully transported Daniel Thompson and his family, along with other survivors, to a safe location away from the destruction caused by the Arctic Tremor.",
+    "participants": [
+      {
+        "@id": "Participants/20093/A0_pag_rescuer",
+        "roleName": "A0_pag_rescuer",
+        "entity": "Entities/20138/",
+        "A0_pag_rescuer": {
+          "name": "John \"Jack\" Reynolds",
+          "desc": "John \"Jack\" Reynolds is a 42-year-old search and rescue specialist with over 20 years of experience in disaster response. Known for his leadership skills and ability to make quick decisions under pressure, Jack has been involved in numerous rescue operations around the world."
+        }
+      },
+      {
+        "@id": "Participants/20095/A1_ppt_entity_rescued",
+        "roleName": "A1_ppt_entity_rescued",
+        "entity": "Entities/20064/",
+        "A1_ppt_entity_rescued": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20097/A2_dir_rescued_from",
+        "roleName": "A2_dir_rescued_from",
+        "entity": "Entities/20315/",
+        "A2_dir_rescued_from": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20099/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Medical Assistance",
+    "time": "2030-01-04 00:00",
+    "description": "At 8:00 AM, Dr. Olivia Martinez, a seasoned emergency physician, arrived at North Bay General Hospital to provide medical assistance to the victims of the Crystal Springs Catastrophe. Among the victims was Daniel Thompson, a resilient construction worker, who had been rescued from the debris of his home earlier that morning.",
+    "participants": [
+      {
+        "@id": "Participants/20083/A0_pag_causer_doctor",
+        "roleName": "A0_pag_causer_doctor",
+        "entity": "Entities/20130/",
+        "A0_pag_causer_doctor": {
+          "name": "Dr. Olivia Martinez",
+          "desc": "Dr. Olivia Martinez is a 36-year-old emergency physician with over 10 years of experience in trauma care. Known for her quick decision-making and ability to stay calm under pressure, she was one of the first medical professionals to arrive at North Bay General Hospital following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20085/A1_dir_source_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "Entities/20064/",
+        "A1_dir_source_patient": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20087/A2_ppt_theme_illness_or_injury",
+        "roleName": "A2_ppt_theme_illness_or_injury",
+        "entity": "Entities/20003/",
+        "A2_ppt_theme_illness_or_injury": {
+          "name": "Crystal Springs Catastrophe",
+          "desc": "The Crystal Springs Catastrophe refers to the devastating losses and destruction caused by the Arctic Tremor and the subsequent tsunami. The event resulted in significant damage to infrastructure, loss of life, and a long-term impact on the city's economy and residents' livelihoods. Despite the city's quick response, the recovery process was long and arduous, forever marking the event as a catastrophe in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20089/A3_mnr__instrument_treatment",
+        "roleName": "A3_mnr__instrument_treatment",
+        "entity": "Entities/20297/",
+        "A3_mnr__instrument_treatment": {
+          "name": "North Bay Medical Supplies",
+          "desc": "North Bay Medical Supplies is a leading provider of medical equipment in the North Bay region, including the city of Crystal Springs. Known for its quick response and reliable service, the company played a crucial role in providing necessary medical supplies in the aftermath of the Arctic Tremor and subsequent tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20091/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Transport Survivors",
+    "time": "2030-01-04 00:00",
+    "description": "At 10:00 AM, Jack Reynolds and his team successfully transported Daniel Thompson and his family, along with other survivors, to a safe location away from the destruction caused by the Arctic Tremor.",
+    "participants": [
+      {
+        "@id": "Participants/20093/A0_pag_rescuer",
+        "roleName": "A0_pag_rescuer",
+        "entity": "Entities/20138/",
+        "A0_pag_rescuer": {
+          "name": "John \"Jack\" Reynolds",
+          "desc": "John \"Jack\" Reynolds is a 42-year-old search and rescue specialist with over 20 years of experience in disaster response. Known for his leadership skills and ability to make quick decisions under pressure, Jack has been involved in numerous rescue operations around the world."
+        }
+      },
+      {
+        "@id": "Participants/20095/A1_ppt_entity_rescued",
+        "roleName": "A1_ppt_entity_rescued",
+        "entity": "Entities/20064/",
+        "A1_ppt_entity_rescued": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20097/A2_dir_rescued_from",
+        "roleName": "A2_dir_rescued_from",
+        "entity": "Entities/20315/",
+        "A2_dir_rescued_from": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20099/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Initial Assessment",
+    "time": "2030-01-04 04:00",
+    "description": "Rachel Adams, the experienced Rescue Coordinator, was called in immediately after the Arctic Tremor struck Crystal Springs. She conducted an initial assessment of the situation, estimating potential casualties and the extent of the damage caused by the earthquake and subsequent tsunami.",
+    "participants": [
+      {
+        "@id": "Participants/20051/A0_pag_assessor",
+        "roleName": "A0_pag_assessor",
+        "entity": "Entities/20119/",
+        "A0_pag_assessor": {
+          "name": "Rachel Adams",
+          "desc": "Rachel Adams is a 44-year-old Rescue Coordinator with over 20 years of experience in disaster management. Known for her leadership skills and ability to remain calm under pressure, she was immediately called in to coordinate the rescue efforts following the earthquake and tsunami in Crystal Springs."
+        }
+      },
+      {
+        "@id": "Participants/20053/A1_ppt_entity_assessed",
+        "roleName": "A1_ppt_entity_assessed",
+        "entity": "Entities/20315/",
+        "A1_ppt_entity_assessed": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20055/A2_prd_value_or_attribute",
+        "roleName": "A2_prd_value_or_attribute",
+        "entity": "Entities/20003/",
+        "A2_prd_value_or_attribute": {
+          "name": "Crystal Springs Catastrophe",
+          "desc": "The Crystal Springs Catastrophe refers to the devastating losses and destruction caused by the Arctic Tremor and the subsequent tsunami. The event resulted in significant damage to infrastructure, loss of life, and a long-term impact on the city's economy and residents' livelihoods. Despite the city's quick response, the recovery process was long and arduous, forever marking the event as a catastrophe in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20057/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Deploy Search and Rescue Teams",
+    "time": "2030-01-04 05:00",
+    "description": "In the early hours of January 4, 2030, following the devastating undersea earthquake and subsequent tsunami, Rachel Adams and John \"Jack\" Reynolds led the deployment of multiple search and rescue teams across the city of Crystal Springs. Despite the freezing temperatures, the teams were quick to respond, commencing their operations in the North Bay region, known for its proximity to the epicenter of the seismic activity.",
+    "participants": [
+      {
+        "@id": "Participants/20059/A0_pag_Deployer",
+        "roleName": "A0_pag_Deployer",
+        "entity": "Entities/20119/",
+        "A0_pag_Deployer": {
+          "name": "Rachel Adams",
+          "desc": "Rachel Adams is a 44-year-old Rescue Coordinator with over 20 years of experience in disaster management. Known for her leadership skills and ability to remain calm under pressure, she was immediately called in to coordinate the rescue efforts following the earthquake and tsunami in Crystal Springs."
+        }
+      },
+      {
+        "@id": "Participants/20061/A1_ppt_Deployed",
+        "roleName": "A1_ppt_Deployed",
+        "entity": "Entities/20138/",
+        "A1_ppt_Deployed": {
+          "name": "John \"Jack\" Reynolds",
+          "desc": "John \"Jack\" Reynolds is a 42-year-old search and rescue specialist with over 20 years of experience in disaster response. Known for his leadership skills and ability to make quick decisions under pressure, Jack has been involved in numerous rescue operations around the world."
+        }
+      },
+      {
+        "@id": "Participants/20063/A2_loc_deployed_where",
+        "roleName": "A2_loc_deployed_where",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A2_loc_deployed_where": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      },
+      {
+        "@id": "Participants/20065/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Coordinate with Media Outlets",
+    "time": "2030-01-04 05:00",
+    "description": "Laura Bennett, Mark Stevens, and Lisa Bennett, the city's crisis communication team, coordinated with local and national media outlets to provide updates on the earthquake and subsequent tsunami that hit Crystal Springs in the early hours of January 4, 2030.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A0_pag_organizer",
+        "roleName": "A0_pag_organizer",
+        "entity": "Entities/20246/",
+        "A0_pag_organizer": {
+          "name": "Laura Bennett",
+          "desc": "Laura Bennett is a 40-year-old communications specialist with a background in crisis management. Known for her organizational skills and ability to stay calm under pressure, she has been working with the city's emergency response team for the past 15 years."
+        }
+      },
+      {
+        "@id": "Participants/20025/A1_ppt_entity_coordinated",
+        "roleName": "A1_ppt_entity_coordinated",
+        "entity": "Entities/20176/",
+        "A1_ppt_entity_coordinated": {
+          "name": "Mark Stevens",
+          "desc": "Mark Stevens is a 39-year-old Media Liaison with over 15 years of experience in public relations and crisis communication. Known for his clear communication style and ability to handle high-pressure situations, he was called in to manage media relations following the earthquake and tsunami in Crystal Springs."
+        }
+      },
+      {
+        "@id": "Participants/20027/A2_com_entity_coordinated_with",
+        "roleName": "A2_com_entity_coordinated_with",
+        "entity": "Entities/20177/",
+        "A2_com_entity_coordinated_with": {
+          "name": "Lisa Bennett",
+          "desc": "Lisa Bennett is a 40-year-old Media Liaison with over 18 years of experience in public relations and crisis communication. Known for her empathetic communication style and ability to handle high-pressure situations, she was called in to manage media relations following the earthquake and tsunami in Crystal Springs."
+        }
+      },
+      {
+        "@id": "Participants/20029/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Distribute Relief Supplies",
+    "time": "2030-01-04 05:00",
+    "description": "In the early hours of the morning, Alex Morgan and his team began distributing relief supplies to the residents of Crystal Springs, who had been affected by the undersea earthquake and subsequent tsunami. Despite the freezing temperatures, Daniel Thompson and other residents lined up to receive the much-needed supplies.",
+    "participants": [
+      {
+        "@id": "Participants/20031/A0_pag_distributor",
+        "roleName": "A0_pag_distributor",
+        "entity": "Entities/20261/",
+        "A0_pag_distributor": {
+          "name": "Alex Morgan",
+          "desc": "Alex Morgan is a 38-year-old humanitarian aid worker with over a decade of experience in disaster relief. Known for their resourcefulness and ability to remain calm under pressure, Alex was deployed to Crystal Springs to assist in the aftermath of the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20033/A2_gol_distributed_to",
+        "roleName": "A2_gol_distributed_to",
+        "entity": "Entities/20064/",
+        "A2_gol_distributed_to": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20035/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Evaluate Damage",
+    "time": "2030-01-04 05:00",
+    "description": "In the early hours of January 4, 2030, Dr. Michael Hayes was dispatched to Crystal Springs to evaluate the damage caused by the Arctic Tremor. Despite the freezing temperatures and the city still reeling from the aftermath of the earthquake and tsunami, Dr. Hayes began his meticulous assessment of the structural damage to the city's infrastructure.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_evaluator",
+        "roleName": "A0_pag_evaluator",
+        "entity": "Entities/20156/",
+        "A0_pag_evaluator": {
+          "name": "Dr. Michael Hayes",
+          "desc": "Dr. Michael Hayes is a 50-year-old structural engineer with over 25 years of experience in disaster assessment and response. Known for his meticulous attention to detail and calm under pressure, he was called in to assess the extent of the damage in Crystal Springs following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_thing_evaluated",
+        "roleName": "A1_ppt_thing_evaluated",
+        "entity": "Entities/20315/",
+        "A1_ppt_thing_evaluated": {
+          "name": "Arctic Tremor",
+          "desc": "The Arctic Tremor was a devastating undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake triggered a massive tsunami, causing widespread destruction and plunging the city into freezing temperatures. Despite the city's quick response, the Arctic Tremor will forever be remembered as one of the most catastrophic events in the city's history."
+        }
+      },
+      {
+        "@id": "Participants/20009/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Search for Survivors",
+    "time": "2030-01-04 06:00",
+    "description": "At 6AM, Jack Reynolds and his team began their search for survivors in the devastated city of Crystal Springs, following the undersea earthquake and subsequent tsunami. Despite the freezing temperatures, they were able to locate and rescue Daniel Thompson, a local construction worker who had managed to find temporary shelter for his family.",
+    "participants": [
+      {
+        "@id": "Participants/20067/A0_pag_searcher",
+        "roleName": "A0_pag_searcher",
+        "entity": "Entities/20138/",
+        "A0_pag_searcher": {
+          "name": "John \"Jack\" Reynolds",
+          "desc": "John \"Jack\" Reynolds is a 42-year-old search and rescue specialist with over 20 years of experience in disaster response. Known for his leadership skills and ability to make quick decisions under pressure, Jack has been involved in numerous rescue operations around the world."
+        }
+      },
+      {
+        "@id": "Participants/20069/A1_loc_Area_searched",
+        "roleName": "A1_loc_Area_searched",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A1_loc_Area_searched": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      },
+      {
+        "@id": "Participants/20071/A2_ppt_searched_for",
+        "roleName": "A2_ppt_searched_for",
+        "entity": "Entities/20064/",
+        "A2_ppt_searched_for": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20073/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Shelter and Aid",
+    "time": "2030-01-04 06:00",
+    "description": "In the early hours of January 4, 2030, Alex Morgan, a seasoned humanitarian aid worker, and Daniel Thompson, a local construction worker, teamed up to provide shelter and aid to the residents of Crystal Springs. Despite the freezing temperatures and the chaos caused by the undersea earthquake and subsequent tsunami, they managed to set up temporary shelters and distribute essential supplies to the affected people.",
+    "participants": [
+      {
+        "@id": "Participants/20017/A0_pag_helper",
+        "roleName": "A0_pag_helper",
+        "entity": "Entities/20261/",
+        "A0_pag_helper": {
+          "name": "Alex Morgan",
+          "desc": "Alex Morgan is a 38-year-old humanitarian aid worker with over a decade of experience in disaster relief. Known for their resourcefulness and ability to remain calm under pressure, Alex was deployed to Crystal Springs to assist in the aftermath of the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20019/A1_ppt_person",
+        "roleName": "A1_ppt_person",
+        "entity": "Entities/20064/",
+        "A1_ppt_person": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20021/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Increase Awareness",
+    "time": "2030-01-04 14:00",
+    "description": "On January 4, 2030, Jessica Harper and David Lawson launched a massive media campaign to raise awareness about the devastating effects of the Midnight Shaker earthquake and the subsequent tsunami in the city of Crystal Springs. The campaign, which included television spots, social media posts, and public service announcements, reached millions of people across the country, significantly increasing public awareness about the disaster.",
+    "participants": [
+      {
+        "@id": "Participants/20037/A0_pag_agent_discussant",
+        "roleName": "A0_pag_agent_discussant",
+        "entity": "Entities/20193/",
+        "A0_pag_agent_discussant": {
+          "name": "Jessica Harper",
+          "desc": "Jessica Harper is a 34-year-old community organizer with a background in social work and public advocacy. Known for her passionate commitment to helping those in need, she has been involved in numerous fundraising and awareness campaigns for various causes."
+        }
+      },
+      {
+        "@id": "Participants/20039/A2_gol_co_agent_conversation_partner",
+        "roleName": "A2_gol_co_agent_conversation_partner",
+        "entity": "Entities/20194/",
+        "A2_gol_co_agent_conversation_partner": {
+          "name": "David Lawson",
+          "desc": "David Lawson is a 37-year-old event planner with over 12 years of experience in organizing large-scale events and fundraisers. Known for his meticulous attention to detail and ability to coordinate multiple aspects of an event seamlessly, David has a reputation for making every event a success."
+        }
+      },
+      {
+        "@id": "Participants/20041/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      },
+      {
+        "@id": "Participants/20043/A1_ppt__topic",
+        "roleName": "A1_ppt__topic",
+        "entity": "Entities/20316/",
+        "A1_ppt__topic": {
+          "name": "The Midnight Shaker",
+          "desc": "The Midnight Shaker was a powerful undersea earthquake that struck in the middle of the night near the city of Crystal Springs. The quake, which was felt by the city's 1 million residents, triggered a massive tsunami and plunged the city into freezing temperatures. Despite the city's quick response, the Midnight Shaker caused widespread destruction and loss of life, marking it as one of the most catastrophic events in the city's history."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-04 18:00",
+    "description": "On January 4, 2030, following the media campaign by Jessica Harper and David Lawson, a wave of donations flooded in from individuals, groups, and charities across the country. The donations included financial aid, food, clothing, and temporary shelter materials to help the residents of Crystal Springs recover from the devastating Midnight Shaker earthquake and subsequent tsunami.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Jessica Harper",
+          "desc": "Jessica Harper is a 34-year-old community organizer with a background in social work and public advocacy. Known for her passionate commitment to helping those in need, she has been involved in numerous fundraising and awareness campaigns for various causes."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-04 18:00",
+    "description": "On January 4, 2030, following the media campaign by Jessica Harper and David Lawson, a wave of donations flooded in from individuals, groups, and charities across the country. The donations included financial aid, food, clothing, and temporary shelter materials to help the residents of Crystal Springs recover from the devastating Midnight Shaker earthquake and subsequent tsunami.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Jessica Harper",
+          "desc": "Jessica Harper is a 34-year-old community organizer with a background in social work and public advocacy. Known for her passionate commitment to helping those in need, she has been involved in numerous fundraising and awareness campaigns for various causes."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Daniel Thompson",
+          "desc": "Daniel Thompson is a 45-year-old construction worker who lives in Crystal Springs. Known for his resilience and quick thinking, he managed to find temporary shelter for his family in the freezing temperatures following the earthquake and tsunami."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "North Bay",
+          "desc": "North Bay is a coastal region known for its proximity to the Arctic Circle, making it susceptible to freezing temperatures. It is located near the well-developed city of Crystal Springs, which has a population of 1 million residents. The area is prone to undersea seismic activity, making it a hotspot for potential tsunamis."
+        }
+      }
+    ]
+  }
+]
