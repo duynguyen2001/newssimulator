@@ -1,0 +1,356 @@
+[
+  {
+    "schemaEvent": "Analyze Data",
+    "time": "2030-01-01 00:00",
+    "description": "Dr. Alan Richards, a renowned virologist, begins the process of analyzing the data collected from the Hantavirus outbreak in Greenfield Village. He meticulously examines the patterns of infection, the rate of spread, and the effectiveness of the quarantine measures implemented.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30038/kairos:Primitives_Events_AnalyzeData_Agent",
+        "roleName": "A0-pag_agent_researcher",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_researcher": {
+          "name": "Dr. Alan Richards\n\nReasoning: Given the severity of the disease outbreak, it would be plausible to introduce a researcher who is working on understanding the disease and developing potential treatments or preventative measures. This person could be someone who works closely with Dr. Emily Carter and is familiar with the rural area and its unique challenges.\n\nEntity Description: Dr. Alan Richards is a 42-year-old virologist who specializes in studying airborne diseases. He has been working with Dr. Emily Carter to understand the Hantavirus outbreak in Greenfield Village and develop effective strategies to control its spread. Dr. Richards is known for his meticulous research methods and his commitment to public health.",
+          "desc": "produce the entity description. We know that the disease is highly infectious, fatal, and spreads quickly due to its short incubation period and airborne transmission. This means that in order to prevent the spread of the disease, infected individuals need to be identified and isolated quickly. If the rural area has the necessary infrastructure and resources, such as healthcare facilities, personnel, and supplies, it would be possible to do this effectively, making a quarantine highly likely to be successful. On the other hand, if the rural area lacks these necessary resources, it would be difficult to identify and isolate infected individuals quickly, making a quarantine unlikely to be successful. "
+        }
+      },
+      {
+        "@id": "resin:Participants/30039/kairos:Primitives_Events_AnalyzeData_Subject",
+        "roleName": "A1-ppt_theme_thing_reseached",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_reseached": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Outbreak",
+    "time": "2030-01-01 00:00",
+    "description": "On January 1, 2030, Dr. Alan Richards, a renowned virologist at the Greenfield Research Center, identified a potential outbreak of the Hantavirus in Greenfield Village. He immediately alerted local health authorities and the public about the situation.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30040/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifier",
+        "roleName": "A0-pag_agent_caller",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_caller": {
+          "name": "Dr. Alan Richards\n\nReasoning: Given the severity of the disease outbreak, it would be plausible to introduce a researcher who is working on understanding the disease and developing potential treatments or preventative measures. This person could be someone who works closely with Dr. Emily Carter and is familiar with the rural area and its unique challenges.\n\nEntity Description: Dr. Alan Richards is a 42-year-old virologist who specializes in studying airborne diseases. He has been working with Dr. Emily Carter to understand the Hantavirus outbreak in Greenfield Village and develop effective strategies to control its spread. Dr. Richards is known for his meticulous research methods and his commitment to public health.",
+          "desc": "produce the entity description. We know that the disease is highly infectious, fatal, and spreads quickly due to its short incubation period and airborne transmission. This means that in order to prevent the spread of the disease, infected individuals need to be identified and isolated quickly. If the rural area has the necessary infrastructure and resources, such as healthcare facilities, personnel, and supplies, it would be possible to do this effectively, making a quarantine highly likely to be successful. On the other hand, if the rural area lacks these necessary resources, it would be difficult to identify and isolate infected individuals quickly, making a quarantine unlikely to be successful. "
+        }
+      },
+      {
+        "@id": "resin:Participants/30041/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifiedobject",
+        "roleName": "A1-ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_item_being_labelled": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30042/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "Greenfield Research Center\n\nReasoning: Given the rural setting and the severity of the disease outbreak, it would be plausible to have a research facility in the area that is dedicated to studying the disease and developing potential treatments or preventative measures. This facility could be where Dr. Emily Carter and Dr. Alan Richards work and conduct their research.\n\nEntity Description: The Greenfield Research Center is a state-of-the-art facility located in the heart of Greenfield Village. It is equipped with the latest technology and staffed by a team of dedicated researchers, including Dr. Emily Carter and Dr. Alan Richards. The center plays a crucial role in studying the Hantavirus outbreak and developing strategies to control its spread.",
+          "desc": "produce the entity description. We know that the disease is highly infectious, fatal, and spreads quickly due to its short incubation period and airborne transmission. This means that in order to prevent the spread of the disease, infected individuals need to be identified and isolated quickly. If the rural area has the necessary infrastructure and resources, such as healthcare facilities, personnel, and supplies, it would be possible to do this effectively, making a quarantine highly likely to be successful. On the other hand, if the rural area lacks these necessary resources, it would be difficult to identify and isolate infected individuals quickly, making a quarantine unlikely to be successful. "
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Contact Health Provider",
+    "time": "2030-01-01 07:00",
+    "description": "John Miller, feeling increasingly unwell, decides to call his local healthcare provider, Dr. Emily Carter, for advice on his symptoms.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30015/",
+        "roleName": "A0_pag_agent_first_communicator",
+        "entity": "resin:Entities/10000/",
+        "A0_pag_agent_first_communicator": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30016/",
+        "roleName": "A2_com_co_agent_other_communicators",
+        "entity": "resin:Entities/10021/",
+        "A2_com_co_agent_other_communicators": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist who has been working in rural healthcare for over a decade. She is known for her dedication to her patients and her ability to remain calm under pressure. Dr. Carter has a background in epidemiology and has previously worked on controlling outbreaks in other rural communities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-01 08:00",
+    "description": "On January 1, 2030, Dr. Emily Carter, with the help of local health authorities, successfully implemented a quarantine for the residents of Greenfield Village who had come into contact with John Miller and Samuel Thompson. The quarantine was set up in the local community center, which was converted into a temporary isolation facility. The residents were monitored for symptoms and provided with necessary medical care.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30129/Steps_kairos:Primitives_Events_Quarantine_Quarantiner",
+        "roleName": "A0_pag_quarantiner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_quarantiner": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist who has been working in rural healthcare for over a decade. She is known for her dedication to her patients and her ability to remain calm under pressure. Dr. Carter has a background in epidemiology and has previously worked on controlling outbreaks in other rural communities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30130/Steps_kairos:Primitives_Events_Quarantine_Thing",
+        "roleName": "A1_ppt_thing",
+        "entity": "resin:Entities/10001/",
+        "A1_ppt_thing": {
+          "name": "Greenfield Village Residents\n\nReasoning: Given the rural setting and the existing characters, it would be reasonable to introduce the residents of Greenfield Village who could potentially be exposed to the disease. These people could be those who interact frequently with John Miller and Samuel Thompson, making them a plausible link in the chain of transmission.\n\nEntity Description: The residents of Greenfield Village are a close-knit community of around 500 people, deeply involved in farming and local traditions. They often interact with John Miller and Samuel Thompson, making them potentially exposed to the Hantavirus. Despite the risk, they continue their daily routines, unaware of the looming threat.",
+          "desc": "produce the entity description. We know that the disease is highly infectious, fatal, and spreads quickly due to its short incubation period and airborne transmission. This means that in order to prevent the spread of the disease, infected individuals need to be identified and isolated quickly. If the rural area has the necessary infrastructure and resources, such as healthcare facilities, personnel, and supplies, it would be possible to do this effectively, making a quarantine highly likely to be successful. On the other hand, if the rural area lacks these necessary resources, it would be difficult to identify and isolate infected individuals quickly, making a quarantine unlikely to be successful."
+        }
+      },
+      {
+        "@id": "resin:Participants/30131/Steps_kairos:Primitives_Events_Quarantine_Quarantined_From_Whom",
+        "roleName": "A2_gol_quarrantined_from_whom",
+        "entity": "resin:Entities/10019/",
+        "A2_gol_quarrantined_from_whom": {
+          "name": "Greenfield Village Residents\n\nReasoning: Given the rural setting and the existing characters, it would be reasonable to introduce the residents of Greenfield Village who could potentially be exposed to the disease. These people could be those who interact frequently with John Miller and Samuel Thompson, making them a plausible link in the chain of transmission.\n\nEntity Description: The residents of Greenfield Village are a close-knit community of around 500 people, deeply involved in farming and local traditions. They often interact with John Miller and Samuel Thompson, making them potentially exposed to the Hantavirus. Despite the risk, they continue their daily routines, unaware of the looming threat.",
+          "desc": "produce the entity description. We know that the disease is highly infectious, fatal, and spreads quickly due to its short incubation period and airborne transmission. This means that in order to prevent the spread of the disease, infected individuals need to be identified and isolated quickly. If the rural area has the necessary infrastructure and resources, such as healthcare facilities, personnel, and supplies, it would be possible to do this effectively, making a quarantine highly likely to be successful. On the other hand, if the rural area lacks these necessary resources, it would be difficult to identify and isolate infected individuals quickly, making a quarantine unlikely to be successful."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Collect Lab Samples",
+    "time": "2030-01-01 08:00",
+    "description": "Dr. Alan Richards, along with his team, collected various samples from the environment in Greenfield Village, including water, food, surfaces, and rodents, to study the Hantavirus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30036/kairos:Primitives_Events_CollectLabSamples_Processor",
+        "roleName": "A0_pag_processor",
+        "entity": "resin:Entities/10016/",
+        "A0_pag_processor": {
+          "name": "Dr. Alan Richards\n\nReasoning: Given the severity of the disease outbreak, it would be plausible to introduce a researcher who is working on understanding the disease and developing potential treatments or preventative measures. This person could be someone who works closely with Dr. Emily Carter and is familiar with the rural area and its unique challenges.\n\nEntity Description: Dr. Alan Richards is a 42-year-old virologist who specializes in studying airborne diseases. He has been working with Dr. Emily Carter to understand the Hantavirus outbreak in Greenfield Village and develop effective strategies to control its spread. Dr. Richards is known for his meticulous research methods and his commitment to public health.",
+          "desc": "produce the entity description. We know that the disease is highly infectious, fatal, and spreads quickly due to its short incubation period and airborne transmission. This means that in order to prevent the spread of the disease, infected individuals need to be identified and isolated quickly. If the rural area has the necessary infrastructure and resources, such as healthcare facilities, personnel, and supplies, it would be possible to do this effectively, making a quarantine highly likely to be successful. On the other hand, if the rural area lacks these necessary resources, it would be difficult to identify and isolate infected individuals quickly, making a quarantine unlikely to be successful. "
+        }
+      },
+      {
+        "@id": "resin:Participants/30037/kairos:Primitives_Events_CollectLabSamples_Artifact",
+        "roleName": "A1_ppt_thing_processed",
+        "entity": "resin:Entities/10006/",
+        "A1_ppt_thing_processed": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-01 09:00",
+    "description": "On January 1, 2030, several residents of the rural area, including John Miller, a 45-year-old farmer, fell ill with symptoms consistent with Hantavirus infection. The local healthcare facilities, equipped with trained personnel and sufficient supplies, quickly identified the pathogen and isolated the infected individuals.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30007/kairos:Primitives_Events_Life.Infect.Unspecified:1_victim",
+        "roleName": "A1-gol_thing_becoming_infected",
+        "entity": "resin:Entities/10000/",
+        "A1-gol_thing_becoming_infected": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30008/kairos:Primitives_Events_Life.Infect.Unspecified:1_infectingagent",
+        "roleName": "A2-ppt_infectant",
+        "entity": "resin:Entities/10005/",
+        "A2-ppt_infectant": {
+          "name": "Field Mouse",
+          "desc": "The field mouse is a common rodent found in rural areas, including Greenfield Village. These small mammals are known for their agility and ability to infiltrate homes and barns in search of food."
+        }
+      },
+      {
+        "@id": "resin:Participants/30009/kairos:Primitives_Events_Life.Infect.Unspecified:1_cause",
+        "roleName": "A0_pag_agent_causer_of_infection",
+        "entity": "resin:Entities/10006/",
+        "A0_pag_agent_causer_of_infection": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 09:00",
+    "description": "On the morning of January 1, 2030, John Miller, a 45-year-old farmer from Greenfield Village, began experiencing severe symptoms consistent with Hantavirus infection, including high fever, coughing, and respiratory distress.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30012/",
+        "roleName": "A1_ppt_sick/ill_one",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick/ill_one": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30013/",
+        "roleName": "A2_cau_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2_cau_cause_or_disease": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      },
+      {
+        "@id": "resin:Participants/30014/",
+        "roleName": "AM_loc",
+        "entity": "resin:Entities/10010/",
+        "AM_loc": {
+          "name": "Greenfield Village",
+          "desc": "Greenfield Village is a small, close-knit rural community known for its picturesque landscapes and strong agricultural roots. The village is home to around 500 residents who are deeply involved in farming and local traditions."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-01 10:00",
+    "description": "John Miller, feeling increasingly unwell, is transported to the local hospital by his wife, Sarah Miller, around noon.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30017/",
+        "roleName": "A1_ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_theme_thing_transported": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-01 10:00",
+    "description": "Dr. Emily Carter diagnoses John Miller with the Hantavirus after he presents severe symptoms consistent with the disease.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist who has been working in rural healthcare for over a decade. She is known for her dedication to her patients and her ability to remain calm under pressure. Dr. Carter has a background in epidemiology and has previously worked on controlling outbreaks in other rural communities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Diagnosis",
+    "time": "2030-01-01 10:00",
+    "description": "Dr. Emily Carter diagnoses John Miller with the Hantavirus after he presents severe symptoms consistent with the disease.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30019/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_treater",
+        "roleName": "A0-pag_agent_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_doctor": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist who has been working in rural healthcare for over a decade. She is known for her dedication to her patients and her ability to remain calm under pressure. Dr. Carter has a background in epidemiology and has previously worked on controlling outbreaks in other rural communities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30020/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_patient",
+        "roleName": "A1-ppt_theme_patient",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_patient": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30022/kairos:Primitives_Events_Medical.Diagnosis.Unspecified:1_illness",
+        "roleName": "A2_prd_attribute_illness",
+        "entity": "resin:Entities/10006/",
+        "A2_prd_attribute_illness": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-01 14:00",
+    "description": "After diagnosing John Miller with the Hantavirus, Dr. Emily Carter immediately initiates treatment protocols to manage his symptoms and prevent further spread of the disease.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30025/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_treater",
+        "roleName": "A0-pag_X_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_X_doctor": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist who has been working in rural healthcare for over a decade. She is known for her dedication to her patients and her ability to remain calm under pressure. Dr. Carter has a background in epidemiology and has previously worked on controlling outbreaks in other rural communities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30026/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "resin:Entities/10000/",
+        "A1_dir_source_patient": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30028/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_illness",
+        "roleName": "A2_ppt__illness_or_injury",
+        "entity": "resin:Entities/10006/",
+        "A2_ppt__illness_or_injury": {
+          "name": "Hantavirus",
+          "desc": "Hantavirus is a well-known pathogen that primarily spreads through airborne transmission, often from rodent droppings, urine, or saliva. It is highly infectious and has a high fatality rate, with symptoms including fever, coughing, and respiratory distress. The incubation period is typically short, ranging from a few days to a couple of weeks."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-01 14:00",
+    "description": "John Miller, a 45-year-old farmer, was admitted to the local hospital after being diagnosed with the Hantavirus by Dr. Emily Carter, an infectious disease specialist. His condition was severe, and he was immediately placed in isolation to prevent the spread of the highly infectious disease.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30253/sender",
+        "roleName": "A0_pag_sender",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_sender": {
+          "name": "Dr. Emily Carter",
+          "desc": "Dr. Emily Carter is a 38-year-old infectious disease specialist who has been working in rural healthcare for over a decade. She is known for her dedication to her patients and her ability to remain calm under pressure. Dr. Carter has a background in epidemiology and has previously worked on controlling outbreaks in other rural communities."
+        }
+      },
+      {
+        "@id": "resin:Participants/30254/infected",
+        "roleName": "A1_ppt_injured/ill_entity",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_injured/ill_entity": {
+          "name": "John Miller",
+          "desc": "John Miller is a 45-year-old farmer who has lived in the rural area his entire life. He is known for his friendly demeanor and is a regular attendee of community events. John is married with two children and is actively involved in local agricultural activities."
+        }
+      }
+    ]
+  }
+]

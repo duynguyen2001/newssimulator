@@ -1,0 +1,472 @@
+[
+  {
+    "schemaEvent": "Transport Patient",
+    "time": "2030-01-01 00:00",
+    "description": "On the morning of January 1, 2030, Maria Lopez, a beloved school teacher and active community member, started showing severe symptoms of the novel disease. Given the severity of her condition, she was immediately transported to the local hospital for treatment.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30017/",
+        "roleName": "A1_ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_theme_thing_transported": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Detection",
+    "time": "2030-01-01 00:00",
+    "description": "On January 1, 2030, the Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI) confirmed the full scale of the outbreak in the rural village of San Pedro de los Pinos. The highly infectious airborne disease had spread rapidly, infecting a significant portion of the population.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30249/detector",
+        "roleName": "A0_ppt_detector",
+        "entity": "resin:Entities/10011/",
+        "A0_ppt_detector": {
+          "name": "Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI)\n\nReasoning: Given the high infectivity and fatality rate of the disease, it is crucial to have a research facility dedicated to studying the pathogen and developing potential treatments or vaccines. This facility would likely be located in a nearby city or town, as the rural village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, and would work closely with local healthcare providers and government officials to manage the outbreak.\n\nEntity Description: The Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI) is a state-of-the-art research facility located in a nearby city. The facility is staffed by a team of dedicated scientists and public health experts who specialize in infectious diseases. The CIEI has been instrumental in studying the San Pedro Virus and developing strategies to manage the outbreak.",
+          "desc": "produce the entity description. We know that the disease is novel, highly infectious, and has a high fatality rate. This means that it is crucial to have a dedicated research facility to study the pathogen and develop potential treatments or vaccines. Given the rural setting of the outbreak, it is likely that this facility would be located in a nearby city or town, as the village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, who would work closely with local healthcare providers and government officials to manage the outbreak."
+        }
+      },
+      {
+        "@id": "resin:Participants/30250/thing_detected",
+        "roleName": "A1_pag_detected",
+        "entity": "resin:Entities/10000/",
+        "A1_pag_detected": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Monitoring",
+    "time": "2030-01-01 00:00",
+    "description": "Dr. Elena Martinez, in collaboration with the local government, initiated a strict monitoring system for the infected individuals in the village of San Pedro de los Pinos. The system involved daily health check-ups and symptom tracking to ensure the disease's progression was closely monitored.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30259/observer",
+        "roleName": "A0_pag_observer",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_observer": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30260/thing_looked_at",
+        "roleName": "A1_loc_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1_loc_thing_looked_at": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-01 00:00",
+    "description": "Dr. Elena Martinez, in collaboration with the local government, initiated a comprehensive contact tracing program in the village of San Pedro de los Pinos. The program aimed to identify and monitor individuals who may have come into contact with infected persons, in an effort to control the spread of the highly infectious San Pedro Virus (SPV).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-01 08:00",
+    "description": "On the morning of January 1, 2030, Maria Lopez began to experience severe symptoms of the San Pedro Virus (SPV), including high fever, cough, and difficulty breathing. Her condition rapidly deteriorated, causing great concern among the villagers.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30012/",
+        "roleName": "A1_ppt_sick/ill_one",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_sick/ill_one": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      },
+      {
+        "@id": "resin:Participants/30013/",
+        "roleName": "A2_cau_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2_cau_cause_or_disease": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      },
+      {
+        "@id": "resin:Participants/30014/",
+        "roleName": "AM_loc",
+        "entity": "resin:Entities/10010/",
+        "AM_loc": {
+          "name": "San Pedro de los Pinos",
+          "desc": "San Pedro de los Pinos is a small, underdeveloped rural village located in a remote region. The village has a close-knit community with limited access to modern healthcare facilities and infrastructure. The residents primarily rely on agriculture and small-scale trade for their livelihood."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infections",
+    "time": "2030-01-01 10:00",
+    "description": "On January 1, 2030, several residents of the rural village of San Pedro de los Pinos, including Maria Lopez, a 32-year-old school teacher, were confirmed to be infected with the San Pedro Virus (SPV). The virus, which is airborne and highly infectious, has a short incubation period of just a few days and a high fatality rate.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30007/kairos:Primitives_Events_Life.Infect.Unspecified:1_victim",
+        "roleName": "A1-gol_thing_becoming_infected",
+        "entity": "resin:Entities/10000/",
+        "A1-gol_thing_becoming_infected": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      },
+      {
+        "@id": "resin:Participants/30008/kairos:Primitives_Events_Life.Infect.Unspecified:1_infectingagent",
+        "roleName": "A2-ppt_infectant",
+        "entity": "resin:Entities/10005/",
+        "A2-ppt_infectant": {
+          "name": "Rural Pigeon",
+          "desc": "The Rural Pigeon is a common bird found in San Pedro de los Pinos. These pigeons are known to frequent public spaces, farms, and homes, often scavenging for food and nesting in close proximity to human activity. Their presence is a familiar sight in the village, and they are generally considered harmless by the residents."
+        }
+      },
+      {
+        "@id": "resin:Participants/30009/kairos:Primitives_Events_Life.Infect.Unspecified:1_cause",
+        "roleName": "A0_pag_agent_causer_of_infection",
+        "entity": "resin:Entities/10006/",
+        "A0_pag_agent_causer_of_infection": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Gather Data",
+    "time": "2030-01-02 00:00",
+    "description": "Dr. Carlos Mendoza and his team at the Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI) began a comprehensive epidemiologic data collection initiative in the village of San Pedro de los Pinos to better understand the spread and impact of the San Pedro Virus (SPV).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30033/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observer",
+        "roleName": "A0-ppt_experiencer_observer",
+        "entity": "resin:Entities/10016/",
+        "A0-ppt_experiencer_observer": {
+          "name": "Dr. Carlos Mendoza\n\nReasoning: Given the severity of the disease and the need for a dedicated research facility, it is likely that a lead researcher would be involved in the story. This person would be responsible for studying the pathogen, developing potential treatments or vaccines, and coordinating with local healthcare providers and government officials. \n\nEntity Description: Dr. Carlos Mendoza is a 50-year-old virologist who leads the research team at the Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI). He is a renowned expert in infectious diseases and has dedicated his career to studying novel pathogens and developing effective treatments. Dr. Mendoza is deeply committed to his work and is determined to find a solution to the San Pedro Virus outbreak.",
+          "desc": "produce the entity description. We know that the disease is novel, highly infectious, and has a high fatality rate. This means that it is crucial to have a dedicated research facility to study the pathogen and develop potential treatments or vaccines. Given the rural setting of the outbreak, it is likely that this facility would be located in a nearby city or town, as the village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, who would work closely with local healthcare providers and government officials to manage the outbreak. Given these factors, it is reasonable to assume that a lead researcher would be involved in the story. This person would be responsible for studying the pathogen, developing potential treatments or vaccines, and coordinating with local healthcare providers and government officials."
+        }
+      },
+      {
+        "@id": "resin:Participants/30034/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_observedentity",
+        "roleName": "A1-pag_stimulus_thing_looked_at",
+        "entity": "resin:Entities/10000/",
+        "A1-pag_stimulus_thing_looked_at": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      },
+      {
+        "@id": "resin:Participants/30035/kairos:Primitives_Events_Cognitive.Inspection.SensoryObserve:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI)\n\nReasoning: Given the high infectivity and fatality rate of the disease, it is crucial to have a research facility dedicated to studying the pathogen and developing potential treatments or vaccines. This facility would likely be located in a nearby city or town, as the rural village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, and would work closely with local healthcare providers and government officials to manage the outbreak.\n\nEntity Description: The Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI) is a state-of-the-art research facility located in a nearby city. The facility is staffed by a team of dedicated scientists and public health experts who specialize in infectious diseases. The CIEI has been instrumental in studying the San Pedro Virus and developing strategies to manage the outbreak.",
+          "desc": "produce the entity description. We know that the disease is novel, highly infectious, and has a high fatality rate. This means that it is crucial to have a dedicated research facility to study the pathogen and develop potential treatments or vaccines. Given the rural setting of the outbreak, it is likely that this facility would be located in a nearby city or town, as the village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, who would work closely with local healthcare providers and government officials to manage the outbreak."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Outbreak",
+    "time": "2030-01-03 00:00",
+    "description": "On January 2, 2030, Dr. Carlos Mendoza and his team at the Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI) identified a potential outbreak of a novel airborne pathogen, later named the San Pedro Virus (SPV), in the rural village of San Pedro de los Pinos.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30040/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifier",
+        "roleName": "A0-pag_agent_caller",
+        "entity": "resin:Entities/10016/",
+        "A0-pag_agent_caller": {
+          "name": "Dr. Carlos Mendoza\n\nReasoning: Given the severity of the disease and the need for a dedicated research facility, it is likely that a lead researcher would be involved in the story. This person would be responsible for studying the pathogen, developing potential treatments or vaccines, and coordinating with local healthcare providers and government officials. \n\nEntity Description: Dr. Carlos Mendoza is a 50-year-old virologist who leads the research team at the Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI). He is a renowned expert in infectious diseases and has dedicated his career to studying novel pathogens and developing effective treatments. Dr. Mendoza is deeply committed to his work and is determined to find a solution to the San Pedro Virus outbreak.",
+          "desc": "produce the entity description. We know that the disease is novel, highly infectious, and has a high fatality rate. This means that it is crucial to have a dedicated research facility to study the pathogen and develop potential treatments or vaccines. Given the rural setting of the outbreak, it is likely that this facility would be located in a nearby city or town, as the village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, who would work closely with local healthcare providers and government officials to manage the outbreak. Given these factors, it is reasonable to assume that a lead researcher would be involved in the story. This person would be responsible for studying the pathogen, developing potential treatments or vaccines, and coordinating with local healthcare providers and government officials."
+        }
+      },
+      {
+        "@id": "resin:Participants/30041/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_identifiedobject",
+        "roleName": "A1-ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_item_being_labelled": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      },
+      {
+        "@id": "resin:Participants/30042/kairos:Primitives_Events_Cognitive.IdentifyCategorize.Unspecified:1_place",
+        "roleName": "AM-LOC",
+        "entity": "resin:Entities/10011/",
+        "AM-LOC": {
+          "name": "Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI)\n\nReasoning: Given the high infectivity and fatality rate of the disease, it is crucial to have a research facility dedicated to studying the pathogen and developing potential treatments or vaccines. This facility would likely be located in a nearby city or town, as the rural village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, and would work closely with local healthcare providers and government officials to manage the outbreak.\n\nEntity Description: The Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI) is a state-of-the-art research facility located in a nearby city. The facility is staffed by a team of dedicated scientists and public health experts who specialize in infectious diseases. The CIEI has been instrumental in studying the San Pedro Virus and developing strategies to manage the outbreak.",
+          "desc": "produce the entity description. We know that the disease is novel, highly infectious, and has a high fatality rate. This means that it is crucial to have a dedicated research facility to study the pathogen and develop potential treatments or vaccines. Given the rural setting of the outbreak, it is likely that this facility would be located in a nearby city or town, as the village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, who would work closely with local healthcare providers and government officials to manage the outbreak."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Identify Exposed People",
+    "time": "2030-01-03 00:00",
+    "description": "Dr. Elena Martinez, with the help of local authorities, identified individuals who had been in close contact with Juan Rodriguez in the past few days. These individuals were immediately placed under observation for any symptoms of the San Pedro Virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30126/Steps_kairos:Primitives_Events_Identify_Caller",
+        "roleName": "A0_pag_agent_caller",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_agent_caller": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30127/Steps_kairos:Primitives_Events_Identify_Thing_Being_Labelled",
+        "roleName": "A1_ppt_theme_item_being_labelled",
+        "entity": "resin:Entities/10002/",
+        "A1_ppt_theme_item_being_labelled": {
+          "name": "Juan Rodriguez\n\nReasoning: Given that the disease is airborne and highly infectious, it is likely that someone in close contact with the infectant or in a position where they could be a vehicle for disease transmission would be involved in the story. This person could be a family member, a friend, or someone who works in a public-facing role. In this case, we'll consider a local farmer who frequently interacts with the community and could potentially be a carrier of the disease.\n\nEntity Description: Juan Rodriguez is a 40-year-old farmer who lives in San Pedro de los Pinos. He is a friendly and sociable individual, known for his hard work and dedication to his farm. Juan often interacts with the community, selling his produce at the local market. He has recently been feeling unwell, with symptoms that align with those of the San Pedro Virus.",
+          "desc": "produce the entity description. We know that the disease is airborne and highly infectious, which means it can easily spread from person to person. Given that Juan is a farmer, he is likely to be in contact with many people in the community, especially at the local market where he sells his produce. This makes him a potential vehicle for disease transmission. Furthermore, we know that the disease has a short incubation period, so if Juan has been infected, he could start showing symptoms within a few days. This aligns with the information that Juan has recently been feeling unwell. "
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine Exposed Group",
+    "time": "2030-01-03 00:00",
+    "description": "At 2:00 PM, Dr. Elena Martinez, in collaboration with local authorities, initiated a strict quarantine for the villagers of San Pedro de los Pinos who had been in close contact with Juan Rodriguez, the first identified carrier of the San Pedro Virus. These individuals were confined to their homes and monitored for symptoms of the virus.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30129/Steps_kairos:Primitives_Events_Quarantine_Quarantiner",
+        "roleName": "A0_pag_quarantiner",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_quarantiner": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30130/Steps_kairos:Primitives_Events_Quarantine_Thing",
+        "roleName": "A1_ppt_thing",
+        "entity": "resin:Entities/10001/",
+        "A1_ppt_thing": {
+          "name": "The Villagers of San Pedro de los Pinos\n\nReasoning: Given the high infectivity and airborne nature of the San Pedro Virus, it is likely that a significant portion of the local population would be exposed to the pathogen. This would include not only individuals who are in close contact with the infectant, but also those who frequent public spaces or engage in social activities. In this case, we'll consider the villagers of San Pedro de los Pinos as a collective entity.\n\nEntity Description: The villagers of San Pedro de los Pinos are a close-knit community of farmers, traders, and small business owners. They are known for their resilience and strong community spirit, despite the challenges of living in an underdeveloped rural area. With the outbreak of the San Pedro Virus, many villagers have fallen ill, and the community is grappling with fear and uncertainty.",
+          "desc": "produce the entity description. We know that the disease is airborne and highly infectious, which means it can easily spread from person to person. Given the close-knit nature of the community in San Pedro de los Pinos, it is likely that a significant portion of the villagers would be exposed to the pathogen. This would include not only individuals who are in close contact with the infectant, but also those who frequent public spaces or engage in social activities. Furthermore, we know that the disease has a high fatality rate and a short incubation period, which means that many villagers could fall ill in a short span of time. This would likely cause fear and uncertainty in the community, especially given the lack of modern healthcare facilities and infrastructure in the village."
+        }
+      },
+      {
+        "@id": "resin:Participants/30131/Steps_kairos:Primitives_Events_Quarantine_Quarantined_From_Whom",
+        "roleName": "A2_gol_quarrantined_from_whom",
+        "entity": "resin:Entities/10019/",
+        "A2_gol_quarrantined_from_whom": {
+          "name": "The Residents of San Pedro de los Pinos\n\nReasoning: Given the high infectivity and airborne nature of the San Pedro Virus, it is likely that a significant portion of the local population would be exposed to the pathogen. This would include not only individuals who are in close contact with the infectant, but also those who frequent public spaces or engage in social activities. In this case, we'll consider the general population of San Pedro de los Pinos as a collective entity.\n\nEntity Description: The residents of San Pedro de los Pinos are a close-knit community of farmers, traders, and small business owners. They are known for their resilience and strong community spirit, despite the challenges of living in an underdeveloped rural area. With the outbreak of the San Pedro Virus, many residents have fallen ill, and the community is grappling with fear and uncertainty.",
+          "desc": "produce the entity description. We know that the disease is airborne and highly infectious, which means it can easily spread from person to person. Given the close-knit nature of the community in San Pedro de los Pinos, it is likely that a significant portion of the residents would be exposed to the pathogen. This would include not only individuals who are in close contact with the infectant, but also those who frequent public spaces or engage in social activities. Furthermore, we know that the disease has a high fatality rate and a short incubation period, which means that many residents could fall ill in a short span of time. This would likely cause fear and uncertainty in the community, especially given the lack of modern healthcare facilities and infrastructure in the village."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Collect Lab Samples",
+    "time": "2030-01-04 00:00",
+    "description": "Dr. Carlos Mendoza and his team from the Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI) collected various samples from the village of San Pedro de los Pinos. These included water from the local well, soil from the agricultural fields, and swabs from surfaces in the local market. They also collected samples from local livestock and poultry.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30036/kairos:Primitives_Events_CollectLabSamples_Processor",
+        "roleName": "A0_pag_processor",
+        "entity": "resin:Entities/10016/",
+        "A0_pag_processor": {
+          "name": "Dr. Carlos Mendoza\n\nReasoning: Given the severity of the disease and the need for a dedicated research facility, it is likely that a lead researcher would be involved in the story. This person would be responsible for studying the pathogen, developing potential treatments or vaccines, and coordinating with local healthcare providers and government officials. \n\nEntity Description: Dr. Carlos Mendoza is a 50-year-old virologist who leads the research team at the Centro de Investigaci\u00f3n de Enfermedades Infecciosas (CIEI). He is a renowned expert in infectious diseases and has dedicated his career to studying novel pathogens and developing effective treatments. Dr. Mendoza is deeply committed to his work and is determined to find a solution to the San Pedro Virus outbreak.",
+          "desc": "produce the entity description. We know that the disease is novel, highly infectious, and has a high fatality rate. This means that it is crucial to have a dedicated research facility to study the pathogen and develop potential treatments or vaccines. Given the rural setting of the outbreak, it is likely that this facility would be located in a nearby city or town, as the village of San Pedro de los Pinos lacks the necessary infrastructure. The facility would likely be staffed by experts in infectious diseases and public health, who would work closely with local healthcare providers and government officials to manage the outbreak. Given these factors, it is reasonable to assume that a lead researcher would be involved in the story. This person would be responsible for studying the pathogen, developing potential treatments or vaccines, and coordinating with local healthcare providers and government officials."
+        }
+      },
+      {
+        "@id": "resin:Participants/30037/kairos:Primitives_Events_CollectLabSamples_Artifact",
+        "roleName": "A1_ppt_thing_processed",
+        "entity": "resin:Entities/10006/",
+        "A1_ppt_thing_processed": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Tracing",
+    "time": "2030-01-04 00:00",
+    "description": "Dr. Elena Martinez, in collaboration with the local health department, initiated a comprehensive contact tracing program in San Pedro de los Pinos to identify individuals who may have come into contact with those infected by the San Pedro Virus (SPV).",
+    "participants": [
+      {
+        "@id": "resin:Participants/30124/Steps_kairos:Primitives_Events_Tracing_Agent",
+        "roleName": "A0-pag_agent_Agent",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_Agent": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30125/Steps_kairos:Primitives_Events_Tracing_Virus",
+        "roleName": "A2-cau_X_cause_or_disease",
+        "entity": "resin:Entities/10006/",
+        "A2-cau_X_cause_or_disease": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Treatment",
+    "time": "2030-01-04 09:00",
+    "description": "Dr. Elena Martinez, in collaboration with local health authorities, has initiated a treatment protocol for the residents of San Pedro de los Pinos who have been infected with the San Pedro Virus (SPV). The treatment, which is still experimental, involves a combination of antiviral drugs and supportive care.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30025/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_treater",
+        "roleName": "A0-pag_X_doctor",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_X_doctor": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30026/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "resin:Entities/10000/",
+        "A1_dir_source_patient": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      },
+      {
+        "@id": "resin:Participants/30028/kairos:Primitives_Events_Medical.Intervention.Unspecified:1_illness",
+        "roleName": "A2_ppt__illness_or_injury",
+        "entity": "resin:Entities/10006/",
+        "A2_ppt__illness_or_injury": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-04 14:00",
+    "description": "On January 4, 2030, the Ministerio de Salud P\u00fablica (MSP) declared a strict quarantine in the rural village of San Pedro de los Pinos to prevent the further spread of the highly infectious and deadly San Pedro Virus (SPV). The quarantine, which restricts the movement of people, animals, and goods, was enforced at 2PM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "Ministerio de Salud P\u00fablica (MSP)\n\nReasoning: Given the severity of the disease outbreak, it is likely that a government health agency would be involved in managing the situation. This agency would be responsible for coordinating public health responses, enforcing quarantine measures, and providing resources and support to affected communities. In this case, we'll consider a national health ministry, which would have the necessary authority and resources to handle such a crisis.\n\nEntity Description: The Ministerio de Salud P\u00fablica (MSP) is the national health ministry responsible for overseeing public health initiatives and managing health crises in the country. The MSP has been actively involved in managing the San Pedro Virus outbreak, coordinating with local healthcare providers, the CIEI, and other government agencies to enforce quarantine measures and provide support to the affected community.",
+          "desc": "produce the entity description. We know that the disease is airborne, highly infectious, and has a high fatality rate. This means that it is crucial to have a government health agency involved in managing the situation. This agency would be responsible for coordinating public health responses, enforcing quarantine measures, and providing resources and support to affected communities. Given the severity of the outbreak and the need for a coordinated response, it is likely that a national health ministry would be involved. This ministry would have the necessary authority and resources to handle such a crisis. Furthermore, we know that the local government has the resources and infrastructure to enforce a strict quarantine, which suggests that the national health ministry would be actively involved in managing the outbreak."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Quarantine",
+    "time": "2030-01-04 14:00",
+    "description": "On January 4, 2030, the Ministerio de Salud P\u00fablica (MSP) declared a strict quarantine in the rural village of San Pedro de los Pinos to prevent the further spread of the highly infectious and deadly San Pedro Virus (SPV). The quarantine, which restricts the movement of people, animals, and goods, was enforced at 2PM.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30031/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_transporter",
+        "roleName": "A0-pag_agent_transporter",
+        "entity": "resin:Entities/10012/",
+        "A0-pag_agent_transporter": {
+          "name": "Ministerio de Salud P\u00fablica (MSP)\n\nReasoning: Given the severity of the disease outbreak, it is likely that a government health agency would be involved in managing the situation. This agency would be responsible for coordinating public health responses, enforcing quarantine measures, and providing resources and support to affected communities. In this case, we'll consider a national health ministry, which would have the necessary authority and resources to handle such a crisis.\n\nEntity Description: The Ministerio de Salud P\u00fablica (MSP) is the national health ministry responsible for overseeing public health initiatives and managing health crises in the country. The MSP has been actively involved in managing the San Pedro Virus outbreak, coordinating with local healthcare providers, the CIEI, and other government agencies to enforce quarantine measures and provide support to the affected community.",
+          "desc": "produce the entity description. We know that the disease is airborne, highly infectious, and has a high fatality rate. This means that it is crucial to have a government health agency involved in managing the situation. This agency would be responsible for coordinating public health responses, enforcing quarantine measures, and providing resources and support to affected communities. Given the severity of the outbreak and the need for a coordinated response, it is likely that a national health ministry would be involved. This ministry would have the necessary authority and resources to handle such a crisis. Furthermore, we know that the local government has the resources and infrastructure to enforce a strict quarantine, which suggests that the national health ministry would be actively involved in managing the outbreak."
+        }
+      },
+      {
+        "@id": "resin:Participants/30032/kairos:Primitives_Events_Movement.Transportation.PreventPassage:1_passengerartifact",
+        "roleName": "A1-ppt_theme_thing_transported",
+        "entity": "resin:Entities/10000/",
+        "A1-ppt_theme_thing_transported": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Hospitalization",
+    "time": "2030-01-05 00:00",
+    "description": "On January 4, 2030, Dr. Elena Martinez, a general practitioner with a strong background in infectious diseases, admitted several individuals showing severe symptoms of the novel airborne disease to the local hospital in San Pedro de los Pinos. Among the admitted was Maria Lopez, a 32-year-old school teacher and a single mother of two children, who had been actively involved in community events.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30253/sender",
+        "roleName": "A0_pag_sender",
+        "entity": "resin:Entities/10021/",
+        "A0_pag_sender": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30254/infected",
+        "roleName": "A1_ppt_injured/ill_entity",
+        "entity": "resin:Entities/10000/",
+        "A1_ppt_injured/ill_entity": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 32-year-old school teacher in a small rural village. She is known for her dedication to her students and her active involvement in community events. Maria is a single mother of two children and is well-respected in her community."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-05 09:00",
+    "description": "On the morning of January 5, 2030, Dr. Elena Martinez arrived in the village of San Pedro de los Pinos to conduct viral tests on the villagers, starting with Maria Lopez who had shown severe symptoms of the San Pedro Virus (SPV) a few days prior.",
+    "participants": [
+      {
+        "@id": "resin:Participants/30122/Steps_kairos:Primitives_Events_Testing_Assessor",
+        "roleName": "A0-pag_agent_estimator",
+        "entity": "resin:Entities/10021/",
+        "A0-pag_agent_estimator": {
+          "name": "Dr. Elena Martinez",
+          "desc": "Dr. Elena Martinez is a 45-year-old general practitioner who works in a nearby town but frequently visits San Pedro de los Pinos to provide medical care. She is known for her compassionate nature and dedication to serving underprivileged communities. Dr. Martinez has a strong background in infectious diseases and has been actively involved in public health initiatives in rural areas."
+        }
+      },
+      {
+        "@id": "resin:Participants/30123/Steps_kairos:Primitives_Events_Testing_Thing_Assessed_for",
+        "roleName": "A1-ppt_theme_thing_estimated",
+        "entity": "resin:Entities/10006/",
+        "A1-ppt_theme_thing_estimated": {
+          "name": "San Pedro Virus (SPV)",
+          "desc": "The San Pedro Virus (SPV) is a novel airborne pathogen that has recently emerged in the rural village of San Pedro de los Pinos. It is highly infectious with a short incubation period of just a few days and a high fatality rate. The virus is believed to have originated from a local environmental source, possibly linked to the agricultural practices in the area."
+        }
+      }
+    ]
+  }
+]

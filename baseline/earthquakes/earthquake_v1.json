@@ -1,0 +1,833 @@
+[
+  {
+    "schemaEvent": "Tsunami",
+    "time": "2030-01-02 00:00",
+    "description": "In the aftermath of the devastating San Marcos Quake, a massive tsunami was triggered due to the undersea seismic activity. The tsunami hit the already devastated port city of San Marcos, causing further destruction and chaos.",
+    "participants": [
+      {
+        "@id": "Participants/20013/A1_ppt_water",
+        "roleName": "A1_ppt_water",
+        "entity": "Entities/20097/",
+        "A1_ppt_water": {
+          "name": "Urban Water Authority",
+          "desc": "The Urban Water Authority is the primary organization responsible for supplying clean water to the city's residents. It operates a network of reservoirs, treatment plants, and distribution systems to ensure that water is available to all parts of the urban area."
+        }
+      },
+      {
+        "@id": "Participants/20015/A3_vsp_death/injury_toll",
+        "roleName": "A3_vsp_death/injury_toll",
+        "entity": "Entities/20002/",
+        "A3_vsp_death/injury_toll": {
+          "name": "Casualty Count",
+          "desc": "The number of people wounded, incapacitated, or killed in the earthquake."
+        }
+      },
+      {
+        "@id": "Participants/20017/A4_vsp_damages/cost",
+        "roleName": "A4_vsp_damages/cost",
+        "entity": "Entities/20003/",
+        "A4_vsp_damages/cost": {
+          "name": "The San Marcos Catastrophe\n\nReasoning: The earthquake has caused significant damage and loss in the city of San Marcos. Therefore, it's appropriate to name the entity after the city and the catastrophic event that has occurred. \n\nEntity Description: The San Marcos Catastrophe refers to the immense loss and destruction caused by the 7.8 magnitude earthquake. The catastrophe has resulted in countless casualties, widespread property damage, and a city in ruins. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20019/A5_vsp_run_up",
+        "roleName": "A5_vsp_run_up",
+        "entity": "Entities/20316/",
+        "A5_vsp_run_up": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20021/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Aftershocks",
+    "time": "2030-01-03 00:00",
+    "description": "At approximately 10:30 AM, the city of San Marcos experienced a series of aftershocks originating from the San Marcos Epicenter. The aftershocks, while not as powerful as the initial earthquake, caused further damage to the already devastated city.",
+    "participants": [
+      {
+        "@id": "Participants/20017/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "San Marcos Epicenter",
+          "desc": "The San Marcos Epicenter is the ground zero of the devastating 7.8 magnitude earthquake that struck the city in the early morning. Located in the heart of the city, the epicenter was once a bustling marketplace, now reduced to rubble and debris. The area is densely populated, making the impact of the earthquake even more catastrophic."
+        }
+      },
+      {
+        "@id": "Participants/20019/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Main Earthquake",
+    "time": "2030-01-04 00:00",
+    "description": "At approximately 7:15 AM, the city of San Marcos was rocked by a devastating 7.8 magnitude earthquake. The seismic waves, originating from the San Marcos Epicenter, spread rapidly throughout the city, causing buildings to shake violently and streets to crack open.",
+    "participants": [
+      {
+        "@id": "Participants/20009/A1_ppt_ground_shaken",
+        "roleName": "A1_ppt_ground_shaken",
+        "entity": "Entities/20315/",
+        "A1_ppt_ground_shaken": {
+          "name": "San Marcos Epicenter",
+          "desc": "The San Marcos Epicenter is the ground zero of the devastating 7.8 magnitude earthquake that struck the city in the early morning. Located in the heart of the city, the epicenter was once a bustling marketplace, now reduced to rubble and debris. The area is densely populated, making the impact of the earthquake even more catastrophic."
+        }
+      },
+      {
+        "@id": "Participants/20011/A3_vsp_death/injury_toll",
+        "roleName": "A3_vsp_death/injury_toll",
+        "entity": "Entities/20005/",
+        "A3_vsp_death/injury_toll": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 34-year-old construction worker living in San Marcos. He is known for his dedication to his job and his family, often working long hours to provide for his wife and two young children. Carlos enjoys playing soccer with his friends on weekends and is an active member of his local community."
+        }
+      },
+      {
+        "@id": "Participants/20013/A4_vsp_damages/cost",
+        "roleName": "A4_vsp_damages/cost",
+        "entity": "Entities/20003/",
+        "A4_vsp_damages/cost": {
+          "name": "The San Marcos Catastrophe\n\nReasoning: The earthquake has caused significant damage and loss in the city of San Marcos. Therefore, it's appropriate to name the entity after the city and the catastrophic event that has occurred. \n\nEntity Description: The San Marcos Catastrophe refers to the immense loss and destruction caused by the 7.8 magnitude earthquake. The catastrophe has resulted in countless casualties, widespread property damage, and a city in ruins. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20015/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Injury",
+    "time": "2030-01-05 00:00",
+    "description": "In the early morning hours of January 4, 2030, Carlos Mendoza, a dedicated construction worker and father of two, was severely injured during the San Marcos Quake. The 7.8 magnitude earthquake caused a building to collapse onto the construction site where Carlos was working, trapping him under the rubble.",
+    "participants": [
+      {
+        "@id": "Participants/20001/A1_ppt_experiencer_injured_party",
+        "roleName": "A1_ppt_experiencer_injured_party",
+        "entity": "Entities/20005/",
+        "A1_ppt_experiencer_injured_party": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 34-year-old construction worker living in San Marcos. He is known for his dedication to his job and his family, often working long hours to provide for his wife and two young children. Carlos enjoys playing soccer with his friends on weekends and is an active member of his local community."
+        }
+      },
+      {
+        "@id": "Participants/20003/A0_pag_stimulus_stimulus_of_injury",
+        "roleName": "A0_pag_stimulus_stimulus_of_injury",
+        "entity": "Entities/20316/",
+        "A0_pag_stimulus_stimulus_of_injury": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20005/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Death",
+    "time": "2030-01-05 08:00",
+    "description": "On the morning of January 5, 2030, the aftermath of the San Marcos Quake became tragically clear. The 7.8 magnitude earthquake had caused numerous buildings to collapse, leading to countless injuries and fatalities. Among the victims was Carlos Mendoza, a dedicated construction worker and father of two, who was trapped under the rubble of a collapsed building.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A1_ppt_the_deceased",
+        "roleName": "A1_ppt_the_deceased",
+        "entity": "Entities/20005/",
+        "A1_ppt_the_deceased": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 34-year-old construction worker living in San Marcos. He is known for his dedication to his job and his family, often working long hours to provide for his wife and two young children. Carlos enjoys playing soccer with his friends on weekends and is an active member of his local community."
+        }
+      },
+      {
+        "@id": "Participants/20025/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      },
+      {
+        "@id": "Participants/20027/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Displacement",
+    "time": "2030-01-06 00:00",
+    "description": "In the aftermath of the San Marcos Quake, thousands of residents, including Maria Lopez, found themselves displaced from their homes. The quake, which struck at 7:30 AM, left a significant portion of the city's infrastructure in ruins, rendering many buildings uninhabitable.",
+    "participants": [
+      {
+        "@id": "Participants/20029/A0_pag_mover",
+        "roleName": "A0_pag_mover",
+        "entity": "Entities/20316/",
+        "A0_pag_mover": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20031/A1_ppt_moved",
+        "roleName": "A1_ppt_moved",
+        "entity": "Entities/20064/",
+        "A1_ppt_moved": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20033/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Death",
+    "time": "2030-01-06 00:00",
+    "description": "On January 6, 2030, the day after the devastating San Marcos Quake, the death toll began to rise as rescue teams sifted through the rubble. Many residents of the city were severely injured or killed by collapsing buildings, flying debris, and other hazards caused by the earthquake.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A1_ppt_the_deceased",
+        "roleName": "A1_ppt_the_deceased",
+        "entity": "Entities/20005/",
+        "A1_ppt_the_deceased": {
+          "name": "Carlos Mendoza",
+          "desc": "Carlos Mendoza is a 34-year-old construction worker living in San Marcos. He is known for his dedication to his job and his family, often working long hours to provide for his wife and two young children. Carlos enjoys playing soccer with his friends on weekends and is an active member of his local community."
+        }
+      },
+      {
+        "@id": "Participants/20025/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      },
+      {
+        "@id": "Participants/20027/AM_cau__cause",
+        "roleName": "AM_cau__cause",
+        "entity": "Entities/20316/",
+        "AM_cau__cause": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Infrastructure Damage",
+    "time": "2030-01-07 00:00",
+    "description": "On the morning of January 6, 2030, the city of San Marcos was rocked by a devastating 7.8 magnitude earthquake, causing extensive damage to buildings, roads, and other infrastructure. The city's central hospital, San Marcos Central Hospital, was among the structures that suffered significant damage, but continued to operate amidst the chaos, providing critical care to the injured.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_agent",
+        "roleName": "A0_pag_agent",
+        "entity": "Entities/20316/",
+        "A0_pag_agent": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_entity_damaged",
+        "roleName": "A1_ppt_entity_damaged",
+        "entity": "Entities/20317/",
+        "A1_ppt_entity_damaged": {
+          "name": "San Marcos Central Hospital\n\nReasoning: Given the context of the earthquake, a building that would be crucial in the aftermath would be a hospital. The hospital would be the primary location for treating the injured and saving lives. Therefore, it makes sense to name the building San Marcos Central Hospital, suggesting that it is a central healthcare facility in the city of San Marcos.\n\nEntity Description: San Marcos Central Hospital is a major healthcare facility located in the heart of San Marcos. Known for its advanced medical equipment and dedicated staff, the hospital provides a wide range of healthcare services to the city's residents. Despite suffering damage in the San Marcos Quake, the hospital continues to operate, providing critical care to those injured in the disaster.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description. Given the context of the earthquake, a building that would be crucial in the aftermath would be a hospital. The hospital would be the primary location for treating the injured and saving lives. Therefore, it makes sense to name the building San Marcos Central Hospital, suggesting that it is a central healthcare facility in the city of San Marcos."
+        }
+      },
+      {
+        "@id": "Participants/20009/A2_mnr_instrument",
+        "roleName": "A2_mnr_instrument",
+        "entity": "Entities/20316/",
+        "A2_mnr_instrument": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20011/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "San Marcos Epicenter",
+          "desc": "The San Marcos Epicenter is the ground zero of the devastating 7.8 magnitude earthquake that struck the city in the early morning. Located in the heart of the city, the epicenter was once a bustling marketplace, now reduced to rubble and debris. The area is densely populated, making the impact of the earthquake even more catastrophic."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Extricate Survivors",
+    "time": "2030-01-08 00:00",
+    "description": "At 10:30 AM, the San Marcos Urban Search and Rescue Team began their mission to extricate survivors from the debris at the San Marcos Epicenter, following the devastating 7.8 magnitude earthquake that struck the city earlier in the morning.",
+    "participants": [
+      {
+        "@id": "Participants/20075/A0_pag_rescuer",
+        "roleName": "A0_pag_rescuer",
+        "entity": "Entities/20138/",
+        "A0_pag_rescuer": {
+          "name": "San Marcos Urban Search and Rescue Team",
+          "desc": "The San Marcos Urban Search and Rescue Team is a specialized group of professionals trained to respond to natural disasters and emergencies. The team includes firefighters, paramedics, engineers, and volunteers who work together to locate and rescue survivors trapped in the rubble."
+        }
+      },
+      {
+        "@id": "Participants/20077/A1_ppt_entity_rescued",
+        "roleName": "A1_ppt_entity_rescued",
+        "entity": "Entities/20064/",
+        "A1_ppt_entity_rescued": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20079/A2_dir_rescued_from",
+        "roleName": "A2_dir_rescued_from",
+        "entity": "Entities/20315/",
+        "A2_dir_rescued_from": {
+          "name": "San Marcos Epicenter",
+          "desc": "The San Marcos Epicenter is the ground zero of the devastating 7.8 magnitude earthquake that struck the city in the early morning. Located in the heart of the city, the epicenter was once a bustling marketplace, now reduced to rubble and debris. The area is densely populated, making the impact of the earthquake even more catastrophic."
+        }
+      },
+      {
+        "@id": "Participants/20081/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Medical Assistance",
+    "time": "2030-01-09 00:00",
+    "description": "At 11:45 AM, Dr. Javier Morales, a seasoned emergency physician, arrived at the disaster site in San Marcos to provide medical assistance to the victims of the earthquake. He was accompanied by a team from San Marcos Medical Supplies, who brought with them a large supply of medical equipment and medicines.",
+    "participants": [
+      {
+        "@id": "Participants/20083/A0_pag_causer_doctor",
+        "roleName": "A0_pag_causer_doctor",
+        "entity": "Entities/20130/",
+        "A0_pag_causer_doctor": {
+          "name": "Dr. Javier Morales",
+          "desc": "Dr. Javier Morales is a 40-year-old emergency physician with over 15 years of experience in trauma care and disaster response. He is known for his calm demeanor and ability to make quick, life-saving decisions under pressure. Dr. Morales has worked in various emergency settings, including hospitals and field clinics, and is highly respected by his peers for his dedication to patient care."
+        }
+      },
+      {
+        "@id": "Participants/20085/A1_dir_source_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "Entities/20064/",
+        "A1_dir_source_patient": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20087/A2_ppt_theme_illness_or_injury",
+        "roleName": "A2_ppt_theme_illness_or_injury",
+        "entity": "Entities/20003/",
+        "A2_ppt_theme_illness_or_injury": {
+          "name": "The San Marcos Catastrophe\n\nReasoning: The earthquake has caused significant damage and loss in the city of San Marcos. Therefore, it's appropriate to name the entity after the city and the catastrophic event that has occurred. \n\nEntity Description: The San Marcos Catastrophe refers to the immense loss and destruction caused by the 7.8 magnitude earthquake. The catastrophe has resulted in countless casualties, widespread property damage, and a city in ruins. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20089/A3_mnr__instrument_treatment",
+        "roleName": "A3_mnr__instrument_treatment",
+        "entity": "Entities/20297/",
+        "A3_mnr__instrument_treatment": {
+          "name": "San Marcos Medical Supplies\n\nReasoning: The entity is described as medical equipment, which is crucial in the aftermath of a disaster like an earthquake. Given the setting of the story in San Marcos, it makes sense to name the entity San Marcos Medical Supplies. This name suggests that the entity is a local source of medical equipment, which would be vital in treating the injured and saving lives after the earthquake.\n\nEntity Description: San Marcos Medical Supplies is a local supplier of medical equipment in San Marcos. Known for its wide range of medical supplies and quick response times, the company has been instrumental in providing necessary medical equipment in the aftermath of the San Marcos Quake. The company works closely with local hospitals, clinics, and emergency services to ensure they have the supplies they need to treat the injured.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description. "
+        }
+      },
+      {
+        "@id": "Participants/20091/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Search for Survivors",
+    "time": "2030-01-10 00:00",
+    "description": "At 10:30 AM, the San Marcos Urban Search and Rescue Team began their mission to locate and rescue survivors trapped in the rubble following the devastating 7.8 magnitude earthquake that struck the city earlier in the morning. Among the survivors they are searching for is Maria Lopez, a beloved local school teacher known for her dedication to her students and community.",
+    "participants": [
+      {
+        "@id": "Participants/20067/A0_pag_searcher",
+        "roleName": "A0_pag_searcher",
+        "entity": "Entities/20138/",
+        "A0_pag_searcher": {
+          "name": "San Marcos Urban Search and Rescue Team",
+          "desc": "The San Marcos Urban Search and Rescue Team is a specialized group of professionals trained to respond to natural disasters and emergencies. The team includes firefighters, paramedics, engineers, and volunteers who work together to locate and rescue survivors trapped in the rubble."
+        }
+      },
+      {
+        "@id": "Participants/20069/A1_loc_Area_searched",
+        "roleName": "A1_loc_Area_searched",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A1_loc_Area_searched": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      },
+      {
+        "@id": "Participants/20071/A2_ppt_searched_for",
+        "roleName": "A2_ppt_searched_for",
+        "entity": "Entities/20064/",
+        "A2_ppt_searched_for": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20073/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Medical Assistance",
+    "time": "2030-01-10 00:00",
+    "description": "At 8:00 AM, Dr. Javier Morales, a seasoned emergency physician, arrived at the disaster site in San Marcos to provide medical assistance to the victims of the earthquake. He was accompanied by a team from San Marcos Medical Supplies, who brought with them a large supply of medical equipment and medicines.",
+    "participants": [
+      {
+        "@id": "Participants/20083/A0_pag_causer_doctor",
+        "roleName": "A0_pag_causer_doctor",
+        "entity": "Entities/20130/",
+        "A0_pag_causer_doctor": {
+          "name": "Dr. Javier Morales",
+          "desc": "Dr. Javier Morales is a 40-year-old emergency physician with over 15 years of experience in trauma care and disaster response. He is known for his calm demeanor and ability to make quick, life-saving decisions under pressure. Dr. Morales has worked in various emergency settings, including hospitals and field clinics, and is highly respected by his peers for his dedication to patient care."
+        }
+      },
+      {
+        "@id": "Participants/20085/A1_dir_source_patient",
+        "roleName": "A1_dir_source_patient",
+        "entity": "Entities/20064/",
+        "A1_dir_source_patient": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20087/A2_ppt_theme_illness_or_injury",
+        "roleName": "A2_ppt_theme_illness_or_injury",
+        "entity": "Entities/20003/",
+        "A2_ppt_theme_illness_or_injury": {
+          "name": "The San Marcos Catastrophe\n\nReasoning: The earthquake has caused significant damage and loss in the city of San Marcos. Therefore, it's appropriate to name the entity after the city and the catastrophic event that has occurred. \n\nEntity Description: The San Marcos Catastrophe refers to the immense loss and destruction caused by the 7.8 magnitude earthquake. The catastrophe has resulted in countless casualties, widespread property damage, and a city in ruins. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20089/A3_mnr__instrument_treatment",
+        "roleName": "A3_mnr__instrument_treatment",
+        "entity": "Entities/20297/",
+        "A3_mnr__instrument_treatment": {
+          "name": "San Marcos Medical Supplies\n\nReasoning: The entity is described as medical equipment, which is crucial in the aftermath of a disaster like an earthquake. Given the setting of the story in San Marcos, it makes sense to name the entity San Marcos Medical Supplies. This name suggests that the entity is a local source of medical equipment, which would be vital in treating the injured and saving lives after the earthquake.\n\nEntity Description: San Marcos Medical Supplies is a local supplier of medical equipment in San Marcos. Known for its wide range of medical supplies and quick response times, the company has been instrumental in providing necessary medical equipment in the aftermath of the San Marcos Quake. The company works closely with local hospitals, clinics, and emergency services to ensure they have the supplies they need to treat the injured.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description. "
+        }
+      },
+      {
+        "@id": "Participants/20091/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Deploy Search and Rescue Teams",
+    "time": "2030-01-11 00:00",
+    "description": "At 8:30 AM, Ricardo Alvarez, the seasoned Rescue Coordinator, mobilized the San Marcos Urban Search and Rescue Team in response to the magnitude 7.8 earthquake that struck the densely populated port city of San Marcos.",
+    "participants": [
+      {
+        "@id": "Participants/20059/A0_pag_Deployer",
+        "roleName": "A0_pag_Deployer",
+        "entity": "Entities/20119/",
+        "A0_pag_Deployer": {
+          "name": "Ricardo Alvarez",
+          "desc": "Ricardo Alvarez is a 45-year-old Rescue Coordinator with over 20 years of experience in emergency management and disaster response. He is known for his exceptional organizational skills and ability to remain calm under pressure. Ricardo has coordinated numerous large-scale rescue operations in various countries, making him a seasoned expert in the field."
+        }
+      },
+      {
+        "@id": "Participants/20061/A1_ppt_Deployed",
+        "roleName": "A1_ppt_Deployed",
+        "entity": "Entities/20138/",
+        "A1_ppt_Deployed": {
+          "name": "San Marcos Urban Search and Rescue Team",
+          "desc": "The San Marcos Urban Search and Rescue Team is a specialized group of professionals trained to respond to natural disasters and emergencies. The team includes firefighters, paramedics, engineers, and volunteers who work together to locate and rescue survivors trapped in the rubble."
+        }
+      },
+      {
+        "@id": "Participants/20063/A2_loc_deployed_where",
+        "roleName": "A2_loc_deployed_where",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "A2_loc_deployed_where": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      },
+      {
+        "@id": "Participants/20065/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Initial Assessment",
+    "time": "2030-01-12 00:00",
+    "description": "At 8:30 AM, Ricardo Alvarez, the seasoned Rescue Coordinator, arrived at the San Marcos Epicenter to conduct an initial assessment of the catastrophic situation caused by the 7.8 magnitude earthquake.",
+    "participants": [
+      {
+        "@id": "Participants/20051/A0_pag_assessor",
+        "roleName": "A0_pag_assessor",
+        "entity": "Entities/20119/",
+        "A0_pag_assessor": {
+          "name": "Ricardo Alvarez",
+          "desc": "Ricardo Alvarez is a 45-year-old Rescue Coordinator with over 20 years of experience in emergency management and disaster response. He is known for his exceptional organizational skills and ability to remain calm under pressure. Ricardo has coordinated numerous large-scale rescue operations in various countries, making him a seasoned expert in the field."
+        }
+      },
+      {
+        "@id": "Participants/20053/A1_ppt_entity_assessed",
+        "roleName": "A1_ppt_entity_assessed",
+        "entity": "Entities/20315/",
+        "A1_ppt_entity_assessed": {
+          "name": "San Marcos Epicenter",
+          "desc": "The San Marcos Epicenter is the ground zero of the devastating 7.8 magnitude earthquake that struck the city in the early morning. Located in the heart of the city, the epicenter was once a bustling marketplace, now reduced to rubble and debris. The area is densely populated, making the impact of the earthquake even more catastrophic."
+        }
+      },
+      {
+        "@id": "Participants/20055/A2_prd_value_or_attribute",
+        "roleName": "A2_prd_value_or_attribute",
+        "entity": "Entities/20003/",
+        "A2_prd_value_or_attribute": {
+          "name": "The San Marcos Catastrophe\n\nReasoning: The earthquake has caused significant damage and loss in the city of San Marcos. Therefore, it's appropriate to name the entity after the city and the catastrophic event that has occurred. \n\nEntity Description: The San Marcos Catastrophe refers to the immense loss and destruction caused by the 7.8 magnitude earthquake. The catastrophe has resulted in countless casualties, widespread property damage, and a city in ruins. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble.",
+          "desc": "produce the entity description. We know that the earthquake has caused significant damage and loss in the city of San Marcos. It's a catastrophic event that has resulted in countless casualties and widespread property damage. The aftermath of the earthquake has left the residents of San Marcos in a state of shock and despair, struggling to rebuild their lives amidst the rubble. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      },
+      {
+        "@id": "Participants/20057/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/20315/",
+        "AM_loc": {
+          "name": "San Marcos Epicenter",
+          "desc": "The San Marcos Epicenter is the ground zero of the devastating 7.8 magnitude earthquake that struck the city in the early morning. Located in the heart of the city, the epicenter was once a bustling marketplace, now reduced to rubble and debris. The area is densely populated, making the impact of the earthquake even more catastrophic."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-12 11:00",
+    "description": "On the morning of January 12, 2030, following the devastating San Marcos Quake, Dr. Sofia Rodriguez launched a donation drive to aid the victims of the disaster. The drive received an overwhelming response, with individuals, groups, and charities from around the world contributing generously.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Dr. Sofia Rodriguez\n\nReasoning: The advocate in the story should be someone who is passionate about helping others and has the ability to influence decisions and policies. A doctor would be a suitable choice as they are often seen as trustworthy and knowledgeable. The name Sofia Rodriguez is a common Hispanic name, fitting the setting of San Marcos.\n\nEntity Description: Dr. Sofia Rodriguez is a 40-year-old public health advocate and physician in San Marcos. Known for her tireless efforts in advocating for better healthcare services, she has been instrumental in bringing attention to the health crisis following the San Marcos Quake. Dr. Rodriguez is also a respected member of the medical community, often providing free medical services to those who cannot afford it.",
+          "desc": "produce the entity description. We know that the advocate is a person who is passionate about helping others and has the ability to influence decisions and policies. Given the context of the earthquake, it would make sense for this person to be involved in healthcare, as this would be a major area of concern following such a disaster. Therefore, a doctor who is also a public health advocate would be a suitable choice. This person would likely be involved in providing medical services to those affected by the earthquake, as well as advocating for better healthcare services in the aftermath of the disaster."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Donate",
+    "time": "2030-01-12 11:00",
+    "description": "On the morning of January 12, 2030, following the devastating San Marcos Quake, Dr. Sofia Rodriguez launched a donation drive to aid the victims of the disaster. The drive received an overwhelming response, with individuals, groups, and charities from around the world contributing generously.",
+    "participants": [
+      {
+        "@id": "Participants/20045/A0_pag_raiser_of_funds",
+        "roleName": "A0_pag_raiser_of_funds",
+        "entity": "Entities/20193/",
+        "A0_pag_raiser_of_funds": {
+          "name": "Dr. Sofia Rodriguez\n\nReasoning: The advocate in the story should be someone who is passionate about helping others and has the ability to influence decisions and policies. A doctor would be a suitable choice as they are often seen as trustworthy and knowledgeable. The name Sofia Rodriguez is a common Hispanic name, fitting the setting of San Marcos.\n\nEntity Description: Dr. Sofia Rodriguez is a 40-year-old public health advocate and physician in San Marcos. Known for her tireless efforts in advocating for better healthcare services, she has been instrumental in bringing attention to the health crisis following the San Marcos Quake. Dr. Rodriguez is also a respected member of the medical community, often providing free medical services to those who cannot afford it.",
+          "desc": "produce the entity description. We know that the advocate is a person who is passionate about helping others and has the ability to influence decisions and policies. Given the context of the earthquake, it would make sense for this person to be involved in healthcare, as this would be a major area of concern following such a disaster. Therefore, a doctor who is also a public health advocate would be a suitable choice. This person would likely be involved in providing medical services to those affected by the earthquake, as well as advocating for better healthcare services in the aftermath of the disaster."
+        }
+      },
+      {
+        "@id": "Participants/20047/A2_gol_beneficiary",
+        "roleName": "A2_gol_beneficiary",
+        "entity": "Entities/20064/",
+        "A2_gol_beneficiary": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20049/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Increase Awareness",
+    "time": "2030-01-12 18:00",
+    "description": "On January 12, 2030, the media coverage of the San Marcos Quake significantly increased, leading to a surge in public awareness about the disaster and its aftermath. Major news outlets around the world started reporting on the situation, highlighting the urgent need for aid and support.",
+    "participants": [
+      {
+        "@id": "Participants/20037/A0_pag_agent_discussant",
+        "roleName": "A0_pag_agent_discussant",
+        "entity": "Entities/20193/",
+        "A0_pag_agent_discussant": {
+          "name": "Dr. Sofia Rodriguez\n\nReasoning: The advocate in the story should be someone who is passionate about helping others and has the ability to influence decisions and policies. A doctor would be a suitable choice as they are often seen as trustworthy and knowledgeable. The name Sofia Rodriguez is a common Hispanic name, fitting the setting of San Marcos.\n\nEntity Description: Dr. Sofia Rodriguez is a 40-year-old public health advocate and physician in San Marcos. Known for her tireless efforts in advocating for better healthcare services, she has been instrumental in bringing attention to the health crisis following the San Marcos Quake. Dr. Rodriguez is also a respected member of the medical community, often providing free medical services to those who cannot afford it.",
+          "desc": "produce the entity description. We know that the advocate is a person who is passionate about helping others and has the ability to influence decisions and policies. Given the context of the earthquake, it would make sense for this person to be involved in healthcare, as this would be a major area of concern following such a disaster. Therefore, a doctor who is also a public health advocate would be a suitable choice. This person would likely be involved in providing medical services to those affected by the earthquake, as well as advocating for better healthcare services in the aftermath of the disaster."
+        }
+      },
+      {
+        "@id": "Participants/20039/A2_gol_co_agent_conversation_partner",
+        "roleName": "A2_gol_co_agent_conversation_partner",
+        "entity": "Entities/20194/",
+        "A2_gol_co_agent_conversation_partner": {
+          "name": "Juan Garcia\n\nReasoning: The conversation partner in the story should be someone who is close to the main characters and can provide emotional support and perspective during the crisis. A friend or family member would be a suitable choice. The name Juan Garcia is a common Hispanic name, fitting the setting of San Marcos.\n\nEntity Description: Juan Garcia is a 35-year-old close friend of Maria Lopez and Carlos Mendoza. Known for his empathetic nature and wise counsel, Juan has been a source of comfort and support for his friends in the aftermath of the San Marcos Quake. He works as a social worker in San Marcos, often helping those in need navigate through difficult times.",
+          "desc": "produce the entity description. We know that the conversation partner is someone who is close to the main characters and can provide emotional support and perspective during the crisis. Given the context of the earthquake, it would make sense for this person to be involved in a profession that involves helping others, such as a social worker. This person would likely be involved in providing emotional support to those affected by the earthquake, as well as helping them navigate through the difficult times following the disaster. Therefore, a social worker who is a close friend of the main characters would be a suitable choice. This person would likely be empathetic and wise, providing comfort and support to his friends in the aftermath of the earthquake."
+        }
+      },
+      {
+        "@id": "Participants/20041/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      },
+      {
+        "@id": "Participants/20043/A1_ppt__topic",
+        "roleName": "A1_ppt__topic",
+        "entity": "Entities/20316/",
+        "A1_ppt__topic": {
+          "name": "The San Marcos Quake\n\nReasoning: The earthquake is a major event in the story, and it's centered around the city of San Marcos. Therefore, it makes sense to name it after the city it affected the most.\n\nEntity Description: The San Marcos Quake, a devastating 7.8 magnitude earthquake, struck the bustling port city of San Marcos in the early morning. The quake's epicenter was located in the heart of the city, causing widespread destruction and chaos in the densely populated urban area. The quake has since become a defining moment in the city's history, forever changing the lives of its residents.",
+          "desc": "produce the entity description. We know that the earthquake is a major event that has a significant impact on the city of San Marcos. It's a catastrophic event that has caused widespread destruction and has forever changed the lives of the city's residents. Therefore, it's important to highlight the severity of the earthquake and its impact on the city in the entity description."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Coordinate with Media Outlets",
+    "time": "2030-01-13 00:00",
+    "description": "Laura Fernandez, the Media Liaison, began coordinating with local and national media outlets to provide accurate and timely information about the earthquake that struck the port city of San Marcos.",
+    "participants": [
+      {
+        "@id": "Participants/20023/A0_pag_organizer",
+        "roleName": "A0_pag_organizer",
+        "entity": "Entities/20246/",
+        "A0_pag_organizer": {
+          "name": "Sofia Martinez",
+          "desc": "Sofia Martinez is a 36-year-old media coordinator with extensive experience in crisis communication and public relations. She has a background in journalism and has worked with various news organizations before transitioning to a role in emergency management."
+        }
+      },
+      {
+        "@id": "Participants/20025/A1_ppt_entity_coordinated",
+        "roleName": "A1_ppt_entity_coordinated",
+        "entity": "Entities/20176/",
+        "A1_ppt_entity_coordinated": {
+          "name": "Laura Fernandez",
+          "desc": "Laura Fernandez is a 32-year-old Media Liaison with a background in journalism and public relations. She has worked with various news organizations and has extensive experience in crisis communication. Laura is known for her ability to stay composed under pressure and her skill in managing media relations during emergencies."
+        }
+      },
+      {
+        "@id": "Participants/20027/A2_com_entity_coordinated_with",
+        "roleName": "A2_com_entity_coordinated_with",
+        "entity": "Entities/20177/",
+        "A2_com_entity_coordinated_with": {
+          "name": "Laura Fernandez\n\nReasoning: The media liaison in the story should be someone who is experienced in journalism and public relations, and has the ability to manage media relations during emergencies. Laura Fernandez is a common Hispanic name, fitting the setting of San Marcos.\n\nEntity Description: Laura Fernandez is a 32-year-old Media Liaison with a background in journalism and public relations. She has worked with various news organizations and has extensive experience in crisis communication. Laura is known for her ability to stay composed under pressure and her skill in managing media relations during emergencies.",
+          "desc": "produce the entity description. We know that the media liaison is a crucial role in managing the flow of information during a crisis. This person needs to have a background in journalism and public relations, as well as experience in crisis communication. Given the context of the earthquake, this person would likely be involved in managing media relations, ensuring accurate and timely information is disseminated to the public. Therefore, a person with these qualifications and experience would be a suitable choice for the media liaison. "
+        }
+      },
+      {
+        "@id": "Participants/20029/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Evaluate Damage",
+    "time": "2030-01-13 10:00",
+    "description": "Dr. Elena Ramirez, a seasoned structural engineer, arrived at the San Marcos Epicenter at 10AM to assess the extent of the damage caused by the 7.8 magnitude earthquake that struck the city in the early morning. The once vibrant marketplace was now a scene of devastation, with buildings reduced to rubble and debris scattered everywhere.",
+    "participants": [
+      {
+        "@id": "Participants/20005/A0_pag_evaluator",
+        "roleName": "A0_pag_evaluator",
+        "entity": "Entities/20156/",
+        "A0_pag_evaluator": {
+          "name": "Dr. Elena Ramirez",
+          "desc": "Dr. Elena Ramirez is a 42-year-old structural engineer with over 15 years of experience in disaster assessment and response. She holds a PhD in Civil Engineering and has worked on numerous international projects aimed at improving urban resilience to natural disasters."
+        }
+      },
+      {
+        "@id": "Participants/20007/A1_ppt_thing_evaluated",
+        "roleName": "A1_ppt_thing_evaluated",
+        "entity": "Entities/20315/",
+        "A1_ppt_thing_evaluated": {
+          "name": "San Marcos Epicenter",
+          "desc": "The San Marcos Epicenter is the ground zero of the devastating 7.8 magnitude earthquake that struck the city in the early morning. Located in the heart of the city, the epicenter was once a bustling marketplace, now reduced to rubble and debris. The area is densely populated, making the impact of the earthquake even more catastrophic."
+        }
+      },
+      {
+        "@id": "Participants/20009/AM_loc__location",
+        "roleName": "AM_loc__location",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc__location": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Provide Shelter and Aid",
+    "time": "2030-01-13 11:00",
+    "description": "Alejandro Torres, a seasoned humanitarian aid worker, immediately sprung into action following the devastating 7.8 magnitude earthquake that struck the densely populated port city of San Marcos in the early morning hours. Alongside local volunteers like Maria Lopez, a dedicated school teacher, they worked tirelessly to set up emergency shelters and distribute much-needed aid to the thousands of displaced residents.",
+    "participants": [
+      {
+        "@id": "Participants/20017/A0_pag_helper",
+        "roleName": "A0_pag_helper",
+        "entity": "Entities/20261/",
+        "A0_pag_helper": {
+          "name": "Alejandro Torres",
+          "desc": "Alejandro Torres is a 38-year-old humanitarian aid worker with over a decade of experience in disaster relief and emergency response. He is known for his quick thinking and ability to coordinate large-scale relief efforts under pressure. Alejandro is fluent in multiple languages and has worked in various countries, providing aid in the aftermath of natural disasters."
+        }
+      },
+      {
+        "@id": "Participants/20019/A1_ppt_person",
+        "roleName": "A1_ppt_person",
+        "entity": "Entities/20064/",
+        "A1_ppt_person": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20021/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  },
+  {
+    "schemaEvent": "Distribute Relief Supplies",
+    "time": "2030-01-13 14:00",
+    "description": "Alejandro Torres, a seasoned humanitarian aid worker, arrived in the earthquake-stricken city of San Marcos at 2PM, coordinating the distribution of relief supplies to the affected residents. Maria Lopez, a local school teacher, joined him in this effort, helping to ensure that the supplies reached those most in need.",
+    "participants": [
+      {
+        "@id": "Participants/20031/A0_pag_distributor",
+        "roleName": "A0_pag_distributor",
+        "entity": "Entities/20261/",
+        "A0_pag_distributor": {
+          "name": "Alejandro Torres",
+          "desc": "Alejandro Torres is a 38-year-old humanitarian aid worker with over a decade of experience in disaster relief and emergency response. He is known for his quick thinking and ability to coordinate large-scale relief efforts under pressure. Alejandro is fluent in multiple languages and has worked in various countries, providing aid in the aftermath of natural disasters."
+        }
+      },
+      {
+        "@id": "Participants/20033/A2_gol_distributed_to",
+        "roleName": "A2_gol_distributed_to",
+        "entity": "Entities/20064/",
+        "A2_gol_distributed_to": {
+          "name": "Maria Lopez",
+          "desc": "Maria Lopez is a 28-year-old school teacher living in San Marcos. She is known for her compassion and dedication to her students, often going above and beyond to ensure they receive a quality education. Maria is also an avid reader and enjoys volunteering at the local community center."
+        }
+      },
+      {
+        "@id": "Participants/20035/AM_loc",
+        "roleName": "AM_loc",
+        "entity": "Entities/10000/Earthquake WideArea",
+        "AM_loc": {
+          "name": "Port City of San Marcos",
+          "desc": "San Marcos is a bustling port city located on the eastern coast of a developing country. Known for its dense population and vibrant markets, the city is a crucial hub for trade and commerce in the region."
+        }
+      }
+    ]
+  }
+]
