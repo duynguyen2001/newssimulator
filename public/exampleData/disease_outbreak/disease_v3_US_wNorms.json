@@ -1,0 +1,565 @@
+[
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 09:00",
+    "description": "Sarah Thompson attended a New Year's Day church service and a community fundraiser in Brooklyn, adhering to health guidelines and demonstrating her commitment to faith and community. She traveled by subway, reflecting U.S. norms of community engagement and public transportation use.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Transportation Choices**: The reliance on public transportation like the subway is particularly notable in major U.S. cities like New York. This norm is somewhat unique to the U.S. in the context of large urban centers where public transit systems are well-developed and widely used due to practicality and environmental concerns.\n\n2. **Community Engagement and Support**: The specific form of community engagement through church and local community services is somewhat unique to the U.S., where there is a strong culture of organized community involvement and volunteerism, especially within religious communities.\n\n3. **Fundraising Participation**: While fundraising is a global activity, the style and frequency of fundraising events, particularly those associated with religious or community groups, have a distinct flavor in the U.S. This includes the types of events organized and the community-driven approach to philanthropy.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 11:00",
+    "description": "Sarah Thompson was exposed to a contagious disease during a brunch with friends at a Brooklyn caf\u00e9, highlighting the risks of disease spread in densely populated urban settings despite public health efforts.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Utilizing Telehealth Services:**\n   - The use of telehealth has been significantly promoted and expanded in the U.S., particularly in response to healthcare accessibility during the COVID-19 pandemic. This is somewhat unique to the U.S. due to its healthcare system structure and rapid adoption of digital health technologies.\n\n2. **Remote Working/Teaching:**\n   - The shift to remote work and teaching has been notably prevalent in the U.S., driven by the country's strong IT infrastructure and the quick response of educational institutions to switch to online platforms during emergencies like the pandemic.\n\n3. **Adherence to Public Health Communications:**\n   - High compliance with public health directives such as vaccination, mask-wearing, and maintaining hygiene protocols is particularly notable in certain U.S. urban environments. This is influenced by local government policies and the general public\u2019s trust in scientific communities, which can vary significantly from other countries.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 14:00",
+    "description": "While walking in Prospect Park, Sarah Thompson felt early symptoms of an illness from brunch. She used a health app to schedule a telehealth consultation, considering her health goals amid her emerging symptoms.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": "The cultural norms described in the context of Sarah Thompson's situation reflect a mix of universal behaviors and those that are more specific or unique to her geolocation (Brooklyn, New York, USA). Here\u2019s a ranking of these norms from most unique to the culture of the geolocation/country to least unique:\n\n1. **Utilizing Technology for Health Management**: This is highly prevalent in urban areas like Brooklyn, where access to technology and the integration of digital solutions in everyday life are more advanced compared to many other parts of the world. The use of apps for booking medical appointments and telehealth services is particularly notable in the U.S.\n\n2. **Health and Wellness Culture**: While a focus on health and wellness can be found globally, the specific blend of holistic and natural remedies alongside conventional medicine is somewhat unique to urban U.S. settings like Brooklyn. This culture is deeply ingrained and widely promoted in the community.\n\n3. **Seeking Medical Advice Promptly**: The accessibility and promptness in seeking medical advice can be more pronounced in the U.S., especially in well-serviced urban areas like Brooklyn. This is facilitated by the infrastructure and healthcare systems in place, which might not be as readily accessible in other countries.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 16:00",
+    "description": "Sarah Thompson, feeling unwell after a brunch in Brooklyn, called her family to wish them a Happy New Year. As a teacher aware of post-COVID-19 health norms, she decided to consult online health resources and consider telemedicine to protect her health and prevent spreading the illness before returning to her classroom.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Utilizing Technology for Health Advice**: This norm is highly characteristic of urban environments in developed countries like the United States, where there is widespread access to digital technology and healthcare resources. The use of online resources, telemedicine, and other digital health services is particularly prevalent in these areas, reflecting a cultural reliance on technology for convenience and immediate access to information.\n\n2. **Precaution and Responsibility**: The emphasis on personal responsibility and precaution in health matters, especially in the context of contagious diseases, has been heightened in the U.S. following the COVID-19 pandemic. This awareness and the associated behaviors, such as self-isolation and public transparency about one's health status, are particularly pronounced in densely populated urban areas like New York City.\n\n3. **Professional Responsibility**: The specific focus on the responsibilities of teachers and other professionals who work with vulnerable populations (like children) in terms of public health is a significant aspect of American culture, particularly in urban settings. This norm reflects a broader societal expectation in the U.S. that professionals will act with a high degree of caution and awareness regarding public health.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 19:00",
+    "description": "Sarah Thompson, a Brooklyn teacher, struggled with lesson planning due to worsening illness symptoms from a recent brunch. Considering her professional dedication, she planned to switch to remote work and consult a telemedicine service to manage her health while continuing her duties.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Work Ethic and Professionalism**: This is highly emphasized in the U.S., especially in competitive urban environments like New York City. The dedication to maintaining job responsibilities even when facing personal challenges is a strong cultural characteristic in the U.S.\n\n2. **Digital and Remote Work Adaptations**: The U.S. has been at the forefront of integrating digital tools and remote work, especially highlighted during the COVID-19 pandemic. This norm is somewhat unique to the U.S. due to its technological infrastructure and the quick adaptation of its workforce to remote working conditions.\n\n3. **Health and Wellness Awareness**: While not unique to the U.S. alone, the level of awareness and the availability of diverse health and wellness resources are particularly notable in urban U.S. settings. The accessibility of telemedicine and local clinics reflects a health infrastructure that is more developed in the U.S. compared to many other countries.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 21:00",
+    "description": "Feeling unwell from a contagious disease, Sarah Thompson went to bed early, planning to consult a healthcare professional online if her condition worsened. She also prepared to notify her school administration, adhering to U.S. protocols for reporting illness to protect health privacy and safety.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Seeking Medical Advice Online or Via Telehealth Services**: This is highly prevalent in the USA, especially in urban areas with high digital literacy. The convenience and immediate access to healthcare professionals through technology is a significant aspect of healthcare behavior in the USA, which might be less common in countries with less developed digital infrastructure or different healthcare systems.\n\n2. **Communication with Employers**: The protocol of informing employers about health status, especially in the context of contagious illnesses, is quite structured in the USA. This includes specific legal and health privacy protections (like HIPAA) that might not be as stringent or observed in other countries.\n\n3. **Adherence to Public Health Guidelines**: While public health adherence is a global concern, the specific guidelines and the emphasis on mask-wearing, social distancing, and other preventive measures have been heavily highlighted in the USA during health crises like the COVID-19 pandemic. The response and adherence level can vary significantly from one country to another.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "Upon waking in her Brooklyn apartment with worsened fever and cough, Sarah Thompson scheduled a telehealth consultation and notified her school's administration to adhere to local health guidelines and maintain workplace safety.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Use of Telehealth Services**: This is highly unique to the U.S., especially in urban settings. The rapid adoption and integration of telehealth services have been significantly driven by the healthcare system's structure in the U.S., which emphasizes convenience, innovation, and accessibility. This is less prevalent or adopted differently in many other countries, especially those with different healthcare systems.\n\n2. **Communication with Employer**: The norm of promptly communicating one's health status to the employer, especially in educational settings, is quite pronounced in the U.S. This reflects the country's strong regulatory frameworks around public health and workplace safety, which might not be as stringent or emphasized in other cultures.\n\n3. **Self-Isolation Practices**: While self-isolation has become a global practice due to the COVID-19 pandemic, the strict adherence to this practice in a densely populated city like New York reflects both the local government policies and the community's collective response to public health crises. This level of community adherence can vary significantly in other countries based on local norms and government policies.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 09:00",
+    "description": "Sarah Thompson, a Brooklyn teacher, used a telehealth service to discuss her symptoms and concerns about a highly infectious disease's airborne transmission, highlighting the rise of digital healthcare in urban U.S. areas amid public health challenges.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Preference for Telehealth Services**: This is highly emphasized in the U.S., especially in urban areas where technology access and integration into daily life are high. The U.S. has seen a significant rise in the adoption of telehealth, accelerated by the COVID-19 pandemic, making this norm quite specific to the technological and healthcare infrastructure prevalent in the country.\n\n2. **Utilization of Available Resources**: The awareness and utilization of healthcare options, including insurance coverage for telehealth, is a norm that might be more pronounced in the U.S. due to the complex nature of its healthcare system. People in the U.S. are often required to be well-informed about their healthcare options to navigate this system effectively.\n\n3. **Privacy and Confidentiality Concerns**: While privacy concerns are global, the specific emphasis on confidentiality in the context of a professional role (like teaching) can be particularly acute in the U.S. This is due to stringent regulations and societal expectations around privacy, especially concerning health information (e.g., HIPAA regulations).\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "After experiencing symptoms of a contagious illness, Sarah Thompson alerted her friends from a recent Brooklyn brunch via a group message. She described her symptoms, urged them to monitor their health, consult the NYC Health website, and practice strict social distancing to prevent community spread.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Use of Public Health Resources**: The specific reference to local public health resources like the NYC Health website is unique to New York City. The availability and reliance on such localized resources are more pronounced in urban U.S. settings, where public health infrastructure is typically more robust and actively promoted.\n\n2. **Communication via Technology**: While modern communication tools are used globally, the extent and manner of usage can be somewhat unique in urban U.S. settings like Brooklyn. The integration of technology in daily life for communication is highly developed in the U.S., making this norm particularly relevant here.\n\n3. **Social Distancing Practices**: The concept of social distancing became globally recognized during the COVID-19 pandemic, but the specific practices and adherence can vary significantly by location. In densely populated urban areas like Brooklyn, the practice and public adherence to social distancing can be more stringent and culturally ingrained due to the high risk of disease spread.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 11:00",
+    "description": "Sarah Thompson, a diligent Brooklyn educator, notified her school's administration about her health issues and considered transitioning to remote teaching. This decision reflects urban U.S. norms of flexible work arrangements, technology use, and public health commitment, ensuring the safety of her students and colleagues in New York City.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Adaptability and Flexibility in Work Arrangements**: This norm is highly unique to developed, technologically advanced countries like the United States, especially in response to recent global events such as the COVID-19 pandemic. The rapid shift towards remote work and the flexibility in work arrangements are more pronounced in U.S. cities, where the infrastructure supports such transitions.\n\n2. **Utilization of Technology and Resources**: The emphasis on leveraging technology for efficiency and continuity in professional roles is particularly strong in the U.S., where access to and reliance on technological solutions are widespread. This norm is less prevalent in countries with limited technological infrastructure or where traditional work models dominate.\n\n3. **Health Consciousness and Public Safety**: While health consciousness is a global concern, the specific ways it manifests in densely populated U.S. cities like New York\u2014such as the heightened awareness and public safety measures following the pandemic\u2014are somewhat unique. The proactive public health measures and individual responsibility emphasized in the U.S. can be contrasted with different approaches in other cultures.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "Sarah Thompson, an educator from Brooklyn, recently spoke at a virtual community meeting about the recent outbreak, using her own experience to emphasize the importance of following public health guidelines. She stressed the importance of social distancing, hygiene, and timely medical consultations, especially in densely populated areas like Brooklyn, to prevent disease spread, aligning her message with her commitment to her community and Christian values.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": "The cultural norms described in the context of Sarah Thompson's engagement in a virtual meeting about public health measures in Brooklyn, New York, reflect a blend of values that are both specific to her geolocation and some that are more universally applicable in various urban and educated settings. Here\u2019s a ranking and analysis of these norms from most unique to the culture of the geolocation/country to those that are more universally found:\n\n1. **Digital Engagement**: This is highly characteristic of urban areas in developed countries like the United States, particularly in technologically advanced cities like New York. The widespread access to and reliance on digital technology for communication, especially in the context of a public health crisis, is a distinct feature of such locales.\n\n2. **Individual Responsibility Towards Public Health**: While personal responsibility in health matters is a global concept, the specific emphasis on practices like social distancing and hygiene in the context of densely populated urban areas like Brooklyn is more acutely relevant and practiced in response to the immediate impacts these areas experience during health crises.\n\n3. **Secular and Religious Community Support**: The dual support system, involving both secular and religious communities, is somewhat unique to the U.S. context, where there is a strong tradition of community organization and mobilization around both secular and religious lines. This is particularly notable in diverse urban environments like New York City.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 13:00",
+    "description": "After her telehealth consultation, Sarah Thompson is resting at home in Brooklyn, taking prescribed medication and monitoring symptoms. Living in a densely populated area, she strictly follows health guidelines to prevent spreading the disease in her community and on the subway.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": "The cultural norms and behaviors described in the context of Sarah Thompson in Brooklyn, New York, reflect a mix of both universal and geographically unique elements. Here\u2019s a ranking of these norms from most unique to the culture of the geolocation/country to least unique:\n\n1. **Reliance on Public Transportation**: This is particularly unique to urban areas like Brooklyn, where the density and infrastructure promote heavy use of public transportation systems. The shift in behavior during health crises, such as avoiding these systems to reduce disease transmission, is more pronounced in such urban settings compared to rural areas where personal vehicles are more commonly used.\n\n2. **Utilization of Telehealth Services**: While telehealth is growing globally, its high adoption rate in urban areas like Brooklyn is somewhat unique to the U.S. and similar developed countries where technological infrastructure supports widespread access to such services. This norm is also influenced by the healthcare policies and systems prevalent in the U.S.\n\n3. **Community Awareness and Responsibility**: The heightened sense of community responsibility in urban settings like Brooklyn can be somewhat unique due to the close quarters in which people live. This awareness is crucial in managing the spread of contagious diseases in densely populated areas.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 18:00",
+    "description": "Sarah Thompson, a Brooklyn educator, used a video call to update her family on her health and stressed the importance of regular screenings, reinforcing their collective responsibility for well-being.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Use of Technology for Connectivity**: This norm is highly prevalent in the United States, especially in technologically advanced urban areas like New York City. The widespread adoption of digital communication platforms across various demographics makes this a unique and significant aspect of American urban culture.\n\n2. **Emphasis on Family and Collective Responsibility**: While the importance of family is a global value, the specific emphasis on collective responsibility and proactive health discussions within families has a particular resonance in American culture. This is often influenced by the country's focus on individual initiative coupled with a community-oriented approach in middle-class settings.\n\n3. **Open Communication and Health Awareness**: The open discussion of health and wellness issues is particularly pronounced in the U.S., where there is a strong culture of preventive healthcare and wellness advocacy. This norm is especially evident in educated urban populations, making it somewhat unique to the cultural context of cities like New York.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 08:00",
+    "description": "Brooklyn educator Sarah Thompson took her prescribed medication, tracked it with a health app, and prepared an immune-boosting breakfast, reflecting New York City's health practices.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Telemedicine and Health Apps**: The use of telemedicine services and health-related apps is particularly prominent in urban areas like New York City, where the pace of life and technological integration into daily routines are high. This norm is quite unique to developed urban centers in the U.S., where access to technology and healthcare innovation is readily available.\n\n2. **Public Health Adherence**: The heightened awareness and adherence to public health guidelines can be particularly noted in New York City, especially following significant impacts from events like the COVID-19 pandemic. This norm, while applicable globally during health crises, is especially pronounced in New York due to its dense population and the severe impact of recent pandemics.\n\n3. **Health Consciousness**: While health consciousness is a global phenomenon, the specific trends such as the preference for immune-boosting foods, whole grains, and plant-based proteins are notably popular in urban American settings like Brooklyn. This reflects both global and local influences but is tailored distinctly in places like New York City.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 09:00",
+    "description": "Sarah Thompson, a dedicated Brooklyn-based educator, developed remote lesson plans emphasizing public health guidelines and hygiene practices. She aimed to educate her diverse student body on preventing water and body fluid transmission, aligning with Brooklyn's focus on health and inclusivity. This ensures all students are informed and protected against health challenges.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": "The cultural norms described in the context of Sarah Thompson's life and work in Brooklyn, New York, reflect a blend of local and broader American values. Here\u2019s a ranking of these norms based on their uniqueness to the culture of the geolocation (Brooklyn, New York) or the country (USA), starting with those most unique to the local area:\n\n1. **Diversity and Inclusivity**: This is highly unique to Brooklyn, given its exceptionally diverse population. The emphasis on inclusivity in education is particularly pronounced in such a multicultural setting, where sensitivity to different cultural, religious, and personal backgrounds is crucial.\n\n2. **Community Engagement and Responsibility**: While this is a value found in many places, the specific expression of community engagement and collective responsibility in urban areas like Brooklyn, especially in response to public health crises, is quite distinctive. The local response to events like the COVID-19 pandemic highlights this norm.\n\n3. **Health Consciousness and Preventive Practices**: This norm is somewhat unique to New York City, particularly after its experiences with significant health crises such as the COVID-19 pandemic. The heightened awareness and adherence to health guidelines can be seen as more pronounced here than in many other parts of the country.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 10:00",
+    "description": "Sarah Thompson, an educator from Brooklyn, recently participated in a virtual community meeting focused on the health crisis. Drawing from her own experience with the illness and her educational background, she stressed the importance of personal responsibility in public health. She shared her symptom management strategies and highlighted the need for strict hygiene and social distancing in urban areas like Brooklyn. Her goal was to enhance community compliance with health expert guidelines, demonstrating a strong trust in science within her community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": "The cultural norms described for Sarah Thompson, while influenced by her specific circumstances and background, are not entirely unique to her geolocation (Brooklyn, New York, USA) or country (USA). However, some norms may be more pronounced or emphasized in her context compared to other regions or countries. Here\u2019s a ranking based on their relative uniqueness to the culture of the USA, particularly in an urban, educated, and middle-class setting:\n\n1. **Digital Literacy and Connectivity**: This norm is highly relevant in urban areas of the USA like Brooklyn, where the use of digital tools and platforms is widespread and integral to daily life. While digital literacy is increasing globally, the extent and manner of technology integration in daily activities, including education and community engagement, can be somewhat unique to urban American settings.\n\n2. **Social Solidarity and Individual Responsibility**: The emphasis on individual responsibility towards collective health is strong in the USA, particularly in response to public health crises. This norm reflects a blend of individualism and community care that is characteristic of American societal values, especially in densely populated urban areas.\n\n3. **Trust in Science and Education**: While trust in science and education is a global phenomenon, the specific ways in which educated individuals in the USA, like Sarah, engage with and promote scientific understanding can be distinct. This includes a strong reliance on expert advice and adherence to guidelines from health authorities, which is notable in the American educational and health discourse.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 12:00",
+    "description": "During a virtual meeting, Sarah Thompson and her colleagues discussed the challenges of airborne disease transmission in schools, focusing on the need for proactive measures to protect students and staff in Brooklyn. They explored implementing advanced hygiene protocols, regular health screenings, and strategic use of personal protective equipment, emphasizing a data-driven approach based on CDC and WHO guidelines. The team highlighted the importance of community responsibility and efficient, cost-effective solutions to maintain public health in urban educational settings.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": "The cultural norms and behaviors listed in the context of Sarah Thompson's meeting about airborne disease prevention in a Brooklyn school reflect a blend of local and universal values. Here\u2019s a ranking of these norms from those most unique to the geolocation/country (United States, specifically New York City) to those that are more universally applicable:\n\n1. **High Value on Education and Information**: This is particularly strong in the U.S., where access to higher education and a respect for academic credentials are highly valued. The emphasis on evidence-based approaches and referencing reputable sources like the CDC or WHO is also more pronounced in American settings, especially in urban and academic environments.\n\n2. **Adaptability and Innovation**: New York City is renowned for its fast-paced, innovative culture. This norm is somewhat unique to the geolocation as the city often leads in adopting new technologies and methodologies, particularly in education and health sectors.\n\n3. **Practical and Pragmatic Approaches**: While practicality is a universal value, the specific emphasis on cost-effective and efficient solutions in densely populated urban areas like Brooklyn can be somewhat unique. This reflects both the economic diversity and the logistical challenges of living in such an environment.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 13:00",
+    "description": "Brooklyn educator Sarah Thompson blogged about her experience with a waterborne disease, emphasizing hygiene and prevention, and used social media to educate her community on public health.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Trust in Science and Institutional Guidance**: This norm is particularly strong in the United States, where there is generally high regard for scientific research and public health advisories. The reliance on institutions like the CDC for guidance during health crises is a notable aspect of American culture, especially in educated urban populations.\n\n2. **Utilization of Technology and Social Media**: The widespread use of digital tools for communication and information dissemination is a significant part of modern American life, especially in urban areas like Brooklyn. This includes the use of social media to advocate for community health initiatives and to spread awareness, which is less prevalent in many other countries, especially those with lower technological penetration.\n\n3. **Community Engagement and Responsibility**: While community engagement is not unique to the United States, the specific forms it takes in urban American settings\u2014such as church involvement in social issues and the organization of local events for public health awareness\u2014can be distinct. The blend of religious community involvement with civic responsibility is a notable feature in many parts of the U.S.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 15:00",
+    "description": "Sarah Thompson, a Brooklyn educator, is actively managing her health by resting and closely tracking symptoms using digital tools. She records all changes to review with her healthcare provider, ensuring she stays informed and effective in her community role.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Use of Technology**: The widespread adoption and integration of technology in everyday life, especially for health management, is highly characteristic of the U.S., particularly in technologically advanced urban areas like New York City. This includes the use of apps to track health, online scheduling of medical appointments, and the use of telehealth services.\n\n2. **Value on Education and Information**: The emphasis on education and informed decision-making is a strong cultural norm in the U.S., particularly among those with higher education like Sarah. This norm is evident in the proactive approach to health care, where educated individuals leverage their knowledge and resources to manage their health effectively.\n\n3. **Regular Healthcare Utilization**: Regular access to healthcare and the maintenance of an ongoing relationship with a trusted healthcare provider are more feasible in the U.S. due to the structure of healthcare systems and insurance coverage, although this can vary widely by individual insurance plans and economic status.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-03 19:00",
+    "description": "Sarah Thompson from Brooklyn used a video call to update her family on her health, emphasizing the importance of sanitizing surfaces and not sharing utensils to prevent vehicleborne transmission in NYC.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Use of Technology for Communication**: This norm is highly characteristic of urban areas in the United States, particularly in a technologically advanced city like New York. The integration of technology in daily life for communication, especially in managing long-distance family relationships, is a significant aspect of American urban culture. This is less about being unique and more about being highly representative of the culture.\n\n2. **Health Consciousness**: While health consciousness is a global phenomenon, the specific ways it manifests in urban settings like Brooklyn\u2014where there is high access to medical facilities and health information\u2014can be somewhat unique to the U.S. urban context. The proactive approach to health and wellness, including the readiness to adopt new health guidelines and discuss these openly, is a strong cultural norm in American cities.\n\n3. **Community and Collective Responsibility**: The emphasis on community and collective responsibility in urban settings can be seen in various parts of the world, but the way it is practiced in densely populated U.S. cities like New York has unique elements, particularly in the context of public health and safety. This norm reflects a blend of individualism and community care that is quite characteristic of American urban life.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 08:00",
+    "description": "Sarah Thompson, a Brooklyn educator, attended a virtual church service to avoid spreading a recent waterborne illness, demonstrating NYC's commitment to public health and safety through technology.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Use of Technology for Community Engagement**: This is highly prevalent in the U.S., especially in technologically advanced urban areas like New York City. The integration of technology in daily life for maintaining community and religious connections is more advanced in the U.S. compared to many other countries, making this norm quite unique to the geolocation.\n\n2. **Adaptability and Flexibility**: The fast-paced, ever-changing environment of New York City demands a high level of adaptability and flexibility, particularly in response to crises like public health emergencies. This norm is somewhat unique to large metropolitan areas in the U.S., which are often at the forefront of rapid changes in work, education, and social norms.\n\n3. **Prioritization of Public Health and Safety**: While public health is a global concern, the specific ways in which cities like New York prioritize and manage public health can be unique. The proactive stance on health advisories and the community's quick response to shifting to safer practices (like virtual events during pandemics) highlight a localized approach that might not be as pronounced or effective in other countries.\n"
+    }
+  },
+  {
+    "schemaEvent": "Symptoms",
+    "time": "2030-01-04 10:00",
+    "description": "Sarah Thompson, a dedicated Brooklyn educator, struggled to prepare lesson plans for the upcoming week as her symptoms from a Norovirus infection worsened, making it increasingly difficult for her to concentrate.",
+    "participants": {
+      "A1_ppt_sick/ill_one": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "A2_cau_cause_or_disease": {
+        "name": "Norovirus",
+        "type": "pathogen",
+        "description": "Norovirus is a highly contagious virus that causes gastroenteritis, leading to symptoms such as vomiting, diarrhea, and stomach cramps. It is known for its rapid spread in crowded environments and is often associated with outbreaks in places like schools, cruise ships, and urban areas.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10006/",
+            "name": "pathogen, causer of disease"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Midtown Manhattan",
+        "type": "location",
+        "description": "Midtown Manhattan is a bustling commercial and residential area in New York City, known for its skyscrapers, theaters, and shopping districts. It is one of the most densely populated areas in the city, with a constant influx of tourists, office workers, and residents.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10010/",
+            "name": "location of disease outbreak"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 11:00",
+    "description": "Sarah Thompson, a Brooklyn educator, began experiencing severe symptoms like fever and fatigue. Prioritizing the health of her students and colleagues, she took sick leave, adhering to her school's policies. Using a health app and telehealth consultations, Sarah is responsibly managing her symptoms in line with U.S. public health guidelines.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Use of Technology for Health Management**: The widespread adoption and integration of technology in everyday life, including health management, is particularly pronounced in the U.S., especially in urban areas like New York City. The use of apps for tracking symptoms, telehealth services, and online scheduling are advanced and widely accepted, which might not be as prevalent or integrated in other countries, especially developing ones.\n\n2. **Workplace Policies**: The specific policies regarding sick leave and the emphasis on not exposing others to illness in the workplace, particularly in schools, are well-defined and strictly enforced in the U.S. This level of regulation and the availability of sick leave can be quite different in other countries, where there might be less protection for workers and less emphasis on public health in the workplace.\n\n3. **Public Health Adherence**: The conscientious adherence to public health guidelines to prevent the spread of illness reflects a high level of public health infrastructure and civic responsibility that is characteristic of the U.S. This includes practices like self-isolating when sick, which are strongly promoted by health authorities in the U.S.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 13:00",
+    "description": "Sarah Thompson, a Brooklyn educator, is at home using digital health tools and telehealth consultations to monitor her symptoms and follow updates from health authorities, helping to combat the local waterborne illness outbreak.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Reliance on Local Health Resources and Updates**: This norm is particularly unique to the culture of New York City due to the city's dense population and the proactive approach of local health departments in managing public health. New York City is known for its robust public health infrastructure and frequent communications during health crises, which is somewhat unique compared to other locations, even within the United States.\n\n2. **Preference for Telehealth Services**: While telehealth has become more common globally, its rapid adoption and integration into daily life are particularly notable in urban areas like Brooklyn. The infrastructure and the population\u2019s openness to technology make this more specific to New York City, especially in the context of avoiding crowded places like clinics during health outbreaks.\n\n3. **Utilization of Digital Health Tools**: The high access to technology and the widespread use of digital health tools are more pronounced in urban settings like Brooklyn. While not unique to Brooklyn or even the U.S., the extent of integration of these tools in daily life is more characteristic of urban American settings.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 14:00",
+    "description": "Sarah Thompson, an educator from Brooklyn, participated in a virtual meeting about a local waterborne illness outbreak. She emphasized the importance of community vigilance and digital health tools in managing the disease, reflecting New York City's commitment to innovative public health solutions.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": "The cultural norms and behaviors described in the context of Sarah Thompson's engagement in a virtual community meeting during a public health crisis reflect a blend of universal and geographically unique elements. Here\u2019s a ranking of these norms from most unique to least unique to the culture of the geolocation (Brooklyn, New York, USA):\n\n1. **Advocacy and Activism**: This is highly characteristic of New York City, where residents are known for their strong advocacy and vocal activism. The city's history of social movements and its diverse population contribute to a culture where civic engagement and demanding accountability from local authorities are common and encouraged.\n\n2. **Use of Technology**: While technology use is widespread globally, the extent and manner in which it is integrated into daily life and crisis management are particularly notable in New York City. The city's status as a technological hub, combined with its dense population, makes digital tools essential for communication, health management, and community organization.\n\n3. **Community Engagement and Responsibility**: The strong sense of community involvement in urban areas like Brooklyn is somewhat unique, especially in the context of the United States. This norm reflects the necessity of tight-knit community networks that are crucial in densely populated areas where individuals rely heavily on local support and information.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 15:00",
+    "description": "Brooklyn educator Sarah Thompson recently wrote a blog post about public health, using her experience with Norovirus to emphasize early detection, self-isolation, and following CDC guidelines. She discusses the use of digital health tools and the role of the NYC community in preventing virus spread, aiming to educate and engage her readers.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Trust in Professional and Governmental Advice**: This norm is somewhat unique to the culture in the United States, especially among educated demographics. There is a strong emphasis on following guidelines issued by recognized authorities such as the CDC and local health departments. This trust and adherence might be less pronounced in countries with lower trust in government institutions.\n\n2. **Use of Digital and Social Media**: While the use of digital and social media is global, the specific ways it is utilized for health information and community engagement can be somewhat unique in the U.S. The integration of technology in everyday life for health updates, news, and community interaction is particularly notable in urban American settings.\n\n3. **Value on Education and Self-Improvement**: The high value placed on education and continuous self-improvement, particularly in the context of health, is a significant aspect of American culture, especially among those with higher educational attainment like Sarah. This norm is emphasized more in the U.S. compared to some cultures where traditional knowledge or community wisdom might dominate.\n"
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-04 18:00",
+    "description": "Sarah Thompson, an educator from Brooklyn, used a video call to update her family on her health, discuss Norovirus prevention, and share her symptoms. She stressed the importance of following scientific health practices to raise awareness and promote proactive measures in her community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Sarah Thompson",
+        "type": "person",
+        "description": "Sarah Thompson is single and lives in a one-bedroom apartment in Brooklyn. She holds a Master's degree in Education from New York University. Originally from upstate New York, she moved to the city ten years ago. Economically, she is middle-class, managing her finances carefully due to her teacher's salary. Sarah commutes to her school via subway. She is a practicing Christian and attends church services regularly.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "infected person"
+          }
+        ]
+      },
+      "norms": ":\n\n1. **Trust in Science and Medical Advice**: This norm is highly emphasized in the U.S., especially among the educated middle class. There is a strong reliance on scientific research and medical expertise, which is a significant cultural trait in American society compared to some other cultures where traditional or alternative medicine might be equally or more trusted.\n\n2. **Use of Technology for Communication**: The widespread adoption and use of technology for personal communication, including video calls, is particularly notable in the U.S. While technology use is global, the integration of technology into everyday life for a range of activities, including health discussions, is quite pronounced in the U.S.\n\n3. **Proactive Health Management**: This is a significant cultural norm in the U.S., where there is a strong focus on individual health management and preventive care. This proactive approach is less emphasized in some cultures where there might be more reliance on reactive or familial/community-based health interventions.\n"
+    }
+  }
+]
