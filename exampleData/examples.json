@@ -1,97 +1,61 @@
 [
     {
-        "name": "Earthquake",
-        "schema": "/newssimulator/exampleData/earthquakes/earthquake_schema.json",
-        "crtics": [
-            {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v1_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v1.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v2_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v2.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v3_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v3.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v4_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v4.json"
-            }
-        ]
-    },
-    {
-        "name": "Disease Outbreak",
+        "name": "Disease Outbreak with Cultural Norms (Indonesia)",
         "schema": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_schema.json",
         "crtics": [
             {
                 "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1.json"
+                "news": "/newssimulator/exampleData/disease_outbreak/disease_v1_Indonesia_wNorms.json",
+                "subcategory": "Indonesia",
+                "version": "v1"
             },
             {
                 "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5.json"
+                "news": "/newssimulator/exampleData/disease_outbreak/disease_v2_Indonesia_wNorms.json",
+                "subcategory": "Indonesia",
+                "version": "v2"
             }
         ]
     },
     {
-        "name": "Disease Outbreak Reactions",
+        "name": "Disease Outbreak with Cultural Norms (US)",
         "schema": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_schema.json",
         "crtics": [
             {
                 "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_reaction.json"
+                "news": "/newssimulator/exampleData/disease_outbreak/disease_v1_US_wNorms.json",
+                "subcategory": "US",
+                "version": "v1"
             },
             {
                 "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2_reaction.json"
+                "news": "/newssimulator/exampleData/disease_outbreak/disease_v2_US_wNorms.json",
+                "subcategory": "US",
+                "version": "v2"
             },
             {
                 "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3_reaction.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v4_reaction.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5_assumption.json",
-                "news": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v5_reaction.json"
+                "news": "/newssimulator/exampleData/disease_outbreak/disease_v3_US_wNorms.json",
+                "subcategory": "US",
+                "version": "v3"
             }
         ]
     },
     {
-        "name": "Earthquake Reactions",
-        "schema": "/newssimulator/exampleData/earthquakes/earthquake_schema.json",
+        "name": "Disease Outbreak with Cultural Norms (China)",
+        "schema": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_schema.json",
         "crtics": [
             {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v1_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v1_reaction.json"
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v2_assumption.json",
+                "news": "/newssimulator/exampleData/disease_outbreak/disease_v2_US_wNorms.json",
+                "subcategory": "China",
+                "version": "v2"
             },
             {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v2_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v2_reaction.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v3_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v3_reaction.json"
-            },
-            {
-                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v4_assumption.json",
-                "news": "/newssimulator/exampleData/earthquakes/earthquake_v4_reaction.json"
+                "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v3_assumption.json",
+                "news": "/newssimulator/exampleData/disease_outbreak/disease_v3_US_wNorms.json",
+                "subcategory": "US",
+                "version": "v3"
             }
         ]
     }
