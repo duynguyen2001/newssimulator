@@ -18,7 +18,6 @@ export const TA1EntityInfoPanel = ({ data, onClose }) => {
         mapEntities.get(data.id).set(field, value);
         setTimeFrame(Date.now());
     };
-    console.log("rendering TA1EntityInfoPanel", data);
 
     if (data.populatedData === undefined || data.populatedData === null) {
         return (

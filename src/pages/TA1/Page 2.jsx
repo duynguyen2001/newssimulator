@@ -155,6 +155,7 @@ const TimelinePage = () => {
     // }, [chosenNews]);
     useEffect(() => {
         console.log("News", News);
+        
         const temp = [];
         const uniqueDate = [];
         News &&
@@ -182,6 +183,7 @@ const TimelinePage = () => {
             return a.date - b.date;
         });
         setListDate(uniqueDate);
+        console.log("temp", temp);
         setTimelineNews(temp);
     }, [News]);
     return (

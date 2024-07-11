@@ -37,6 +37,7 @@ import useStoreTA1 from "../../TA1/storeTA1";
 import { UniqueString } from "../../utils/TypeScriptUtils";
 import "./Menu.css";
 import { set } from "idb-keyval";
+import Markdown from "react-markdown";
 // console.log(mock);
 
 function Menu() {
@@ -239,6 +240,8 @@ function ExamplesPanel({
                                             .then((res) => {
                                                 setJsonData(res);
                                             });
+                                        
+                                        console.log("schema", critic.news);
                                         fetch(critic.news)
                                             .then((res) => {
                                                 return res.json();
@@ -246,6 +249,17 @@ function ExamplesPanel({
                                             .then((res) => {
                                                 const clearedNews = res.map(
                                                     (item) => {
+                                                        const norms = item.participants.norms;
+                                                        if (norms && norms.length > 0) {
+                                                            let newParticipants = item.participants
+                                                            delete newParticipants.norms;
+                                                            return {
+                                                                ...item,
+                                                                id: uuidv4(),
+                                                                norms: norms,
+                                                                participants: newParticipants,
+                                                            };
+                                                        }
                                                         return {
                                                             ...item,
                                                             id: uuidv4(),

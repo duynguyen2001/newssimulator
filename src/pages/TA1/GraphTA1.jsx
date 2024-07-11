@@ -84,10 +84,6 @@ export const GraphTA1 = () => {
 
     const [grouping, setGrouping] = useState(false);
     const [addInPanel, setAddInPanel] = useState(false);
-    // useEffect(() => {
-    //     console.log("deltaX, deltaY", deltaX, deltaY);
-    //     setCenter(getViewPort().x + deltaX, getViewPort().y + deltaY);
-    // }, [deltaX, deltaY]);
     // denote the color of the node in the minimap
     const nodeColor = (node) => node.data.color;
 
@@ -150,7 +146,9 @@ export const GraphTA1 = () => {
                     <>
                         <InfoPanel
                             data={
-                                clickedNode.data.isEntity
+                                !clickedNode.data
+                                    ? clickedNode
+                                    : clickedNode.data.isEntity
                                     ? mapEntities.get(
                                           clickedNode.id.split("-")[0]
                                       )
@@ -164,6 +162,7 @@ export const GraphTA1 = () => {
                         />
                     </>
                 )}
+
                 {contextMenu && (
                     <NodeToolbar
                         nodeId={contextMenu.id}
@@ -253,7 +252,6 @@ export const GraphTA1 = () => {
                                     },
                                     selectionNodes[0].parentNode
                                 );
-                                console.log("parentId", parentId);
                                 setClickedNode(selectionNodes[0]);
                                 setGrouping(true);
                                 setShowAddPanel(

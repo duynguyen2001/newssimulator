@@ -28,11 +28,13 @@ import {
     Button,
 } from "@mui/material";
 import { set } from "idb-keyval";
+import Markdown from "react-markdown";
+import { TA1Entity, TA1EntityStrategy } from "../../components/TA1/LibraryTA1";
 
 const Page = () => {
     const [selectedTab, setSelectedTab] = React.useState("Timeline");
     const [clickedNode] = useStoreTA1((state) => [state.clickedNode]);
-    // console.log("clickedNode", clickedNode);
+    console.log("clickedNode", clickedNode);
     return (
         <div
             style={{
@@ -172,6 +174,64 @@ const CircleSmall = ({ active }) => {
         />
     );
 };
+type Replacement = {
+    [key: string]: TA1Entity,
+};
+const replaceWordsWithHyperlinks = (input: string, replacementKeys) => {
+    // Create a regular expression to match any of the keys in the replacements object
+    const regex = new RegExp(
+        `\\b(${Object.keys(replacementKeys).join("|")})\\b`,
+        "g"
+    );
+
+    const result = input.replace(regex, (match) => {
+        return `<a href="#" data-replacement-text="${match}")">${match}</a>`;
+    });
+    return result;
+};
+
+const TextWithReplacements: React.FC<Props> = ({
+    text,
+    replacementsDict,
+    onLinkClick,
+}) => {
+    const replacements = {};
+    for (const key in replacementsDict) {
+        replacements[replacementsDict[key].name] = new TA1Entity(
+            replacementsDict[key].instanceOf[0].id,
+            replacementsDict[key].instanceOf[0].name
+        );
+        replacements[replacementsDict[key].name].populatedData = replacementsDict[key];
+    }
+    console.log("replacements", replacements);
+    // Add event listener to window to handle link clicks
+    const handleClick = (event: MouseEvent) => {
+       const target = event.target;
+       if (target.tagName === "A") {
+           event.preventDefault();
+           const replacementText = target.getAttribute("data-replacement-text");
+
+           if (replacementText) {
+               const replacementObj = replacements[replacementText];
+               console.log("replacementObj", replacementObj);
+               console.log("replacementText", replacementText);
+                // Call the onLinkClick function with the replacement object
+               onLinkClick(replacementObj);
+           }
+       }
+   };
+
+    const modifiedText = replaceWordsWithHyperlinks(text, replacements);
+    console.log("modifiedText", modifiedText);
+
+    return (
+        <div
+            onClick={handleClick}
+            dangerouslySetInnerHTML={{ __html: modifiedText }}
+        />
+    );
+};
+
 const TimelinePage = () => {
     const [News, setNews] = useContext(NewsContext);
     const [TimelineNews, setTimelineNews] = useState([]);
@@ -186,46 +246,50 @@ const TimelinePage = () => {
         color: "black",
     };
     const [chosenIndex, setChosenIndex] = useState(-1);
-    // useEffect(() => {
-    //     const selectedNew = News.find(
-    //         (article) => article.id === chosenNews.id
-    //     );
-    //     setSelectedNew(selectedNew);
-    // }, [chosenNews]);
+    const [clickedNode, setClickedNode] = useStoreTA1((state) => [
+        state.clickedNode,
+        state.setClickedNode,
+    ]);
+    useEffect(() => {
+        console.log("chosenNews", chosenNews);
+        console.log("News", News);
+    }, [chosenNews]);
     useEffect(() => {
         const temp = [];
         const uniqueDate = [];
         let chosenListNews = [];
-        if (News.length > 0 && filteredNews.length === 0) 
-            {chosenListNews = News;}
-        else if (filteredNews.length > 0)
-            {chosenListNews = filteredNews;}
-            chosenListNews.map((article) => {
-                const date = new Date(article.time);
-                const dateString = date.toLocaleString("default", {
-                    month: "long",
-                    day: "numeric",
-                    year: "numeric",
-                });
-                if (!uniqueDate.includes(dateString)) {
-                    uniqueDate.push(dateString);
-                }
-                temp.push({
-                    ...article,
-                    date: date,
-                    year: date.getDate(),
-                    month: date.getMonth(),
-                    day: date.getDay(),
-                    hour: date.getHours(),
-                    minute: date.getMinutes(),
-                });
-            })
+        if (News.length > 0 && filteredNews.length === 0) {
+            chosenListNews = News;
+        } else if (filteredNews.length > 0) {
+            chosenListNews = filteredNews;
+        }
+        chosenListNews.map((article) => {
+            const date = new Date(article.time);
+            const dateString = date.toLocaleString("default", {
+                month: "long",
+                day: "numeric",
+                year: "numeric",
+            });
+            if (!uniqueDate.includes(dateString)) {
+                uniqueDate.push(dateString);
+            }
+            temp.push({
+                ...article,
+                date: date,
+                year: date.getDate(),
+                month: date.getMonth(),
+                day: date.getDay(),
+                hour: date.getHours(),
+                minute: date.getMinutes(),
+            });
+        });
         temp.sort((a, b) => {
             return a.date - b.date;
         });
         setListDate(uniqueDate);
         setTimelineNews(temp);
     }, [News, filteredNews]);
+
     return (
         <>
             <div
@@ -404,9 +468,24 @@ const TimelinePage = () => {
                                 {chosenNews.schemaEvent}
                             </Typography>
                             <Typography>{chosenNews.time}</Typography>
-                            <ReactMarkdown>
-                                {chosenNews.description}
-                            </ReactMarkdown>
+                                <TextWithReplacements
+                                    text={chosenNews.description}
+                                    replacementsDict={chosenNews.participants}
+                                    onLinkClick={setClickedNode}
+                                />
+                            {chosenNews.norms && (
+                                <details open={false}>
+                                    <summary
+                                        style={{
+                                            fontWeight: "bold",
+                                            cursor: "pointer",
+                                        }}
+                                    >
+                                        Cutural Norms
+                                    </summary>
+                                    <Markdown>{chosenNews.norms}</Markdown>
+                                </details>
+                            )}
                         </div>
                     )}
                 </div>

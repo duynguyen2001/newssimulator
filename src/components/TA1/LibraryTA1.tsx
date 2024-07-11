@@ -21,6 +21,7 @@ export type New = {
     description: string;
     time: string;
     participants: TA1Participant[];
+    norms?: string;
 };
 
 export abstract class TA1NodeRenderingStrategy {
@@ -309,12 +310,14 @@ export class TA1Entity {
     constructor(
         id: string,
         name: string,
+        description: string = undefined!,
         wd_node: string[] = undefined!,
         wd_label: string[] = undefined!,
         wd_description: string[] = undefined!
     ) {
         this.id = id;
         this.name = name;
+        this.description = description;
         this.wd_node = wd_node;
         this.wd_label = wd_label;
         this.wd_description = wd_description;
