@@ -1,7 +1,7 @@
 [{
         "name": "Disease Outbreak Reactions",
         "schema": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_schema.json",
-        "crtics":[
+        "critics":[
             {
                 "assumptions": "/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_assumption.json",
                 "news":"/newssimulator/exampleData/disease_outbreak/disease_outbreak_v1_reaction.json"
@@ -26,7 +26,7 @@
     },{
         "name": "Earthquake Reactions",
         "schema": "/newssimulator/exampleData/earthquakes/earthquake_schema.json",
-        "crtics": [
+        "critics": [
             {
                 "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v1_assumption.json",
                 "news": "/newssimulator/exampleData/earthquakes/earthquake_v1_reaction.json"

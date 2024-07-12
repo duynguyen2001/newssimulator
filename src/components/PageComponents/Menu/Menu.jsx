@@ -208,18 +208,18 @@ function ExamplesPanel({
         <>
             <h2>{name}</h2>
             {examples.map((example) => {
-                const { name, schema, crtics } = example;
+                const { name, schema, critics } = example;
                 return (
                     <>
                         <h3 key={name}>{name}</h3>
-                        {crtics.map((critic, i) => {
+                        {critics.map((critic, i) => {
                             return (
                                 <button
                                     key={i}
                                     type="button"
                                     className="button"
                                     style={{
-                                        width: `${100 / crtics.length}%`,
+                                        width: `${100 / critics.length}%`,
                                     }}
                                     onClick={() => {
                                         fetch(critic.assumptions)

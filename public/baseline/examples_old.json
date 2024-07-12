@@ -2,7 +2,7 @@
     {
         "name": "Earthquake",
         "schema": "/newssimulator/baseline/earthquakes/earthquake_schema.json",
-        "crtics": [
+        "critics": [
             {
                 "assumptions": "/newssimulator/baseline/earthquakes/earthquake_v1_assumption.json",
                 "news":"/newssimulator/baseline/earthquakes/earthquake_v1.json"
@@ -26,7 +26,7 @@
     {
         "name": "Disease Outbreak",
         "schema": "/newssimulator/baseline/disease_outbreak/disease_outbreak_schema.json",
-        "crtics":[
+        "critics":[
             {
                 "assumptions": "/newssimulator/baseline/disease_outbreak/disease_outbreak_v1_assumption.json",
                 "news":"/newssimulator/baseline/disease_outbreak/disease_outbreak_v1.json"

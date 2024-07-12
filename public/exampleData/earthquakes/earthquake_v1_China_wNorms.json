@@ -1,0 +1,247 @@
+[
+    {
+        "schemaEvent": "Aftershocks",
+        "time": "2030-01-01 00:00",
+        "description": "Following the devastating magnitude 7.8 earthquake that struck Chengdu, a highly populated urban area in China, numerous aftershocks have been reported. These aftershocks are causing additional damage and hampering rescue efforts, prompting authorities to urge residents to stay vigilant and be prepared for further seismic activity.",
+        "participants": {
+            "AM_loc": {
+                "name": "Chengdu",
+                "type": "location",
+                "description": "Chengdu is the capital of Sichuan Province in China, known for its rich history, cultural heritage, and rapid urban development. It is one of the most populous cities in China, with a bustling economy and numerous high-rise buildings.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Aftershocks",
+        "time": "2030-01-02 00:00",
+        "description": "Following the devastating magnitude 7.8 earthquake in Chengdu, China, aftershocks continue to rattle the city, causing further structural damage and complicating rescue operations. Authorities are maintaining a high level of vigilance and preparedness among residents, urging them to stay alert and ready for potential further seismic activity.",
+        "participants": {
+            "AM_loc": {
+                "name": "Chengdu",
+                "type": "location",
+                "description": "Chengdu is the capital of Sichuan Province in China, known for its rich history, cultural heritage, and rapid urban development. It is one of the most populous cities in China, with a bustling economy and numerous high-rise buildings.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Infrastructure Damage",
+        "time": "2030-01-02 00:00",
+        "description": "The magnitude 7.8 earthquake that struck Chengdu in the early morning has caused extensive damage to buildings, roads, and other critical infrastructure in this highly populated urban area. Ongoing aftershocks are exacerbating the situation, making rescue and recovery efforts more challenging as authorities work around the clock to assess the damage and provide aid to affected residents.",
+        "participants": {}
+    },
+    {
+        "schemaEvent": "Death",
+        "time": "2030-01-02 00:00",
+        "description": "Following the devastating magnitude 7.8 earthquake in Chengdu, China, numerous injuries and fatalities have been reported due to collapsing buildings and flying debris. The ongoing aftershocks continue to pose significant risks, complicating rescue efforts and endangering both residents and emergency responders. Authorities are urging people to stay vigilant and prepared for further seismic activity.",
+        "participants": {
+            "A1_ppt_the_deceased": {
+                "name": "Li Wei",
+                "type": "person",
+                "description": "Li Wei is married and has a young daughter. He holds a master's degree in computer science from a prestigious university in China. Originally from a smaller town in Sichuan province, he migrated to Chengdu for better career opportunities. Economically, he is part of the upper-middle class, benefiting from a stable and well-paying job in the tech industry. Li Wei and his family live in a modern, well-furnished high-rise apartment. He commutes to work primarily by metro, which is efficient and convenient from his central city location. Culturally, he is secular with no strong religious affiliations, focusing more on technological and educational advancements for his personal and professional growth.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "AM_loc__location": {
+                "name": "Chengdu",
+                "type": "location",
+                "description": "Chengdu is the capital of Sichuan Province in China, known for its rich history, cultural heritage, and rapid urban development. It is one of the most populous cities in China, with a bustling economy and numerous high-rise buildings.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Displacement",
+        "time": "2030-01-02 00:00",
+        "description": "Thousands of residents in Chengdu, including Zhang Mei, have been left stranded or homeless following the devastating magnitude 7.8 earthquake and subsequent aftershocks. The widespread destruction of buildings and infrastructure has forced many to seek temporary shelter, as rescue and relief efforts continue amidst ongoing seismic activity. Authorities are working tirelessly to provide aid and support to the displaced population, urging residents to remain vigilant and prepared for further tremors.",
+        "participants": {
+            "A1_ppt_moved": {
+                "name": "Zhang Mei",
+                "type": "person",
+                "description": "Zhang Mei is single and has never been married. She holds a Master's degree in Education from Sichuan University. Mei is a lifelong resident of Chengdu and has no plans to migrate. Economically, she is middle-class, managing her finances to support both herself and her mother. Mei lives in a two-bedroom apartment in a residential complex typical for local middle-income families. She commutes to her school by bicycle, which is a 20-minute ride from her home. Mei practices Buddhism, which influences her approach to life and teaching, emphasizing compassion and mindfulness.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20064/",
+                        "name": "Earthquake Survivor"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Injury",
+        "time": "2030-01-02 00:00",
+        "description": "The devastating magnitude 7.8 earthquake that struck Chengdu, China, in the early morning has resulted in numerous injuries and fatalities, including Li Wei and his family. The ongoing aftershocks have exacerbated the situation, causing further damage to the city's infrastructure and complicating rescue efforts. Thousands of residents have been displaced, and authorities are urging everyone to remain vigilant and prepared for additional seismic activity.",
+        "participants": {
+            "A1_ppt_experiencer_injured_party": {
+                "name": "Li Wei",
+                "type": "person",
+                "description": "Li Wei is married and has a young daughter. He holds a master's degree in computer science from a prestigious university in China. Originally from a smaller town in Sichuan province, he migrated to Chengdu for better career opportunities. Economically, he is part of the upper-middle class, benefiting from a stable and well-paying job in the tech industry. Li Wei and his family live in a modern, well-furnished high-rise apartment. He commutes to work primarily by metro, which is efficient and convenient from his central city location. Culturally, he is secular with no strong religious affiliations, focusing more on technological and educational advancements for his personal and professional growth.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "AM_loc__location": {
+                "name": "Chengdu",
+                "type": "location",
+                "description": "Chengdu is the capital of Sichuan Province in China, known for its rich history, cultural heritage, and rapid urban development. It is one of the most populous cities in China, with a bustling economy and numerous high-rise buildings.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 08:00",
+        "description": "While having breakfast in their Chengdu high-rise, Li Wei feels the ground shake. Recognizing an earthquake, he quickly leads his wife and daughter to a safe spot in their apartment. He checks WeChat for updates and instructions from authorities, demonstrating reliance on community guidelines and technology during the crisis. Their collective adherence to emergency protocols highlights their trust in expert advice.",
+        "participants": {
+            "A0_agent": {
+                "name": "Li Wei",
+                "type": "person",
+                "description": "Li Wei is married and has a young daughter. He holds a master's degree in computer science from a prestigious university in China. Originally from a smaller town in Sichuan province, he migrated to Chengdu for better career opportunities. Economically, he is part of the upper-middle class, benefiting from a stable and well-paying job in the tech industry. Li Wei and his family live in a modern, well-furnished high-rise apartment. He commutes to work primarily by metro, which is efficient and convenient from his central city location. Culturally, he is secular with no strong religious affiliations, focusing more on technological and educational advancements for his personal and professional growth.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Community and Collective Action**: This norm is highly characteristic of Chinese culture, where there is a strong emphasis on community and collective responsibility. The concept of guanxi (relationships) and collective welfare is deeply ingrained in Chinese society, making this norm particularly unique as it emphasizes mutual aid and community support during crises.",
+                "**Respect for Authority and Expertise**: The high level of trust in authorities and experts is a significant aspect of Chinese culture. This respect for authority aligns with Confucian values, which emphasize hierarchy and obedience to authority. This cultural norm influences how individuals like Li Wei respond to guidance from emergency services and government directives.",
+                "**Use of Technology**: While the use of technology in emergency situations is not unique to China, the specific applications and platforms used, such as WeChat, and the integration of technology in daily life and crisis management are more tailored to Chinese societal norms and practices. Li Wei\u2019s background in the tech industry and the prevalent use of local technology platforms make this norm somewhat unique in its local application.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 09:00",
+        "description": "After securing his family in their apartment, Li Wei checks on his neighbors and contacts emergency services via WeChat, following established protocols. He stays updated on the situation through Weibo, utilizing digital tools essential for emergency management in China.",
+        "participants": {
+            "A0_agent": {
+                "name": "Li Wei",
+                "type": "person",
+                "description": "Li Wei is married and has a young daughter. He holds a master's degree in computer science from a prestigious university in China. Originally from a smaller town in Sichuan province, he migrated to Chengdu for better career opportunities. Economically, he is part of the upper-middle class, benefiting from a stable and well-paying job in the tech industry. Li Wei and his family live in a modern, well-furnished high-rise apartment. He commutes to work primarily by metro, which is efficient and convenient from his central city location. Culturally, he is secular with no strong religious affiliations, focusing more on technological and educational advancements for his personal and professional growth.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Respect for Authority and Protocol**: This norm is particularly strong in China due to the cultural emphasis on hierarchy and obedience to authority. The trust in and adherence to government directives and emergency services are more pronounced in China compared to many Western cultures, where there might be more questioning or skepticism of authority.",
+                "**Community Responsibility**: While the idea of looking out for neighbors is not unique to China, the extent and manner in which it is practiced in Chinese urban settings, especially in high-density living areas, can be quite distinctive. The collective welfare and mutual assistance are deeply ingrained in Chinese society, influenced by Confucian ideals of harmony and social responsibility.",
+                "**Use of Technology**: The specific platforms and the extent of technology use in China, such as WeChat and Weibo, are unique aspects. While the reliance on digital tools is a global phenomenon, the particular apps and their integration into daily life and emergency management are specific to China due to the unique digital ecosystem and government regulations.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 10:00",
+        "description": "When their apartment becomes unsafe, Li Wei uses his technical skills and respect for authority to quickly find safe, temporary housing for his family through government platforms and his social network, demonstrating his commitment to family values central to Chinese culture.",
+        "participants": {
+            "A0_agent": {
+                "name": "Li Wei",
+                "type": "person",
+                "description": "Li Wei is married and has a young daughter. He holds a master's degree in computer science from a prestigious university in China. Originally from a smaller town in Sichuan province, he migrated to Chengdu for better career opportunities. Economically, he is part of the upper-middle class, benefiting from a stable and well-paying job in the tech industry. Li Wei and his family live in a modern, well-furnished high-rise apartment. He commutes to work primarily by metro, which is efficient and convenient from his central city location. Culturally, he is secular with no strong religious affiliations, focusing more on technological and educational advancements for his personal and professional growth.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Community and Social Networks**: The importance of social networks is particularly pronounced in Chinese culture, where guanxi (\u5173\u7cfb) \u2014 the system of social networks and influential relationships that facilitate business and other dealings \u2014 is crucial. This reliance on an extended network for support and information is deeply rooted in Chinese society.",
+                "**Respect for Authority and Compliance with Government Directives**: This norm is highly characteristic of Chinese culture, where there is generally a strong sense of national pride and trust in government authority. The middle class, in particular, tends to follow government directives closely, especially in times of crisis.",
+                "**Family-Centric Approach**: While family is important in many cultures, the emphasis on family and filial responsibilities is particularly strong in Chinese culture. Decisions are often made with the welfare of the family, particularly the elders and children, as the top priority.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 13:00",
+        "description": "Li Wei uses his computer science skills to improve earthquake relief efforts in his community, coordinating resource distribution via WeChat and Weibo. He works closely with local leaders, respecting hierarchical norms and promoting values of solidarity and collective action. Additionally, Li Wei ensures his family's safety, balancing his dedication to both community and family.",
+        "participants": {
+            "A0_agent": {
+                "name": "Li Wei",
+                "type": "person",
+                "description": "Li Wei is married and has a young daughter. He holds a master's degree in computer science from a prestigious university in China. Originally from a smaller town in Sichuan province, he migrated to Chengdu for better career opportunities. Economically, he is part of the upper-middle class, benefiting from a stable and well-paying job in the tech industry. Li Wei and his family live in a modern, well-furnished high-rise apartment. He commutes to work primarily by metro, which is efficient and convenient from his central city location. Culturally, he is secular with no strong religious affiliations, focusing more on technological and educational advancements for his personal and professional growth.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Respect for Authority and Hierarchical Structures**: This norm is highly characteristic of Chinese culture, where there is a strong emphasis on respecting authority and adhering to the hierarchical order. This is more pronounced in China than in many Western cultures, where questioning authority can be more commonplace.",
+                "**Community Solidarity and Collective Action**: While many cultures value community solidarity, the emphasis on collective well-being and the community over the individual is particularly strong in Chinese culture. This is rooted in both traditional Confucian values and modern socialist principles that prioritize collective over individual action.",
+                "**Use of Technology and Social Media**: The specific platforms mentioned (WeChat and Weibo) and the extensive use of digital tools for coordination and communication are somewhat unique to China, given the country's advanced digital infrastructure and the prevalence of these platforms. However, the use of technology in disaster response is globally prevalent, making this norm somewhat less unique.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 19:00",
+        "description": "After a day focused on community and family safety, Li Wei enjoys a peaceful dinner with his wife and daughter at his temporary home. They spend the evening reinforcing their family bonds through quiet conversation and relaxation, reflecting the value of family unity in Chinese culture.",
+        "participants": {
+            "A0_agent": {
+                "name": "Li Wei",
+                "type": "person",
+                "description": "Li Wei is married and has a young daughter. He holds a master's degree in computer science from a prestigious university in China. Originally from a smaller town in Sichuan province, he migrated to Chengdu for better career opportunities. Economically, he is part of the upper-middle class, benefiting from a stable and well-paying job in the tech industry. Li Wei and his family live in a modern, well-furnished high-rise apartment. He commutes to work primarily by metro, which is efficient and convenient from his central city location. Culturally, he is secular with no strong religious affiliations, focusing more on technological and educational advancements for his personal and professional growth.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Family-Centric Values**: This is highly unique to Chinese culture, where family is not just an important aspect of life but a fundamental unit of society. The emphasis on family unity and support is a distinctive feature, particularly visible in times of crisis.",
+                "**Community Support and Involvement**: While community involvement is not unique to China alone, the way it manifests in Chinese urban middle-class settings, especially among educated professionals, is somewhat specific. There is a strong trend towards organized community support and philanthropy, influenced by both traditional values and the modern socio-economic climate.",
+                "**Preference for Stability and Routine**: This norm, while somewhat universal, has a particular resonance in Chinese culture due to the societal emphasis on harmony and order. The preference for maintaining routines to ensure stability and predictability in daily life is a significant cultural trait.\n"
+            ]
+        }
+    }
+]
