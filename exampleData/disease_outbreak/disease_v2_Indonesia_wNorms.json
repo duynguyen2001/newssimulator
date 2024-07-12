@@ -1,602 +1,690 @@
 [
-  {
-    "schemaEvent": "",
-    "time": "2030-01-01 05:00",
-    "description": "Agus Santoso, adhering to his Muslim faith, began his day with Fajr prayer at home instead of the mosque to prevent disease spread. He wore a mask and practiced social distancing, demonstrating his dedication to protecting his family and village's health, blending traditional beliefs with modern practices.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "To identify and rank the norms that are unique to the culture of the geolocation or country where Agus Santoso lives, we can assume from the context that he is likely in a rural area of Indonesia, a country with a significant Muslim population and a mix of traditional and modern lifestyles. Here\u2019s a ranking based on uniqueness to Indonesian rural Muslim communities:\n\n1. **Community and Religious Observance**: This is highly unique to Muslim communities in Indonesia, where religious practices are deeply integrated into daily life. The specific way in which these practices are observed, such as the decision to perform Fajr prayer at home, reflects local adaptations to global issues like health crises.\n\n2. **Spiritual and Physical Health Integration**: The holistic view of health that integrates spiritual and physical aspects is particularly strong in Indonesian culture, where there is a significant emphasis on spiritual well-being influencing physical health. This integration is a distinctive feature of how Indonesian rural communities respond to health challenges.\n\n3. **Family Structure and Roles**: The central role of the family and the specific roles of family members are significant in Indonesian rural settings. This norm reflects the traditional values that are prevalent in Indonesian society, where family is often the primary unit of social, economic, and cultural life.\n"
+    {
+        "schemaEvent": "",
+        "time": "2030-01-01 05:00",
+        "description": "Agus Santoso, adhering to his Muslim faith, began his day with Fajr prayer at home instead of the mosque to prevent disease spread. He wore a mask and practiced social distancing, demonstrating his dedication to protecting his family and village's health, blending traditional beliefs with modern practices.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Community and Religious Observance**: This is highly unique to Muslim communities in Indonesia, where religious practices are deeply integrated into daily life. The specific way in which these practices are observed, such as the decision to perform Fajr prayer at home, reflects local adaptations to global issues like health crises.",
+                "**Spiritual and Physical Health Integration**: The holistic view of health that integrates spiritual and physical aspects is particularly strong in Indonesian culture, where there is a significant emphasis on spiritual well-being influencing physical health. This integration is a distinctive feature of how Indonesian rural communities respond to health challenges.",
+                "**Family Structure and Roles**: The central role of the family and the specific roles of family members are significant in Indonesian rural settings. This norm reflects the traditional values that are prevalent in Indonesian society, where family is often the primary unit of social, economic, and cultural life.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-01 06:00",
+        "description": "Guided by his Islamic faith and community spirit, Agus Santoso and his children, wearing masks and practicing social distancing, work on their crops early in the morning, honoring both the land and village traditions.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Religious Observance and Rituals**: This is highly unique to Indonesia, especially considering that Indonesia has the largest Muslim population in the world. The integration of Islamic practices in daily life, including health and social behaviors, is a distinctive feature of Indonesian rural communities.",
+                "**Respect for Elders and Authority**: While respect for elders and authority figures is common in many cultures, in Indonesia, this is particularly pronounced. Elders and authority figures like village heads and religious leaders play a crucial role in community life and are deeply respected. Their advice and decisions are often followed without question, which is particularly important in managing community affairs and crises.",
+                "**Community Cohesion and Mutual Support**: The concept of \"gotong royong\" or communal cooperation is a fundamental aspect of Indonesian culture. This norm of mutual assistance is essential in rural areas where resources can be limited and community bonds are strong.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-01 12:00",
+        "description": "Agus Santoso returned home for Dhuhr prayer and a meal with his family, observing safety protocols like mask-wearing and social distancing, in line with local Islamic leaders' health guidance.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Religious Observance and Adaptation**: This is highly unique to Muslim-majority communities. The specific adaptations of Islamic practices during health crises, such as performing ablutions at home and praying at home with family instead of in a crowded mosque, are distinctively tied to Islamic religious practices.",
+                "**Role of Religious Leaders**: In Muslim-majority areas, religious leaders hold significant influence over community behavior and their guidance during a pandemic is crucial and unique to these communities. Their role in disseminating health and safety guidelines aligned with religious beliefs is particularly unique.",
+                "**Community Cohesion and Support**: While community support is a global phenomenon, the extent and nature of this support in rural, developing country contexts, especially under the guidance of religious and community leaders, can be unique. The collective responsibility and mutual aid are often more pronounced in these settings due to the lack of other forms of social safety nets.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-01 13:00",
+        "description": "While managing his crops and village duties, Agus Santoso experiences a mild cough and fatigue. He adheres to health protocols but considers traditional herbal remedies, such as jamu with ginger and turmeric. Agus also thinks about consulting a local dukun for medical and spiritual guidance, reflecting the holistic health practices of his rural Indonesian community.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Use of Traditional Medicine (Jamu)**: This is highly unique to Indonesia. The practice of using herbal medicines like jamu is deeply rooted in Indonesian culture. Ingredients such as ginger, turmeric, and lemongrass are commonly used in these traditional remedies, reflecting a distinct aspect of Indonesian herbal medicinal practices.",
+                "**Consulting Local Healers or Mid-Level Health Practitioners**: While consulting local healers is common in many parts of the world, in Indonesia, this practice is particularly prevalent due to the widespread belief in the efficacy of traditional healing methods alongside formal medical practices. This includes the role of dukun (traditional healers) who are often consulted for both medical and spiritual ailments.",
+                "**Community Support and Consultation**: The strong sense of community and mutual aid is a significant aspect of rural Indonesian culture. The communal approach to problem-solving and the high value placed on community advice and support is particularly characteristic of Indonesian villages.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-01 15:00",
+        "description": "At a local wedding in his village, Agus Santoso, a respected community member, unknowingly contracted a highly infectious airborne disease despite following health protocols. He participated actively, engaging with villagers and enjoying the traditional festivities.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Use of Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas. Indonesia has a rich history of traditional medicine known as \"jamu,\" which involves the use of natural ingredients like herbs and spices for health purposes. This practice is deeply ingrained in the local culture and often preferred over modern medical treatments in rural settings.",
+                "**Consultation with Elders and Religious Leaders**: While consulting elders and religious leaders is common in many cultures, in Indonesia, particularly in Muslim-majority areas, religious leaders (such as imams) play a crucial role in community life. They are not only spiritual guides but also advisers on social and health issues, reflecting the integration of Islamic principles in daily life.",
+                "**Community Rituals and Prayers**: The practice of holding community prayers and rituals in response to illness or other communal crises is particularly significant in Indonesian villages. These activities are often intertwined with Islamic practices, making them a unique blend of religion and local tradition.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-01 18:00",
+        "description": "After Maghrib prayer and dinner, Agus Santoso's symptoms like high fever and breathing issues worsened. Despite using traditional medicine and consulting a village dukun, his condition deteriorated, alarming his family and community.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Use of Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas. The reliance on herbal medicines and treatments that have been passed down through generations is a significant aspect of Indonesian traditional healthcare practices.",
+                "**Consultation with a Local Healer (Dukun)**: This is particularly unique to Indonesian culture. The role of the dukun as a traditional healer who combines physical remedies, prayer, and spiritual practices is a distinct feature of Indonesian healthcare in more traditional and rural communities.",
+                "**Community Support and Family Care**: While family and community support during illness is common worldwide, the specific ways in which this support manifests in Indonesian villages\u2014such as neighbors helping with daily tasks or providing home-cooked meals\u2014reflect local customs and social structures.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "Symptoms",
+        "time": "2030-01-01 20:00",
+        "description": "As Agus Santoso's symptoms, including high fever and breathing difficulties, became more severe, his family grew increasingly alarmed. Concerned for his well-being, they gathered to discuss the urgent need to seek professional medical help, recognizing that traditional remedies were no longer sufficient.",
+        "participants": {
+            "A1_ppt_sick/ill_one": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "A2_cau_cause_or_disease": {
+                "name": "H5N1 Avian Influenza Virus",
+                "type": "pathogen",
+                "description": "The H5N1 Avian Influenza Virus is a highly pathogenic strain of the influenza virus that primarily affects birds but can also infect humans. It is known for its high infectivity and fatality rates, with an incubation period of a few days. The virus is transmitted through airborne particles, making it highly contagious in densely populated areas or close-knit communities.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10006/",
+                        "name": "pathogen, causer of disease"
+                    }
+                ]
+            },
+            "AM_loc": {
+                "name": "Desa Sumber Rejeki",
+                "type": "location",
+                "description": "Desa Sumber Rejeki is a small, rural village located in the heart of Indonesia. The village is characterized by its traditional wooden houses, dirt roads, and a close-knit community where everyone knows each other. The villagers primarily rely on agriculture for their livelihood, with most families owning small plots of land where they grow crops and raise livestock.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10010/",
+                        "name": "location of disease outbreak"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-01 21:00",
+        "description": "As Agus Santoso's health worsened with symptoms of a contagious disease, his family isolated him in their ancestral home and tried traditional remedies. Recognizing the risk, they soon contacted local health authorities, showing their commitment to Agus's health and community safety, blending traditional and modern practices.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Use of Traditional Medicine**: This is highly prevalent in Southeast Asian cultures, where there is a rich history of herbal and traditional medicine. In rural Indonesian communities, traditional medicine often serves as the first line of treatment due to its accessibility and deep cultural roots.",
+                "**Family and Community Support**: The strong emphasis on familial and community support in times of illness is a significant aspect of Southeast Asian cultures, particularly in rural areas. This collective approach to healthcare and well-being reflects the communal values deeply ingrained in these societies.",
+                "**Religious Practices and Beliefs**: While religious devotion is not unique to Southeast Asia, the way it intertwines with daily life and health practices can be distinctive. In Indonesia, which has a majority Muslim population, religious beliefs deeply influence health decisions and practices, including prayers and consultations with religious leaders during times of illness.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "Symptoms",
+        "time": "2030-01-02 00:00",
+        "description": "On January 2, 2030, several villagers in Desa Sumber Rejeki, Indonesia, began experiencing severe symptoms of H5N1 Avian Influenza, including high fever and breathing difficulties. The rapid onset and spread of the disease alarmed the community, prompting local health authorities to intervene and collaborate with traditional healers to manage the outbreak.",
+        "participants": {
+            "A1_ppt_sick/ill_one": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "A2_cau_cause_or_disease": {
+                "name": "H5N1 Avian Influenza Virus",
+                "type": "pathogen",
+                "description": "The H5N1 Avian Influenza Virus is a highly pathogenic strain of the influenza virus that primarily affects birds but can also infect humans. It is known for its high infectivity and fatality rates, with an incubation period of a few days. The virus is transmitted through airborne particles, making it highly contagious in densely populated areas or close-knit communities.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10006/",
+                        "name": "pathogen, causer of disease"
+                    }
+                ]
+            },
+            "AM_loc": {
+                "name": "Desa Sumber Rejeki",
+                "type": "location",
+                "description": "Desa Sumber Rejeki is a small, rural village located in the heart of Indonesia. The village is characterized by its traditional wooden houses, dirt roads, and a close-knit community where everyone knows each other. The villagers primarily rely on agriculture for their livelihood, with most families owning small plots of land where they grow crops and raise livestock.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10010/",
+                        "name": "location of disease outbreak"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 01:00",
+        "description": "Upon detecting a potential H5N1 Avian Influenza outbreak in Desa Sumber Rejeki, local health authorities collaborated with village healers and mosque leaders to manage the situation. This partnership facilitated culturally sensitive containment and care measures, leveraging community respect for traditional and religious practices to enhance support and compliance.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Role of Traditional Healers**:\n   - This is highly unique to cultures where traditional medicine is deeply integrated into the community's way of life. In many parts of Southeast Asia, including Indonesia, traditional healers (known as \"dukun\" in Indonesia) play a significant role in health and wellbeing, often being the first point of contact for medical advice.",
+                "**Religious Practices and Guidance**:\n   - The influence of religious leaders in daily life and in crisis situations can be particularly pronounced in Islamic communities. In Indonesia, for example, religious leaders wield considerable influence over community practices and are integral in disseminating public health messages in a culturally appropriate manner.",
+                "**Community Cohesion and Collective Response**:\n   - While community cohesion is a common feature in many parts of the world, the level of collective response and the role of communal decisions in crisis situations can be particularly strong in Indonesian rural communities. This collective ethos is often mobilized during crises such as natural disasters or health emergencies.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 03:00",
+        "description": "Local health authorities are collaborating with village healers and mosque leaders to safely transport Agus Santoso, adhering to Islamic and local traditions, to a medical facility for isolation amid the H5N1 Avian Influenza outbreak.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Respect for Traditional Healers**: This is highly unique to Indonesia, especially in rural areas where traditional healers, known as \"dukun\" or \"jamu\" sellers, are integral to the community's healthcare. They are deeply respected and often preferred over formal medical systems due to cultural beliefs and the accessibility of traditional medicine.",
+                "**Religious Considerations**: The emphasis on ensuring that all aspects of life, including medical treatments, are compliant with Islamic teachings is particularly significant in Indonesia, which has the largest Muslim population in the world. The involvement of mosque leaders in health matters reflects the integration of faith in daily life and community affairs.",
+                "**Community Involvement**: While community involvement is a common aspect in many parts of the world, the degree of collectivism seen in Indonesian rural communities, where entire villages often act as extended families, is quite distinctive. This strong sense of community support is crucial in times of crisis and is a defining feature of Indonesian rural life.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 04:00",
+        "description": "Agus Santoso and his family are in a community-supported isolation facility, coordinated by local health authorities, village healers, and mosque leaders, to prevent the spread of H5N1 Avian Influenza. Traditional practices and prayers support their well-being.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Use of Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas. Traditional medicine, known locally as \"jamu,\" involves the use of natural ingredients and herbs, and is a deeply ingrained practice that coexists with modern medical treatments.",
+                "**Religious Observance and Practices**: While religious observance is not unique to Indonesia, the specific practices and the role of religion in daily life are particularly significant in Indonesian Muslim communities. The integration of faith in coping mechanisms during crises like a quarantine is a distinctive aspect of local culture.",
+                "**Community Solidarity and Support**: The concept of mutual assistance, known as \"gotong royong,\" is a fundamental aspect of Indonesian village life. This collective cooperation is a distinctive cultural norm that supports community members during times of need, including during health crises.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 06:00",
+        "description": "In response to the H5N1 Avian Influenza outbreak, health authorities and leaders in Desa Sumber Rejeki are promoting preventive measures like mask-wearing, cleanliness, and smaller gatherings. Mosque leaders are adapting religious practices to include health guidelines in sermons and communal prayers to protect community health.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Role of Religious Leaders**:\n   - The influence of religious leaders like imams in guiding community behavior and their role in disseminating health advisories through religious sermons and gatherings is particularly unique to Muslim-majority communities. The adjustments in religious practices to comply with health guidelines, such as modifying communal prayers, are deeply rooted in the religious culture of the area.",
+                "**Social Gatherings and Cultural Practices**:\n   - The importance of social gatherings such as weddings, funerals, and market days, and the traditional practices like communal eating and specific greetings (hand over the heart) are highly specific to local customs and traditions. These practices reflect the deep cultural roots and the challenges in modifying them in the face of health advisories.",
+                "**Community Leadership and Decision-Making**:\n   - The role of village heads (Kepala Desa) and elders in decision-making and information dissemination is a significant aspect of rural governance in many parts of Southeast Asia, including Indonesia. Their respected status and the collaborative nature of decision-making are culturally specific and crucial for effective communication and implementation of health measures.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 07:00",
+        "description": "In response to potential H5N1 Avian Influenza concerns, local health officials, village healers (dukun), and mosque leaders conducted a viral test on Agus Santoso in Desa Sumber Rejeki. This collaborative effort integrates traditional and modern healthcare practices to assess the outbreak's severity and confirm Agus's infection status.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Role of Traditional Healers (Dukun)**: The reliance on traditional healers, or dukun, for both medical and spiritual matters is particularly distinctive to Indonesian culture. While traditional medicine is common in many parts of the world, the specific role and integration of dukun in the healthcare system and their collaboration with modern medical practices are unique aspects of Indonesian rural life.",
+                "**Community Involvement and Trust in Local Leaders**: The strong reliance on local leaders, including village heads (kepala desa) and religious leaders, is a significant aspect of Indonesian rural communities. While local leadership is important globally, the specific roles and the extent of trust placed in these leaders in Indonesia, where they act as crucial intermediaries between the government and the local population, especially in crisis situations, highlight a unique cultural trait.",
+                "**Religious Practices and Consultation**: As a predominantly Muslim country, the integration of religious practices and leaders in daily life and during crises is a notable aspect of Indonesian culture. The way religious leaders are involved in health crises, encouraging compliance with health directives framed as religious duties, is particularly significant in Indonesia.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 09:00",
+        "description": "Medical professionals, alongside local health authorities, village elders, and mosque leaders, visited Desa Sumber Rejeki to deliver specialized care to Agus Santoso. They performed a detailed health assessment and crafted a treatment plan that adhered to both medical standards and the cultural and religious norms of the community, integrating traditional healing methods and Islamic principles.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Integration of Traditional and Modern Medicine**: This is highly characteristic of Indonesian rural communities, where there is a significant blend of traditional healing practices and modern healthcare. This integration reflects Indonesia's unique cultural heritage, where traditional healers (known locally as \"dukun\") often work alongside modern medical practitioners.",
+                "**Community Involvement**: While community involvement in decision-making processes is common in many parts of the world, the extent and nature of this involvement in Indonesia, where entire communities, including religious and village leaders, actively participate in personal affairs like medical treatments, is particularly notable.",
+                "**Religious Observances in Medical Practice**: The specific integration of Islamic practices in all aspects of life, including healthcare, is significant in Indonesia, which has the largest Muslim population in the world. The way that medical treatments are coordinated with prayer times and Islamic dietary laws are particularly tailored to fit religious observances.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 12:00",
+        "description": "In response to the H5N1 outbreak, local health professionals, village healers, and mosque leaders are monitoring Agus Santoso's health, sharing updates via mosque announcements and meetings. The community is following both modern and traditional guidance from health authorities to manage the situation.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Use of Traditional Medicine**: This norm is highly unique to rural communities in countries like Indonesia. The reliance on village healers or local wise persons for herbal remedies or traditional healing practices is deeply rooted in the local culture and traditions, often passed down through generations.",
+                "**Role of Religious Leaders**: The significant role of religious leaders, particularly imams in mosques, is a distinctive feature in Muslim-majority countries like Indonesia. These leaders not only provide spiritual guidance but also play a crucial role in community life, including health and social issues.",
+                "**Communication Methods**: The reliance on face-to-face communication, public announcements at community gatherings, and through the mosque is particularly unique to rural areas in countries like Indonesia, where digital communication might be limited. This traditional method of information dissemination is crucial in such settings.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "Symptoms",
+        "time": "2030-01-03 00:00",
+        "description": "Agus Santoso, who has been under close observation in Desa Sumber Rejeki due to the H5N1 Avian Influenza outbreak, began experiencing symptoms of the disease. The community, guided by local health authorities, village healers, and mosque leaders, is responding swiftly to manage his condition and prevent further spread.",
+        "participants": {
+            "A1_ppt_sick/ill_one": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "A2_cau_cause_or_disease": {
+                "name": "H5N1 Avian Influenza Virus",
+                "type": "pathogen",
+                "description": "The H5N1 Avian Influenza Virus is a highly pathogenic strain of the influenza virus that primarily affects birds but can also infect humans. It is known for its high infectivity and fatality rates, with an incubation period of a few days. The virus is transmitted through airborne particles, making it highly contagious in densely populated areas or close-knit communities.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10006/",
+                        "name": "pathogen, causer of disease"
+                    }
+                ]
+            },
+            "AM_loc": {
+                "name": "Desa Sumber Rejeki",
+                "type": "location",
+                "description": "Desa Sumber Rejeki is a small, rural village located in the heart of Indonesia. The village is characterized by its traditional wooden houses, dirt roads, and a close-knit community where everyone knows each other. The villagers primarily rely on agriculture for their livelihood, with most families owning small plots of land where they grow crops and raise livestock.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10010/",
+                        "name": "location of disease outbreak"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Contact Health Provider",
+        "time": "2030-01-03 00:00",
+        "description": "Residents of Desa Sumber Rejeki are actively seeking advice and support from their health providers in response to the H5N1 Avian Influenza outbreak. This coordinated effort, involving local health authorities, village healers, and mosque leaders, ensures that both modern medical practices and traditional healing methods are utilized to manage the situation effectively.",
+        "participants": {
+            "A0_pag_agent_first_communicator": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "A2_com_co_agent_other_communicators": {
+                "name": "Dr. Siti Nurhayati",
+                "type": "person",
+                "description": "Dr. Siti Nurhayati is married with two children and lives in a modest family home in a rural village. She is a first-generation college graduate, having moved from her hometown to Jakarta for her education before returning to serve her community. Economically, she is middle-class, supporting her family through her medical practice. Dr. Siti commutes to her clinic by motorbike and is an active member of her local mosque, where she volunteers in health education programs. Her work and personal life are deeply rooted in her community, reflecting her commitment to improving local health outcomes.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10021/",
+                        "name": "health professional that provides treatment"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 06:00",
+        "description": "Amid the H5N1 outbreak, Agus Santoso prayed and checked on his family's health, reflecting his dedication to Islamic practices and community well-being in rural Indonesia.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Religious Practices**: The integral role of Islam in daily life, including the observance of prayers and other religious practices, is particularly pronounced in Indonesia, which has the largest Muslim population in the world. This norm is highly unique to the cultural and religious landscape of Indonesia.",
+                "**Community and Family Orientation**: While family and community support systems are important in many cultures, the extent to which these systems are embedded in the daily life and social fabric is particularly notable in Indonesian rural communities. This includes shared responsibilities and prioritizing family welfare.",
+                "**Use of Traditional Medicine and Remedies**: The reliance on traditional medicine and home remedies is significant in Indonesian rural areas. This includes the use of herbs and traditional healing practices, which are deeply rooted in the local culture and practices.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 07:00",
+        "description": "Agus Santoso underwent a health check-up at Desa Sumber Rejeki's local center, addressing the H5N1 outbreak with both modern and Islamic-compliant medical practices. The session, supported by mosque leaders and village authorities, included consultations with healthcare professionals and a traditional 'dukun', reflecting the community's integrated approach to health that respects cultural and religious values.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Religious Observance in Healthcare**: The integration of Islamic practices in healthcare, including prayers and ensuring treatments adhere to Halal standards, is particularly unique to Muslim-majority countries like Indonesia. This norm is deeply rooted in the religious fabric of the community and significantly influences healthcare practices.",
+                "**Integration of Modern and Traditional Medicine**: The coexistence and acceptance of modern medical practices alongside traditional healing methods, such as those provided by a 'dukun' (traditional healer), are quite distinctive to Indonesia. This reflects a cultural heritage that values and preserves traditional knowledge while also embracing modern healthcare.",
+                "**Community Involvement and Trust in Local Authorities**: The strong reliance on and trust in local authorities, including village and religious leaders, in organizing and endorsing health initiatives is a significant cultural aspect in Indonesia. This trust extends to a collective approach to health and wellness, which is more pronounced in rural Indonesian communities than in many Western societies.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 09:00",
+        "description": "At a local mosque meeting about the H5N1 outbreak, Agus Santoso felt unwell amid prevalent coughs and sneezes. The gathering, led by village and religious leaders, emphasized new health guidelines, highlighting the community's respect for authority and collective responsibility during crises.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Use of Traditional Medicine**: The reliance on traditional medicine, including herbal remedies and consulting traditional healers (dukun), is particularly unique to Indonesian culture, especially in rural areas. This practice is deeply rooted in the local traditions and often serves as the first line of defense against illness before modern medical intervention is sought.",
+                "**Community Cohesion and Collective Responsibility**: While many cultures emphasize community support, the level of cohesion and collective responsibility in rural Indonesian communities is notable. This norm is particularly pronounced in how these communities come together during crises, such as health outbreaks, reflecting a strong communal bond that is central to their way of life.",
+                "**Respect for Authority and Expertise**: The high regard for authority figures such as village elders, religious leaders, and healthcare professionals is a significant aspect of rural Indonesian culture. This respect influences compliance and adherence to guidelines during crises, which is more pronounced compared to many Western cultures where individualism is more prevalent.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 11:00",
+        "description": "Agus Santoso, feeling unwell while working on his farm in Desa Sumber Rejeki, noticed his family exhibiting similar symptoms. Embracing the local \"gotong royong\" spirit, he sought advice from community elders and the mosque's religious leader, who suggested traditional remedies. This approach underscored the community's reliance on collective wisdom and support in addressing health issues.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Community Cohesion and Mutual Support (gotong royong)**: This is highly unique to Indonesian culture, although similar concepts exist in other cultures. The term \"gotong royong\" itself is distinctly Indonesian and refers to a communal spirit of helping one another that is deeply ingrained in Indonesian society.",
+                "**Reliance on Traditional Medicine**: While the use of traditional medicine is common in many parts of the world, the specific types of herbs, spices, and traditional healing practices are unique to Indonesia and vary from one region to another within the country. This norm reflects a deep-rooted cultural heritage and knowledge of local flora for medicinal purposes.",
+                "**Consultation with Community Elders and Religious Leaders**: This practice is somewhat common globally, especially in traditional societies, but the role of these figures in Indonesia is particularly significant due to the structured social and religious hierarchies in rural areas. The respect and authority given to elders and religious leaders in Indonesia can be more pronounced compared to some other cultures.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 13:00",
+        "description": "Agus Santoso, from a rural Indonesian village, experienced severe fever and breathing issues with his family. Following local customs, he combined modern healthcare with traditional practices by consulting both a health provider and village elders, and seeking prayers at the mosque, reflecting his community's integrated approach to health.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Combination of Modern and Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas where traditional medicine, including the use of herbal remedies and consulting traditional healers (dukun), is still prevalent alongside modern medical practices. This blend of healthcare approaches reflects a deep-rooted belief system and the coexistence of ancestral knowledge with contemporary medicine.",
+                "**Religious Practices and Prayers**: While religious devotion is not unique to Indonesia, the specific practices and the role of religion in daily life and during health crises are particularly pronounced in Indonesian Muslim communities. The integration of faith in seeking health solutions, such as more frequent prayers and visiting mosques for blessings, is a significant aspect of how health issues are addressed culturally.",
+                "**High Regard for Elderly Advice**: Respecting and seeking the counsel of the elderly is a prominent feature in many Asian cultures, but it holds a specific place in Indonesian communities. Elders are often seen as the custodians of wisdom, including health-related knowledge which blends both traditional and spiritual insights.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 15:00",
+        "description": "Health authorities, after detecting H5N1 symptoms in Agus Santoso and his family in Desa Sumber Rejeki, collaborated with mosque leaders to enforce a quarantine and initiate contact tracing, respecting local customs to curb the virus spread.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Religious Practices and Guidance**: This norm is highly unique to Indonesia, especially considering that Indonesia has the largest Muslim population in the world. The role of religion and religious leaders in daily life and in crisis situations is deeply ingrained and culturally specific. The way that religious practices are intertwined with community responses to health and other crises is particularly distinctive.",
+                "**Use of Traditional and Home Remedies**: While the use of traditional medicine is common in many parts of the world, the specific types of remedies and the cultural significance attached to them in Indonesia are unique. The reliance on herbal medicines and traditional health practices is deeply rooted in Indonesian culture, influenced by a rich history of indigenous knowledge and practices.",
+                "**Community Cohesion and Support**: The strong sense of community and mutual support is a significant aspect of rural Indonesian life. While many cultures value community support, the way it manifests in Indonesian villages\u2014often organized around familial, religious, and communal lines\u2014can be particularly distinctive.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 16:00",
+        "description": "Agus Santoso, suffering from severe H5N1 symptoms, was urgently isolated and treated at a hospital to protect Desa Sumber Rejeki. Health officials collaborated with village leaders and his family to blend his medical care with traditional and religious practices.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Reliance on Traditional Medicine**: This is highly unique to Indonesian rural communities, where traditional medicine, known locally as \"jamu\" and other home remedies, are prevalent and often preferred over modern medical treatments initially. This practice is deeply rooted in the history and culture of Indonesia.",
+                "**Spiritual and Religious Practices**: The specific religious practices, such as seeking blessings from local religious leaders and collective prayers for health, are particularly significant in Indonesia due to the country's strong Muslim majority and the integral role of Islam in daily life and community cohesion.",
+                "**Community Support and Solidarity**: While community support is a common feature in many cultures, the extent and nature of this support in Indonesian villages\u2014such as helping with farm work, providing meals, and looking after children during crises\u2014are distinctly tailored to the communal lifestyle and collective values prevalent in Indonesia.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-03 17:00",
+        "description": "Despite severe H5N1 symptoms, Agus Santoso and his family maintained their spiritual and familial duties by participating in evening prayers and discussing daily events and future plans virtually. This adaptation helped them uphold religious commitments and family unity while adhering to quarantine protocols in their Indonesian village.",
+        "participants": {
+            "A0_agent": {
+                "name": "Agus Santoso",
+                "type": "person",
+                "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "resin:Entities/10000/",
+                        "name": "infected person"
+                    }
+                ]
+            },
+            "norms": [
+                "**Community and Family Ties**: This is highly unique to Indonesian culture, particularly in rural areas. The strong emphasis on familial bonds and community support is a central aspect of Indonesian social life. The interconnectedness and mutual support within families and communities are more pronounced here than in many Western cultures.",
+                "**Religious Observance**: While religious observance is not unique to Indonesia alone, the integration of faith into daily life and community activities is particularly significant in Indonesia, which has the largest Muslim population in the world. The way religious practices are woven into the everyday activities and the communal aspect of religious observance are distinctly emphasized in Indonesian Muslim communities.",
+                "**Cultural Approaches to Illness**: The holistic approach to health, which combines medical treatment with spiritual and communal support, is quite distinctive in Indonesian culture. This integration of spiritual practices and family involvement in the process of dealing with sickness reflects a unique cultural approach to health and wellness in Indonesia.\n"
+            ]
+        }
     }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-01 06:00",
-    "description": "Guided by his Islamic faith and community spirit, Agus Santoso and his children, wearing masks and practicing social distancing, work on their crops early in the morning, honoring both the land and village traditions.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms and practices described in the context of Agus Santoso's life in a rural community in Indonesia are deeply intertwined with the local customs, religious beliefs, and socio-economic conditions. Here's a ranking of these norms based on their uniqueness to the culture of Indonesia, particularly in rural settings:\n\n1. **Religious Observance and Rituals**: This is highly unique to Indonesia, especially considering that Indonesia has the largest Muslim population in the world. The integration of Islamic practices in daily life, including health and social behaviors, is a distinctive feature of Indonesian rural communities.\n\n2. **Respect for Elders and Authority**: While respect for elders and authority figures is common in many cultures, in Indonesia, this is particularly pronounced. Elders and authority figures like village heads and religious leaders play a crucial role in community life and are deeply respected. Their advice and decisions are often followed without question, which is particularly important in managing community affairs and crises.\n\n3. **Community Cohesion and Mutual Support**: The concept of \"gotong royong\" or communal cooperation is a fundamental aspect of Indonesian culture. This norm of mutual assistance is essential in rural areas where resources can be limited and community bonds are strong.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-01 12:00",
-    "description": "Agus Santoso returned home for Dhuhr prayer and a meal with his family, observing safety protocols like mask-wearing and social distancing, in line with local Islamic leaders' health guidance.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "To identify and rank the cultural norms and practices that are unique to the geolocation or country of Agus Santoso, we need to consider the specific cultural, religious, and social contexts of a rural, Muslim-majority community in a developing country. Here\u2019s a ranking based on uniqueness to the cultural and geographical context:\n\n1. **Religious Observance and Adaptation**: This is highly unique to Muslim-majority communities. The specific adaptations of Islamic practices during health crises, such as performing ablutions at home and praying at home with family instead of in a crowded mosque, are distinctively tied to Islamic religious practices.\n\n2. **Role of Religious Leaders**: In Muslim-majority areas, religious leaders hold significant influence over community behavior and their guidance during a pandemic is crucial and unique to these communities. Their role in disseminating health and safety guidelines aligned with religious beliefs is particularly unique.\n\n3. **Community Cohesion and Support**: While community support is a global phenomenon, the extent and nature of this support in rural, developing country contexts, especially under the guidance of religious and community leaders, can be unique. The collective responsibility and mutual aid are often more pronounced in these settings due to the lack of other forms of social safety nets.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-01 13:00",
-    "description": "While managing his crops and village duties, Agus Santoso experiences a mild cough and fatigue. He adheres to health protocols but considers traditional herbal remedies, such as jamu with ginger and turmeric. Agus also thinks about consulting a local dukun for medical and spiritual guidance, reflecting the holistic health practices of his rural Indonesian community.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the context of Agus Santoso's life and his approach to dealing with illness are deeply intertwined with the local customs and practices prevalent in rural Indonesia. Here\u2019s a ranking of these norms based on their uniqueness to the culture of Indonesia, particularly in rural areas:\n\n1. **Use of Traditional Medicine (Jamu)**: This is highly unique to Indonesia. The practice of using herbal medicines like jamu is deeply rooted in Indonesian culture. Ingredients such as ginger, turmeric, and lemongrass are commonly used in these traditional remedies, reflecting a distinct aspect of Indonesian herbal medicinal practices.\n\n2. **Consulting Local Healers or Mid-Level Health Practitioners**: While consulting local healers is common in many parts of the world, in Indonesia, this practice is particularly prevalent due to the widespread belief in the efficacy of traditional healing methods alongside formal medical practices. This includes the role of dukun (traditional healers) who are often consulted for both medical and spiritual ailments.\n\n3. **Community Support and Consultation**: The strong sense of community and mutual aid is a significant aspect of rural Indonesian culture. The communal approach to problem-solving and the high value placed on community advice and support is particularly characteristic of Indonesian villages.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-01 15:00",
-    "description": "At a local wedding in his village, Agus Santoso, a respected community member, unknowingly contracted a highly infectious airborne disease despite following health protocols. He participated actively, engaging with villagers and enjoying the traditional festivities.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "To identify and rank the cultural norms that are particularly unique to the geolocation or country of Agus Santoso, we need to consider the specific cultural, religious, and societal contexts of rural Indonesia, as Agus is depicted as a traditional Indonesian farmer. Here\u2019s a ranking based on uniqueness to Indonesian rural culture, particularly in a predominantly Muslim community:\n\n1. **Use of Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas. Indonesia has a rich history of traditional medicine known as \"jamu,\" which involves the use of natural ingredients like herbs and spices for health purposes. This practice is deeply ingrained in the local culture and often preferred over modern medical treatments in rural settings.\n\n2. **Consultation with Elders and Religious Leaders**: While consulting elders and religious leaders is common in many cultures, in Indonesia, particularly in Muslim-majority areas, religious leaders (such as imams) play a crucial role in community life. They are not only spiritual guides but also advisers on social and health issues, reflecting the integration of Islamic principles in daily life.\n\n3. **Community Rituals and Prayers**: The practice of holding community prayers and rituals in response to illness or other communal crises is particularly significant in Indonesian villages. These activities are often intertwined with Islamic practices, making them a unique blend of religion and local tradition.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-01 18:00",
-    "description": "After Maghrib prayer and dinner, Agus Santoso's symptoms like high fever and breathing issues worsened. Despite using traditional medicine and consulting a village dukun, his condition deteriorated, alarming his family and community.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the context of Agus Santoso's life and his response to severe health symptoms are deeply rooted in the local customs and practices of rural Indonesia. Here\u2019s a ranking of these norms based on their uniqueness to the culture of Indonesia, particularly in rural or traditional settings:\n\n1. **Use of Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas. The reliance on herbal medicines and treatments that have been passed down through generations is a significant aspect of Indonesian traditional healthcare practices.\n\n2. **Consultation with a Local Healer (Dukun)**: This is particularly unique to Indonesian culture. The role of the dukun as a traditional healer who combines physical remedies, prayer, and spiritual practices is a distinct feature of Indonesian healthcare in more traditional and rural communities.\n\n3. **Community Support and Family Care**: While family and community support during illness is common worldwide, the specific ways in which this support manifests in Indonesian villages\u2014such as neighbors helping with daily tasks or providing home-cooked meals\u2014reflect local customs and social structures.\n"
-    }
-  },
-  {
-    "schemaEvent": "Symptoms",
-    "time": "2030-01-01 20:00",
-    "description": "As Agus Santoso's symptoms, including high fever and breathing difficulties, became more severe, his family grew increasingly alarmed. Concerned for his well-being, they gathered to discuss the urgent need to seek professional medical help, recognizing that traditional remedies were no longer sufficient.",
-    "participants": {
-      "A1_ppt_sick/ill_one": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "A2_cau_cause_or_disease": {
-        "name": "H5N1 Avian Influenza Virus",
-        "type": "pathogen",
-        "description": "The H5N1 Avian Influenza Virus is a highly pathogenic strain of the influenza virus that primarily affects birds but can also infect humans. It is known for its high infectivity and fatality rates, with an incubation period of a few days. The virus is transmitted through airborne particles, making it highly contagious in densely populated areas or close-knit communities.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10006/",
-            "name": "pathogen, causer of disease"
-          }
-        ]
-      },
-      "AM_loc": {
-        "name": "Desa Sumber Rejeki",
-        "type": "location",
-        "description": "Desa Sumber Rejeki is a small, rural village located in the heart of Indonesia. The village is characterized by its traditional wooden houses, dirt roads, and a close-knit community where everyone knows each other. The villagers primarily rely on agriculture for their livelihood, with most families owning small plots of land where they grow crops and raise livestock.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10010/",
-            "name": "location of disease outbreak"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-01 21:00",
-    "description": "As Agus Santoso's health worsened with symptoms of a contagious disease, his family isolated him in their ancestral home and tried traditional remedies. Recognizing the risk, they soon contacted local health authorities, showing their commitment to Agus's health and community safety, blending traditional and modern practices.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the background context of Agus Santoso, while not entirely unique to any single culture or geolocation, are particularly resonant in many rural communities across Southeast Asia, including Indonesia. Here\u2019s a ranking and explanation of these norms based on their uniqueness and prevalence in this cultural context:\n\n1. **Use of Traditional Medicine**: This is highly prevalent in Southeast Asian cultures, where there is a rich history of herbal and traditional medicine. In rural Indonesian communities, traditional medicine often serves as the first line of treatment due to its accessibility and deep cultural roots.\n\n2. **Family and Community Support**: The strong emphasis on familial and community support in times of illness is a significant aspect of Southeast Asian cultures, particularly in rural areas. This collective approach to healthcare and well-being reflects the communal values deeply ingrained in these societies.\n\n3. **Religious Practices and Beliefs**: While religious devotion is not unique to Southeast Asia, the way it intertwines with daily life and health practices can be distinctive. In Indonesia, which has a majority Muslim population, religious beliefs deeply influence health decisions and practices, including prayers and consultations with religious leaders during times of illness.\n"
-    }
-  },
-  {
-    "schemaEvent": "Symptoms",
-    "time": "2030-01-02 00:00",
-    "description": "On January 2, 2030, several villagers in Desa Sumber Rejeki, Indonesia, began experiencing severe symptoms of H5N1 Avian Influenza, including high fever and breathing difficulties. The rapid onset and spread of the disease alarmed the community, prompting local health authorities to intervene and collaborate with traditional healers to manage the outbreak.",
-    "participants": {
-      "A1_ppt_sick/ill_one": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "A2_cau_cause_or_disease": {
-        "name": "H5N1 Avian Influenza Virus",
-        "type": "pathogen",
-        "description": "The H5N1 Avian Influenza Virus is a highly pathogenic strain of the influenza virus that primarily affects birds but can also infect humans. It is known for its high infectivity and fatality rates, with an incubation period of a few days. The virus is transmitted through airborne particles, making it highly contagious in densely populated areas or close-knit communities.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10006/",
-            "name": "pathogen, causer of disease"
-          }
-        ]
-      },
-      "AM_loc": {
-        "name": "Desa Sumber Rejeki",
-        "type": "location",
-        "description": "Desa Sumber Rejeki is a small, rural village located in the heart of Indonesia. The village is characterized by its traditional wooden houses, dirt roads, and a close-knit community where everyone knows each other. The villagers primarily rely on agriculture for their livelihood, with most families owning small plots of land where they grow crops and raise livestock.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10010/",
-            "name": "location of disease outbreak"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-02 01:00",
-    "description": "Upon detecting a potential H5N1 Avian Influenza outbreak in Desa Sumber Rejeki, local health authorities collaborated with village healers and mosque leaders to manage the situation. This partnership facilitated culturally sensitive containment and care measures, leveraging community respect for traditional and religious practices to enhance support and compliance.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "To accurately identify and rank the cultural norms that are unique to the geolocation or country of Agus Santoso, it would be helpful to know the specific country or region he is from. However, based on the context provided, we can infer that Agus likely lives in a rural area in a predominantly Muslim country, possibly in Southeast Asia, such as Indonesia. Here\u2019s a ranking based on the likelihood of uniqueness to this cultural and geographical context:\n\n1. **Role of Traditional Healers**:\n   - This is highly unique to cultures where traditional medicine is deeply integrated into the community's way of life. In many parts of Southeast Asia, including Indonesia, traditional healers (known as \"dukun\" in Indonesia) play a significant role in health and wellbeing, often being the first point of contact for medical advice.\n\n2. **Religious Practices and Guidance**:\n   - The influence of religious leaders in daily life and in crisis situations can be particularly pronounced in Islamic communities. In Indonesia, for example, religious leaders wield considerable influence over community practices and are integral in disseminating public health messages in a culturally appropriate manner.\n\n3. **Community Cohesion and Collective Response**:\n   - While community cohesion is a common feature in many parts of the world, the level of collective response and the role of communal decisions in crisis situations can be particularly strong in Indonesian rural communities. This collective ethos is often mobilized during crises such as natural disasters or health emergencies.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-02 03:00",
-    "description": "Local health authorities are collaborating with village healers and mosque leaders to safely transport Agus Santoso, adhering to Islamic and local traditions, to a medical facility for isolation amid the H5N1 Avian Influenza outbreak.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "To identify and rank the cultural norms that are unique to the geolocation or country of Agus Santoso, we need to consider the specific cultural, religious, and social practices prevalent in rural Indonesia, as Agus's background suggests a setting similar to this. Here\u2019s a ranking based on uniqueness to the cultural context of rural Indonesia, with 1 being most unique:\n\n1. **Respect for Traditional Healers**: This is highly unique to Indonesia, especially in rural areas where traditional healers, known as \"dukun\" or \"jamu\" sellers, are integral to the community's healthcare. They are deeply respected and often preferred over formal medical systems due to cultural beliefs and the accessibility of traditional medicine.\n\n2. **Religious Considerations**: The emphasis on ensuring that all aspects of life, including medical treatments, are compliant with Islamic teachings is particularly significant in Indonesia, which has the largest Muslim population in the world. The involvement of mosque leaders in health matters reflects the integration of faith in daily life and community affairs.\n\n3. **Community Involvement**: While community involvement is a common aspect in many parts of the world, the degree of collectivism seen in Indonesian rural communities, where entire villages often act as extended families, is quite distinctive. This strong sense of community support is crucial in times of crisis and is a defining feature of Indonesian rural life.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-02 04:00",
-    "description": "Agus Santoso and his family are in a community-supported isolation facility, coordinated by local health authorities, village healers, and mosque leaders, to prevent the spread of H5N1 Avian Influenza. Traditional practices and prayers support their well-being.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms and practices described in the context of Agus Santoso's life in a rural Indonesian village are deeply intertwined with the local culture and societal structure. Here\u2019s a ranking of these norms based on their uniqueness to the culture of Indonesia, particularly in rural settings:\n\n1. **Use of Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas. Traditional medicine, known locally as \"jamu,\" involves the use of natural ingredients and herbs, and is a deeply ingrained practice that coexists with modern medical treatments.\n\n2. **Religious Observance and Practices**: While religious observance is not unique to Indonesia, the specific practices and the role of religion in daily life are particularly significant in Indonesian Muslim communities. The integration of faith in coping mechanisms during crises like a quarantine is a distinctive aspect of local culture.\n\n3. **Community Solidarity and Support**: The concept of mutual assistance, known as \"gotong royong,\" is a fundamental aspect of Indonesian village life. This collective cooperation is a distinctive cultural norm that supports community members during times of need, including during health crises.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-02 06:00",
-    "description": "In response to the H5N1 Avian Influenza outbreak, health authorities and leaders in Desa Sumber Rejeki are promoting preventive measures like mask-wearing, cleanliness, and smaller gatherings. Mosque leaders are adapting religious practices to include health guidelines in sermons and communal prayers to protect community health.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "To identify and rank the cultural norms that are particularly unique to the geolocation or country described (likely a rural village in a predominantly Muslim country, such as Indonesia), we can analyze each norm based on its specificity to local customs, religious practices, and societal structures. Here\u2019s a ranking from most unique to least unique based on the provided context:\n\n1. **Role of Religious Leaders**:\n   - The influence of religious leaders like imams in guiding community behavior and their role in disseminating health advisories through religious sermons and gatherings is particularly unique to Muslim-majority communities. The adjustments in religious practices to comply with health guidelines, such as modifying communal prayers, are deeply rooted in the religious culture of the area.\n\n2. **Social Gatherings and Cultural Practices**:\n   - The importance of social gatherings such as weddings, funerals, and market days, and the traditional practices like communal eating and specific greetings (hand over the heart) are highly specific to local customs and traditions. These practices reflect the deep cultural roots and the challenges in modifying them in the face of health advisories.\n\n3. **Community Leadership and Decision-Making**:\n   - The role of village heads (Kepala Desa) and elders in decision-making and information dissemination is a significant aspect of rural governance in many parts of Southeast Asia, including Indonesia. Their respected status and the collaborative nature of decision-making are culturally specific and crucial for effective communication and implementation of health measures.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-02 07:00",
-    "description": "In response to potential H5N1 Avian Influenza concerns, local health officials, village healers (dukun), and mosque leaders conducted a viral test on Agus Santoso in Desa Sumber Rejeki. This collaborative effort integrates traditional and modern healthcare practices to assess the outbreak's severity and confirm Agus's infection status.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "To identify and rank the cultural norms and practices unique to rural Indonesian communities like the one Agus Santoso lives in, we can consider how these norms are specifically tailored to the local context, traditions, and religious practices prevalent in Indonesia. Here\u2019s a ranking based on uniqueness to the Indonesian cultural and geographical context:\n\n1. **Role of Traditional Healers (Dukun)**: The reliance on traditional healers, or dukun, for both medical and spiritual matters is particularly distinctive to Indonesian culture. While traditional medicine is common in many parts of the world, the specific role and integration of dukun in the healthcare system and their collaboration with modern medical practices are unique aspects of Indonesian rural life.\n\n2. **Community Involvement and Trust in Local Leaders**: The strong reliance on local leaders, including village heads (kepala desa) and religious leaders, is a significant aspect of Indonesian rural communities. While local leadership is important globally, the specific roles and the extent of trust placed in these leaders in Indonesia, where they act as crucial intermediaries between the government and the local population, especially in crisis situations, highlight a unique cultural trait.\n\n3. **Religious Practices and Consultation**: As a predominantly Muslim country, the integration of religious practices and leaders in daily life and during crises is a notable aspect of Indonesian culture. The way religious leaders are involved in health crises, encouraging compliance with health directives framed as religious duties, is particularly significant in Indonesia.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-02 09:00",
-    "description": "Medical professionals, alongside local health authorities, village elders, and mosque leaders, visited Desa Sumber Rejeki to deliver specialized care to Agus Santoso. They performed a detailed health assessment and crafted a treatment plan that adhered to both medical standards and the cultural and religious norms of the community, integrating traditional healing methods and Islamic principles.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the context of Agus Santoso's life in rural Indonesia are somewhat specific to the region, but many can also be found in various forms in other parts of the world, particularly in other rural, traditional, or religious communities. Here\u2019s a ranking of the norms based on their uniqueness to Indonesian culture, particularly rural settings:\n\n1. **Integration of Traditional and Modern Medicine**: This is highly characteristic of Indonesian rural communities, where there is a significant blend of traditional healing practices and modern healthcare. This integration reflects Indonesia's unique cultural heritage, where traditional healers (known locally as \"dukun\") often work alongside modern medical practitioners.\n\n2. **Community Involvement**: While community involvement in decision-making processes is common in many parts of the world, the extent and nature of this involvement in Indonesia, where entire communities, including religious and village leaders, actively participate in personal affairs like medical treatments, is particularly notable.\n\n3. **Religious Observances in Medical Practice**: The specific integration of Islamic practices in all aspects of life, including healthcare, is significant in Indonesia, which has the largest Muslim population in the world. The way that medical treatments are coordinated with prayer times and Islamic dietary laws are particularly tailored to fit religious observances.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-02 12:00",
-    "description": "In response to the H5N1 outbreak, local health professionals, village healers, and mosque leaders are monitoring Agus Santoso's health, sharing updates via mosque announcements and meetings. The community is following both modern and traditional guidance from health authorities to manage the situation.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "In the context of Agus Santoso's community and similar rural communities in countries like Indonesia, certain cultural norms are more uniquely emphasized or prevalent due to the specific socio-cultural and economic conditions. Here\u2019s a ranking of the norms from the most unique to the least unique to the culture of the geolocation/country:\n\n1. **Use of Traditional Medicine**: This norm is highly unique to rural communities in countries like Indonesia. The reliance on village healers or local wise persons for herbal remedies or traditional healing practices is deeply rooted in the local culture and traditions, often passed down through generations.\n\n2. **Role of Religious Leaders**: The significant role of religious leaders, particularly imams in mosques, is a distinctive feature in Muslim-majority countries like Indonesia. These leaders not only provide spiritual guidance but also play a crucial role in community life, including health and social issues.\n\n3. **Communication Methods**: The reliance on face-to-face communication, public announcements at community gatherings, and through the mosque is particularly unique to rural areas in countries like Indonesia, where digital communication might be limited. This traditional method of information dissemination is crucial in such settings.\n"
-    }
-  },
-  {
-    "schemaEvent": "Symptoms",
-    "time": "2030-01-03 00:00",
-    "description": "Agus Santoso, who has been under close observation in Desa Sumber Rejeki due to the H5N1 Avian Influenza outbreak, began experiencing symptoms of the disease. The community, guided by local health authorities, village healers, and mosque leaders, is responding swiftly to manage his condition and prevent further spread.",
-    "participants": {
-      "A1_ppt_sick/ill_one": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "A2_cau_cause_or_disease": {
-        "name": "H5N1 Avian Influenza Virus",
-        "type": "pathogen",
-        "description": "The H5N1 Avian Influenza Virus is a highly pathogenic strain of the influenza virus that primarily affects birds but can also infect humans. It is known for its high infectivity and fatality rates, with an incubation period of a few days. The virus is transmitted through airborne particles, making it highly contagious in densely populated areas or close-knit communities.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10006/",
-            "name": "pathogen, causer of disease"
-          }
-        ]
-      },
-      "AM_loc": {
-        "name": "Desa Sumber Rejeki",
-        "type": "location",
-        "description": "Desa Sumber Rejeki is a small, rural village located in the heart of Indonesia. The village is characterized by its traditional wooden houses, dirt roads, and a close-knit community where everyone knows each other. The villagers primarily rely on agriculture for their livelihood, with most families owning small plots of land where they grow crops and raise livestock.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10010/",
-            "name": "location of disease outbreak"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "schemaEvent": "Contact Health Provider",
-    "time": "2030-01-03 00:00",
-    "description": "Residents of Desa Sumber Rejeki are actively seeking advice and support from their health providers in response to the H5N1 Avian Influenza outbreak. This coordinated effort, involving local health authorities, village healers, and mosque leaders, ensures that both modern medical practices and traditional healing methods are utilized to manage the situation effectively.",
-    "participants": {
-      "A0_pag_agent_first_communicator": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "A2_com_co_agent_other_communicators": {
-        "name": "Dr. Siti Nurhayati",
-        "type": "person",
-        "description": "Dr. Siti Nurhayati is married with two children and lives in a modest family home in a rural village. She is a first-generation college graduate, having moved from her hometown to Jakarta for her education before returning to serve her community. Economically, she is middle-class, supporting her family through her medical practice. Dr. Siti commutes to her clinic by motorbike and is an active member of her local mosque, where she volunteers in health education programs. Her work and personal life are deeply rooted in her community, reflecting her commitment to improving local health outcomes.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10021/",
-            "name": "health professional that provides treatment"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 06:00",
-    "description": "Amid the H5N1 outbreak, Agus Santoso prayed and checked on his family's health, reflecting his dedication to Islamic practices and community well-being in rural Indonesia.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": ":\n\n1. **Religious Practices**: The integral role of Islam in daily life, including the observance of prayers and other religious practices, is particularly pronounced in Indonesia, which has the largest Muslim population in the world. This norm is highly unique to the cultural and religious landscape of Indonesia.\n\n2. **Community and Family Orientation**: While family and community support systems are important in many cultures, the extent to which these systems are embedded in the daily life and social fabric is particularly notable in Indonesian rural communities. This includes shared responsibilities and prioritizing family welfare.\n\n3. **Use of Traditional Medicine and Remedies**: The reliance on traditional medicine and home remedies is significant in Indonesian rural areas. This includes the use of herbs and traditional healing practices, which are deeply rooted in the local culture and practices.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 07:00",
-    "description": "Agus Santoso underwent a health check-up at Desa Sumber Rejeki's local center, addressing the H5N1 outbreak with both modern and Islamic-compliant medical practices. The session, supported by mosque leaders and village authorities, included consultations with healthcare professionals and a traditional 'dukun', reflecting the community's integrated approach to health that respects cultural and religious values.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": ":\n\n1. **Religious Observance in Healthcare**: The integration of Islamic practices in healthcare, including prayers and ensuring treatments adhere to Halal standards, is particularly unique to Muslim-majority countries like Indonesia. This norm is deeply rooted in the religious fabric of the community and significantly influences healthcare practices.\n\n2. **Integration of Modern and Traditional Medicine**: The coexistence and acceptance of modern medical practices alongside traditional healing methods, such as those provided by a 'dukun' (traditional healer), are quite distinctive to Indonesia. This reflects a cultural heritage that values and preserves traditional knowledge while also embracing modern healthcare.\n\n3. **Community Involvement and Trust in Local Authorities**: The strong reliance on and trust in local authorities, including village and religious leaders, in organizing and endorsing health initiatives is a significant cultural aspect in Indonesia. This trust extends to a collective approach to health and wellness, which is more pronounced in rural Indonesian communities than in many Western societies.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 09:00",
-    "description": "At a local mosque meeting about the H5N1 outbreak, Agus Santoso felt unwell amid prevalent coughs and sneezes. The gathering, led by village and religious leaders, emphasized new health guidelines, highlighting the community's respect for authority and collective responsibility during crises.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the context of Agus Santoso and his community in rural Indonesia are deeply intertwined with the local customs, religious beliefs, and societal structures. Here\u2019s a ranking of these norms based on their uniqueness to the culture of Indonesia, particularly in rural areas:\n\n1. **Use of Traditional Medicine**: The reliance on traditional medicine, including herbal remedies and consulting traditional healers (dukun), is particularly unique to Indonesian culture, especially in rural areas. This practice is deeply rooted in the local traditions and often serves as the first line of defense against illness before modern medical intervention is sought.\n\n2. **Community Cohesion and Collective Responsibility**: While many cultures emphasize community support, the level of cohesion and collective responsibility in rural Indonesian communities is notable. This norm is particularly pronounced in how these communities come together during crises, such as health outbreaks, reflecting a strong communal bond that is central to their way of life.\n\n3. **Respect for Authority and Expertise**: The high regard for authority figures such as village elders, religious leaders, and healthcare professionals is a significant aspect of rural Indonesian culture. This respect influences compliance and adherence to guidelines during crises, which is more pronounced compared to many Western cultures where individualism is more prevalent.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 11:00",
-    "description": "Agus Santoso, feeling unwell while working on his farm in Desa Sumber Rejeki, noticed his family exhibiting similar symptoms. Embracing the local \"gotong royong\" spirit, he sought advice from community elders and the mosque's religious leader, who suggested traditional remedies. This approach underscored the community's reliance on collective wisdom and support in addressing health issues.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the context of Agus Santoso's community in rural Indonesia are somewhat specific to the region, but they also share similarities with other cultures, particularly in rural and traditional settings around the world. Here\u2019s a ranking and explanation of the norms based on their uniqueness to Indonesia, particularly in rural areas:\n\n1. **Community Cohesion and Mutual Support (gotong royong)**: This is highly unique to Indonesian culture, although similar concepts exist in other cultures. The term \"gotong royong\" itself is distinctly Indonesian and refers to a communal spirit of helping one another that is deeply ingrained in Indonesian society.\n\n2. **Reliance on Traditional Medicine**: While the use of traditional medicine is common in many parts of the world, the specific types of herbs, spices, and traditional healing practices are unique to Indonesia and vary from one region to another within the country. This norm reflects a deep-rooted cultural heritage and knowledge of local flora for medicinal purposes.\n\n3. **Consultation with Community Elders and Religious Leaders**: This practice is somewhat common globally, especially in traditional societies, but the role of these figures in Indonesia is particularly significant due to the structured social and religious hierarchies in rural areas. The respect and authority given to elders and religious leaders in Indonesia can be more pronounced compared to some other cultures.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 13:00",
-    "description": "Agus Santoso, from a rural Indonesian village, experienced severe fever and breathing issues with his family. Following local customs, he combined modern healthcare with traditional practices by consulting both a health provider and village elders, and seeking prayers at the mosque, reflecting his community's integrated approach to health.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the context of Agus Santoso and his community in rural Indonesia are deeply intertwined with the local customs, religious beliefs, and societal structures. Here\u2019s a ranking of these norms based on their uniqueness to the culture of Indonesia, particularly in rural areas:\n\n1. **Combination of Modern and Traditional Medicine**: This is highly unique to Indonesian culture, especially in rural areas where traditional medicine, including the use of herbal remedies and consulting traditional healers (dukun), is still prevalent alongside modern medical practices. This blend of healthcare approaches reflects a deep-rooted belief system and the coexistence of ancestral knowledge with contemporary medicine.\n\n2. **Religious Practices and Prayers**: While religious devotion is not unique to Indonesia, the specific practices and the role of religion in daily life and during health crises are particularly pronounced in Indonesian Muslim communities. The integration of faith in seeking health solutions, such as more frequent prayers and visiting mosques for blessings, is a significant aspect of how health issues are addressed culturally.\n\n3. **High Regard for Elderly Advice**: Respecting and seeking the counsel of the elderly is a prominent feature in many Asian cultures, but it holds a specific place in Indonesian communities. Elders are often seen as the custodians of wisdom, including health-related knowledge which blends both traditional and spiritual insights.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 15:00",
-    "description": "Health authorities, after detecting H5N1 symptoms in Agus Santoso and his family in Desa Sumber Rejeki, collaborated with mosque leaders to enforce a quarantine and initiate contact tracing, respecting local customs to curb the virus spread.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": ":\n\n1. **Religious Practices and Guidance**: This norm is highly unique to Indonesia, especially considering that Indonesia has the largest Muslim population in the world. The role of religion and religious leaders in daily life and in crisis situations is deeply ingrained and culturally specific. The way that religious practices are intertwined with community responses to health and other crises is particularly distinctive.\n\n2. **Use of Traditional and Home Remedies**: While the use of traditional medicine is common in many parts of the world, the specific types of remedies and the cultural significance attached to them in Indonesia are unique. The reliance on herbal medicines and traditional health practices is deeply rooted in Indonesian culture, influenced by a rich history of indigenous knowledge and practices.\n\n3. **Community Cohesion and Support**: The strong sense of community and mutual support is a significant aspect of rural Indonesian life. While many cultures value community support, the way it manifests in Indonesian villages\u2014often organized around familial, religious, and communal lines\u2014can be particularly distinctive.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 16:00",
-    "description": "Agus Santoso, suffering from severe H5N1 symptoms, was urgently isolated and treated at a hospital to protect Desa Sumber Rejeki. Health officials collaborated with village leaders and his family to blend his medical care with traditional and religious practices.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": "The cultural norms described in the context of Agus Santoso's community in rural Indonesia are deeply intertwined with the local customs, religious beliefs, and societal structures. Here\u2019s a ranking of these norms based on their uniqueness to the culture of Indonesia, particularly in rural areas:\n\n1. **Reliance on Traditional Medicine**: This is highly unique to Indonesian rural communities, where traditional medicine, known locally as \"jamu\" and other home remedies, are prevalent and often preferred over modern medical treatments initially. This practice is deeply rooted in the history and culture of Indonesia.\n\n2. **Spiritual and Religious Practices**: The specific religious practices, such as seeking blessings from local religious leaders and collective prayers for health, are particularly significant in Indonesia due to the country's strong Muslim majority and the integral role of Islam in daily life and community cohesion.\n\n3. **Community Support and Solidarity**: While community support is a common feature in many cultures, the extent and nature of this support in Indonesian villages\u2014such as helping with farm work, providing meals, and looking after children during crises\u2014are distinctly tailored to the communal lifestyle and collective values prevalent in Indonesia.\n"
-    }
-  },
-  {
-    "schemaEvent": "",
-    "time": "2030-01-03 17:00",
-    "description": "Despite severe H5N1 symptoms, Agus Santoso and his family maintained their spiritual and familial duties by participating in evening prayers and discussing daily events and future plans virtually. This adaptation helped them uphold religious commitments and family unity while adhering to quarantine protocols in their Indonesian village.",
-    "participants": {
-      "A0_agent": {
-        "name": "Agus Santoso",
-        "type": "person",
-        "description": "Agus Santoso is married with three children, two of whom help on the farm while the youngest is still in school. He has a primary school education, which is common in his village. Agus and his family live in a traditional wooden house that has been in his family for generations. He rarely travels far from his village, maintaining a strong presence in local affairs. Economically, he is considered middle class within his community, sustaining his family through income from his crops. Agus is a devout Muslim, actively participating in the local mosque and observing all religious practices associated with his faith. His daily commute involves walking or sometimes using a bicycle to navigate the dirt roads between his home and his fields.",
-        "properties": {},
-        "instanceOf": [
-          {
-            "id": "resin:Entities/10000/",
-            "name": "infected person"
-          }
-        ]
-      },
-      "norms": ":\n\n1. **Community and Family Ties**: This is highly unique to Indonesian culture, particularly in rural areas. The strong emphasis on familial bonds and community support is a central aspect of Indonesian social life. The interconnectedness and mutual support within families and communities are more pronounced here than in many Western cultures.\n\n2. **Religious Observance**: While religious observance is not unique to Indonesia alone, the integration of faith into daily life and community activities is particularly significant in Indonesia, which has the largest Muslim population in the world. The way religious practices are woven into the everyday activities and the communal aspect of religious observance are distinctly emphasized in Indonesian Muslim communities.\n\n3. **Cultural Approaches to Illness**: The holistic approach to health, which combines medical treatment with spiritual and communal support, is quite distinctive in Indonesian culture. This integration of spiritual practices and family involvement in the process of dealing with sickness reflects a unique cultural approach to health and wellness in Indonesia.\n"
-    }
-  }
 ]

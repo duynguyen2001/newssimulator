@@ -1,0 +1,223 @@
+[
+    {
+        "schemaEvent": "Aftershocks",
+        "time": "2030-01-01 00:00",
+        "description": "Aftershocks are expected to follow the magnitude 7.8 earthquake that struck Los Angeles, California, in the morning. Residents are advised to stay alert and follow safety protocols as these aftershocks can cause additional damage and pose further risks. Emergency services in Los Angeles are on high alert to respond to any incidents resulting from the aftershocks.",
+        "participants": {
+            "AM_loc": {
+                "name": "Los Angeles, California",
+                "type": "location",
+                "description": "Los Angeles, often referred to as LA, is a sprawling Southern California city and the center of the nation\u2019s film and television industry. It is known for its Mediterranean climate, ethnic diversity, and the entertainment industry. With a population of nearly 4 million people, it is one of the most populous cities in the United States.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Aftershocks",
+        "time": "2030-01-02 00:00",
+        "description": "Aftershocks continue to rattle Los Angeles following the magnitude 7.8 earthquake that struck the city on January 1, 2030. Residents are urged to remain vigilant and adhere to safety protocols as emergency services respond to incidents caused by these subsequent tremors. The aftershocks pose additional risks and could lead to further damage in the already affected urban area.",
+        "participants": {
+            "AM_loc": {
+                "name": "Los Angeles, California",
+                "type": "location",
+                "description": "Los Angeles, often referred to as LA, is a sprawling Southern California city and the center of the nation\u2019s film and television industry. It is known for its Mediterranean climate, ethnic diversity, and the entertainment industry. With a population of nearly 4 million people, it is one of the most populous cities in the United States.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Infrastructure Damage",
+        "time": "2030-01-02 00:00",
+        "description": "Following the magnitude 7.8 earthquake that struck Los Angeles in the morning, significant infrastructure damage has been reported across the city. Buildings have collapsed, roads have cracked, and other critical infrastructure, including bridges and utilities, have been severely affected. Emergency services, including firefighters, police, and medical teams, are working tirelessly around the clock to manage the crisis and assist those in need. Residents are urged to stay safe, avoid damaged areas, and follow official guidelines as aftershocks continue to pose additional risks and could lead to further damage.",
+        "participants": {}
+    },
+    {
+        "schemaEvent": "Death",
+        "time": "2030-01-02 00:00",
+        "description": "Following the magnitude 7.8 earthquake that struck Los Angeles, California, in the morning, there have been numerous reports of injuries and fatalities, including the tragic death of Maria Gonzalez, a local nurse. Emergency services are working tirelessly to rescue those trapped under the rubble and provide medical assistance to the injured, despite the ongoing aftershocks that continue to pose additional risks. The full extent of the casualties is still being assessed as the city grapples with significant infrastructure damage, including collapsed buildings and cracked roads.",
+        "participants": {
+            "A1_ppt_the_deceased": {
+                "name": "Maria Gonzalez",
+                "type": "person",
+                "description": "Maria Gonzalez is single and lives in a shared apartment with a roommate in the Echo Park neighborhood. She holds a Bachelor of Science in Nursing from a local university and is a permanent resident of the United States. Economically, she is middle-class, managing to save a small portion of her income each month despite the high cost of living in LA. Maria commutes to her job at a downtown hospital primarily by bus, as she finds it more economical and environmentally friendly. She is a practicing Catholic, attending mass regularly at her local parish, which also reinforces her community involvement.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "AM_loc__location": {
+                "name": "Los Angeles, California",
+                "type": "location",
+                "description": "Los Angeles, often referred to as LA, is a sprawling Southern California city and the center of the nation\u2019s film and television industry. It is known for its Mediterranean climate, ethnic diversity, and the entertainment industry. With a population of nearly 4 million people, it is one of the most populous cities in the United States.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Displacement",
+        "time": "2030-01-02 00:00",
+        "description": "Thousands of residents in Los Angeles, including individuals like David Kim, have been left stranded or homeless following the magnitude 7.8 earthquake that struck the city. Emergency shelters are being established to accommodate those displaced by the disaster, while authorities work around the clock to provide aid and support amidst ongoing aftershocks and significant infrastructure damage.",
+        "participants": {
+            "A1_ppt_moved": {
+                "name": "David Kim",
+                "type": "person",
+                "description": "David Kim is single and lives in a modern apartment in Koreatown. He holds a Master's degree in Computer Science from a prestigious university. As a first-generation immigrant, he maintains a strong connection to his South Korean heritage while adapting to American culture. Economically, David is stable, earning a good salary that allows him to live comfortably. He commutes to work by car and occasionally uses public transportation. Although raised in a Buddhist family, David is not particularly religious, focusing more on personal spirituality and ethical living.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20064/",
+                        "name": "Earthquake Survivor"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "Injury",
+        "time": "2030-01-02 00:00",
+        "description": "A magnitude 7.8 earthquake struck Los Angeles, California, in the morning, causing significant injuries and fatalities, including the tragic death of local nurse Maria Gonzalez. The earthquake led to extensive infrastructure damage, with collapsed buildings, cracked roads, and severely affected utilities. Emergency services are working tirelessly around the clock to rescue those trapped under the rubble, provide medical assistance to the injured, and establish emergency shelters for the thousands of displaced residents. As aftershocks continue to pose additional risks, residents are urged to follow safety protocols and stay alert for further updates.",
+        "participants": {
+            "A1_ppt_experiencer_injured_party": {
+                "name": "Maria Gonzalez",
+                "type": "person",
+                "description": "Maria Gonzalez is single and lives in a shared apartment with a roommate in the Echo Park neighborhood. She holds a Bachelor of Science in Nursing from a local university and is a permanent resident of the United States. Economically, she is middle-class, managing to save a small portion of her income each month despite the high cost of living in LA. Maria commutes to her job at a downtown hospital primarily by bus, as she finds it more economical and environmentally friendly. She is a practicing Catholic, attending mass regularly at her local parish, which also reinforces her community involvement.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "AM_loc__location": {
+                "name": "Los Angeles, California",
+                "type": "location",
+                "description": "Los Angeles, often referred to as LA, is a sprawling Southern California city and the center of the nation\u2019s film and television industry. It is known for its Mediterranean climate, ethnic diversity, and the entertainment industry. With a population of nearly 4 million people, it is one of the most populous cities in the United States.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/10000/Earthquake WideArea",
+                        "name": "location of Earthquake"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 06:00",
+        "description": "Maria Gonzalez's day in her Echo Park apartment was disrupted by a 7.8 magnitude earthquake in Los Angeles, causing significant damage and injuring her with falling debris. Leveraging her emergency training and community support, including her local parish, she navigated the crisis effectively.",
+        "participants": {
+            "A0_agent": {
+                "name": "Maria Gonzalez",
+                "type": "person",
+                "description": "Maria Gonzalez is single and lives in a shared apartment with a roommate in the Echo Park neighborhood. She holds a Bachelor of Science in Nursing from a local university and is a permanent resident of the United States. Economically, she is middle-class, managing to save a small portion of her income each month despite the high cost of living in LA. Maria commutes to her job at a downtown hospital primarily by bus, as she finds it more economical and environmentally friendly. She is a practicing Catholic, attending mass regularly at her local parish, which also reinforces her community involvement.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Emergency Preparedness**: This is highly specific to regions like Los Angeles that are prone to earthquakes. The culture of preparedness, including having an emergency kit and plans for communication and rendezvous, is more developed in areas frequently facing such natural disasters.",
+                "**Reliance on Public Services**: The reliance on updates from local transit authorities and the operational status of public transportation systems is particularly relevant in urban American settings like Los Angeles, where public transport is essential for many residents' daily commutes.",
+                "**Community Support and Solidarity**: While community support is a universal concept, the way it manifests in Los Angeles, especially through organized community centers, churches, and local organizations, is somewhat unique. The structured response involving these institutions reflects a localized approach to disaster response.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 07:00",
+        "description": "Despite injuries from the earthquake, nurse Maria Gonzalez quickly administered first aid to her Echo Park neighbors and coordinated with emergency services, enhancing the response in her vibrant community.",
+        "participants": {
+            "A0_agent": {
+                "name": "Maria Gonzalez",
+                "type": "person",
+                "description": "Maria Gonzalez is single and lives in a shared apartment with a roommate in the Echo Park neighborhood. She holds a Bachelor of Science in Nursing from a local university and is a permanent resident of the United States. Economically, she is middle-class, managing to save a small portion of her income each month despite the high cost of living in LA. Maria commutes to her job at a downtown hospital primarily by bus, as she finds it more economical and environmentally friendly. She is a practicing Catholic, attending mass regularly at her local parish, which also reinforces her community involvement.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Community Involvement and Solidarity**: This norm is highly characteristic of Echo Park and similar urban neighborhoods in the United States where diverse communities often come together to support each other. The emphasis on mutual aid and community solidarity is particularly strong in culturally diverse and densely populated areas of U.S. cities.",
+                "**Environmental Awareness**: While environmental awareness is a global concern, the specific manner in which it manifests in urban U.S. settings like Los Angeles\u2014such as choosing public transportation for economic and environmental reasons\u2014is somewhat unique. This reflects both the environmental challenges and the policy responses typical of large American cities.",
+                "**Preparedness and Proactivity**: The focus on disaster preparedness is quite pronounced in areas of the United States prone to natural disasters, such as California with its earthquakes. Local education and government initiatives in the U.S. often emphasize the importance of being prepared, which might not be as emphasized or structured in other countries.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 18:00",
+        "description": "Despite her injuries, Maria Gonzalez continued to provide crucial medical care and emotional support at a Los Angeles shelter after an earthquake. Using her bilingual skills, she sensitively communicated with diverse victims, showcasing her dedication as a nurse and her strong community ties.",
+        "participants": {
+            "A0_agent": {
+                "name": "Maria Gonzalez",
+                "type": "person",
+                "description": "Maria Gonzalez is single and lives in a shared apartment with a roommate in the Echo Park neighborhood. She holds a Bachelor of Science in Nursing from a local university and is a permanent resident of the United States. Economically, she is middle-class, managing to save a small portion of her income each month despite the high cost of living in LA. Maria commutes to her job at a downtown hospital primarily by bus, as she finds it more economical and environmentally friendly. She is a practicing Catholic, attending mass regularly at her local parish, which also reinforces her community involvement.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Cultural Sensitivity**: High uniqueness to the geolocation. Los Angeles is known for its diverse population, which includes a large number of immigrants and various ethnic communities. The emphasis on cultural sensitivity and communication is particularly pronounced in such a melting pot, where interactions often cross cultural lines. This is less emphasized in more homogenous societies.",
+                "**Bilingual Abilities**: Moderately unique to the geolocation. In the United States, especially in cities like Los Angeles with significant Hispanic populations, being bilingual in English and Spanish is highly valuable and somewhat unique compared to countries where there is less linguistic diversity or different dominant languages.",
+                "**Environmental Consciousness**: Moderately unique to the geolocation. While environmental consciousness is a global concern, the specific ways it manifests in urban U.S. settings, such as choosing public transportation for economic and environmental reasons, highlight a local adaptation to global issues.\n"
+            ]
+        }
+    },
+    {
+        "schemaEvent": "",
+        "time": "2030-01-02 20:00",
+        "description": "After helping earthquake victims at the hospital, injured Maria Gonzalez returned to her Echo Park apartment to check on her roommate and assess the damage, reflecting her community's strong sense of solidarity.",
+        "participants": {
+            "A0_agent": {
+                "name": "Maria Gonzalez",
+                "type": "person",
+                "description": "Maria Gonzalez is single and lives in a shared apartment with a roommate in the Echo Park neighborhood. She holds a Bachelor of Science in Nursing from a local university and is a permanent resident of the United States. Economically, she is middle-class, managing to save a small portion of her income each month despite the high cost of living in LA. Maria commutes to her job at a downtown hospital primarily by bus, as she finds it more economical and environmentally friendly. She is a practicing Catholic, attending mass regularly at her local parish, which also reinforces her community involvement.",
+                "properties": {},
+                "instanceOf": [
+                    {
+                        "id": "Entities/20005/",
+                        "name": "person affected by Earthquake"
+                    }
+                ]
+            },
+            "norms": [
+                "**Environmental and Economic Consciousness**: The emphasis on using public transportation like buses due to economic benefits and lower environmental impact is particularly notable in urban areas of the United States like Los Angeles, which are known for high traffic congestion and pollution issues. This norm reflects broader American values around sustainability and economic efficiency, especially prevalent in environmentally conscious communities.",
+                "**Information Sharing and Communication**: The use of digital tools for communication and information sharing is widespread in the United States, particularly in tech-savvy, urban areas like Los Angeles. The reliance on social media and community apps for real-time updates and networking during emergencies is a distinctly modern, Western approach to crisis management.",
+                "**Community Support and Solidarity**: While community solidarity can be found worldwide, the specific forms it takes in Echo Park, such as the role of local parishes and community centers in organizing aid, are somewhat unique to American urban settings. The involvement of religious and community organizations in local support and recovery efforts reflects a blend of American communal and individualistic values.\n"
+            ]
+        }
+    }
+]
