@@ -468,11 +468,11 @@ const TimelinePage = () => {
                                 {chosenNews.schemaEvent}
                             </Typography>
                             <Typography>{chosenNews.time}</Typography>
-                                <TextWithReplacements
-                                    text={chosenNews.description}
-                                    replacementsDict={chosenNews.participants}
-                                    onLinkClick={setClickedNode}
-                                />
+                            <TextWithReplacements
+                                text={chosenNews.description}
+                                replacementsDict={chosenNews.participants}
+                                onLinkClick={setClickedNode}
+                            />
                             {chosenNews.norms && (
                                 <details open={false}>
                                     <summary
@@ -483,7 +483,11 @@ const TimelinePage = () => {
                                     >
                                         Cutural Norms
                                     </summary>
-                                    <Markdown>{chosenNews.norms}</Markdown>
+                                    <Markdown>
+                                        {Array.isArray(chosenNews.norms)
+                                            ? chosenNews.norms.join("\n")
+                                            : chosenNews.norms}
+                                    </Markdown>
                                 </details>
                             )}
                         </div>
