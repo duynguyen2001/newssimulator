@@ -1,0 +1,1409 @@
+[
+  {
+    "schemaEvent": "Environmental exposure",
+    "time": "2030-01-01 00:00",
+    "description": "A train derailment near a small town has resulted in a significant spill of toxic and flammable chemical materials, causing extensive damage to the local environment. Wildlife and vegetation are expected to suffer greatly, and cleanup efforts are projected to be both extensive and prolonged.",
+    "participants": {}
+  },
+  {
+    "schemaEvent": "Toxic Gas",
+    "time": "2030-01-01 00:00",
+    "description": "Following a severe train derailment near Pineville, a HazChem Secure Tanker has leaked toxic and flammable gases, posing a significant health risk to the town's 2,000 residents. Emergency services are on high alert, working tirelessly to manage the hazardous situation and ensure the safety of the local population.",
+    "participants": {
+      "A0_dir_thing_leaking": {
+        "name": "HazChem Secure Tanker",
+        "type": "container",
+        "description": "The HazChem Secure Tanker is a specialized container designed for the safe transport of hazardous chemicals. It is built with reinforced materials to withstand impacts and prevent leaks, but the severity of the train derailment has compromised its integrity.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10004/",
+            "name": "chemical material container"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Loss",
+    "time": "2030-01-01 04:00",
+    "description": "The train derailment near Pineville has resulted in the catastrophic spill of Methyl Ethyl Ketone (MEK), a highly volatile and toxic chemical, leading to extensive property damage and significant health risks for the town's 2,000 residents. Local homes and businesses have suffered severe damage, and emergency services are working around the clock to manage the hazardous situation and ensure community safety, with cleanup efforts expected to be both extensive and prolonged.",
+    "participants": {
+      "A1_ppt_thing_lost": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Safety measures",
+    "time": "2030-01-01 04:00",
+    "description": "Authorities have issued an emergency evacuation for the residents of Pineville following a severe train derailment that resulted in the spill of Methyl Ethyl Ketone (MEK), a highly toxic and flammable chemical. The evacuation, coordinated by emergency services and the Pineville Police Department, aims to protect the town's 2,000 residents from potential health risks and hazards associated with the spill. Emergency services are working tirelessly to ensure the safety of the local population and manage the hazardous situation.",
+    "participants": {
+      "A0_pag_provider": {
+        "name": "Pineville Police Department",
+        "type": "organization",
+        "description": "The Pineville Police Department is a small but dedicated law enforcement agency serving the town of Pineville. With a team of 15 officers, the department is committed to maintaining public safety and order, especially during emergencies like the recent train derailment and chemical spill.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Medical assistance",
+    "time": "2030-01-01 04:00",
+    "description": "In response to the hazardous chemical spill caused by a train derailment near Pineville, authorities have deployed the HazMat Response Unit and medical teams led by Dr. Emily Carter to the area. These teams are working around the clock to provide care and support to the town's 2,000 residents, who are at risk of exposure to toxic and flammable gases. Emergency services continue to manage the situation, ensuring the safety and well-being of the local population while coordinating extensive cleanup efforts.",
+    "participants": {
+      "A0_pag_causer_of_inclusion": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A2_ppt_group": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Air Pollution",
+    "time": "2030-01-01 04:00",
+    "description": "The derailment of a train near Pineville has resulted in the release of Methyl Ethyl Ketone (MEK), a highly toxic and flammable chemical, causing severe air pollution and posing serious health risks to the town's 2,000 residents. Emergency services, including the HazMat Response Unit and medical teams led by Dr. Emily Carter, are working tirelessly to mitigate the impact, manage the hazardous situation, and ensure public safety.",
+    "participants": {
+      "A0_pag_emitting_entity": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Decontaminate",
+    "time": "2030-01-01 04:00",
+    "description": "Cleanup efforts to decontaminate the spill from the train derailment near Pineville have commenced immediately. Emergency services, including the HazMat Response Unit and specialized cleanup crews, are working around the clock to manage the hazardous materials and restore safety to the affected area. Given the toxicity and flammability of the spilled Methyl Ethyl Ketone (MEK), the process is expected to be extensive and prolonged, with authorities prioritizing the health and safety of Pineville's 2,000 residents.",
+    "participants": {
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Environmental exposure",
+    "time": "2030-01-01 04:00",
+    "description": "Let's think step by step in order to produce the event description. We need to ensure that the description is comprehensive, in third-person, and consistent with the provided conditions and previous events. \n\n1. **Conditions**: The spill was caused by a train derailment. The spilled chemical materials were toxic and flammable. The spill happened near a small town.\n2. **Previous Events**: \n   - The train derailment resulted in the catastrophic spill of Methyl Ethyl Ketone (MEK), causing extensive property damage and significant health risks.\n   - An emergency evacuation was issued for Pineville's 2,000 residents.\n   - HazMat Response Unit and medical teams led by Dr. Emily Carter were deployed to provide care and support.\n   - The spill caused severe air pollution.\n   - Cleanup efforts commenced immediately, involving HazMat Response Unit and specialized cleanup crews.\n\nGiven these points, we can now craft a comprehensive event description.\n\nEvent Description: The environment near Pineville has suffered severe damage following a train derailment that resulted in the spill of Methyl Ethyl Ketone (MEK), a highly toxic and flammable chemical. The spill has devastated local wildlife and vegetation, prompting extensive cleanup efforts by emergency services and specialized crews. The local community, already evacuated due to health risks, is bracing for long-term environmental impacts as authorities work tirelessly to mitigate the damage.",
+    "participants": {}
+  },
+  {
+    "schemaEvent": "Environmental exposure",
+    "time": "2030-01-01 08:00",
+    "description": "Event: The environment near Pineville has suffered severe damage following a train derailment that resulted in the spill of Methyl Ethyl Ketone (MEK), a highly toxic and flammable chemical. The spill has devastated local wildlife and vegetation, prompting extensive cleanup efforts by emergency services and specialized crews. The local community, already evacuated due to health risks, is bracing for long-term environmental impacts as authorities work tirelessly to mitigate the damage.\n\nConditions: The spill was caused by a train derailment. - The spilled chemical materials were toxic and flammable. - The spill happened near a small town.\n\nPrevious Events: [2030-01-01 04:00] [Safety measures]Authorities have issued an emergency evacuation for the residents of Pineville following a severe train derailment that resulted in the spill of Methyl Ethyl Ketone (MEK), a highly toxic and flammable chemical. The evacuation, coordinated by emergency services and the Pineville Police Department, aims to protect the town's 2,000 residents from potential health risks and hazards associated with the spill. Emergency services are working tirelessly to ensure the safety of the local population and manage the hazardous situation. - [2030-01-01 04:00] [Medical assistance]In response to the hazardous chemical spill caused by a train derailment near Pineville, authorities have deployed the HazMat Response Unit and medical teams led by Dr. Emily Carter to the area. These teams are working around the clock to provide",
+    "participants": {}
+  },
+  {
+    "schemaEvent": "Decontaminate",
+    "time": "2030-01-01 08:00",
+    "description": "The decontamination process for the hazardous Methyl Ethyl Ketone (MEK) spill near Pineville has begun in earnest. Emergency services, including the HazMat Response Unit and specialized cleanup crews, are working around the clock to manage the toxic and flammable materials. The extensive cleanup efforts aim to restore safety to the affected area and mitigate long-term environmental impacts on the local community, wildlife, and vegetation.",
+    "participants": {
+      "A0_pag_killer": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "A1_ppt_corpse": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      },
+      "A2_mnr_poison": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Loss",
+    "time": "2030-01-01 08:00",
+    "description": "The catastrophic train derailment near Pineville has resulted in significant property loss and destruction due to the spill of Methyl Ethyl Ketone (MEK). The highly toxic and flammable chemical has caused extensive damage to local infrastructure and homes, prompting an emergency evacuation of the town's 2,000 residents. Cleanup efforts are ongoing as authorities work to manage the hazardous materials and restore safety to the affected area. Emergency services, including the HazMat Response Unit and medical teams led by Dr. Emily Carter, are working tirelessly to mitigate the impact and ensure public safety. The local community is bracing for long-term environmental impacts as the spill has also devastated local wildlife and vegetation.",
+    "participants": {
+      "A1_ppt_thing_lost": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Shutdown",
+    "time": "2030-01-01 08:00",
+    "description": "Authorities have announced a complete system shutdown in Pineville following the catastrophic train derailment and chemical spill of Methyl Ethyl Ketone (MEK). The shutdown is part of extensive efforts to manage the hazardous materials and ensure the safety of the town's 2,000 residents. Emergency services, including the HazMat Response Unit and specialized cleanup crews, are working around the clock to decontaminate the area, mitigate the environmental impact, and restore safety to the affected community.",
+    "participants": {
+      "A0_pag_Intentional_agent": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A1_ppt_Thing_ending": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Environmental Monitoring",
+    "time": "2030-01-01 08:00",
+    "description": "Authorities have initiated continuous environmental monitoring in the area affected by the Methyl Ethyl Ketone (MEK) spill near Pineville. This ongoing process aims to assess the long-term environmental impact and ensure the safety of the local ecosystem and community. Emergency services and specialized teams are working diligently to track and mitigate any further risks.",
+    "participants": {
+      "A0_pag_observer": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-01 08:00",
+    "description": "Following the catastrophic train derailment near Pineville, authorities have initiated extensive testing of the environment to assess the danger posed by the spilled Methyl Ethyl Ketone (MEK). Specialized teams, including the HazMat Response Unit, are examining air, soil, and water samples to determine the extent of contamination and potential health risks. These efforts are crucial in ensuring the safety of the evacuated residents and planning further decontamination measures.",
+    "participants": {
+      "A0_pag_examiner": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A3_prd_test_result": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Cleanup",
+    "time": "2030-01-01 08:00",
+    "description": "The cleanup operation near Pineville, following the catastrophic train derailment and chemical spill of Methyl Ethyl Ketone (MEK), has officially commenced. Emergency services, including the HazMat Response Unit and specialized cleanup crews, are working tirelessly to remove contaminated materials and restore safety to the affected area. Authorities are prioritizing the health and safety of Pineville's 2,000 residents, with the process expected to be extensive and prolonged due to the toxic and flammable nature of the spilled chemicals.",
+    "participants": {
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Air Pollution",
+    "time": "2030-01-01 08:00",
+    "description": "The derailment of a train near Pineville has led to the release of Methyl Ethyl Ketone (MEK), a highly toxic and flammable chemical, causing severe air pollution. Emergency services, including the HazMat Response Unit and medical teams led by Dr. Emily Carter, are working tirelessly to manage the hazardous situation and ensure public safety. The local community, already evacuated due to health risks, is bracing for long-term environmental impacts as authorities continue their efforts to mitigate the damage and restore safety to the affected area.",
+    "participants": {
+      "A0_pag_emitting_entity": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Medical assistance",
+    "time": "2030-01-01 12:00",
+    "description": "In response to the hazardous chemical spill caused by a train derailment near Pineville, authorities have deployed the HazMat Response Unit and medical teams led by Dr. Emily Carter, with Dr. Michael Thompson providing critical emergency care. These teams are working around the clock to provide care and support to the town's 2,000 residents, who are at risk of exposure to toxic and flammable gases. Emergency services continue to manage the situation, ensuring the safety and well-being of the local population while coordinating extensive cleanup efforts.",
+    "participants": {
+      "A0_pag_causer_of_inclusion": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A2_ppt_group": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 14:00",
+    "description": "Upon arriving in Pineville, Dr. Emily Carter immediately began coordinating with local medical staff and the HazMat Response Unit to establish a temporary medical facility. This facility is crucial for treating residents exposed to the toxic and flammable chemicals from the train derailment, ensuring swift and effective medical response amidst ongoing cleanup efforts.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 16:00",
+    "description": "Dr. Emily Carter and her team treated numerous Pineville residents affected by the toxic fumes, ensuring they received essential medical care and comprehensive guidance on decontamination procedures to mitigate further health risks.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 18:00",
+    "description": "Dr. Emily Carter convened a critical briefing with the medical team and emergency responders to outline a comprehensive strategy for mitigating the health impact of the toxic chemical spill on the Pineville community. The briefing focused on coordinated medical response efforts, decontamination procedures, and ongoing support for the town's residents, ensuring a unified approach to managing the disaster's aftermath.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 20:00",
+    "description": "Dr. Emily Carter, leveraging her extensive experience in toxicology and emergency response, conducted a thorough assessment of the chemical spill's impact on Pineville's environment and public health. Her detailed analysis provided crucial insights to the HazMat Response Unit and local authorities, guiding them in their ongoing efforts to manage the toxic and flammable spill and protect the community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-01 22:00",
+    "description": "Dr. Emily Carter led a town hall meeting with Pineville residents to address their concerns about the recent toxic chemical spill caused by a train derailment. During the meeting, she provided critical updates on the medical response and ongoing cleanup efforts, and offered practical advice on how residents can stay safe during this challenging time.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Decontaminate",
+    "time": "2030-01-01 12:00",
+    "description": "Decontamination efforts are intensifying in Pineville following a hazardous spill of Methyl Ethyl Ketone (MEK) caused by a train derailment. The HazMat Response Unit, in collaboration with local authorities and medical teams led by Dr. Emily Carter, is working around the clock to mitigate the environmental and health impacts of the toxic and flammable chemical. Residents, including those like John Miller who were directly exposed, are urged to adhere to safety guidelines and decontamination procedures to safeguard their health and community.",
+    "participants": {
+      "A0_pag_killer": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "A1_ppt_corpse": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      },
+      "A2_mnr_poison": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "Pineville",
+        "type": "location",
+        "description": "Pineville is a small, close-knit town with a population of around 2,000 people. It is surrounded by dense pine forests and has a single railway line that runs through its outskirts, connecting it to larger cities. The town is known for its peaceful environment and strong community spirit.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Medical assistance",
+    "time": "2030-01-01 12:00",
+    "description": "Medical assistance has been deployed to Pineville following a toxic chemical spill caused by a train derailment. Dr. Emily Carter and her team are providing essential medical care and guidance on decontamination procedures to affected residents. The coordinated efforts aim to mitigate health risks and support the community during the ongoing cleanup.\n\n---\n\nEvent: Medical assistance has been deployed to Pineville following a toxic chemical spill caused by a train derailment.\n\nConditions: The spill was caused by a train derailment. - The spilled chemical materials were toxic and flammable. - The spill happened near a small town.\n\nPrevious Events: [2030-01-01 16:00] Dr. Emily Carter and her team treated numerous Pineville residents affected by the toxic fumes, ensuring they received essential medical care and comprehensive guidance on decontamination procedures to mitigate further health risks. - [2030-01-01 18:00] Dr. Emily Carter convened a critical briefing with the medical team and emergency responders to outline a comprehensive strategy for mitigating the health impact of the toxic chemical spill on the Pineville community. The briefing focused on coordinated medical response efforts, decontamination procedures, and ongoing support for the town's residents, ensuring a unified approach to managing the disaster's aftermath. - [2030-01-01 20:00] Dr. Emily Carter, leveraging her extensive experience in toxicology and emergency response, conducted a thorough assessment of the chemical spill's impact on Pineville's environment and public health. Her detailed analysis provided crucial insights to the HazMat Response Unit and local authorities, guiding them in their ongoing efforts to manage the toxic and flammable spill and protect the community. - [2030-01-01 22:00] Dr. Emily Carter led a town hall meeting with Pineville residents to address their concerns about the recent toxic chemical spill caused by a train derailment. During the meeting, she provided critical updates on the medical response and ongoing cleanup efforts, and offered practical advice on how residents can stay safe during this challenging time. - [2030-01-01 12:00] [Decontaminate]Decontamination efforts are intensifying in Pineville following a hazardous spill of Methyl Ethyl Ketone (ME",
+    "participants": {
+      "A0_pag_causer_of_inclusion": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A2_ppt_group": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2030-01-01 12:00",
+    "description": "The HazMat Response Unit will conduct comprehensive environmental testing to assess the danger posed by the recent Methyl Ethyl Ketone (MEK) spill near Pineville, following a train derailment. This testing is crucial to determine the extent of contamination and guide ongoing cleanup efforts, ensuring the safety and well-being of the community.",
+    "participants": {
+      "A0_pag_examiner": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A3_prd_test_result": {
+        "name": "Methyl Ethyl Ketone (MEK)",
+        "type": "chemical",
+        "description": "Methyl Ethyl Ketone (MEK) is a highly volatile, flammable, and toxic chemical commonly used as an industrial solvent. It is known for its strong odor and rapid evaporation rate, making it a significant hazard in the event of a spill. MEK can cause respiratory issues, skin irritation, and other health problems upon exposure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 00:00",
+    "description": "Dr. Michael Thompson conducted a comprehensive briefing with the medical team to assess the current situation following the toxic and flammable chemical spill near Pineville. During the session, he allocated specific tasks to team members and provided reassurance, emphasizing the importance of safety protocols and meticulous care in managing the health risks to the town's residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 00:00",
+    "description": "Dr. Emily Carter led a morning briefing with the medical team to review the overnight developments related to the toxic chemical spill in Pineville and to plan the day's activities, ensuring a coordinated and effective response to the ongoing crisis.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 01:00",
+    "description": "Dr. Michael Thompson, leveraging his extensive experience in disaster response, led the establishment of a triage area near Pineville to systematically evaluate and treat residents exposed to the toxic and flammable chemicals from the recent train derailment. The process was meticulously organized to ensure calm and efficient care, with clear protocols in place to manage the health risks and maintain order amidst the ongoing emergency.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 01:00",
+    "description": "Dr. Emily Carter convened a follow-up meeting with the HazMat Response Unit to review the latest data on the toxic chemical spill near Pineville. The meeting aimed to adjust the response strategy based on the medical team's findings and address any immediate concerns from the field, ensuring a coordinated and effective approach to managing the ongoing crisis.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 01:00",
+    "description": "John Miller, a resident of Pineville, experienced severe respiratory issues and skin irritation after being exposed to toxic fumes from the recent Methyl Ethyl Ketone (MEK) spill caused by a train derailment. He was rushed to the local clinic for immediate treatment as decontamination efforts continued in the town.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 02:00",
+    "description": "Dr. Michael Thompson coordinated with the HazMat Response Unit to establish safe evacuation routes and decontamination procedures following the toxic and flammable chemical spill near Pineville. He also provided first aid and comfort to the worried townspeople, explaining the steps being taken to ensure their safety and mitigate the risks associated with the hazardous materials.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 02:00",
+    "description": "Dr. Emily Carter visited the temporary medical clinic in Pineville to check on patients affected by the toxic chemical spill. She ensured they were receiving appropriate care and coordinated with the medical team to address any immediate health concerns, continuing her dedicated efforts to support the community during the ongoing crisis.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 02:00",
+    "description": "John Miller's severe respiratory issues and skin irritation, caused by exposure to toxic fumes from the MEK spill, have made him a focal point for emergency response teams at the Pineville clinic. His condition underscores the urgent human impact of the disaster, prompting medical teams led by Dr. Emily Carter to intensify their efforts to treat affected residents and manage the crisis.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 03:00",
+    "description": "Dr. Michael Thompson, leveraging his extensive experience, continued to monitor and provide medical care to Pineville residents showing symptoms of chemical exposure. His methodical and calm approach ensured that the situation remained stable, with clear protocols in place to manage health risks and provide reassurance to the affected community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 03:00",
+    "description": "Dr. Emily Carter held a press briefing to update Pineville residents on the ongoing cleanup efforts following the toxic chemical spill caused by a train derailment. She provided crucial health advisories, practical safety tips, and reassured the community about the coordinated response efforts to mitigate the spill's impact.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 03:00",
+    "description": "John Miller continues to receive ongoing treatment at the Pineville clinic for severe respiratory issues and skin irritation caused by exposure to toxic fumes from the MEK spill. Emergency response teams are meticulously documenting his condition to highlight the profound human impact of the train derailment disaster on the local community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 04:00",
+    "description": "Dr. Michael Thompson, leveraging his extensive experience in disaster response, led a comprehensive reassessment of the situation following the toxic and flammable chemical spill near Pineville. He updated the emergency response plan to incorporate the latest information, ensuring that all safety protocols and evacuation procedures were optimized to protect the town's residents and mitigate the ongoing risks.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 04:00",
+    "description": "Dr. Emily Carter, in collaboration with local authorities and the HazMat Response Unit, initiated a strategic planning session to outline the next steps for long-term health monitoring and environmental recovery in Pineville. The session focused on developing a sustainable approach to address the ongoing health risks and environmental impact of the toxic chemical spill, ensuring the community's safety and well-being in the months to come.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 04:00",
+    "description": "John Miller, a Pineville resident severely affected by the MEK spill, participated in a press briefing at the local clinic. He shared his harrowing experience to emphasize the importance of swift and coordinated emergency response efforts in mitigating the impact of such disasters on the community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 05:00",
+    "description": "Dr. Emily Carter led a debriefing session with the medical team and emergency responders to evaluate the day's progress in managing the toxic chemical spill near Pineville. The session focused on reviewing the effectiveness of the response efforts, identifying areas for improvement, and planning the next steps to ensure the safety and well-being of the affected community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 05:00",
+    "description": "John Miller has begun his recovery process at home, symbolizing the resilience of the Pineville community and highlighting the critical role of swift, coordinated emergency response efforts in mitigating the impact of the MEK spill.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 06:00",
+    "description": "Dr. Emily Carter conducted a thorough final review of the day's activities with the medical team and HazMat Response Unit, ensuring all critical issues were addressed and preparations were made for the next day's operations. This review included evaluating the effectiveness of the response efforts, identifying any remaining concerns, and coordinating strategies to maintain the safety and well-being of Pineville residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Planning",
+    "time": "2030-01-01 16:00",
+    "description": "Following the toxic chemical spill caused by a train derailment near Pineville, an emergency evacuation plan has been implemented to ensure the safety of residents. The Pineville Police Department, in coordination with local authorities and the HazMat Response Unit, is overseeing the relocation efforts, which are set to begin at the start of the day to maximize safety and efficiency.",
+    "participants": {
+      "A0_pag_planner": {
+        "name": "Pineville Police Department",
+        "type": "organization",
+        "description": "The Pineville Police Department is a small but dedicated law enforcement agency serving the town of Pineville. With a team of 15 officers, the department is committed to maintaining public safety and order, especially during emergencies like the recent train derailment and chemical spill.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Control",
+    "time": "2030-01-01 16:00",
+    "description": "The situation involving the toxic chemical spill near Pineville has come under control. Thanks to the coordinated efforts of Dr. Emily Carter, local authorities, and the HazMat Response Unit, the community can now focus on long-term health monitoring and environmental recovery. The swift and organized response has ensured the safety and well-being of Pineville residents.",
+    "participants": {
+      "A0_pag_controller": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Safety measures",
+    "time": "2030-01-01 16:00",
+    "description": "Authorities have issued an emergency evacuation for Pineville residents following a toxic and flammable chemical spill caused by a train derailment near the town. The Pineville Police Department, in coordination with local authorities and the HazMat Response Unit, is overseeing the relocation efforts to ensure the safety and well-being of the community as containment and management of the spill continue. Residents are advised to follow the instructions of local authorities and emergency responders.",
+    "participants": {
+      "A0_pag_provider": {
+        "name": "Pineville Police Department",
+        "type": "organization",
+        "description": "The Pineville Police Department is a small but dedicated law enforcement agency serving the town of Pineville. With a team of 15 officers, the department is committed to maintaining public safety and order, especially during emergencies like the recent train derailment and chemical spill.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Safety measures",
+    "time": "2030-01-01 16:00",
+    "description": "Authorities have issued an emergency evacuation for Pineville residents due to the toxic and flammable chemical spill caused by a train derailment. The Pineville Police Department, in coordination with local authorities and the HazMat Response Unit, is overseeing the relocation efforts to ensure the safety and well-being of the community as containment and management of the spill continue. Residents are advised to follow the instructions of local authorities and emergency responders.",
+    "participants": {
+      "A0_pag_provider": {
+        "name": "Pineville Police Department",
+        "type": "organization",
+        "description": "The Pineville Police Department is a small but dedicated law enforcement agency serving the town of Pineville. With a team of 15 officers, the department is committed to maintaining public safety and order, especially during emergencies like the recent train derailment and chemical spill.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Planning",
+    "time": "2030-01-01 16:00",
+    "description": "Following a toxic chemical spill caused by a train derailment near Pineville, an emergency evacuation plan has been activated to ensure the safety of the town's residents. The Pineville Police Department, in collaboration with local authorities and the HazMat Response Unit, is coordinating the relocation efforts, which are scheduled to commence at the start of the day to maximize safety and efficiency.",
+    "participants": {
+      "A0_pag_planner": {
+        "name": "Pineville Police Department",
+        "type": "organization",
+        "description": "The Pineville Police Department is a small but dedicated law enforcement agency serving the town of Pineville. With a team of 15 officers, the department is committed to maintaining public safety and order, especially during emergencies like the recent train derailment and chemical spill.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Control",
+    "time": "2030-01-01 16:00",
+    "description": "The toxic chemical spill near Pineville, caused by a train derailment, has been successfully contained. The coordinated efforts of Dr. Emily Carter, local authorities, and the HazMat Response Unit have ensured the safety of Pineville residents, allowing the community to now focus on long-term health monitoring and environmental recovery.",
+    "participants": {
+      "A0_pag_controller": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Planning",
+    "time": "2030-01-01 16:00",
+    "description": "Following the containment of a toxic and flammable chemical spill caused by a train derailment near Pineville, authorities have activated an emergency evacuation plan for the town's residents. The Pineville Police Department, in collaboration with local authorities and the HazMat Response Unit, will commence the relocation efforts at the start of the day to ensure maximum safety and efficiency.",
+    "participants": {
+      "A0_pag_planner": {
+        "name": "Pineville Police Department",
+        "type": "organization",
+        "description": "The Pineville Police Department is a small but dedicated law enforcement agency serving the town of Pineville. With a team of 15 officers, the department is committed to maintaining public safety and order, especially during emergencies like the recent train derailment and chemical spill.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Control",
+    "time": "2030-01-01 16:00",
+    "description": "The toxic chemical spill near Pineville, caused by a train derailment, has been successfully contained through the coordinated efforts of Dr. Emily Carter, local authorities, and the HazMat Response Unit. With the immediate danger mitigated, the community can now focus on long-term health monitoring and environmental recovery, ensuring the continued safety and well-being of Pineville residents.",
+    "participants": {
+      "A0_pag_controller": {
+        "name": "Hazardous Materials Response Unit (HazMat Response Unit)",
+        "type": "organization",
+        "description": "The Hazardous Materials Response Unit (HazMat Response Unit) is a specialized division within a larger state law enforcement agency. This unit is trained to handle incidents involving hazardous materials, including chemical spills, toxic gas leaks, and other environmental hazards. They are equipped with advanced protective gear and decontamination equipment to ensure the safety of both the public and their team members.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "Dr. Michael Thompson conducted a final assessment of the triage area near Pineville, meticulously ensuring that all patients were stable and receiving appropriate care. He administered first aid where necessary and provided reassurance to the patients, emphasizing the ongoing efforts to manage the health risks associated with the toxic and flammable chemical spill.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "John Miller attended a follow-up medical check-up at the Pineville clinic to document his recovery progress from severe respiratory issues and skin irritation caused by the MEK spill. The data collected during this visit will be used by emergency response teams to assess the effectiveness of their interventions and improve future disaster response strategies.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 08:00",
+    "description": "Dr. Emily Carter, alongside the HazMat Response Unit, conducted a comprehensive assessment of the decontamination progress following the toxic chemical spill near Pineville. The evaluation focused on identifying any immediate health risks to the community, ensuring that all necessary measures were in place to mitigate potential hazards and safeguard the well-being of the residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 09:00",
+    "description": "Dr. Michael Thompson, in collaboration with the HazMat Response Unit, reviewed and updated the decontamination procedures based on the latest information regarding the toxic and flammable chemical spill near Pineville. They also prepared for the emergency evacuation of critically affected residents, ensuring all protocols were optimized to protect the community amidst the ongoing crisis.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 09:00",
+    "description": "John Miller attended a community meeting in Pineville to discuss ongoing decontamination efforts following the toxic MEK spill caused by a train derailment. During the meeting, he shared his personal experience of severe respiratory issues and skin irritation to highlight the critical importance of these measures for the safety and well-being of the town's residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 09:00",
+    "description": "Dr. Emily Carter, in collaboration with the HazMat Response Unit and local medical staff, meticulously coordinated efforts to address the identified risks from the toxic and flammable chemical spill near Pineville. Ensuring all safety protocols were strictly followed, the team worked diligently to mitigate potential hazards and safeguard the well-being of the town's residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "Dr. Michael Thompson convened a briefing with the emergency response team to discuss the latest status and new developments regarding the toxic and flammable chemical spill near Pineville, ensuring all team members were updated on the current situation and prepared for any necessary actions.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "John Miller is currently resting at home, closely monitoring any symptoms or side effects from his exposure to the toxic MEK spill. He is diligently documenting any changes in his condition to provide valuable information for the emergency response teams working to mitigate the impact of the disaster on the Pineville community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 10:00",
+    "description": "Dr. Emily Carter led a comprehensive briefing session with the medical team and HazMat Response Unit to review the day's progress in managing the toxic and flammable chemical spill caused by the train derailment near Pineville. The session focused on evaluating the effectiveness of ongoing medical support and decontamination efforts, identifying any remaining health risks, and planning the next steps to ensure the continued safety and well-being of the town's residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 11:00",
+    "description": "Dr. Michael Thompson convened a meeting with local authorities and community leaders to provide a detailed update on the toxic and flammable chemical spill caused by the train derailment near Pineville. He addressed their concerns, outlined the ongoing response efforts, and reassured them of the measures being taken to protect the community.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 11:00",
+    "description": "John Miller, a Pineville resident severely affected by the recent MEK spill, issued a brief statement to the local news, updating the community on his recovery progress. He emphasized the resilience of Pineville and urged residents to adhere to safety guidelines to ensure everyone's well-being during the ongoing decontamination efforts.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 11:00",
+    "description": "Dr. Emily Carter convened a critical meeting with local authorities and environmental experts to discuss comprehensive long-term health monitoring and environmental recovery strategies following the toxic chemical spill near Pineville. The discussion focused on implementing sustainable measures to ensure the ongoing safety and well-being of the community and to restore the affected environment.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "Dr. Michael Thompson conducted a meticulous final check of all safety protocols and evacuation routes near Pineville, ensuring they were optimized and ready for any potential changes in the situation. He coordinated closely with medical professionals to confirm that all patients were accounted for and receiving the necessary treatment, thereby reinforcing the community's preparedness amidst the ongoing crisis.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Michael Thompson",
+        "type": "person",
+        "description": "Dr. Michael Thompson is a seasoned emergency medical technician (EMT) with over 20 years of experience in disaster response and emergency care. He is known for his meticulous attention to detail and his ability to remain composed under pressure.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "John Miller reached out to his neighbors to offer support, share information about available resources, and discuss the community's resilience and recovery efforts following the toxic MEK spill caused by the train derailment near Pineville.",
+    "participants": {
+      "A0_agent": {
+        "name": "John Miller",
+        "type": "person",
+        "description": "John Miller is a 45-year-old resident of Pineville. He works as a mechanic at the local auto repair shop and is known for his friendly demeanor and willingness to help his neighbors. John was near the railway line when the derailment occurred and was one of the first to be exposed to the toxic fumes.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 12:00",
+    "description": "Dr. Emily Carter provided a comprehensive update to Pineville residents, detailing the current situation of the toxic and flammable chemical spill caused by the train derailment. She outlined ongoing decontamination efforts, safety measures to follow, and answered residents' questions to ensure their safety and well-being.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2030-01-02 13:00",
+    "description": "Dr. Emily Carter led a final review meeting with the medical team and HazMat Response Unit, thoroughly addressing all critical issues from the day's activities. The team evaluated the progress in decontamination, identified any remaining health risks, and discussed preparations for the next day's operations to ensure the continued safety and well-being of Pineville's residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is an experienced toxicologist and emergency physician. She has a calm demeanor and is known for her quick decision-making skills in high-pressure situations. Dr. Carter has previously worked with the HazMat Response Unit on several occasions, providing her with extensive knowledge of handling chemical exposure cases.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  }
+]

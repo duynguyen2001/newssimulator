@@ -1,0 +1,1028 @@
+[
+  {
+    "schemaEvent": "Environmental exposure",
+    "time": "2023-02-03 20:00",
+    "description": "The environment in East Palestine, Ohio, has suffered extensive damage following the derailment of a Norfolk Southern freight train carrying hazardous materials. The incident, which caused 38 cars to derail, led to the release of hydrogen chloride and phosgene into the air and fires that burned for over two days. Emergency response teams from Ohio, Pennsylvania, West Virginia, and Virginia are actively working to assess and mitigate the severe environmental exposure and damage to the local ecosystem.",
+    "participants": {}
+  },
+  {
+    "schemaEvent": "Toxic Gas",
+    "time": "2023-02-03 20:00",
+    "description": "Following the derailment of a Norfolk Southern freight train in East Palestine, Ohio, a significant release of hazardous chemicals, including hydrogen chloride and phosgene, occurred. Emergency response teams from Ohio, Pennsylvania, West Virginia, and Virginia were deployed to manage the situation, which included controlled burns of additional railcars and the evacuation of residents within a 1-mile radius to ensure public safety.",
+    "participants": {
+      "A0_dir_thing_leaking": {
+        "name": "ChemSafe-2000",
+        "type": "container",
+        "description": "The ChemSafe-2000 is a high-capacity, reinforced steel container designed specifically for the transportation of hazardous chemicals. It is equipped with multiple safety features, including pressure relief valves and double-walled construction to prevent leaks and withstand high temperatures.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10004/",
+            "name": "chemical container"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "East Palestine, Ohio",
+        "type": "location",
+        "description": "East Palestine is a small village located in Columbiana County, Ohio. It has a population of around 4,500 residents and is known for its close-knit community and rural charm. The village is situated near the Pennsylvania border and has a history rooted in agriculture and small-scale manufacturing.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Shutdown",
+    "time": "2023-02-04 00:00",
+    "description": "In response to the Norfolk Southern freight train derailment in East Palestine, Ohio, authorities have initiated a comprehensive system shutdown to prevent further environmental and public health risks. This measure will enable the Tri-State Emergency Response Task Force (TERTF) and other emergency teams to concentrate on containment, cleanup, and recovery efforts. Residents within the affected area are advised to adhere to official guidance and remain evacuated until further notice.",
+    "participants": {
+      "A0_pag_Intentional_agent": {
+        "name": "Tri-State Emergency Response Task Force (TERTF)",
+        "type": "organization",
+        "description": "The Tri-State Emergency Response Task Force (TERTF) is a specialized law enforcement agency that operates across Ohio, Pennsylvania, and West Virginia. Formed in response to increasing incidents involving hazardous materials, TERTF is equipped with advanced training and resources to manage large-scale emergencies and coordinate multi-state responses.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A1_ppt_Thing_ending": {
+        "name": "East Palestine, Ohio",
+        "type": "location",
+        "description": "East Palestine is a small village located in Columbiana County, Ohio. It has a population of around 4,500 residents and is known for its close-knit community and rural charm. The village is situated near the Pennsylvania border and has a history rooted in agriculture and small-scale manufacturing.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Loss",
+    "time": "2023-02-04 00:00",
+    "description": "The derailment of a Norfolk Southern freight train in East Palestine, Ohio, has resulted in significant property loss and destruction due to the release of hazardous chemicals, including vinyl chloride, and subsequent fires. The incident has led to the evacuation of residents within a 1-mile radius, and emergency response teams from Ohio, Pennsylvania, West Virginia, and Virginia are working to assess and mitigate the damage.",
+    "participants": {
+      "A1_ppt_thing_lost": {
+        "name": "Vinyl Chloride",
+        "type": "chemical",
+        "description": "Vinyl chloride is a colorless gas with a mild, sweet odor. It is highly flammable and is primarily used in the production of polyvinyl chloride (PVC) for plastic products. Exposure to vinyl chloride can cause dizziness, headaches, and long-term exposure is linked to an increased risk of liver cancer.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Medical assistance",
+    "time": "2023-02-04 00:00",
+    "description": "In response to the hazardous materials released from the Norfolk Southern freight train derailment in East Palestine, Ohio, authorities have deployed medical assistance to the affected area. Medical teams, led by Dr. Emily Carter and coordinated by the Tri-State Emergency Response Task Force (TERTF), will be on-site to provide care and support to residents exposed to toxic chemicals, ensuring their health and safety in the wake of the incident.",
+    "participants": {
+      "A0_pag_causer_of_inclusion": {
+        "name": "Tri-State Emergency Response Task Force (TERTF)",
+        "type": "organization",
+        "description": "The Tri-State Emergency Response Task Force (TERTF) is a specialized law enforcement agency that operates across Ohio, Pennsylvania, and West Virginia. Formed in response to increasing incidents involving hazardous materials, TERTF is equipped with advanced training and resources to manage large-scale emergencies and coordinate multi-state responses.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A2_ppt_group": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Decontaminate",
+    "time": "2023-02-04 00:00",
+    "description": "Decontamination efforts have commenced in East Palestine, Ohio, following the derailment of a Norfolk Southern freight train carrying hazardous materials. Emergency response teams, including the Tri-State Emergency Response Task Force, are working tirelessly to neutralize harmful chemicals such as vinyl chloride, hydrogen chloride, and phosgene, aiming to safeguard the health and safety of residents like John and Mary Thompson, as well as the local ecosystem.",
+    "participants": {
+      "A0_pag_killer": {
+        "name": "Vinyl Chloride",
+        "type": "chemical",
+        "description": "Vinyl chloride is a colorless gas with a mild, sweet odor. It is highly flammable and is primarily used in the production of polyvinyl chloride (PVC) for plastic products. Exposure to vinyl chloride can cause dizziness, headaches, and long-term exposure is linked to an increased risk of liver cancer.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "A1_ppt_corpse": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      },
+      "A2_mnr_poison": {
+        "name": "Vinyl Chloride",
+        "type": "chemical",
+        "description": "Vinyl chloride is a colorless gas with a mild, sweet odor. It is highly flammable and is primarily used in the production of polyvinyl chloride (PVC) for plastic products. Exposure to vinyl chloride can cause dizziness, headaches, and long-term exposure is linked to an increased risk of liver cancer.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "East Palestine, Ohio",
+        "type": "location",
+        "description": "East Palestine is a small village located in Columbiana County, Ohio. It has a population of around 4,500 residents and is known for its close-knit community and rural charm. The village is situated near the Pennsylvania border and has a history rooted in agriculture and small-scale manufacturing.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Decontaminate",
+    "time": "2023-02-04 00:00",
+    "description": "Cleanup efforts are intensifying in East Palestine, Ohio, following the derailment of a Norfolk Southern freight train carrying hazardous materials. Emergency response teams from multiple states, including Ohio, Pennsylvania, West Virginia, and Virginia, are working around the clock to decontaminate the affected area, neutralize harmful chemicals, and ensure the safety of the local community. The extensive cleanup process, led by the Tri-State Emergency Response Task Force, aims to address the environmental damage and prevent further exposure to hazardous chemicals, safeguarding the health and well-being of residents like John and Mary Thompson.",
+    "participants": {
+      "AM_loc": {
+        "name": "East Palestine, Ohio",
+        "type": "location",
+        "description": "East Palestine is a small village located in Columbiana County, Ohio. It has a population of around 4,500 residents and is known for its close-knit community and rural charm. The village is situated near the Pennsylvania border and has a history rooted in agriculture and small-scale manufacturing.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Cleanup",
+    "time": "2023-02-04 04:00",
+    "description": "Cleanup efforts are intensifying in East Palestine, Ohio, following the derailment of a Norfolk Southern freight train carrying hazardous materials. Emergency response teams from Ohio, Pennsylvania, West Virginia, and Virginia are working tirelessly to remove contaminated materials and neutralize harmful chemicals, such as vinyl chloride, hydrogen chloride, and phosgene. Led by the Tri-State Emergency Response Task Force, the extensive cleanup process aims to address the environmental damage and ensure the safety and well-being of the local community, including residents like John and Mary Thompson.",
+    "participants": {
+      "AM_loc": {
+        "name": "East Palestine, Ohio",
+        "type": "location",
+        "description": "East Palestine is a small village located in Columbiana County, Ohio. It has a population of around 4,500 residents and is known for its close-knit community and rural charm. The village is situated near the Pennsylvania border and has a history rooted in agriculture and small-scale manufacturing.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 08:00",
+    "description": "Emergency response teams, including the Tri-State Emergency Response Task Force, continue to provide updates on the decontamination process in East Palestine, Ohio, following the Norfolk Southern freight train derailment. John and Mary Thompson, long-time residents, are closely monitoring the situation as new information about the neutralization of hazardous chemicals like vinyl chloride, hydrogen chloride, and phosgene is documented.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 08:00",
+    "description": "Dr. Emily Carter convened the medical team to provide a comprehensive briefing on the current situation following the Norfolk Southern freight train derailment in East Palestine, Ohio. She emphasized the toxicological aspects of the hazardous materials released, including hydrogen chloride and phosgene, and assigned roles based on each team member's expertise to ensure a coordinated and effective medical response.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 09:00",
+    "description": "In response to the hazardous materials released from the Norfolk Southern freight train derailment, long-time residents John and Mary Thompson are diligently preparing an emergency kit with essential supplies to ensure their safety during the evacuation and ongoing decontamination efforts in East Palestine, Ohio.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 09:00",
+    "description": "Dr. Emily Carter, leading the medical response team, established a triage area near the evacuation zone in East Palestine, Ohio, to assess and treat residents affected by the toxic exposure from the Norfolk Southern freight train derailment. The triage area was set up with the assistance of the Tri-State Emergency Response Task Force, ensuring a coordinated effort to provide immediate medical care to those exposed to hazardous chemicals.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 10:00",
+    "description": "Long-time residents John and Mary Thompson took the initiative to contact their neighbors in East Palestine, Ohio, to ensure they were informed about the hazardous materials incident and to coordinate decontamination efforts. They worked closely with emergency response teams to disseminate safety information and organize community support, demonstrating their commitment to the well-being of their village.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 10:00",
+    "description": "Dr. Emily Carter, alongside the Tri-State Emergency Response Task Force, conducted a comprehensive assessment of the affected area in East Palestine, Ohio, to identify any additional hazards following the Norfolk Southern freight train derailment. The team meticulously examined the site for residual toxic chemicals and other potential dangers, ensuring the safety of both residents and emergency personnel.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 11:00",
+    "description": "Long-time residents John and Mary Thompson attended a community briefing at the local community center in East Palestine, Ohio, where they shared their personal experiences and concerns regarding the recent Norfolk Southern freight train derailment and the subsequent release of hazardous materials. Their insights, along with those of other residents, helped shape the ongoing decontamination efforts and emergency response strategies.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 11:00",
+    "description": "Dr. Emily Carter, in collaboration with the Tri-State Emergency Response Task Force, coordinated with local authorities from Ohio, Pennsylvania, West Virginia, and Virginia to ensure a unified response to the Norfolk Southern freight train derailment in East Palestine, Ohio. This joint effort aimed to manage the hazardous materials incident effectively, safeguard the health and safety of residents, and address any residual dangers in the affected area.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 12:00",
+    "description": "Long-time residents John and Mary Thompson, along with other community members in East Palestine, Ohio, are urged to review and follow any new safety guidelines provided by authorities in response to the Norfolk Southern freight train derailment. These guidelines are essential for ensuring the safety of residents and supporting the ongoing decontamination efforts led by emergency response teams.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 12:00",
+    "description": "Dr. Emily Carter, leading the medical response team, meticulously reviewed and documented the medical team's findings, including detailed toxicology reports, following the Norfolk Southern freight train derailment in East Palestine, Ohio. She then prepared a comprehensive report for the authorities, ensuring that all aspects of the hazardous materials incident and its impact on residents' health were thoroughly addressed.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 16:00",
+    "description": "Long-time residents John and Mary Thompson reviewed the latest safety guidelines provided by authorities and engaged in a detailed discussion to ensure they both understood the necessary precautions. Their proactive approach aimed to safeguard their well-being and support the ongoing decontamination efforts in East Palestine, Ohio, following the Norfolk Southern freight train derailment.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 16:00",
+    "description": "Dr. Emily Carter conducted a final review of the toxicology reports, ensuring all data was accurately documented. She then briefed the medical response team on any critical updates, emphasizing the importance of the findings and the next steps in managing the hazardous materials incident in East Palestine, Ohio.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 17:00",
+    "description": "Long-time residents John and Mary Thompson meticulously checked and updated their emergency kit with essential supplies, ensuring they were well-prepared for any further developments following the Norfolk Southern freight train derailment in East Palestine, Ohio.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 17:00",
+    "description": "Dr. Emily Carter convened a meeting with the medical response team to provide a detailed briefing on the current status of the hazardous materials incident in East Palestine, Ohio. She emphasized the critical importance of adhering to safety protocols and shared the latest findings from the toxicology reports, outlining the next steps in managing the situation effectively.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 18:00",
+    "description": "Long-time residents John and Mary Thompson continued their proactive efforts by reaching out to their neighbors in East Palestine, Ohio, to ensure they were informed and prepared following the Norfolk Southern freight train derailment. They provided crucial updates on safety guidelines and coordinated with emergency response teams to facilitate community preparedness and support.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 18:00",
+    "description": "Dr. Emily Carter, in collaboration with local authorities and medical experts, convened a meeting to discuss a long-term health monitoring plan for the residents of East Palestine, Ohio. This initiative aims to ensure a comprehensive approach to ongoing care following the Norfolk Southern freight train derailment, which released hazardous materials and necessitated the evacuation of residents within a 1-mile radius.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 19:00",
+    "description": "Long-time residents John and Mary Thompson attended a community briefing at the local community center in East Palestine, Ohio, where they, along with other residents, discussed the latest updates on the Norfolk Southern freight train derailment and its environmental impact. The briefing included presentations from emergency response teams and environmental experts, providing crucial information on safety measures and decontamination efforts.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 19:00",
+    "description": "Dr. Emily Carter, leveraging her extensive experience in toxicology and hazardous materials response, meticulously oversaw the decontamination process for the medical response team and equipment. She ensured that all safety measures were strictly followed, coordinating with local and regional agencies to prevent any further exposure to the hazardous materials released by the Norfolk Southern freight train derailment in East Palestine, Ohio.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 20:00",
+    "description": "Long-time residents John and Mary Thompson coordinated with emergency response teams to disseminate crucial safety information and discuss new health risks associated with exposure to harmful chemicals following the Norfolk Southern freight train derailment in East Palestine, Ohio. Their efforts included organizing community meetings and distributing updated safety guidelines to ensure the well-being of their neighbors.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 20:00",
+    "description": "Dr. Emily Carter, leveraging her extensive experience in toxicology and hazardous materials response, finalized and submitted a comprehensive report to the authorities. The report detailed the medical team's findings, toxicology data, and long-term health monitoring plans for the residents of East Palestine, Ohio, following the Norfolk Southern freight train derailment.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 21:00",
+    "description": "Long-time residents John and Mary Thompson visited their home in East Palestine, Ohio, to assess the progress of decontamination efforts and check for any signs of residual contamination. Their visit was part of a broader community effort to ensure safety following the Norfolk Southern freight train derailment, which had released hazardous materials into the environment.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 21:00",
+    "description": "Dr. Emily Carter personally visited the triage area in East Palestine, Ohio, to provide direct medical care and support to the residents affected by the Norfolk Southern freight train derailment. She ensured that each resident received the necessary treatment and offered reassurance, leveraging her extensive experience in toxicology and hazardous materials response.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 22:00",
+    "description": "Long-time residents John and Mary Thompson organized a neighborhood meeting at the local community center in East Palestine, Ohio, to share experiences and provide mutual support in dealing with the health risks and challenges of returning home after the Norfolk Southern freight train derailment. The meeting included discussions on safety measures, personal experiences, and strategies for coping with the aftermath of the hazardous materials release.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 22:00",
+    "description": "Dr. Emily Carter coordinated with mental health professionals to establish a comprehensive psychological support program for residents and emergency personnel affected by the Norfolk Southern freight train derailment in East Palestine, Ohio. This initiative aimed to address the emotional and psychological needs of those impacted by the hazardous materials release and the subsequent evacuation.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-04 23:00",
+    "description": "Long-time residents John and Mary Thompson took a moment to reflect on the day's events, discussing their feelings and the resilience of their community as they navigated the aftermath of the Norfolk Southern freight train derailment in East Palestine, Ohio.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Control",
+    "time": "2023-02-04 12:00",
+    "description": "The situation in East Palestine, Ohio, following the Norfolk Southern freight train derailment is now under control. Coordinated efforts by emergency response teams, including the Columbiana County Hazardous Materials Unit (CCHMU), medical professionals, and community members have successfully managed the hazardous materials release and its aftermath. Residents are beginning to return home, reassured by the comprehensive decontamination and support measures in place.",
+    "participants": {
+      "A0_pag_controller": {
+        "name": "Columbiana County Hazardous Materials Unit (CCHMU)",
+        "type": "organization",
+        "description": "The Columbiana County Hazardous Materials Unit (CCHMU) is a specialized division within the Columbiana County Sheriff's Office. It was established to address the increasing need for localized hazardous materials response and to support larger agencies like TERTF. The unit is equipped with state-of-the-art technology and trained personnel to manage chemical spills, fires, and other hazardous incidents.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Planning",
+    "time": "2023-02-04 12:00",
+    "description": "The Tri-State Emergency Response Task Force (TERTF) is spearheading the development of an emergency evacuation plan for East Palestine, Ohio, in response to the Norfolk Southern freight train derailment that released hazardous materials. This plan aims to ensure the safety of residents by providing clear guidelines and support for potential future evacuations, as decontamination efforts continue and the community remains vigilant.",
+    "participants": {
+      "A0_pag_planner": {
+        "name": "Tri-State Emergency Response Task Force (TERTF)",
+        "type": "organization",
+        "description": "The Tri-State Emergency Response Task Force (TERTF) is a specialized law enforcement agency that operates across Ohio, Pennsylvania, and West Virginia. Formed in response to increasing incidents involving hazardous materials, TERTF is equipped with advanced training and resources to manage large-scale emergencies and coordinate multi-state responses.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Testing",
+    "time": "2023-02-04 12:00",
+    "description": "Environmental testing is underway in East Palestine, Ohio, to evaluate the safety of the area after the Norfolk Southern freight train derailment, which released hazardous materials including vinyl chloride. Experts from the Columbiana County Hazardous Materials Unit (CCHMU) are meticulously analyzing air, water, and soil samples to detect any harmful substances, ensuring the environment is safe for residents to return. This testing is a crucial part of the community's recovery and decontamination efforts, following extensive emergency response and support initiatives.",
+    "participants": {
+      "A0_pag_examiner": {
+        "name": "Columbiana County Hazardous Materials Unit (CCHMU)",
+        "type": "organization",
+        "description": "The Columbiana County Hazardous Materials Unit (CCHMU) is a specialized division within the Columbiana County Sheriff's Office. It was established to address the increasing need for localized hazardous materials response and to support larger agencies like TERTF. The unit is equipped with state-of-the-art technology and trained personnel to manage chemical spills, fires, and other hazardous incidents.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "A3_prd_test_result": {
+        "name": "Vinyl Chloride",
+        "type": "chemical",
+        "description": "Vinyl chloride is a colorless gas with a mild, sweet odor. It is highly flammable and is primarily used in the production of polyvinyl chloride (PVC) for plastic products. Exposure to vinyl chloride can cause dizziness, headaches, and long-term exposure is linked to an increased risk of liver cancer.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Environmental Monitoring",
+    "time": "2023-02-04 12:00",
+    "description": "The Columbiana County Hazardous Materials Unit (CCHMU) has commenced environmental monitoring in East Palestine, Ohio, to assess the impact of hazardous materials released during the Norfolk Southern freight train derailment. This ongoing process, part of the broader decontamination and recovery efforts, aims to ensure the safety and health of residents by meticulously analyzing air, water, and soil samples for contaminants.",
+    "participants": {
+      "A0_pag_observer": {
+        "name": "Columbiana County Hazardous Materials Unit (CCHMU)",
+        "type": "organization",
+        "description": "The Columbiana County Hazardous Materials Unit (CCHMU) is a specialized division within the Columbiana County Sheriff's Office. It was established to address the increasing need for localized hazardous materials response and to support larger agencies like TERTF. The unit is equipped with state-of-the-art technology and trained personnel to manage chemical spills, fires, and other hazardous incidents.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10011/",
+            "name": "law enforcement agency"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "East Palestine, Ohio",
+        "type": "location",
+        "description": "East Palestine is a small village located in Columbiana County, Ohio. It has a population of around 4,500 residents and is known for its close-knit community and rural charm. The village is situated near the Pennsylvania border and has a history rooted in agriculture and small-scale manufacturing.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "Air Pollution",
+    "time": "2023-02-04 12:00",
+    "description": "The derailment of a Norfolk Southern freight train in East Palestine, Ohio, resulted in significant air pollution due to the release of hazardous chemicals, including hydrogen chloride and phosgene. Controlled burns of additional railcars exacerbated the situation, releasing more toxic substances into the atmosphere. As a precautionary measure, residents within a 1-mile radius were evacuated, and emergency response teams from Ohio, Pennsylvania, West Virginia, and Virginia were mobilized to manage the crisis.",
+    "participants": {
+      "A0_pag_emitting_entity": {
+        "name": "Vinyl Chloride",
+        "type": "chemical",
+        "description": "Vinyl chloride is a colorless gas with a mild, sweet odor. It is highly flammable and is primarily used in the production of polyvinyl chloride (PVC) for plastic products. Exposure to vinyl chloride can cause dizziness, headaches, and long-term exposure is linked to an increased risk of liver cancer.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10005/",
+            "name": "spilled chemical substance"
+          }
+        ]
+      },
+      "AM_loc": {
+        "name": "East Palestine, Ohio",
+        "type": "location",
+        "description": "East Palestine is a small village located in Columbiana County, Ohio. It has a population of around 4,500 residents and is known for its close-knit community and rural charm. The village is situated near the Pennsylvania border and has a history rooted in agriculture and small-scale manufacturing.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10001/",
+            "name": "location of incident"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 00:00",
+    "description": "Dr. Emily Carter, leveraging her extensive experience in toxicology and hazardous materials response, conducted a community outreach session in East Palestine, Ohio. The session aimed to educate residents on the symptoms of chemical exposure and the importance of seeking medical care, following the Norfolk Southern freight train derailment that released hazardous materials into the environment.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 01:00",
+    "description": "Long-time residents John and Mary Thompson attended a community meeting at the local community center in East Palestine, Ohio, to discuss the latest safety updates and decontamination progress following the Norfolk Southern freight train derailment. During the meeting, they shared their own experiences and concerns with the group, contributing to a broader discussion on the ongoing efforts to ensure the safety and well-being of the community.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 01:00",
+    "description": "Dr. Emily Carter conducted a thorough follow-up assessment of the decontamination process in East Palestine, Ohio, ensuring strict adherence to all protocols. She addressed immediate concerns from the medical team and coordinated with local and regional agencies to resolve any new issues related to the hazardous materials released by the Norfolk Southern freight train derailment.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 02:00",
+    "description": "Long-time residents John and Mary Thompson visited their neighbor's home in East Palestine, Ohio, to provide crucial information on decontamination procedures and offer emotional support. Their visit was part of their ongoing efforts to assist the community in coping with the aftermath of the Norfolk Southern freight train derailment, ensuring that their neighbors were informed and supported during this challenging time.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 02:00",
+    "description": "Dr. Emily Carter spearheaded the review and update of the long-term health monitoring plans for the residents of East Palestine, Ohio. She incorporated new data and findings to ensure the plans addressed both immediate and long-term health concerns related to the chemical exposure from the Norfolk Southern freight train derailment.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 03:00",
+    "description": "Long-time residents John and Mary Thompson visited the local community center in East Palestine, Ohio, to inquire about the need for additional volunteers for upcoming events. They signed up to help organize a community clean-up day, continuing their efforts to support their neighbors in the aftermath of the Norfolk Southern freight train derailment.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 03:00",
+    "description": "Dr. Emily Carter convened a meeting with mental health professionals to evaluate the effectiveness of the psychological support program established for residents and emergency personnel affected by the Norfolk Southern freight train derailment in East Palestine, Ohio. During the meeting, they made necessary adjustments to the program and ensured it included comprehensive support for individuals experiencing symptoms of chemical exposure.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 04:00",
+    "description": "Long-time residents John and Mary Thompson took a walk around their East Palestine, Ohio neighborhood to observe any visible changes or issues following the Norfolk Southern freight train derailment. They meticulously documented their findings, noting areas of concern and potential hazards, to report back to the community center for further action and support.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 04:00",
+    "description": "Dr. Emily Carter provided a detailed briefing to local and regional agencies on the current status, next steps, and new findings related to the health impacts of the chemical exposure from the Norfolk Southern freight train derailment in East Palestine, Ohio. She ensured clear communication and coordination among all involved parties, emphasizing the importance of continued vigilance and collaboration in addressing the ongoing health concerns.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 05:00",
+    "description": "Long-time residents John and Mary Thompson gathered with fellow community members at the local community center in East Palestine, Ohio, to reflect on the day's activities and discuss plans for future community support initiatives. They focused on organizing a health awareness campaign to address the long-term effects of chemical exposure following the Norfolk Southern freight train derailment.",
+    "participants": {
+      "A0_agent": {
+        "name": "John and Mary Thompson",
+        "type": "person",
+        "description": "John and Mary Thompson are long-time residents of East Palestine, Ohio. John is a retired factory worker who enjoys woodworking and gardening, while Mary is a homemaker who volunteers at the local community center. They are well-known in the village for their friendly demeanor and active participation in community events.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10000/",
+            "name": "exposed people"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "schemaEvent": "",
+    "time": "2023-02-05 05:00",
+    "description": "Dr. Emily Carter convened a coordination meeting with emergency response teams from Ohio, Pennsylvania, West Virginia, and Virginia to review the day's progress in addressing the Norfolk Southern freight train derailment in East Palestine, Ohio. The teams discussed the effectiveness of the decontamination efforts, the health monitoring plans, and the psychological support program, and planned the next steps to ensure continued safety and support for the affected residents.",
+    "participants": {
+      "A0_agent": {
+        "name": "Dr. Emily Carter",
+        "type": "person",
+        "description": "Dr. Emily Carter is a seasoned emergency medicine physician with over 15 years of experience. She specializes in toxicology and has worked extensively in hazardous materials response. Dr. Carter is known for her calm demeanor and quick decision-making skills in high-pressure situations.",
+        "properties": {},
+        "instanceOf": [
+          {
+            "id": "resin:Entities/10003/",
+            "name": "medical professional"
+          }
+        ]
+      }
+    }
+  }
+]
