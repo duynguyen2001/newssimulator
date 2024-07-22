@@ -106,5 +106,18 @@
                 "version": "v1"
             }
         ]
+    },
+    {
+        "name": "Chemical Spills (Ohio)",
+        "schema": "/newssimulator/exampleData/chemical_spills/chemical_spills_schema.json",
+        "critics": [
+            {
+                "assumptions": "/newssimulator/exampleData/earthquakes/earthquake_v1_assumption.json",
+                "news": "/newssimulator/exampleData/chemical_spills/chemical_spills_detailed.json",
+                "subcategory": "Ohio",
+                "version": "v1"
+
+            }
+        ]
     }
 ]
