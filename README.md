@@ -1,7 +1,7 @@
 # News Simulator: Schema-Guided Culture-Aware Complex Event Simulation with Multi-Agent Role-Play
 
 This repository is the interface for the paper of Schema-Guided Culture-Aware Complex Event Simulation with Multi-Agent Role-Play by Sha Li, Revanth Reddy, Khanh Duy Nguyen, Qingyun Wang, Yi R. Fung, Chi Han, Jiawei Han, Clare R. Voss and Heng Ji. It is currently in the Proceeding of The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP2024) Demo Track.
-The interface can be accessed over ![here](https://duynguyen2001.github.io/newssimulator/). 
+The interface can be accessed over [here](https://duynguyen2001.github.io/newssimulator/). 
 
 
 News Simulator is a dynamic tool designed to create realistic simulations of complex events like socio-political conflicts and natural disasters by integrating domain knowledge, user inputs, and diverse cultural norms. Using an agent-based approach, it generates coherent, context-sensitive scenarios that help organizations enhance their preparedness and response strategies.
