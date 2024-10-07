@@ -1,6 +1,7 @@
 # News Simulator: Schema-Guided Culture-Aware Complex Event Simulation with Multi-Agent Role-Play
 
 This repository is the interface for the paper of Schema-Guided Culture-Aware Complex Event Simulation with Multi-Agent Role-Play by Sha Li, Revanth Reddy, Khanh Duy Nguyen, Qingyun Wang, Yi R. Fung, Chi Han, Jiawei Han, Clare R. Voss and Heng Ji. It is currently in the Proceeding of The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP2024) Demo Track.
+
 The interface can be accessed over [here](https://duynguyen2001.github.io/newssimulator/). 
 
 
